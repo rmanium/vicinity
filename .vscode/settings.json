@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "Shopify.theme-check-vscode",
+  "emmet.includeLanguages": { "liquid": "html" },
+  // "liquid.format": true,
+  "html.validate.scripts": false,
+  "html.validate.styles": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
