@@ -60,6 +60,44 @@
         "button_link": ""
       }
     },
+    "1636241720a09de843": {
+      "type": "offers",
+      "blocks": {
+        "1636241720a09de843-0": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-magnifier-6-240_1.png",
+            "title": "Browse",
+            "content": "<p>Browse our selection of quality<br\/>products.<\/p>"
+          }
+        },
+        "1636241720a09de843-1": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-check-mark-14-240.png",
+            "title": "Order",
+            "content": "<p>Easily place your<br\/>order on our website.<\/p>"
+          }
+        },
+        "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-delivery-6-240_2.png",
+            "title": "Receive",
+            "content": "<p>We'll deliver your order in under 3 hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636241720a09de843-0",
+        "1636241720a09de843-1",
+        "5a65015f-b598-45b2-9c8b-ba4fda562d25"
+      ],
+      "settings": {
+        "items_per_row": 3,
+        "stack_mobile": true
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -139,42 +177,52 @@
         "show_collection_title": true
       }
     },
-    "1636241720a09de843": {
-      "type": "offers",
+    "1637542558ac9160e1": {
+      "type": "text-with-icons",
       "blocks": {
-        "1636241720a09de843-0": {
-          "type": "offer",
+        "16375425587d2f86b0-0": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-magnifier-6-240_1.png",
-            "title": "Browse",
-            "content": "<p>Browse our selection of quality<br\/>products.<\/p>"
+            "icon": "bi-gift-box",
+            "title": "Free Delivery",
+            "content": "<p>For selected areas, on orders above $60.<\/p>"
           }
         },
-        "1636241720a09de843-1": {
-          "type": "offer",
+        "16375425587d2f86b0-1": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-check-mark-14-240.png",
-            "title": "Order",
-            "content": "<p>Easily place your<br\/>order on our website.<\/p>"
+            "icon": "bi-fast-delivery",
+            "title": "Fast Delivery",
+            "content": "<p>Receive your order in under 3 hours.<\/p>"
           }
         },
-        "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
-          "type": "offer",
+        "16375425587d2f86b0-2": {
+          "type": "item",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-delivery-6-240_2.png",
-            "title": "Receive",
-            "content": "<p>We'll deliver your order in under 3 hours.<\/p>"
+            "icon": "bi-customer-support",
+            "title": "Top-notch support",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "16375425587d2f86b0-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
           }
         }
       },
       "block_order": [
-        "1636241720a09de843-0",
-        "1636241720a09de843-1",
-        "5a65015f-b598-45b2-9c8b-ba4fda562d25"
+        "16375425587d2f86b0-0",
+        "16375425587d2f86b0-1",
+        "16375425587d2f86b0-2",
+        "16375425587d2f86b0-3"
       ],
       "settings": {
-        "items_per_row": 3,
-        "stack_mobile": true
+        "stack_mobile": false
       }
     },
     "featured-collection": {
@@ -378,54 +426,6 @@
         "cycle_speed": 5
       }
     },
-    "1637542558ac9160e1": {
-      "type": "text-with-icons",
-      "blocks": {
-        "16375425587d2f86b0-0": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-gift-box",
-            "title": "Free Delivery",
-            "content": "<p>For selected areas, on orders above $60.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-fast-delivery",
-            "title": "Fast Delivery",
-            "content": "<p>Receive your order in under 3 hours.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "16375425587d2f86b0-3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16375425587d2f86b0-0",
-        "16375425587d2f86b0-1",
-        "16375425587d2f86b0-2",
-        "16375425587d2f86b0-3"
-      ],
-      "settings": {
-        "stack_mobile": false
-      }
-    },
     "163754281202b9a77c": {
       "type": "image-with-text",
       "disabled": true,
@@ -489,8 +489,9 @@
   "order": [
     "slideshow",
     "1637543513bbe51b01",
-    "collection-list",
     "1636241720a09de843",
+    "collection-list",
+    "1637542558ac9160e1",
     "featured-collection",
     "text-with-icons",
     "newsletter",
@@ -498,7 +499,6 @@
     "featured-product",
     "blog-posts",
     "1636241446413189ed",
-    "1637542558ac9160e1",
     "163754281202b9a77c",
     "1637542871cef3e060"
   ]
