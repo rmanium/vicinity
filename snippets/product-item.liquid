@@ -343,19 +343,12 @@
   
   
   <div id="rk1" class="addtocart">
-  
-  <form method="post" action="/cart/add#rk1">
-
-  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-
-  <input class="qty-input" min="1" type="number" id="quantity" name="quantity" value="1"/>
-
-  <input type="submit" value="+" class="add-button button button--primary" />
-  <input type="hidden" name="return_to" value="back" />
-
-</form>
-  
-  
+    <form method="post" action="/cart/add#rk1">
+      <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+      <input class="qty-input" min="1" type="number" id="quantity" name="quantity" value="1"/>
+      <input type="submit" value="+" class="add-button button button--primary" />
+      <input type="hidden" name="return_to" value="back" />
+    </form>
   </div>
   
   
