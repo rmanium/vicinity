@@ -5,6 +5,56 @@
  */
 
 /* OFFER ITEM */
-[data-section-type="offers"] .block-list__item {
-  flex-grow: 1;
+.offer-item__image-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }
+.offer-item {
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (min-width: 641px) {
+  .offer-item {
+    padding: 12px 15px;
+  }
+  .offer-item__image-wrapper {
+    min-width: 90px;
+    max-width: 90px;
+  }
+  [data-section-type="offers"] .block-list {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 -7px -20px -7px;
+  }
+  /* [data-section-type="offers"] .block-list__item > :first-child {
+    margin: 0 15px 15px 15px; 
+  }*/
+}
+
+@media screen and (min-width: 1000px) {
+  .offer-item__image-wrapper {
+    min-width: 110px;
+    max-width: 110px;
+  }
+
+  [data-section-type="offers"] .block-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px -30px -15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .offer-item__image-wrapper {
+    margin-right: initial;
+    margin-left: initial;
+  }
+  .offer-item {
+    text-align: initial;
+  }
+}
+
+/* [data-section-type="offers"] .block-list__item {
+  flex-grow: 1;
+} */
