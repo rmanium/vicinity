@@ -161,6 +161,7 @@
         },
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "nowrouz",
             "link": ""
