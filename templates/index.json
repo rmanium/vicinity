@@ -109,6 +109,14 @@
             "link": ""
           }
         },
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
+          "type": "collection",
+          "settings": {
+            "collection": "dried-fruits-nuts",
+            "image": "shopify:\/\/shop_images\/peter-f-fZ7-IAReeSo-unsplash_1.jpg",
+            "link": ""
+          }
+        },
         "05b3eebb-b7fc-49e8-a944-b5e1270c9319": {
           "type": "collection",
           "settings": {
@@ -161,6 +169,7 @@
       },
       "block_order": [
         "collection-1",
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf",
         "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
         "collection-4",
         "collection-6",
