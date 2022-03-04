@@ -1,1 +1,130 @@
-{"sections":{"main":{"type":"main-collections-list","blocks":{"88638be6-442c-42f5-b5c5-d3a6248c8f0e":{"type":"collection","settings":{"collection":"organic-jams"}},"4d5df024-166e-4cd6-86bf-35f235408d13":{"type":"collection","settings":{"collection":"beans-grains"}},"24f231ec-8693-4a9d-a626-8340e0d9ffdb":{"type":"collection","settings":{"collection":"canned-vegetables"}},"5a36cbb0-4aa0-48c7-ab57-979b67412ab5":{"type":"collection","settings":{"collection":"essence-waters"}},"8aeec61f-bb45-43bc-a4bb-9686cd2b37c9":{"type":"collection","settings":{"collection":"oils"}},"f44494f2-460d-4459-817d-dcb7c603fcf4":{"type":"collection","settings":{"collection":"pastes"}},"93596eb7-5112-410b-afa2-19ed16c4b8e0":{"type":"collection","settings":{"collection":"pickles-olives-condiments"}},"d1ea8523-b883-4650-96da-d27fb43620b8":{"type":"collection","settings":{"collection":"salt-sugar-flour"}},"0cd16091-409a-44ae-8930-66a10887a1c3":{"type":"collection","settings":{"collection":"jams-syrups"}},"de56ec04-dd75-46b2-acb4-b365adfb2398":{"type":"collection","settings":{"collection":"dried-fruits-nuts"}},"8caec889-e5d0-4c6e-9221-c1f2a1807e6e":{"type":"collection","settings":{"collection":"sweets"}},"aa79ee18-5291-452f-994a-2ac4bc81c117":{"type":"collection","settings":{"collection":"health-beauty"}},"89986735-e6c7-4540-952e-d6f258c3d3c2":{"type":"collection","settings":{"collection":"houseware"}},"9d17096c-77d8-4b2f-8e29-e759e13f5b42":{"type":"collection","settings":{"collection":"video-dvd"}}},"block_order":["88638be6-442c-42f5-b5c5-d3a6248c8f0e","4d5df024-166e-4cd6-86bf-35f235408d13","24f231ec-8693-4a9d-a626-8340e0d9ffdb","5a36cbb0-4aa0-48c7-ab57-979b67412ab5","8aeec61f-bb45-43bc-a4bb-9686cd2b37c9","f44494f2-460d-4459-817d-dcb7c603fcf4","93596eb7-5112-410b-afa2-19ed16c4b8e0","d1ea8523-b883-4650-96da-d27fb43620b8","0cd16091-409a-44ae-8930-66a10887a1c3","de56ec04-dd75-46b2-acb4-b365adfb2398","8caec889-e5d0-4c6e-9221-c1f2a1807e6e","aa79ee18-5291-452f-994a-2ac4bc81c117","89986735-e6c7-4540-952e-d6f258c3d3c2","9d17096c-77d8-4b2f-8e29-e759e13f5b42"],"settings":{"collections_to_show":"selected","collection_linklist":"","show_collection_title":true,"show_collection_overlay":true,"collection_overlay_opacity":20}},"newsletter":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>","background":"#1e2d7d","text":"#ffffff"}}},"order":["main","newsletter"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-collections-list",
+      "blocks": {
+        "88638be6-442c-42f5-b5c5-d3a6248c8f0e": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-jams"
+          }
+        },
+        "4d5df024-166e-4cd6-86bf-35f235408d13": {
+          "type": "collection",
+          "settings": {
+            "collection": "beans-grains"
+          }
+        },
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb": {
+          "type": "collection",
+          "settings": {
+            "collection": "canned-vegetables"
+          }
+        },
+        "5a36cbb0-4aa0-48c7-ab57-979b67412ab5": {
+          "type": "collection",
+          "settings": {
+            "collection": "essence-waters"
+          }
+        },
+        "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9": {
+          "type": "collection",
+          "settings": {
+            "collection": "oils"
+          }
+        },
+        "f44494f2-460d-4459-817d-dcb7c603fcf4": {
+          "type": "collection",
+          "settings": {
+            "collection": "pastes"
+          }
+        },
+        "93596eb7-5112-410b-afa2-19ed16c4b8e0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pickles-olives-condiments"
+          }
+        },
+        "d1ea8523-b883-4650-96da-d27fb43620b8": {
+          "type": "collection",
+          "settings": {
+            "collection": "salt-sugar-flour"
+          }
+        },
+        "0cd16091-409a-44ae-8930-66a10887a1c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "jams-syrups"
+          }
+        },
+        "de56ec04-dd75-46b2-acb4-b365adfb2398": {
+          "type": "collection",
+          "settings": {
+            "collection": "dried-fruits-nuts"
+          }
+        },
+        "8caec889-e5d0-4c6e-9221-c1f2a1807e6e": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweets"
+          }
+        },
+        "aa79ee18-5291-452f-994a-2ac4bc81c117": {
+          "type": "collection",
+          "settings": {
+            "collection": "health-beauty"
+          }
+        },
+        "89986735-e6c7-4540-952e-d6f258c3d3c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "houseware"
+          }
+        },
+        "9d17096c-77d8-4b2f-8e29-e759e13f5b42": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "video-dvd"
+          }
+        }
+      },
+      "block_order": [
+        "88638be6-442c-42f5-b5c5-d3a6248c8f0e",
+        "4d5df024-166e-4cd6-86bf-35f235408d13",
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb",
+        "5a36cbb0-4aa0-48c7-ab57-979b67412ab5",
+        "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9",
+        "f44494f2-460d-4459-817d-dcb7c603fcf4",
+        "93596eb7-5112-410b-afa2-19ed16c4b8e0",
+        "d1ea8523-b883-4650-96da-d27fb43620b8",
+        "0cd16091-409a-44ae-8930-66a10887a1c3",
+        "de56ec04-dd75-46b2-acb4-b365adfb2398",
+        "8caec889-e5d0-4c6e-9221-c1f2a1807e6e",
+        "aa79ee18-5291-452f-994a-2ac4bc81c117",
+        "89986735-e6c7-4540-952e-d6f258c3d3c2",
+        "9d17096c-77d8-4b2f-8e29-e759e13f5b42"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "collection_linklist": "",
+        "show_collection_title": true,
+        "show_collection_overlay": true,
+        "collection_overlay_opacity": 20
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#1e2d7d",
+        "text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
