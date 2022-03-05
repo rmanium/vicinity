@@ -50,16 +50,6 @@
         "cycle_speed": 4
       }
     },
-    "1637543513bbe51b01": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "\"Love the selection of products and fast delivery.\"",
-        "content": "<p>Arezoo<\/p>",
-        "button_text": "Our products",
-        "button_link": ""
-      }
-    },
     "1636241720a09de843": {
       "type": "offers",
       "blocks": {
@@ -185,6 +175,16 @@
         "link": "shopify:\/\/collections",
         "round_images": true,
         "show_collection_title": true
+      }
+    },
+    "1637543513bbe51b01": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "\"Love the selection of products and fast delivery.\"",
+        "content": "<p>Jason<\/p>",
+        "button_text": "Our products",
+        "button_link": ""
       }
     },
     "1637542558ac9160e1": {
@@ -498,9 +498,9 @@
   },
   "order": [
     "slideshow",
-    "1637543513bbe51b01",
     "1636241720a09de843",
     "collection-list",
+    "1637543513bbe51b01",
     "1637542558ac9160e1",
     "featured-collection",
     "text-with-icons",
