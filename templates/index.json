@@ -131,13 +131,6 @@
             "link": ""
           }
         },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "herb-mixes-sabzi",
-            "link": ""
-          }
-        },
         "collection-6": {
           "type": "collection",
           "settings": {
@@ -157,6 +150,13 @@
           "type": "collection",
           "settings": {
             "collection": "soup-mixes-aash",
+            "link": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "herb-mixes-sabzi",
             "link": ""
           }
         },
@@ -183,10 +183,10 @@
         "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
         "02193e44-62d5-4445-86f9-eb27e8d4bc40",
-        "collection-4",
         "collection-6",
         "collection-3",
         "3b61e5da-651f-43de-8341-1fdbb71c30ba",
+        "collection-4",
         "1615a069-cecf-4c95-9833-a7732f54eee1",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49"
       ],
