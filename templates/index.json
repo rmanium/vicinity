@@ -99,11 +99,11 @@
             "link": ""
           }
         },
-        "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
+        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1": {
           "type": "collection",
           "settings": {
-            "collection": "dried-fruits-nuts",
-            "image": "shopify:\/\/shop_images\/peter-f-fZ7-IAReeSo-unsplash_1.jpg",
+            "collection": "fruits-vegetables",
+            "image": "shopify:\/\/shop_images\/engin-akyurt-eb26eV-ys_k-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -111,6 +111,23 @@
           "type": "collection",
           "settings": {
             "collection": "rice-mixes-berenj",
+            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
+          "type": "collection",
+          "settings": {
+            "collection": "dried-fruits-nuts",
+            "image": "shopify:\/\/shop_images\/engin-akyurt-VkQJDLEPN3w-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "02193e44-62d5-4445-86f9-eb27e8d4bc40": {
+          "type": "collection",
+          "settings": {
+            "collection": "dairy-eggs",
+            "image": "shopify:\/\/shop_images\/erol-ahmed-leOh1CzRZVQ-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -125,13 +142,7 @@
           "type": "collection",
           "settings": {
             "collection": "pickled-torshi",
-            "link": ""
-          }
-        },
-        "3b61e5da-651f-43de-8341-1fdbb71c30ba": {
-          "type": "collection",
-          "settings": {
-            "collection": "soup-mixes-aash",
+            "image": "shopify:\/\/shop_images\/molin-4C25CSqK2PI-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -142,8 +153,16 @@
             "link": ""
           }
         },
+        "3b61e5da-651f-43de-8341-1fdbb71c30ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "soup-mixes-aash",
+            "link": ""
+          }
+        },
         "1615a069-cecf-4c95-9833-a7732f54eee1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sweets-shirini",
             "link": ""
@@ -160,12 +179,14 @@
       },
       "block_order": [
         "collection-1",
-        "8df3940a-97fd-46c4-8ba4-448028fc0adf",
+        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1",
         "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf",
+        "02193e44-62d5-4445-86f9-eb27e8d4bc40",
         "collection-4",
         "collection-6",
-        "3b61e5da-651f-43de-8341-1fdbb71c30ba",
         "collection-3",
+        "3b61e5da-651f-43de-8341-1fdbb71c30ba",
         "1615a069-cecf-4c95-9833-a7732f54eee1",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49"
       ],
