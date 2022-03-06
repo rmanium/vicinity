@@ -238,7 +238,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "nowrouz",
+        "collection": "dairy-eggs",
         "title": "Featured collection",
         "products_count": 10,
         "layout": "vertical",
