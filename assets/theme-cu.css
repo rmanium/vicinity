@@ -3,7 +3,9 @@
  * GENERAL
  * --------------------------------------------------------------------
  */
-
+.section {
+  margin: 85px 0;
+}
 .addtocart {
   text-align: right;
 }
