@@ -34,3 +34,15 @@
  * }));
  */
 
+/**
+ * when products was added, send some data to GA
+ */
+document.addEventListener("product:added", function (event) {
+  var quantity = event.detail.quantity; // Get the quantity that was added
+  ga("send", {
+    hitType: "event",
+    eventCategory: "product",
+    eventAction: "add",
+    eventValue: quantity,
+  });
+});

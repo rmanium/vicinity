@@ -190,8 +190,7 @@
         "block_order": [
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "static-text-with-icons": {
         "type": "static-text-with-icons",
@@ -241,9 +240,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Metal": {

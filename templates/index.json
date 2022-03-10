@@ -348,8 +348,7 @@
         },
         "featured-description": {
           "type": "featured_description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant-selector": {
           "type": "variant_selector",
@@ -370,8 +369,7 @@
         },
         "42f70914-6313-4a68-9807-69a54d6a4a1b": {
           "type": "store_pickup",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

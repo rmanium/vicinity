@@ -247,7 +247,7 @@
       {%- if settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
         {%- if product.available -%}
           {%- assign should_calculate_inventory = true -%}
-
+          
           {%- for variant in product.variants -%}
             {%- comment -%}
               If we have one variant that is set to "continue" or that do not have any inventory management, then we skip the calculation of inventory as this
@@ -341,22 +341,21 @@
     {%- endif -%}
   </div>
   
-  
+
+ {% if product.available %}
   <div id="rk1" class="addtocart">
-  
-  <form method="post" action="/cart/add#rk1">
-
-  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-
-  <input class="qty-input" min="1" type="number" id="quantity" name="quantity" value="1"/>
-
-  <input type="submit" value="+" class="add-button button button--primary" />
-  <input type="hidden" name="return_to" value="back" />
-
-</form>
-  
-  
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+      <input class="qty-input" min="1" type="number" id="quantity" name="quantity" value="1"/>
+      <input type="submit" value="+" class="add-button button button--primary" data-action="add-to-cart"/>
+      <input type="hidden" name="return_to" value="back" />
+    </form>
   </div>
-  
-  
+  {%else%}
+   <div style="text-align:right">{{ 'collection.product.sold_out' | t }}</div>
+ {% endif %}
+ {% comment %} {{list}} {% endcomment %}
+ {% comment %} {% if list == false and product.available == false %}
+     <div style="text-align:right">{{ 'collection.product.sold_out' | t }}</div>
+ {% endif %} {% endcomment %}
 </div>

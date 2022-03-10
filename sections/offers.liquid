@@ -3,15 +3,15 @@
     {%- capture block_list -%}
       <div class="block-list">
         {%- for block in section.blocks -%}
-          <div class="block-list__item 1/{{ section.settings.items_per_row }}--lap-and-up" {{ block.shopify_attributes }}>
+          <div class="block-list__item 1/{{ section.settings.items_per_row }}--lap-and-up " {{ block.shopify_attributes }}>
             <div class="offer-item {% if section.settings.items_per_row < 4 %}offer-item--inline{% endif %}">
               {%- if block.settings.image -%}
                 <div class="offer-item__image-wrapper">
                   <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
-                    <img class="lazyload image--fade-in" data-src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}">
+                    <img class="lazyload image--fade-in" data-src="{{ block.settings.image | image_url: width: 250 }}" alt="{{ block.settings.image.alt | escape }}">
 
                     <noscript>
-                      <img src="{{ block.settings.image | img_url: '250x' }}" alt="{{ block.settings.image.alt | escape }}">
+                      <img src="{{ block.settings.image | image_url: width: 250 }}" alt="{{ block.settings.image.alt | escape }}">
                     </noscript>
                   </div>
                 </div>
