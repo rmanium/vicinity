@@ -1,0 +1,536 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/land1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Vicinity-Landing-Image.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#121251",
+            "title": "Quality Persian Grocery Made Easy",
+            "content": "",
+            "content_position": "top_center",
+            "button_background": "#f21d2f",
+            "button_text_color": "#ffffff",
+            "button_text": "Start Shopping",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natallia-nagorniak-gAC1xNfgM6w-unsplash.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-2",
+        "slide-1"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 4
+      }
+    },
+    "1636241720a09de843": {
+      "type": "offers",
+      "blocks": {
+        "1636241720a09de843-0": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-magnifier-6-240_1.png",
+            "title": "Browse",
+            "content": "<p>Browse our selection of quality<br\/>products.<\/p>"
+          }
+        },
+        "1636241720a09de843-1": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-check-mark-14-240.png",
+            "title": "Order",
+            "content": "<p>Easily place your<br\/>order on our website.<\/p>"
+          }
+        },
+        "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iconmonstr-delivery-6-240_2.png",
+            "title": "Receive",
+            "content": "<p>We'll deliver your order in under 3 hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636241720a09de843-0",
+        "1636241720a09de843-1",
+        "5a65015f-b598-45b2-9c8b-ba4fda562d25"
+      ],
+      "settings": {
+        "items_per_row": 3,
+        "stack_mobile": true
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "persian-cooking-essentials",
+            "link": ""
+          }
+        },
+        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "fruits-vegetables",
+            "image": "shopify:\/\/shop_images\/engin-akyurt-eb26eV-ys_k-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "05b3eebb-b7fc-49e8-a944-b5e1270c9319": {
+          "type": "collection",
+          "settings": {
+            "collection": "rice-mixes-berenj",
+            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
+          "type": "collection",
+          "settings": {
+            "collection": "dried-fruits-nuts",
+            "image": "shopify:\/\/shop_images\/engin-akyurt-VkQJDLEPN3w-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "02193e44-62d5-4445-86f9-eb27e8d4bc40": {
+          "type": "collection",
+          "settings": {
+            "collection": "dairy-eggs",
+            "image": "shopify:\/\/shop_images\/erol-ahmed-leOh1CzRZVQ-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "pickled-torshi",
+            "image": "shopify:\/\/shop_images\/molin-4C25CSqK2PI-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "stews-khoresht",
+            "link": ""
+          }
+        },
+        "3b61e5da-651f-43de-8341-1fdbb71c30ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "soup-mixes-aash",
+            "link": ""
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "herb-mixes-sabzi",
+            "link": ""
+          }
+        },
+        "1615a069-cecf-4c95-9833-a7732f54eee1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sweets-shirini",
+            "link": ""
+          }
+        },
+        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "nowrouz",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1",
+        "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
+        "8df3940a-97fd-46c4-8ba4-448028fc0adf",
+        "02193e44-62d5-4445-86f9-eb27e8d4bc40",
+        "collection-6",
+        "collection-3",
+        "3b61e5da-651f-43de-8341-1fdbb71c30ba",
+        "collection-4",
+        "1615a069-cecf-4c95-9833-a7732f54eee1",
+        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49"
+      ],
+      "settings": {
+        "title": "Our collections",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
+    "1637543513bbe51b01": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "\"Love the selection of products and fast delivery.\"",
+        "content": "<p>Jason<\/p>",
+        "button_text": "Our products",
+        "button_link": ""
+      }
+    },
+    "1637542558ac9160e1": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16375425587d2f86b0-0": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-gift-box",
+            "title": "Free Delivery",
+            "content": "<p>For selected areas, on orders above $60.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-fast-delivery",
+            "title": "Fast Delivery",
+            "content": "<p>Receive your order in under 3 hours.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-customer-support",
+            "title": "Top-notch support",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "16375425587d2f86b0-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16375425587d2f86b0-0",
+        "16375425587d2f86b0-1",
+        "16375425587d2f86b0-2",
+        "16375425587d2f86b0-3"
+      ],
+      "settings": {
+        "stack_mobile": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "dairy-eggs",
+        "title": "Featured collection",
+        "products_count": 10,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "shopify:\/\/collections\/all"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "icon-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-delivery",
+            "title": "Free delivery worldwide",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-returns",
+            "title": "Satisfied or refunded",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-3": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-customer-support",
+            "title": "Top-notch support",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-4": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4"
+      ],
+      "settings": {
+        "stack_mobile": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>",
+        "background": "#121251",
+        "text": "#ffffff"
+      }
+    },
+    "163624158735e5b47b": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "product-meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_reviews_badge": false,
+            "show_share_buttons": true
+          }
+        },
+        "featured-description": {
+          "type": "featured_description",
+          "settings": {
+          }
+        },
+        "variant-selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "show_quantity_selector": true,
+            "show_taxes_included": false,
+            "show_inventory_quantity": false,
+            "low_inventory_threshold": 0
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        },
+        "42f70914-6313-4a68-9807-69a54d6a4a1b": {
+          "type": "store_pickup",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product-meta",
+        "featured-description",
+        "variant-selector",
+        "buy-buttons",
+        "42f70914-6313-4a68-9807-69a54d6a4a1b"
+      ],
+      "settings": {
+        "product": "",
+        "title": "Featured product",
+        "link_title": "View details",
+        "link_url": "",
+        "image_size": "small",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "",
+        "blog_posts_count": 3,
+        "title": "Blog posts",
+        "link_title": "View all",
+        "show_category": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": false,
+        "stack_mobile": false
+      }
+    },
+    "1636241446413189ed": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1636241446413189ed-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pictures1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        },
+        "1636241446413189ed-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/supermarket-shelves-aisle-empty-shopping-260nw-1142374109.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636241446413189ed-0",
+        "1636241446413189ed-1"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "163754281202b9a77c": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Your title",
+        "content": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "1637542871cef3e060": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "163754287132cb0d7a-0": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        },
+        "163754287132cb0d7a-1": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163754287132cb0d7a-0",
+        "163754287132cb0d7a-1"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "small",
+        "carousel_effect": "fade",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1636241720a09de843",
+    "collection-list",
+    "1637543513bbe51b01",
+    "1637542558ac9160e1",
+    "featured-collection",
+    "text-with-icons",
+    "newsletter",
+    "163624158735e5b47b",
+    "featured-product",
+    "blog-posts",
+    "1636241446413189ed",
+    "163754281202b9a77c",
+    "1637542871cef3e060"
+  ]
+}
