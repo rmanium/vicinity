@@ -123,7 +123,10 @@
     {%- endif -%}
   
                     {% render 'omg-facebook-chat' %}
-                </head>
+                <!--Gem_Page_Header_Script-->
+{% include 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
+</head>
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
@@ -159,5 +162,8 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     {% render 'ajaxify-cart' %}
-  </body>
+  <!--Gem_Page_Footer_Script-->
+{% include 'gem-app-footer-scripts' %}
+<!--End_Gem_Page_Footer_Script-->
+</body>
 </html>
