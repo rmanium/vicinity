@@ -37,7 +37,9 @@
             <p class="page__description">{{ 'cart.general.free_shipping' | t }}</p>
           {%- else -%}
             {%- capture remaining_amount -%}<span>{{ cart.total_price | minus: threshold_in_cents | abs | money }}</span>{%- endcapture -%}
-            <p class="page__description">{{ 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount }}</p>
+            <p class="page__description rte">{{ 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount }} 
+              <a href="{{ routes.all_products_collection_url }}"> Continue Shoping</a>
+            </p>
           {%- endif -%}
         {%- endif -%}
       </header>
