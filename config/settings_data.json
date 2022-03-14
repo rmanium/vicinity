@@ -181,7 +181,7 @@
               "show_only_for_visitors": false,
               "show_only_once": true,
               "title": "New Arrivals",
-              "content": "<p>By popular demand we are now offering   <br\/><\/p><p> <strong>Dairy and Fresh Fruits and Vegetables.<\/strong><\/p>",
+              "content": "<p>By popular demand we are now offering   <br\/><\/p><p><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\"><strong>Dairy and Fresh Fruits and Vegetables.<\/strong><\/a><\/p>",
               "show_newsletter": false,
               "apparition_delay": 7
             }
@@ -190,7 +190,8 @@
         "block_order": [
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "static-text-with-icons": {
         "type": "static-text-with-icons",
@@ -240,7 +241,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Metal": {
