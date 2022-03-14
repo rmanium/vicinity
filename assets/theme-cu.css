@@ -89,3 +89,21 @@
 /* [data-section-type="offers"] .block-list__item {
   flex-grow: 1;
 } */
+
+/**
+ * --------------------------------------------------------------------
+ * MAIN CART 
+ * --------------------------------------------------------------------
+ */
+[data-section-type="cart"] .page__header {
+  align-items: center;
+}
+[data-section-type="cart"] .page__header .page__description {
+  background-color: #fafafa;
+  border: 3px solid #161859;
+  border-radius: 3px;
+  padding: 17px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
