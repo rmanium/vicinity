@@ -46,3 +46,19 @@ document.addEventListener("product:added", function (event) {
     eventValue: quantity,
   });
 });
+
+/**
+ * handling custom action
+ */
+$("[data-action-type]").click(function (e) {
+  e.preventDefault();
+  var type = this.getAttribute("data-action-type");
+  switch (type) {
+    case "back":
+      window.history.back();
+      break;
+    default:
+      void 0;
+      break;
+  }
+});
