@@ -183,7 +183,7 @@
               "title": "New Arrivals",
               "content": "<p>By popular demand we are now offering   <br\/><\/p><p><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\"><strong>Dairy and Fresh Fruits and Vegetables.<\/strong><\/a><\/p>",
               "show_newsletter": false,
-              "apparition_delay": 7
+              "apparition_delay": 3
             }
           }
         },
