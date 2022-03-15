@@ -42,7 +42,7 @@ document.addEventListener("product:added", function (event) {
   ga("send", {
     hitType: "event",
     eventCategory: "product",
-    eventAction: "add",
+    eventAction: "quick add",
     eventValue: quantity,
   });
 });
