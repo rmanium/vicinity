@@ -1,6 +1,9 @@
 {
   "general": {
-    "meta": { "tags": "Tagged \"{{ tags }}\"", "page": "Page {{ page }}" },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
     "accessibility": {
       "skip_to_content": "Skip to content",
       "close": "Close",
@@ -25,7 +28,7 @@
       "previous_page": "Previous",
       "next_page": "Next",
       "go_to_page": "Navigate to page {{page}}",
-      "page_count": "Page {{current_page}} / {{pages}}"
+      "page_count": "Page {{current_page}} \/ {{pages}}"
     },
     "breadcrumb": {
       "title": "Breadcrumb",
@@ -182,7 +185,9 @@
       "clear": "Clear",
       "view_results": "View results"
     },
-    "sorting": { "title": "Sort by" },
+    "sorting": {
+      "title": "Sort by"
+    },
     "layout": {
       "title": "View",
       "grid": "Display products as grid",
@@ -237,12 +242,12 @@
       "fulfillment_status": "Fulfillment status",
       "back_to_account": "Back to account",
       "cancelled_at": "Order cancelled on {{date}}. Reason: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "All products have been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "fulfillment_with_url_html": "All products have been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "fulfillment_with_url_and_number_html": "All products have been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_html": "All products have been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "fulfillment_with_number_html": "All products have been sent. Track the shipment with number {{tracking_number}}.",
       "fulfillment_html": "All products have been sent.",
-      "line_fulfillment_with_url_and_number_html": "This product has been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
-      "line_fulfillment_with_url_html": "This product has been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_html": "This product has been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
       "line_fulfillment_with_number_html": "This product has been sent. Track the shipment with number {{tracking_number}}.",
       "line_fulfillment_html": "This product has been sent.",
       "product": "Product",
@@ -333,9 +338,9 @@
       "amount_saved_html": "You saved {{amount_saved}}!",
       "free": "Free!",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included. Shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout",
       "total": "Total",
       "checkout": "Checkout"
     },
@@ -345,7 +350,9 @@
       "no_more_stock": "No more stock",
       "remove": "Remove"
     },
-    "gift_wrap": { "price_html": "Only {{price}}" },
+    "gift_wrap": {
+      "price_html": "Only {{price}}"
+    },
     "shipping_estimator": {
       "title": "Estimate shipping",
       "country": "Country",
@@ -379,14 +386,16 @@
       "estimate_shipping": "Estimate shipping",
       "refund_policy": "Refund Policy",
       "include_taxes": "Tax included",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated</a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
       "reviews_count": {
         "zero": "No reviews",
         "one": "{{ count }} review",
         "other": "{{ count }} reviews"
       }
     },
-    "labels": { "sold_out": "Sold out" },
+    "labels": {
+      "sold_out": "Sold out"
+    },
     "form": {
       "variant": "Variant",
       "price": "Price",
@@ -478,5 +487,14 @@
     "short_month_day_year": "%b %d, %Y",
     "month_day_year_time": "%B %d, %Y at %H:%M%P"
   },
-  "shopify": { "links": { "powered_by_shopify": " " } }
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    },
+    "checkout": {
+      "contact": {
+        "address1_label": "Address (please select an address from the list)"
+      }
+    }
+  }
 }
