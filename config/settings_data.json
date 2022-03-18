@@ -48,7 +48,7 @@
     "cart_empty_button_link": "shopify:\/\/collections\/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": true,
-    "cart_free_shipping_threshold": "77",
+    "cart_free_shipping_threshold": "",
     "social_facebook": "https:\/\/www.facebook.com\/vicinitymart",
     "social_twitter": "",
     "social_pinterest": "",
