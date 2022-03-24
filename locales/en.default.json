@@ -493,7 +493,8 @@
     },
     "checkout": {
       "contact": {
-        "address1_label": "Address (please select an address from the list)"
+        "address1_label": "Address (select address from the dropdown)",
+        "address_title": "Address - Type your address below and select from dropdown in order to qualify for Local Delivery. (Do not edit postal code after selecting your address from dropdown)"
       }
     }
   }
