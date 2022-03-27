@@ -59,7 +59,12 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-          <button data-action-type="back" class="product">back</button>
+      </div>
+      <div class="product-back"> 
+        <button data-action-type="back">
+          {%- render 'icon', icon : 'arrow-left' -%}
+          back
+        </button>
       </div>
       <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
         <div class="product-block-list__wrapper">
