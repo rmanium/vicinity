@@ -108,3 +108,32 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
+/**
+ * --------------------------------------------------------------------
+ * MAIN PRODUCT 
+ * --------------------------------------------------------------------
+ */
+[data-section-type="product"] .product-back {
+  border-bottom: 1px solid var(--border-color);
+}
+[data-section-type="product"] [data-action-type="back"] {
+  margin: 10px;
+  font-size: calc(
+    var(--base-text-font-size) - (var(--default-text-font-size) - 14px)
+  );
+  border-radius: 3px;
+  padding: 3px 15px 3px 5px;
+  /* border: 1px solid var(--text-color); */
+  transition: all 0.3s ease;
+}
+[data-section-type="product"] [data-action-type="back"] svg {
+  margin: 0 6px;
+  width: 10px;
+  height: 12px;
+}
+@media screen and (min-width: 641px) {
+  [data-section-type="product"] .product-back {
+    display: none;
+  }
+}
