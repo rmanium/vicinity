@@ -494,13 +494,13 @@
     "checkout": {
       "contact": {
         "address1_label": "Address (select address from the dropdown)",
-        "address_title": "Address - Type your address below and select from dropdown in order to qualify for Local Delivery. (Do not edit postal code after selecting your address from dropdown)",
-        "shipping_address_title": "Address - Type your address below and select from dropdown in order to qualify for Local Delivery. (Do not edit postal code after selecting your address from dropdown)",
-        "postal_code_label": "Postal Code (Do not edit even if it doesn’t match your real postal code to qualify for Local Delivery)",
-        "postal_code_placeholder": "Postal Code (Do not edit even if it doesn’t match your real postal code to qualify for Local Delivery)"
+        "address_title": "Address - Please select your address only from the dropdown list to benefit from the free delivery in your area (Do not edit your postal code after selecting)",
+        "shipping_address_title": "Address - Please select your address only from the dropdown list to benefit from the free delivery in your area (Do not edit your postal code after selecting)",
+        "postal_code_label": "Postcode (Do not edit)",
+        "postal_code_placeholder": "Postcode (Do not edit)"
       },
       "delivery_options": {
-        "shipping_address": "Address - Type your address below and select from dropdown in order to qualify for Local Delivery. (Do not edit postal code after selecting your address from dropdown)"
+        "shipping_address": "Address - Please select your address only from the dropdown list to benefit from the free delivery in your area (Do not edit your postal code after selecting)"
       }
     }
   }
