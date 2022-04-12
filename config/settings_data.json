@@ -247,7 +247,7 @@
     "blocks": {
       "14479319785270113485": {
         "type": "shopify:\/\/apps\/store-pickup-delivery\/blocks\/app-embed\/5599aff0-8af1-473a-a372-ecd72a32b4d5",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
