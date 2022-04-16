@@ -62,3 +62,27 @@ $("[data-action-type]").click(function (e) {
       break;
   }
 });
+
+/**
+ * custom modal
+ */
+const showModal = () =>
+  document.querySelector(".cu-modal").setAttribute("aria-hidden", "false");
+const hideModal = () =>
+  document.querySelector(".cu-modal").setAttribute("aria-hidden", "true");
+
+// Open the Modal Window
+document.querySelector("[data-popup-type='survey']").onclick = function () {
+  showModal();
+};
+// Close the Modal Window by clicking the X
+document.querySelector(".popup__close").onclick = function () {
+  hideModal();
+};
+
+// Close the Modal Window by clicking outside the box
+window.onclick = function (event) {
+  if (event.target === document.querySelector(".cu-modal")) {
+    hideModal();
+  }
+};
