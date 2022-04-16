@@ -1,1 +1,23 @@
-{%- render 'cu-modal' -%}
+{% comment %} <script>console.log({{ section.settings | json }});</script> {% endcomment %}
+
+{%- render 'cu-modal', source: section.settings.source, content: section.settings.content -%}
+
+{% schema %}
+{
+  "name": "Survey Modal",
+  "settings": [
+    {
+      "type": "text",
+      "id": "source",
+      "label": "source",
+      "default": "general"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "label": "content",
+      "default": "general"
+    }
+  ]
+}
+{% endschema %}

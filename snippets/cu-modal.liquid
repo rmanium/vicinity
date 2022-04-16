@@ -9,7 +9,11 @@
                 </svg>
             </button>
             <div id="popup__content">
-                <iframe src='https://vicinity-app-git-enhancment-survey-rmanium.vercel.app/' width="100%" height="450px" style='border:none'></iframe>
+                {% assign iframSource = "https://vicinity-app-git-enhancment-survey-rmanium.vercel.app?" %}
+                {% assign utmSource = "utm_source=" | append : source | default: undefined %}
+                {% assign utmContent = "&utm_content=" | append: content | default: undefined %}
+
+                <iframe src="{{ iframSource | append: utmSource | append: utmContent }}" width="100%" height="450px" style='border:none'></iframe>
             </div>
         </div>
     </div>

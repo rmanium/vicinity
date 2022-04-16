@@ -502,7 +502,11 @@
       }
     },
     "survey-modal": {
-      "type": "survey-modal"
+      "type": "survey-modal",
+      "settings": {
+        "source": "home",
+        "content": "general"
+      }
     }
   },
   "order": [
