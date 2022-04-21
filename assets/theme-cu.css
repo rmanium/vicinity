@@ -216,3 +216,44 @@
     padding: 65px 20px 40px;
   }
 }
+
+/**
+ * --------------------------------------------------------------------
+ * feedback 
+ * --------------------------------------------------------------------
+ */
+.btn-feedback__container {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 100;
+}
+.btn-feedback__label {
+  font-size: 13px;
+  position: relative;
+  padding: 12px 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: var(--header-accent-color);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  opacity: 0.96;
+  border-radius: 3px 0 0 3px;
+  text-transform: capitalize;
+  transform: translateX(2px);
+}
+.btn-feedback__label:hover {
+  box-shadow: 0 0 35px 2px rgb(0 0 0 / 24%);
+  transform: translateX(0);
+  opacity: 1;
+}
+.btn-feedback__text {
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  white-space: nowrap !important;
+  cursor: pointer;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: var(--secondary-background);
+}
