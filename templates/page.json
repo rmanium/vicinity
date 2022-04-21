@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
@@ -18,6 +17,7 @@
     },
     "165050726019b73f80": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_width": "regular",
         "title": "Contact Us",
