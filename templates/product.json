@@ -37,6 +37,7 @@
         },
         "4d4ca45c-f661-4447-886d-101fb80edd1c": {
           "type": "shopify:\/\/apps\/trust-me-free-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "disabled": true,
           "settings": {
           }
         }
