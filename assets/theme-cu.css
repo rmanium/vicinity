@@ -257,3 +257,21 @@
   transform: rotate(180deg);
   color: var(--secondary-background);
 }
+/**
+ * -------------------------------------------------------------------
+ * POPUP NEWS LETTER
+ * --------------------------------------------------------------------
+ */
+.modal--newsletter {
+  height: initial;
+  top: 0;
+}
+.modal--newsletter .modal__dialog {
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (min-width: 641px) {
+  .modal--newsletter .modal__dialog {
+    position: relative;
+  }
+}

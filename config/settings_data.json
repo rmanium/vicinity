@@ -48,7 +48,7 @@
     "cart_empty_button_link": "shopify:\/\/collections\/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": false,
-    "cart_free_shipping_threshold": "60",
+    "cart_free_shipping_threshold": "30",
     "social_facebook": "https:\/\/www.facebook.com\/vicinitymart",
     "social_twitter": "",
     "social_pinterest": "",
@@ -162,7 +162,7 @@
           "show_announcement": true,
           "background": "#151859",
           "text_color": "#ffffff",
-          "text": "Fast and free delivery for Greater Vancouver on orders above $60 (Some exceptions may apply)",
+          "text": "Fast and free delivery for Greater Vancouver on orders above  $30",
           "text_position": "center",
           "link": "",
           "show_newsletter": false,
@@ -243,7 +243,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "14479319785270113485": {
+        "type": "shopify:\/\/apps\/store-pickup-delivery\/blocks\/app-embed\/5599aff0-8af1-473a-a372-ecd72a32b4d5",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Metal": {
