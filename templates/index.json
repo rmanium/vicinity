@@ -503,6 +503,7 @@
     },
     "survey-modal": {
       "type": "survey-modal",
+      "disabled": true,
       "settings": {
         "source": "home",
         "content": "general"
