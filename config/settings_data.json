@@ -185,10 +185,20 @@
               "show_newsletter": false,
               "apparition_delay": 3
             }
+          },
+          "b816b770-242e-43c5-b225-104ad791128f": {
+            "type": "survey",
+            "settings": {
+              "ifram_url": "https:\/\/vicinity-app-git-enhancment-survey-rmanium.vercel.app",
+              "source": "general",
+              "content": "general",
+              "btn_feedback_text": "feedback"
+            }
           }
         },
         "block_order": [
-          "f34e427b-5e37-4e08-9836-4e93a1a1ac21"
+          "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
+          "b816b770-242e-43c5-b225-104ad791128f"
         ],
         "settings": {
         }
