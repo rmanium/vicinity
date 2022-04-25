@@ -100,6 +100,30 @@
             </div>
           </aside>
         {%- endunless -%}
+      {%- when 'survey' -%}
+        <div class="btn-feedback__container">
+            <button class="btn-feedback__label" data-popup-type="survey">
+                <div class="btn-feedback__text">{{ block.settings.btn_feedback_text | escape  }}</div>
+            </button>
+        </div>
+        <div class='cu-modal' aria-hidden="true"> 
+          <div class="cu-modal__dialog" role="dialog">
+              <div class="popup">
+                  <button class="popup__close link" data-action="close-popup" aria-label="Close">
+                      <svg focusable="false" class="icon icon--close " viewBox="0 0 19 19" role="presentation">
+                      <path d="M9.1923882 8.39339828l7.7781745-7.7781746 1.4142136 1.41421357-7.7781746 7.77817459 7.7781746 7.77817456L16.9705627 19l-7.7781745-7.7781746L1.41421356 19 0 17.5857864l7.7781746-7.77817456L0 2.02943725 1.41421356.61522369 9.1923882 8.39339828z" fill="currentColor" fill-rule="evenodd"></path>
+                      </svg>
+                  </button>
+                  <div id="popup__content">
+                      {% assign iframSource = block.settings.ifram_url | default: undefined %}
+                      {% assign utmSource = "?utm_source=" | append : block.settings.source | default: undefined %}
+                      {% assign utmContent = "&utm_content=" | append: block.settings.content | default: undefined %}
+
+                      <iframe src="{{ iframSource | append: utmSource | append: utmContent }}" width="100%" height="450px" style='border:none'></iframe>
+                  </div>
+              </div>
+          </div>
+        </div>
     {%- endcase -%}
   {%- endfor -%}
 </div>
@@ -107,7 +131,7 @@
 {% schema %}
 {
   "name": "Popups",
-  "max_blocks": 2,
+  "max_blocks": 3,
   "blocks": [
     {
       "name": "Newsletter popup",
@@ -228,6 +252,37 @@
           "id": "close_message",
           "label": "Close message",
           "default": "No thanks, I'd rather pay more"
+        }
+      ]
+    },
+    {
+      "name":"Survey popup",
+      "type": "survey",
+      "limit": 1,
+      "settings":[
+         {
+          "type": "text",
+          "id": "ifram_url",
+          "label": "base URL embed document",
+          "default": "https://vicinity-app-git-enhancment-survey-rmanium.vercel.app"
+        },
+        {
+          "type": "text",
+          "id": "source",
+          "label": "utm source",
+          "default": "general"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "utm content",
+          "default": "general"
+        },
+         {
+          "type": "text",
+          "id": "btn_feedback_text",
+          "label": "feedback button text",
+          "default": "feedback"
         }
       ]
     }

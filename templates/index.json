@@ -516,6 +516,14 @@
         "autoplay": true,
         "cycle_speed": 5
       }
+    },
+    "survey-modal": {
+      "type": "survey-modal",
+      "disabled": true,
+      "settings": {
+        "source": "home",
+        "content": "general"
+      }
     }
   },
   "order": [
@@ -532,6 +540,7 @@
     "blog-posts",
     "1636241446413189ed",
     "163754281202b9a77c",
-    "1637542871cef3e060"
+    "1637542871cef3e060",
+    "survey-modal"
   ]
 }

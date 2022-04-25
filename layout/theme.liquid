@@ -156,6 +156,7 @@
     {%- unless request.page_type == 'cart' -%}
       {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
       {% section 'popups' %}
+      {% comment %} {% section 'survey-modal'%} {% endcomment %}
     {%- endunless -%}
 
     {% section 'header' %}
