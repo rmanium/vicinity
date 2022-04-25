@@ -178,7 +178,7 @@
 }
 .cu-modal__dialog {
   height: auto;
-  padding: 48px 20px 20px 20px;
+  padding: 48px 20px 0 20px;
   max-height: 100vh;
   background: var(--secondary-background);
   box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
@@ -218,7 +218,7 @@
     height: auto;
     max-height: calc(100% - 80px);
     border-radius: 3px;
-    padding: 65px 20px 40px;
+    /* padding: 65px 20px 40px; */
     left: initial;
     right: initial;
     bottom: initial;
