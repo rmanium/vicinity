@@ -128,6 +128,64 @@
   {%- endfor -%}
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+
+// create custome canvas
+var myCanvas = document.createElement('canvas');
+myCanvas.style.position = 'fixed'
+myCanvas.style.top = '0px'
+myCanvas.style.left = '0px'
+myCanvas.style.pointerEvents = 'none'
+myCanvas.style.zIndex = '10'
+myCanvas.style.width = '100%'
+myCanvas.style.height = '100%'
+document.querySelector('[data-popup-type="newsletter"] .modal__dialog').appendChild(myCanvas);
+
+
+var myConfetti = confetti.create(myCanvas, {
+    resize: true,
+});
+var end,isHidden ;
+
+function frame() {
+  // launch a few confetti from the left edge
+  myConfetti({
+    particleCount: 3,
+    angle: 80,
+    spread: 55,
+    origin: { x: 0 },
+  });
+  // and launch a few from the right edge
+  myConfetti({
+    particleCount: 3,
+    angle: 110,
+    spread: 55,
+    origin: { x: 1 },
+  });
+
+  if (Date.now() < end) {
+    requestAnimationFrame(frame);
+  };
+
+}
+function checkVisibilityPopup (){
+  return document.querySelector('[data-popup-type="newsletter"]').getAttribute('aria-hidden');
+}
+var myInterval = setInterval(function(){
+  isHidden = checkVisibilityPopup();
+  if(isHidden=='false'){
+      // do this for 2 seconds
+      var duration = 2 * 1000;
+      end = Date.now() + duration; 
+     requestAnimationFrame(frame);
+     clearInterval(myInterval);
+    };
+    {% comment %} console.log('isHidden',isHidden,!isHidden); {% endcomment %}
+},1000)
+
+</script>
 {% schema %}
 {
   "name": "Popups",
