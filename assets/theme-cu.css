@@ -249,6 +249,7 @@
   border-radius: 3px 0 0 3px;
   text-transform: capitalize;
   transform: translateX(2px);
+  width: 41px;
 }
 .btn-feedback__label:hover {
   box-shadow: 0 0 35px 2px rgb(0 0 0 / 24%);
