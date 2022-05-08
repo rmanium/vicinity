@@ -1,1 +1,107 @@
-{"sections":{"main":{"type":"main-collections-list","blocks":{"aa79ee18-5291-452f-994a-2ac4bc81c117":{"type":"collection","settings":{"collection":"stews"}},"4d5df024-166e-4cd6-86bf-35f235408d13":{"type":"collection","settings":{"collection":"semi-ready-foods"}},"24f231ec-8693-4a9d-a626-8340e0d9ffdb":{"type":"collection","settings":{"collection":"appetizers"}},"0cd16091-409a-44ae-8930-66a10887a1c3":{"type":"collection","settings":{"collection":"desserts"}},"5a36cbb0-4aa0-48c7-ab57-979b67412ab5":{"type":"collection","settings":{"collection":"frozen-foods"}},"8caec889-e5d0-4c6e-9221-c1f2a1807e6e":{"type":"collection","settings":{"collection":"frozen-vegetables"}},"f44494f2-460d-4459-817d-dcb7c603fcf4":{"type":"collection","disabled":true,"settings":{"collection":""}},"93596eb7-5112-410b-afa2-19ed16c4b8e0":{"type":"collection","disabled":true,"settings":{"collection":""}},"8aeec61f-bb45-43bc-a4bb-9686cd2b37c9":{"type":"collection","disabled":true,"settings":{"collection":""}},"88638be6-442c-42f5-b5c5-d3a6248c8f0e":{"type":"collection","disabled":true,"settings":{"collection":""}}},"block_order":["aa79ee18-5291-452f-994a-2ac4bc81c117","4d5df024-166e-4cd6-86bf-35f235408d13","24f231ec-8693-4a9d-a626-8340e0d9ffdb","0cd16091-409a-44ae-8930-66a10887a1c3","5a36cbb0-4aa0-48c7-ab57-979b67412ab5","8caec889-e5d0-4c6e-9221-c1f2a1807e6e","f44494f2-460d-4459-817d-dcb7c603fcf4","93596eb7-5112-410b-afa2-19ed16c4b8e0","8aeec61f-bb45-43bc-a4bb-9686cd2b37c9","88638be6-442c-42f5-b5c5-d3a6248c8f0e"],"settings":{"collections_to_show":"selected","collection_linklist":"","show_collection_title":true,"show_collection_overlay":true,"collection_overlay_opacity":20}},"newsletter":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>","background":"#1e2d7d","text":"#ffffff"}}},"order":["main","newsletter"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-collections-list",
+      "blocks": {
+        "aa79ee18-5291-452f-994a-2ac4bc81c117": {
+          "type": "collection",
+          "settings": {
+            "collection": "stews"
+          }
+        },
+        "4d5df024-166e-4cd6-86bf-35f235408d13": {
+          "type": "collection",
+          "settings": {
+            "collection": "semi-ready-foods"
+          }
+        },
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb": {
+          "type": "collection",
+          "settings": {
+            "collection": "appetizers"
+          }
+        },
+        "0cd16091-409a-44ae-8930-66a10887a1c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "desserts"
+          }
+        },
+        "5a36cbb0-4aa0-48c7-ab57-979b67412ab5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "frozen-foods"
+          }
+        },
+        "8caec889-e5d0-4c6e-9221-c1f2a1807e6e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "frozen-vegetables"
+          }
+        },
+        "f44494f2-460d-4459-817d-dcb7c603fcf4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "93596eb7-5112-410b-afa2-19ed16c4b8e0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "88638be6-442c-42f5-b5c5-d3a6248c8f0e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa79ee18-5291-452f-994a-2ac4bc81c117",
+        "4d5df024-166e-4cd6-86bf-35f235408d13",
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb",
+        "0cd16091-409a-44ae-8930-66a10887a1c3",
+        "5a36cbb0-4aa0-48c7-ab57-979b67412ab5",
+        "8caec889-e5d0-4c6e-9221-c1f2a1807e6e",
+        "f44494f2-460d-4459-817d-dcb7c603fcf4",
+        "93596eb7-5112-410b-afa2-19ed16c4b8e0",
+        "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9",
+        "88638be6-442c-42f5-b5c5-d3a6248c8f0e"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "collection_linklist": "",
+        "show_collection_title": true,
+        "show_collection_overlay": true,
+        "collection_overlay_opacity": 20
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#1e2d7d",
+        "text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
