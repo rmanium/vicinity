@@ -25,11 +25,24 @@
         "button_text": "",
         "button_link": ""
       }
+    },
+    "16522865715ea5a5c8": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Your title",
+        "content": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
-    "165050726019b73f80"
+    "165050726019b73f80",
+    "16522865715ea5a5c8"
   ]
 }
