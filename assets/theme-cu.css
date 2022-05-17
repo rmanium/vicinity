@@ -284,3 +284,15 @@
     position: relative;
   }
 }
+
+/**
+ * --------------------------------------------------------------------
+ * ANNOUNCEMENT BAR
+ * --------------------------------------------------------------------
+ */
+.announcement-bar__inner {
+  padding: 7px 0;
+}
+.announcement-bar__content {
+  padding: 0;
+}
