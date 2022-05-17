@@ -45,23 +45,23 @@
     "show_inventory_quantity": false,
     "low_inventory_threshold": 0,
     "cart_type": "drawer",
-    "cart_empty_button_link": "shopify://collections/all",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "30",
-    "social_facebook": "https://www.facebook.com/vicinitymart",
+    "social_facebook": "https:\/\/www.facebook.com\/vicinitymart",
     "social_twitter": "",
     "social_pinterest": "",
-    "social_instagram": "https://www.instagram.com/vicinity.mart/",
+    "social_instagram": "https:\/\/www.instagram.com\/vicinity.mart\/",
     "social_vimeo": "",
     "social_tumblr": "",
     "social_youtube": "",
     "social_linkedin": "",
     "social_snapchat": "",
     "social_fancy": "",
-    "favicon": "shopify://shop_images/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png",
+    "favicon": "shopify:\/\/shop_images\/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify://shop_images/Vicinity_Mart_Google_2_3c4d3b58-52f8-4d47-a979-ac10aa371ab5.webp",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Vicinity_Mart_Google_2_3c4d3b58-52f8-4d47-a979-ac10aa371ab5.webp",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -83,7 +83,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Food Items",
-              "image_1": "shopify://shop_images/hand-holds-rainbow-carrots.jpg",
+              "image_1": "shopify:\/\/shop_images\/hand-holds-rainbow-carrots.jpg",
               "image_1_heading": "Your image",
               "image_1_text": "Tell your story",
               "image_1_link": "",
@@ -93,10 +93,12 @@
             }
           }
         },
-        "block_order": ["3821904c-16d3-4a44-ba91-61566621037d"],
+        "block_order": [
+          "3821904c-16d3-4a44-ba91-61566621037d"
+        ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify://shop_images/Vicinity_Mart-01.jpg",
+          "logo": "shopify:\/\/shop_images\/Vicinity_Mart-01.jpg",
           "logo_max_width": 235,
           "mobile_logo_max_width": 115,
           "show_locale_selector": false,
@@ -122,7 +124,7 @@
             "disabled": true,
             "settings": {
               "title": "Some Text",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
             }
           },
           "footer-1": {
@@ -135,11 +137,15 @@
             "type": "newsletter",
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>"
+              "subheading": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>"
             }
           }
         },
-        "block_order": ["footer-0", "footer-1", "footer-2"],
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
         "settings": {
           "show_social_media": true,
           "show_payment_icons": true,
@@ -156,13 +162,17 @@
           "show_announcement": true,
           "background": "#151859",
           "text_color": "#ffffff",
-          "text": "Fast and free delivery for Greater Vancouver on orders above  $30",
+          "text1": "Fast and free delivery for Greater Vancouver on orders above $30",
+          "link1": "",
+          "text2": "Announce something here",
+          "link2": "",
+          "text3": "Announce something here",
+          "link3": "",
           "text_position": "center",
-          "link": "",
           "show_newsletter": false,
           "newsletter_button": "Subscribe & Stay Informed",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p><strong>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</strong></p>"
+          "newsletter_content": "<p><strong>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/strong><\/p>"
         }
       },
       "popups": {
@@ -175,7 +185,7 @@
               "show_only_for_visitors": false,
               "show_only_once": true,
               "title": "New Arrivals",
-              "content": "<p>By popular demand we are now offering   <br/></p><p><a href=\"https://vicinitymart.com/collections/dairy-eggs\" title=\"https://vicinitymart.com/collections/dairy-eggs\"><strong>Dairy & Eggs </strong></a><a href=\"https://vicinitymart.com/collections/dairy-eggs\" title=\"https://vicinitymart.com/collections/dairy-eggs\">(لبنیات و تخم مرغ)</a></p><p><a href=\"/collections/fruits-vegetables\" title=\"Fruits & Vegetables\"><strong>Fruits and Vegetables </strong></a><a href=\"/collections/fruits-vegetables\" title=\"Fruits & Vegetables\">(میوه و ‌سبزی)</a></p><p><a href=\"https://vicinitymart.com/collections/baking-ingredients?sort_by=created-descending\" title=\"https://vicinitymart.com/collections/baking-ingredients?sort_by=created-descending\"><strong>Sangak and Barbari Bread </strong>(نان سنگک و بربری)</a></p><p><a href=\"https://vicinitymart.com/collections/sweets?sort_by=created-descending\" title=\"https://vicinitymart.com/collections/sweets?sort_by=created-descending\"><strong>Persian Sweets </strong>(شیرینی ایرانی)</a></p>",
+              "content": "<p>By popular demand we are now offering   <br\/><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\" title=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\"><strong>Dairy & Eggs <\/strong><\/a><a href=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\" title=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\">(لبنیات و تخم مرغ)<\/a><\/p><p><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\"><strong>Fruits and Vegetables <\/strong><\/a><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\">(میوه و ‌سبزی)<\/a><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/baking-ingredients?sort_by=created-descending\" title=\"https:\/\/vicinitymart.com\/collections\/baking-ingredients?sort_by=created-descending\"><strong>Sangak and Barbari Bread <\/strong>(نان سنگک و بربری)<\/a><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/sweets?sort_by=created-descending\" title=\"https:\/\/vicinitymart.com\/collections\/sweets?sort_by=created-descending\"><strong>Persian Sweets <\/strong>(شیرینی ایرانی)<\/a><\/p>",
               "show_newsletter": false,
               "apparition_delay": 3
             }
@@ -183,7 +193,7 @@
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
             "settings": {
-              "ifram_url": "https://vicinity-app-git-develop-rmanium.vercel.app",
+              "ifram_url": "https:\/\/vicinity-app-git-develop-rmanium.vercel.app",
               "source": "general",
               "content": "general",
               "btn_feedback_text": "feedback"
@@ -194,7 +204,8 @@
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
           "b816b770-242e-43c5-b225-104ad791128f"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "static-text-with-icons": {
         "type": "static-text-with-icons",
@@ -204,7 +215,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store</p>"
+              "content": "<p>Short content about your store<\/p>"
             }
           },
           "static-text-with-icons-1": {
@@ -212,7 +223,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store</p>"
+              "content": "<p>Short content about your store<\/p>"
             }
           },
           "static-text-with-icons-2": {
@@ -220,7 +231,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Top-notch support",
-              "content": "<p>Short content about your store</p>"
+              "content": "<p>Short content about your store<\/p>"
             }
           },
           "static-text-with-icons-3": {
@@ -228,7 +239,7 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
-              "content": "<p>Short content about your store</p>"
+              "content": "<p>Short content about your store<\/p>"
             }
           }
         },
@@ -244,7 +255,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Metal": {
@@ -293,7 +306,7 @@
       "low_inventory_threshold": 0,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify://collections/all",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": false,
       "cart_free_shipping_threshold": "50",
@@ -345,7 +358,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
               }
             },
             "footer-1": {
@@ -358,11 +371,15 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true
@@ -373,11 +390,9 @@
           "settings": {
             "background": "#1e2d7d",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         }
       }
@@ -428,7 +443,7 @@
       "low_inventory_threshold": 1,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify://collections/all",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": true,
       "cart_free_shipping_threshold": "50",
@@ -466,7 +481,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
               }
             },
             "footer-1": {
@@ -479,11 +494,15 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true
@@ -494,11 +513,9 @@
           "settings": {
             "background": "#3a2a2f",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         }
       }
@@ -549,7 +566,7 @@
       "low_inventory_threshold": 2,
       "show_reviews_badge": true,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify://collections/all",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": true,
       "cart_free_shipping_threshold": "49",
@@ -600,7 +617,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
               }
             },
             "footer-1": {
@@ -613,11 +630,15 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "show_social_media": true,
             "show_payment_icons": true
@@ -628,11 +649,9 @@
           "settings": {
             "background": "#222021",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
           }
         }
       }
