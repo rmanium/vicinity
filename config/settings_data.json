@@ -83,11 +83,9 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Food Items",
-              "image_1": "shopify:\/\/shop_images\/113.jpg",
               "image_1_heading": "Your image",
               "image_1_text": "Tell your story",
               "image_1_link": "",
-              "image_2": "shopify:\/\/shop_images\/113.jpg",
               "image_2_heading": "Your image",
               "image_2_text": "Tell your story",
               "image_2_link": ""
