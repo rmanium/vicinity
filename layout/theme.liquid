@@ -138,7 +138,10 @@
 {% include 'gem-app-header-scripts' %}
 <!--End_Gem_Page_Header_Script-->
   {% include 'scm-product-label-head' %}
-</head>
+
+                  {% include 'bss-product-labels-configs' %}
+                    </head>
+             
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif %} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
     {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
@@ -178,5 +181,5 @@
   <!--Gem_Page_Footer_Script-->
 {% include 'gem-app-footer-scripts' %}
 <!--End_Gem_Page_Footer_Script-->
-</body>
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% endif %}</body>
 </html>
