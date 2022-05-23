@@ -15,10 +15,19 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "16532937159733263e": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Surprise",
+        "include_margins": true,
+        "liquid": "Enjoy 10% off on your next order with discount code: SurpriseInJuneApplies to orders $75 and aboveAvailable till end of June"
+      }
     }
   },
   "order": [
     "165327032131920c38",
-    "main"
+    "main",
+    "16532937159733263e"
   ]
 }
