@@ -8,14 +8,86 @@
     height: 100%;
     position: absolute;
   }
+  .page__header {
+    margin: 35px 0 0 ;
+  }
+  .page__header--image{
+      min-height: 80vh;
+  }
+  @media screen and (min-width: 641px){
+    .page__title {
+      font-size: 40px;
+    }
+    .page__description{
+      font-size: 21px;
+    }
+  }
 </style>
 
-<header class="page__header page__header--stack page__header--centered page__header--image {% if section.settings.show_image_overlay %}page__header--overlay{% endif %} {% if section.settings.image_edge_to_edge %}page__header--edge2edge{% endif %}">
+<header data-header class="page__header page__header--stack page__header--centered page__header--image {% if section.settings.show_image_overlay %}page__header--overlay{% endif %} {% if section.settings.image_edge_to_edge %}page__header--edge2edge{% endif %}">
+
+<script>
+  window.scrollTo({
+    top: 47,
+    left: 0,
+    behavior: 'smooth'
+  });
+  // create custome canvas
+  var myCanvas = document.createElement('canvas');
+  myCanvas.style.position = 'absolute'
+  myCanvas.style.top = '0px'
+  myCanvas.style.left = '0px'
+  myCanvas.style.pointerEvents = 'none'
+  myCanvas.style.zIndex = '5'
+  myCanvas.style.width = '100%'
+  myCanvas.style.height = '100%'
+  document.querySelector('[data-header]').appendChild(myCanvas);
+
+
+  var myConfetti = confetti.create(myCanvas, {
+      resize: true,
+  });
+  var end,isHidden ;
+
+  function frame() {
+    // launch a few confetti from the left edge
+    myConfetti({
+      particleCount: 4,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0 },
+    });
+    // and launch a few from the right edge
+    myConfetti({
+      particleCount: 4,
+      angle: 130,
+      spread: 55,
+      origin: { x: 1 },
+    });
+
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    };
+
+  }
+ 
+    // do this for 6 seconds
+    setTimeout(()=>{
+      var duration = 6 * 1000;
+      end = Date.now() + duration; 
+      requestAnimationFrame(frame);
+    },750)
+
+
+</script>
+
   {%- if section.settings.image != blank -%}
     {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000', image: section.settings.image -%}{%- endcapture -%}
     {%- assign image_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
     {% comment %} <img data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ section.settings.image.alt | escape }}" class="lazyload image--fade-in page__header-image"> {% endcomment %}
+
+
 
     <div class='page__suprise--heroImg' style="background-image: url(https:{{ section.settings.image | image_url }})"></div>
   {%- else -%}
@@ -29,6 +101,8 @@
       {%- endif -%}
 
       <div class="page__description rte">
+
+
         {{ section.settings.content }}
       </div>
     </div>
