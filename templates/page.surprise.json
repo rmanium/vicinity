@@ -1,7 +1,18 @@
 {
   "sections": {
+    "165327032131920c38": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_Artwork_5.png",
+        "title": "Surprise",
+        "content": "<p>Enjoy this offer<\/p>",
+        "show_image_overlay": true,
+        "color": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -40,6 +51,7 @@
     }
   },
   "order": [
+    "165327032131920c38",
     "main",
     "newsletter",
     "165050726019b73f80",
