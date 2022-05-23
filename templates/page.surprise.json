@@ -15,46 +15,10 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "title": "Newsletter",
-        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>",
-        "background": "#1e2d7d",
-        "text": "#ffffff"
-      }
-    },
-    "165050726019b73f80": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "text_width": "regular",
-        "title": "Contact Us",
-        "content": "<p><\/p><p><\/p><p><\/p>",
-        "button_text": "",
-        "button_link": ""
-      }
-    },
-    "16522865715ea5a5c8": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
-      }
     }
   },
   "order": [
     "165327032131920c38",
-    "main",
-    "newsletter",
-    "165050726019b73f80",
-    "16522865715ea5a5c8"
+    "main"
   ]
 }
