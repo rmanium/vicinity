@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "165327032131920c38": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_Artwork_5.png",
+        "title": "Surprise",
+        "content": "<p><strong>Enjoy 10% off on your next order with discount code: SurpriseInJune<\/strong><\/p><p><em>Applies to orders $75 and above<br\/>Available till end of June<\/em><\/p>",
+        "show_image_overlay": true,
+        "color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "165327032131920c38",
+    "main"
+  ]
+}
