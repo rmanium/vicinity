@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_Artwork_5.png",
         "title": "Surprise",
-        "content": "<p>Enjoy $10 off on your next order with discount code: SurpriseInJune<\/p><p>Applies to orders $60 and above<\/p>",
+        "content": "<p>Enjoy 10% off on your next order with discount code: SurpriseInJune<\/p><p>Applies to orders $75 and above<\/p>",
         "show_image_overlay": true,
         "color": "#ffffff"
       }
