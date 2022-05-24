@@ -86,3 +86,19 @@ window.onclick = function (event) {
     hideModal();
   }
 };
+
+/**
+ * announcement-bar Slider
+ */
+$(document).ready(function () {
+  $(".announcement-slider").slick({
+    autoplay: true,
+    autoplaySpeed: 7000,
+    infinite: true,
+    adaptiveHeight: true,
+    arrows: false,
+    draggable: false,
+    swipe: false,
+    vertical: true,
+  });
+});

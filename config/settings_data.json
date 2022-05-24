@@ -161,9 +161,13 @@
           "show_announcement": true,
           "background": "#151859",
           "text_color": "#ffffff",
-          "text": "Fast and free delivery for Greater Vancouver on orders above  $30",
+          "text1": "Fast and free delivery for Greater Vancouver on orders above $30",
+          "link1": "",
+          "text2": "ارسال سریع و رایگان در  ونکور برای سفارش های بالای ۳۰ دلار",
+          "link2": "",
+          "text3": "Same day delivery for orders placed before 7 pm   |   ارسال ظرف چند ساعت برای سفارشات قبل ساعت ۷ شب",
+          "link3": "",
           "text_position": "center",
-          "link": "",
           "show_newsletter": false,
           "newsletter_button": "Subscribe & Stay Informed",
           "newsletter_title": "Newsletter",
@@ -385,8 +389,6 @@
           "settings": {
             "background": "#1e2d7d",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
             "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
@@ -510,8 +512,6 @@
           "settings": {
             "background": "#3a2a2f",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
             "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
@@ -648,8 +648,6 @@
           "settings": {
             "background": "#222021",
             "text_color": "#ffffff",
-            "text": "Announce something here",
-            "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
             "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"

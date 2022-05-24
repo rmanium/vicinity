@@ -1,4 +1,4 @@
-{%- if section.settings.show_announcement -%}
+ {%- if section.settings.show_announcement -%}
   {%- capture section_settings -%}
   {
     "showNewsletter": {{ section.settings.show_newsletter | json }}
@@ -65,11 +65,77 @@
     <div class="announcement-bar">
       <div class="container">
         <div class="announcement-bar__inner">
-          {%- if section.settings.link != blank -%}
-            <a href="{{ section.settings.link }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</a>
-          {%- else -%}
-            <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</p>
-          {%- endif -%}
+
+          {% comment %} announcement-bar with slider {% endcomment %}
+          <div class="{% if section.settings.show_newsletter %}mw{% endif %}">
+            <div class='announcement-slider'>
+              <div class='announcement-bar__content'>
+                {%- if section.settings.link1 != blank -%}
+                  <a href="{{ section.settings.link1 }}" class="announcement-bar__content">{{ section.settings.text1 | escape }}</a>
+                {%- else -%}
+                  <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</p>
+                {%- endif -%}
+              </div>
+               {%- if section.settings.text2 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link2 != blank -%}
+                    <a href="{{ section.settings.link2 }}" class="announcement-bar__content">{{ section.settings.text2 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</p>
+                  {%- endif -%}
+                </div>
+               {%- endif -%}
+              {%- if section.settings.text3 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link3 != blank -%}
+                    <a href="{{ section.settings.link3 }}" class="announcement-bar__content">{{ section.settings.text3 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.text4 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link4 != blank -%}
+                    <a href="{{ section.settings.link4 }}" class="announcement-bar__content">{{ section.settings.text4 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.text5 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link5 != blank -%}
+                    <a href="{{ section.settings.link5 }}" class="announcement-bar__content">{{ section.settings.text5 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text5 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.text6 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link6 != blank -%}
+                    <a href="{{ section.settings.link6 }}" class="announcement-bar__content">{{ section.settings.text6 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text6 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          </div>   
+          
+          
+            {% comment %} announcement-bar whiout slider {% endcomment %}
+            {% comment %} {%- if section.settings.link != blank -%}
+              <a href="{{ section.settings.link }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</a>
+            {%- else -%}
+              <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</p>
+            {%- endif -%} {% endcomment %}
+            
+        
 
           {%- if section.settings.show_newsletter -%}
             <button type="button" class="announcement-bar__button hidden-phone" data-action="toggle-newsletter" aria-expanded="false" aria-controls="announcement-bar-newsletter">
@@ -83,11 +149,16 @@
   </section>
 
   <style>
+    .announcement-bar__inner > .mw {
+      max-width:80%;
+      
+    }
     .announcement-bar {
       background: {{ section.settings.background }};
       color: {{ section.settings.text_color }};
     }
   </style>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
   <script>
     {%- if section.settings.show_newsletter -%}
@@ -122,12 +193,77 @@
       "label": "Text",
       "default": "#ffffff"
     },
+
     {
       "type": "text",
-      "id": "text",
-      "label": "Text",
+      "id": "text1",
+      "label": "Text1",
       "default": "Announce something here"
     },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "Text2",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link2"
+    },
+    {
+      "type": "text",
+      "id": "text3",
+      "label": "Text3",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "Link3"
+    },
+
+    {
+      "type": "text",
+      "id": "text4",
+      "label": "Text4",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link4"
+    },
+
+    {
+      "type": "text",
+      "id": "text5",
+      "label": "Text5",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link5",
+      "label": "Link5"
+    },
+
+    {
+      "type": "text",
+      "id": "text6",
+      "label": "Text6",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link6",
+      "label": "Link6"
+    },
+
     {
       "type": "select",
       "id": "text_position",
@@ -144,11 +280,6 @@
       ],
       "default": "left",
       "info": "Text is always centered on mobile."
-    },
-    {
-      "type": "url",
-      "id": "link",
-      "label": "Link"
     },
     {
       "type": "header",
