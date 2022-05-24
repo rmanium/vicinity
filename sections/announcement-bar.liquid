@@ -94,6 +94,36 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
+
+              {%- if section.settings.text4 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link4 != blank -%}
+                    <a href="{{ section.settings.link4 }}" class="announcement-bar__content">{{ section.settings.text4 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.text5 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link5 != blank -%}
+                    <a href="{{ section.settings.link5 }}" class="announcement-bar__content">{{ section.settings.text5 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text5 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.text6 != "" -%}
+                <div class='announcement-bar__content'>
+                  {%- if section.settings.link6 != blank -%}
+                    <a href="{{ section.settings.link6 }}" class="announcement-bar__content">{{ section.settings.text6 | escape }}</a>
+                  {%- else -%}
+                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text6 | escape }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
             </div>
           </div>   
           
@@ -196,6 +226,42 @@
       "type": "url",
       "id": "link3",
       "label": "Link3"
+    },
+
+    {
+      "type": "text",
+      "id": "text4",
+      "label": "Text4",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link4"
+    },
+
+    {
+      "type": "text",
+      "id": "text5",
+      "label": "Text5",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link5",
+      "label": "Link5"
+    },
+
+    {
+      "type": "text",
+      "id": "text6",
+      "label": "Text6",
+      "default": "Announce something here"
+    },
+    {
+      "type": "url",
+      "id": "link6",
+      "label": "Link6"
     },
 
     {
