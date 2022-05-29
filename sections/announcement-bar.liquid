@@ -157,6 +157,16 @@
       background: {{ section.settings.background }};
       color: {{ section.settings.text_color }};
     }
+    @media screen and (min-width: 641px) {
+      #shopify-section-{{ section.id }} {
+        {%- if section.settings.enable_sticky_announcement -%}
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          z-index: 5;
+        {%- endif -%}
+      }
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
@@ -175,6 +185,12 @@
 {
   "name": "Announcement bar",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_sticky_announcement",
+      "label": "Enable sticky announcement",
+      "default": true
+    },
     {
       "type": "checkbox",
       "id": "show_announcement",
