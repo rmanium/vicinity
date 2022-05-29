@@ -493,6 +493,13 @@
       top: 0;
     {%- endif -%}
   }
+  @media screen and (min-width: 641px) {
+    #shopify-section-{{ section.id }} {
+      {%- if section.settings.enable_sticky_header -%}
+        top: 47px;
+      {%- endif -%}
+    }
+  }
 
   {%- if section.settings.logo -%}
     .header__logo-image {
