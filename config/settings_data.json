@@ -158,6 +158,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
+          "enable_sticky_announcement": true,
           "show_announcement": true,
           "background": "#151859",
           "text_color": "#ffffff",
@@ -198,7 +199,7 @@
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
             "settings": {
-              "ifram_url": "https:\/\/vicinity-app-git-develop-rmanium.vercel.app",
+              "ifram_url": "https:\/\/vicinity-app.vercel.app",
               "source": "general",
               "content": "general",
               "btn_feedback_text": "feedback"
