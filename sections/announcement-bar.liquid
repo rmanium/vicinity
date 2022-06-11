@@ -157,6 +157,9 @@
       background: {{ section.settings.background }};
       color: {{ section.settings.text_color }};
     }
+    .announcement-slider .slick-list{
+        overflow: hidden;
+    }
     @media screen and (min-width: 641px) {
       #shopify-section-{{ section.id }} {
         {%- if section.settings.enable_sticky_announcement -%}
@@ -168,7 +171,10 @@
       }
     }
   </style>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  {% comment %} <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/> {% endcomment %}
+    {% comment %} {{'//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css' | stylesheet_tag}} {% endcomment %}
+    <link rel="preload" as="style" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
+    <link rel="stylesheet" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
 
   <script>
     {%- if section.settings.show_newsletter -%}
