@@ -151,14 +151,12 @@
   <style>
     .announcement-bar__inner > .mw {
       max-width:80%;
-      
     }
     .announcement-bar {
       background: {{ section.settings.background }};
       color: {{ section.settings.text_color }};
-    }
-    .announcement-slider .slick-list{
-        overflow: hidden;
+      overflow: hidden;
+       max-height:68px;
     }
     @media screen and (min-width: 641px) {
       #shopify-section-{{ section.id }} {
@@ -168,6 +166,9 @@
           top: 0;
           z-index: 5;
         {%- endif -%}
+      }
+      .announcement-bar {
+        max-height:47px;
       }
     }
   </style>
