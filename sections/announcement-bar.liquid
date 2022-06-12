@@ -151,11 +151,12 @@
   <style>
     .announcement-bar__inner > .mw {
       max-width:80%;
-      
     }
     .announcement-bar {
       background: {{ section.settings.background }};
       color: {{ section.settings.text_color }};
+      overflow: hidden;
+       max-height:68px;
     }
     @media screen and (min-width: 641px) {
       #shopify-section-{{ section.id }} {
@@ -166,9 +167,15 @@
           z-index: 5;
         {%- endif -%}
       }
+      .announcement-bar {
+        max-height:47px;
+      }
     }
   </style>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  {% comment %} <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/> {% endcomment %}
+    {% comment %} {{'//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css' | stylesheet_tag}} {% endcomment %}
+    <link rel="preload" as="style" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
+    <link rel="stylesheet" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
 
   <script>
     {%- if section.settings.show_newsletter -%}
