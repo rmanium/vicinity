@@ -151,8 +151,8 @@
       "settings": {
         "collections_to_show": "selected",
         "collection_linklist": "",
-        "show_collection_title": false,
-        "show_collection_overlay": false,
+        "show_collection_title": true,
+        "show_collection_overlay": true,
         "collection_overlay_opacity": 20
       }
     },
