@@ -89,6 +89,12 @@
           "settings": {
             "collection": "video-dvd"
           }
+        },
+        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde": {
+          "type": "collection",
+          "settings": {
+            "collection": "iran-football-accessories"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "8caec889-e5d0-4c6e-9221-c1f2a1807e6e",
         "aa79ee18-5291-452f-994a-2ac4bc81c117",
         "89986735-e6c7-4540-952e-d6f258c3d3c2",
-        "9d17096c-77d8-4b2f-8e29-e759e13f5b42"
+        "9d17096c-77d8-4b2f-8e29-e759e13f5b42",
+        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde"
       ],
       "settings": {
         "collections_to_show": "selected",
