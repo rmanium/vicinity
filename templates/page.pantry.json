@@ -92,6 +92,7 @@
         },
         "b2ff4c7b-522a-4f50-b550-73f3c38b3dde": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "iran-football-accessories"
           }

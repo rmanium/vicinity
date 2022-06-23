@@ -126,6 +126,12 @@
           "settings": {
             "collection": "houseware"
           }
+        },
+        "8f3bdf6d-36c6-41ad-9fe7-43eed7318c61": {
+          "type": "collection",
+          "settings": {
+            "collection": "iran-football-accessories"
+          }
         }
       },
       "block_order": [
@@ -146,7 +152,8 @@
         "0e9693d8-59c4-49f4-addf-636ee998b4cb",
         "497cc6de-5c73-4156-ba1e-8c57bbdd3cf3",
         "be370299-81c0-4f7e-a82d-ee70f616c591",
-        "3789b8c9-6b37-44a3-a21f-c83c740e4c9b"
+        "3789b8c9-6b37-44a3-a21f-c83c740e4c9b",
+        "8f3bdf6d-36c6-41ad-9fe7-43eed7318c61"
       ],
       "settings": {
         "collections_to_show": "selected",
