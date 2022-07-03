@@ -74,6 +74,11 @@ const hideModal = () =>
 // Open the Modal Window
 document.querySelector("[data-popup-type='survey']").onclick = function () {
   showModal();
+  ga("send", {
+    hitType: "event",
+    eventCategory: "feedback",
+    eventAction: "open feedback modal",
+  });
 };
 // Close the Modal Window by clicking the X
 document.querySelector(".popup__close").onclick = function () {
