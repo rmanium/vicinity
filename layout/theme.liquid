@@ -49,7 +49,7 @@
     {% render 'social-meta-tags' %}
     {% render 'css-variables' %}
 
-    {{ content_for_header }}
+    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'theme-cu.css' | asset_url }}">
