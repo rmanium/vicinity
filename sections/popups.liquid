@@ -119,7 +119,7 @@
                       {% assign utmSource = "?utm_source=" | append : block.settings.source | default: undefined %}
                       {% assign utmContent = "&utm_content=" | append: block.settings.content | default: undefined %}
 
-                      <iframe src="{{ iframSource | append: utmSource | append: utmContent }}" width="100%" height="520px" style='border:none'></iframe>
+                      <iframe data-src="{{ iframSource | append: utmSource | append: utmContent }}" width="100%" height="520px" frameborder="0" class="lazyload" allowfullscreen></iframe>
                   </div>
               </div>
           </div>
