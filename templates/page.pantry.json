@@ -96,6 +96,30 @@
           "settings": {
             "collection": "iran-football-accessories"
           }
+        },
+        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6": {
+          "type": "collection",
+          "settings": {
+            "collection": "appetizers"
+          }
+        },
+        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a": {
+          "type": "collection",
+          "settings": {
+            "collection": "desserts"
+          }
+        },
+        "1cae7efe-248f-42e0-8b15-260c1847c1f3": {
+          "type": "collection",
+          "settings": {
+            "collection": "stews"
+          }
+        },
+        "e5f8d761-736b-41bf-a060-fe7e097a99e8": {
+          "type": "collection",
+          "settings": {
+            "collection": "semi-ready-foods"
+          }
         }
       },
       "block_order": [
@@ -113,7 +137,11 @@
         "aa79ee18-5291-452f-994a-2ac4bc81c117",
         "89986735-e6c7-4540-952e-d6f258c3d3c2",
         "9d17096c-77d8-4b2f-8e29-e759e13f5b42",
-        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde"
+        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde",
+        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6",
+        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a",
+        "1cae7efe-248f-42e0-8b15-260c1847c1f3",
+        "e5f8d761-736b-41bf-a060-fe7e097a99e8"
       ],
       "settings": {
         "collections_to_show": "selected",
