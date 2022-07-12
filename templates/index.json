@@ -177,6 +177,34 @@
             "collection": "sweets-shirini",
             "link": ""
           }
+        },
+        "9deeed16-db08-4696-b253-5432c2dfaaeb": {
+          "type": "collection",
+          "settings": {
+            "collection": "stews",
+            "link": ""
+          }
+        },
+        "c8f58483-ae4a-4115-b43e-92bff10ce1a7": {
+          "type": "collection",
+          "settings": {
+            "collection": "semi-ready-foods",
+            "link": ""
+          }
+        },
+        "f734777c-2248-4d88-a6e5-e2ea527e019b": {
+          "type": "collection",
+          "settings": {
+            "collection": "appetizers",
+            "link": ""
+          }
+        },
+        "00e69e4c-42bb-4969-b085-333e5e6558ab": {
+          "type": "collection",
+          "settings": {
+            "collection": "desserts",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -190,7 +218,11 @@
         "collection-3",
         "3b61e5da-651f-43de-8341-1fdbb71c30ba",
         "collection-4",
-        "1615a069-cecf-4c95-9833-a7732f54eee1"
+        "1615a069-cecf-4c95-9833-a7732f54eee1",
+        "9deeed16-db08-4696-b253-5432c2dfaaeb",
+        "c8f58483-ae4a-4115-b43e-92bff10ce1a7",
+        "f734777c-2248-4d88-a6e5-e2ea527e019b",
+        "00e69e4c-42bb-4969-b085-333e5e6558ab"
       ],
       "settings": {
         "title": "Our collections",
