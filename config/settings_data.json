@@ -190,8 +190,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": true,
-              "title": "New Arrivals",
-              "content": "<p>By popular demand we are now offering   <br\/><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\" title=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\"><strong>Dairy & Eggs <\/strong><\/a><a href=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\" title=\"https:\/\/vicinitymart.com\/collections\/dairy-eggs\">(لبنیات و تخم مرغ)<\/a><\/p><p><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\"><strong>Fruits and Vegetables <\/strong><\/a><a href=\"\/collections\/fruits-vegetables\" title=\"Fruits & Vegetables\">(میوه و ‌سبزی)<\/a><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/baking-ingredients?sort_by=created-descending\" title=\"https:\/\/vicinitymart.com\/collections\/baking-ingredients?sort_by=created-descending\"><strong>Sangak and Barbari Bread <\/strong>(نان سنگک و بربری)<\/a><\/p><p><a href=\"https:\/\/vicinitymart.com\/collections\/sweets?sort_by=created-descending\" title=\"https:\/\/vicinitymart.com\/collections\/sweets?sort_by=created-descending\"><strong>Persian Sweets <\/strong>(شیرینی ایرانی)<\/a><\/p>",
+              "title": "First time here?",
+              "content": "<p><strong>Did you know first time buyers get $10 off <\/strong><\/p><p><strong>Use discount code: FirstTime<\/strong><\/p><p>*applies to orders $75 and above<\/p>",
               "show_newsletter": false,
               "apparition_delay": 3
             }

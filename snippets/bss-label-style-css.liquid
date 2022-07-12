@@ -1,4 +1,16 @@
 <style>
+.bss_pl_tooltip {
+    position: fixed;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #333;
+    max-width: 220px;
+    z-index: 5;
+    word-wrap:break-word;
+}
 .bss_pl_img {
     display: block !important;
 }
@@ -6,10 +18,9 @@
 .bss_pl_img .bss_pl_label_text {
     position: absolute !important;
     margin: auto;
-    pointer-events: none !important;
     opacity: 1;
+    /*pointer-events: none !important;*/
 }
-
 .bss_pl_img img {
     max-width: 240px !important;
     max-height: 240px !important;
