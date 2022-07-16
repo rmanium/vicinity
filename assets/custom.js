@@ -107,3 +107,23 @@ $(document).ready(function () {
     vertical: true,
   });
 });
+
+/**
+ * cu add product
+ */
+
+$(document).ready(function () {
+  var quantity = 1;
+  quantity = parseInt(quantity);
+  var id = "41866545332374";
+  // $.ajax({
+  //   type: "POST",
+  //   url: "/cart/add.js",
+  //   dataType: "json",
+  //   data: { id: id, quantity: quantity },
+  //   success: function () {
+  //     // location.href = "/cart";
+  //     console.log("product was added successfully ");
+  //   },
+  // });
+});

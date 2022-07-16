@@ -20,6 +20,17 @@
       <a href="{{ routes.root_url }}" class="empty-state__link link link--accented">{{ '404.general.continue_shopping' | t }}</a>
     </div>
   </div>
+
+  <template>
+  <div id="gift" class="addtocart">
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="id" value="41866545332374" />
+      <input class="qty-input" min="1" type="number" id="quantity" name="quantity" value="1"/>
+      <input type="submit" value="+" class="add-button button button--primary" data-action="add-to-cart"/>
+      <input type="hidden" name="return_to" value="back" />
+    </form>
+  </div>
+  </template>
 </section>
 
 {% schema %}
