@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/04-_copy.webp",
             "mobile_image": "shopify:\/\/shop_images\/04-_copy.webp",
             "show_overlay": false,
-            "overlay_opacity": 52,
+            "overlay_opacity": 0,
             "text_color": "#121251",
             "title": "",
             "content": "",
@@ -17,7 +17,7 @@
             "button_background": "#121251",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
-            "link": "shopify:\/\/collections"
+            "link": ""
           }
         },
         "slide-2": {
