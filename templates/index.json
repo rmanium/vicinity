@@ -3,8 +3,25 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09-_copy-2.webp",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#121251",
+            "title": "Online Persian Grocery Made Easy",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#121251",
+            "button_text_color": "#ffffff",
+            "button_text": "Start Shopping",
+            "link": "shopify:\/\/collections"
+          }
+        },
         "275682d7-fe63-4677-af09-f78da2528f69": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/04-_copy.webp",
             "mobile_image": "shopify:\/\/shop_images\/04-_copy.webp",
@@ -40,6 +57,7 @@
         }
       },
       "block_order": [
+        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4",
         "275682d7-fe63-4677-af09-f78da2528f69",
         "slide-2"
       ],
@@ -48,7 +66,7 @@
         "section_size": "preserve_ratio",
         "carousel_effect": "slide",
         "autoplay": true,
-        "cycle_speed": 4
+        "cycle_speed": 5
       }
     },
     "1636241720a09de843": {
