@@ -25,7 +25,7 @@
             "image": "shopify:\/\/shop_images\/04-_copy.webp",
             "mobile_image": "shopify:\/\/shop_images\/04-_copy.webp",
             "show_overlay": false,
-            "overlay_opacity": 0,
+            "overlay_opacity": 35,
             "text_color": "#121251",
             "title": "Online Persian Grocery Made Easy",
             "content": "",
