@@ -2,6 +2,7 @@
   "sections": {
     "165970559810c3db58": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/landing-1.jpg",
         "title": "Online Persian Grocery Made Easy",
@@ -12,7 +13,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4": {
           "type": "image",
