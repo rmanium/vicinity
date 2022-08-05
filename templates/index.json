@@ -2,21 +2,22 @@
   "sections": {
     "165970559810c3db58": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/landing-1.jpg",
         "title": "Image with text overlay 2",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style<\/p><p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
+        "content": "<p><strong>Online Persian Grocery Made Easy<\/strong><\/p><p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
         "show_image_overlay": true,
         "color": "#ffffff"
       }
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/landing-1.jpg",
+            "image": "shopify:\/\/shop_images\/09-_copy-2.webp",
             "show_overlay": true,
             "overlay_opacity": 35,
             "text_color": "#121251",
