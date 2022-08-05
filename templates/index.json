@@ -4,8 +4,8 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/landing-1.jpg",
-        "title": "Image with text overlay 2",
-        "content": "<p><strong>Online Persian Grocery Made Easy<\/strong><\/p><p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
+        "title": "Online Persian Grocery Made Easy",
+        "content": "<p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
         "show_image_overlay": true,
         "color": "#ffffff"
       }
