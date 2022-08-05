@@ -23,7 +23,7 @@
         {%- endif -%}
 
         {%- capture slide_inner -%}
-          <div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }}" {% if block.settings.image and section.settings.section_size != 'preserve_ratio' %}data-bgset="{{ bgset }}" data-sizes="auto"{% endif %}>
+          <div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }} lazyload " {% if block.settings.image and section.settings.section_size != 'preserve_ratio' %}data-bgset="{{ bgset }}" data-sizes="auto"{% endif %}>
             {%- unless block.settings.image -%}
               {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
 
