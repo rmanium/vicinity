@@ -23,7 +23,7 @@
         {%- endif -%}
 
         {%- capture slide_inner -%}
-          <div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }} lazyload image--fade-in" {% if block.settings.image and section.settings.section_size != 'preserve_ratio' %}data-bgset="{{ bgset }}" data-sizes="auto"{% endif %}>
+          <div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }} lazyload " {% if block.settings.image and section.settings.section_size != 'preserve_ratio' %}data-bgset="{{ bgset }}" data-sizes="auto"{% endif %}>
             {%- unless block.settings.image -%}
               {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
 
@@ -37,11 +37,29 @@
             {%- endunless -%}
 
             {%- if block.settings.image and section.settings.section_size == 'preserve_ratio' -%}
-              {%- capture supported_sizes -%}{%- render 'image-size', sizes: '800,900,1000,1100,1200,1300,1400,1600,1800,2000,2200,2400,2600', image: block.settings.image -%}{%- endcapture -%}
-              {%- assign image_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-
+              {% comment %} {%- capture supported_sizes -%}{%- render 'image-size', sizes: '800,900,1000,1100,1200,1300,1400,1600,1800,2000,2200,2400,2600', image: block.settings.image -%}{%- endcapture -%} {% endcomment %}
+              {% comment %} {%- assign image_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%} {% endcomment %}
+              
               <div class="aspect-ratio {% if block.settings.mobile_image %}hidden-phone{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
-                <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
+                {% comment %} orignial setup {% endcomment %}
+                  {% comment %} <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto"> {% endcomment %}
+
+                {% comment %} custom setup {% endcomment %}
+                <img class="slideshow__image " alt="{{ block.settings.image.alt | escape }}" 
+                  srcset="{{ block.settings.image | img_url: '800x'}} 800w,
+                  {{ block.settings.image | img_url: '900x'}} 900w,
+                  {{ block.settings.image | img_url: '1000x'}} 1000w,
+                  {{ block.settings.image | img_url: '1100x'}} 1100w,
+                  {{ block.settings.image | img_url: '1200x'}} 1200w,
+                  {{ block.settings.image | img_url: '1300x'}} 1300w,
+                  {{ block.settings.image | img_url: '1400x'}} 1400w,
+                  {{ block.settings.image | img_url: '1600x'}} 1600w,
+                  {{ block.settings.image | img_url: '1800x'}} 1800w,
+                  {{ block.settings.image | img_url: '2000x'}} 2000w,
+                  {{ block.settings.image | img_url: '2200x'}} 2200w,
+                  {{ block.settings.image | img_url: '2400x'}} 2400w,
+                  {{ block.settings.image | img_url: '2600x'}} 2600w,"
+                    sizes="auto"> 
 
                 <noscript>
                   <img src="{{ block.settings.image | img_url: '1200x' }}" alt="{{ block.settings.image.alt | escape }}">
@@ -49,11 +67,23 @@
               </div>
 
               {%- if block.settings.mobile_image -%}
-                {%- capture supported_sizes -%}{%- render 'image-size', sizes: '600,700,800,900,1000,1100,1200', image: block.settings.mobile_image -%}{%- endcapture -%}
-                {%- assign image_url = block.settings.mobile_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                {% comment %} {%- capture supported_sizes -%}{%- render 'image-size', sizes: '600,700,800,900,1000,1100,1200', image: block.settings.mobile_image -%}{%- endcapture -%} {% endcomment %}
+                {% comment %} {%- assign image_url = block.settings.mobile_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%} {% endcomment %}
 
                 <div class="aspect-ratio hidden-tablet-and-up" style="padding-bottom: {{ 100.0 | divided_by: block.settings.mobile_image.aspect_ratio }}%">
-                  <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
+                  {% comment %}  orignial setup {% endcomment %}
+                  {% comment %} <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto"> {% endcomment %}
+
+                  {% comment %} custom setup {% endcomment %}
+                  <img class="slideshow__image " alt="{{ block.settings.mobile_image.alt | escape }}" 
+                    srcset=" {{ block.settings.image | img_url: '600x'}} 600w,
+                     {{ block.settings.image | img_url: '700x'}} 700w,
+                     {{ block.settings.image | img_url: '800x'}} 800w,
+                     {{ block.settings.image | img_url: '900x'}} 900w,
+                     {{ block.settings.image | img_url: '1000x'}} 1000w,
+                     {{ block.settings.image | img_url: '1100x'}} 1100w,
+                     {{ block.settings.image | img_url: '1200x'}} 1200w,"
+                        sizes="auto">
 
                   <noscript>
                     <img src="{{ block.settings.mobile_image | img_url: '800x' }}" alt="{{ block.settings.mobile_image.alt | escape }}">

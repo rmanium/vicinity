@@ -1,5 +1,16 @@
 {
   "sections": {
+    "165970559810c3db58": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/landing-1.jpg",
+        "title": "Online Persian Grocery Made Easy",
+        "content": "<p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
+        "show_image_overlay": true,
+        "color": "#ffffff"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -7,8 +18,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/09-_copy-2.webp",
-            "show_overlay": false,
-            "overlay_opacity": 0,
+            "show_overlay": true,
+            "overlay_opacity": 35,
             "text_color": "#121251",
             "title": "Online Persian Grocery Made Easy",
             "content": "",
@@ -25,14 +36,15 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "preserve_ratio",
+        "section_size": "large",
         "carousel_effect": "slide",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 5
       }
     },
     "1636241720a09de843": {
       "type": "offers",
+      "disabled": true,
       "blocks": {
         "1636241720a09de843-0": {
           "type": "offer",
@@ -212,16 +224,6 @@
         "show_collection_title": true
       }
     },
-    "1637543513bbe51b01": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "\"Vicinity mart made our life easy. Don’t have to drive to any Persian food store anymore. Great and high quality products. Fast and on time delivery. It cost less than driving to store to pick it yourself. I recommend them to everyone. Give them a call and visit their stores online and in person.\"",
-        "content": "<p>al Mo<\/p>",
-        "button_text": "Our products",
-        "button_link": ""
-      }
-    },
     "1637542558ac9160e1": {
       "type": "text-with-icons",
       "blocks": {
@@ -268,6 +270,16 @@
       ],
       "settings": {
         "stack_mobile": false
+      }
+    },
+    "1637543513bbe51b01": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "",
+        "content": "<p><strong>\"Vicinity mart made our life easy. Don’t have to drive to any Persian food store anymore. Great and high quality products. Fast and on time delivery. It cost less than driving to store to pick it yourself. I recommend them to everyone. Give them a call and visit their stores online and in person.\"<\/strong><\/p><p><em>al Mo<\/em><\/p>",
+        "button_text": "Our products",
+        "button_link": ""
       }
     },
     "featured-collection": {
@@ -422,67 +434,6 @@
         "stack_mobile": false
       }
     },
-    "1636241446413189ed": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "1636241446413189ed-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Pictures1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "1636241446413189ed-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/supermarket-shelves-aisle-empty-shopping-260nw-1142374109.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1636241446413189ed-0",
-        "1636241446413189ed-1"
-      ],
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
-    "163754281202b9a77c": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
-      }
-    },
     "1637542871cef3e060": {
       "type": "slideshow",
       "disabled": true,
@@ -523,8 +474,8 @@
         "163754287132cb0d7a-1"
       ],
       "settings": {
-        "edge_to_edge": false,
-        "section_size": "small",
+        "edge_to_edge": true,
+        "section_size": "large",
         "carousel_effect": "fade",
         "autoplay": true,
         "cycle_speed": 5
@@ -540,19 +491,18 @@
     }
   },
   "order": [
+    "165970559810c3db58",
     "slideshow",
     "1636241720a09de843",
     "collection-list",
-    "1637543513bbe51b01",
     "1637542558ac9160e1",
+    "1637543513bbe51b01",
     "featured-collection",
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
     "featured-product",
     "blog-posts",
-    "1636241446413189ed",
-    "163754281202b9a77c",
     "1637542871cef3e060",
     "survey-modal"
   ]
