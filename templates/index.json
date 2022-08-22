@@ -36,7 +36,7 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "preserve_ratio",
+        "section_size": "medium",
         "carousel_effect": "slide",
         "autoplay": false,
         "cycle_speed": 5
