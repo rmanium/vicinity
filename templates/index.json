@@ -17,7 +17,7 @@
         "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/09-_copy-2.webp",
+            "image": "shopify:\/\/shop_images\/landing-test1.jpg",
             "show_overlay": true,
             "overlay_opacity": 35,
             "text_color": "#121251",
@@ -36,7 +36,7 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "large",
+        "section_size": "preserve_ratio",
         "carousel_effect": "slide",
         "autoplay": false,
         "cycle_speed": 5
