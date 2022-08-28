@@ -18,6 +18,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/landing-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/09-_copy_Mobile.png",
             "show_overlay": true,
             "overlay_opacity": 35,
             "text_color": "#121251",
