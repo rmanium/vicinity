@@ -6,6 +6,7 @@
 .section {
   margin: 80px 0;
 }
+
 .section[data-section-type="collection-list"] {
   margin: 25px 0;
 }
@@ -33,6 +34,7 @@
   border: none;
   background: #ebebf1;
 }
+
 .nav-bar__item {
   margin-right: 18px;
 }

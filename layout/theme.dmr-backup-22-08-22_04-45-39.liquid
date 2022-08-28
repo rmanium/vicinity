@@ -114,9 +114,9 @@
 
 
     {%- if request.page_type == 'index' -%}
-    {% assign slide_1 = images['mlanding-1.jpg'] %}
-    {% assign slide_2 = images['landing-2.jpg'] %}
-      <link rel="preload" as="image" imagesrcset="{{ slide_1 | img_url: '600x' }} 600w,{{ slide_1 | img_url: '700x' }} 700w,{{ slide_1 | img_url: '800x' }} 800w,{{ slide_1 | img_url: '900x' }} 900w,{{ slide_1 | img_url: '1000x' }} 1000w,{{ slide_1 | img_url: '1100x' }} 1100w,{{ slide_1 | img_url: '1200x' }} 1200w" imagesizes='auto'>
+    {% comment %} {% assign slide_1 = images['04-_copy.webp'] %} {% endcomment %}
+    {% assign slide_2 = images['09-_copy-2.webp'] %}
+      {% comment %} <link rel="preload" as="image" imagesrcset="{{ slide_1 | img_url: '600x' }} 600w,{{ slide_1 | img_url: '700x' }} 700w,{{ slide_1 | img_url: '800x' }} 800w,{{ slide_1 | img_url: '900x' }} 900w,{{ slide_1 | img_url: '1000x' }} 1000w,{{ slide_1 | img_url: '1100x' }} 1100w,{{ slide_1 | img_url: '1200x' }} 1200w,{{ slide_1 | img_url: '1300x' }} 1300w,{{ slide_1 | img_url: '1400x' }} 1400w,{{ slide_1 | img_url: '1600x' }} 1600w,{{ slide_1 | img_url: '1800x' }} 1800w,{{ slide_1 | img_url: '2000x' }} 2000w,{{ slide_1 | img_url: '2200x' }} 2200w,{{ slide_1 | img_url: '2400x' }} 2400w,{{ slide_1 | img_url: '2600x' }} 2600w,"imagesizes='auto'> {% endcomment %}
       <link rel="preload" as="image" imagesrcset="{{ slide_2 | img_url: '600x' }} 600w,{{ slide_2 | img_url: '700x' }} 700w,{{ slide_2 | img_url: '800x' }} 800w,{{ slide_2 | img_url: '900x' }} 900w,{{ slide_2 | img_url: '1000x' }} 1000w,{{ slide_2 | img_url: '1100x' }} 1100w,{{ slide_2 | img_url: '1200x' }} 1200w,{{ slide_2 | img_url: '1300x' }} 1300w,{{ slide_2 | img_url: '1400x' }} 1400w,{{ slide_2 | img_url: '1600x' }} 1600w,{{ slide_2 | img_url: '1800x' }} 1800w,{{ slide_2 | img_url: '2000x' }} 2000w,{{ slide_2 | img_url: '2200x' }} 2200w,{{ slide_2 | img_url: '2400x' }} 2400w,{{ slide_2 | img_url: '2600x' }} 2600w,"imagesizes='auto'>
       {% comment %} <link rel="preload" as="image" href="{{ images['04-_copy.webp'] }}"> {% endcomment %}
     {% endif %} 
@@ -197,6 +197,5 @@
 {% include 'gem-app-footer-scripts' %}
 <!--End_Gem_Page_Footer_Script-->
 {% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% endif %}{{'tiny-img-link-preloader.js' | asset_url | script_tag }}
-
 </body>
 </html>
