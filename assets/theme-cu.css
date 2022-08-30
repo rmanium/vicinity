@@ -317,11 +317,17 @@
  * SLIDESHOW
  * --------------------------------------------------------------------
  */
+  a.slideshow__button.button {
+    margin-top: 20px;
+  }
 @media screen and (max-width: 640px) {
   .slideshow__content-wrapper {
     padding-top: 180px;
   }
-  a.slideshow__button.button {
-    margin-top: 20px;
-  }
+
+}
+@media screen and (min-width: 641px) {
+  .slideshow__content-wrapper {
+      padding-bottom: 25px!important;
+    }
 }
