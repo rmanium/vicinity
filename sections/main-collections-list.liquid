@@ -126,7 +126,7 @@
         {%- if section.settings.collections_to_show == 'all' -%}
           {%- render 'pagination', paginate: paginate -%}
         {%- endif -%}
-      {% assign dm_paginate_by = paginate.page_size %}{%- endpaginate -%}
+      {%- endpaginate -%}
     {%- endif -%}
 
     {%- if has_brand_collections -%}
@@ -317,7 +317,7 @@
   </style>
 </section>
 
-{% if dm_paginate_by %}{% render 'spurit_dmr_collection_template_snippet', paginate_by: dm_paginate_by %}{% endif %}{% schema %}
+{% schema %}
 {
   "name": "Collections list",
   "settings": [

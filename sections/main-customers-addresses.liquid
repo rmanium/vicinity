@@ -603,10 +603,10 @@
         </div>
       </div>
     {%- endfor -%}
-  {% assign dm_paginate_by = paginate.page_size %}{%- endpaginate -%}
+  {%- endpaginate -%}
 </section>
 
-{% if dm_paginate_by %}{% render 'spurit_dmr_collection_template_snippet', paginate_by: dm_paginate_by %}{% endif %}{% schema %}
+{% schema %}
 {
   "name": "Addresses"
 }
