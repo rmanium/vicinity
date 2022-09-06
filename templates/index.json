@@ -82,6 +82,54 @@
         "stack_mobile": true
       }
     },
+    "1637542558ac9160e1": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16375425587d2f86b0-0": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-gift-box",
+            "title": "Free Delivery",
+            "content": "<p>For selected areas, on orders above $30.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-fast-delivery",
+            "title": "Fast Delivery",
+            "content": "<p>Receive your order in under 3 hours.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-customer-support",
+            "title": "",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "16375425587d2f86b0-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16375425587d2f86b0-0",
+        "16375425587d2f86b0-1",
+        "16375425587d2f86b0-2",
+        "16375425587d2f86b0-3"
+      ],
+      "settings": {
+        "stack_mobile": false
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -223,54 +271,6 @@
         "link": "shopify:\/\/collections",
         "round_images": true,
         "show_collection_title": true
-      }
-    },
-    "1637542558ac9160e1": {
-      "type": "text-with-icons",
-      "blocks": {
-        "16375425587d2f86b0-0": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-gift-box",
-            "title": "Free Delivery",
-            "content": "<p>For selected areas, on orders above $30.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-fast-delivery",
-            "title": "Fast Delivery",
-            "content": "<p>Receive your order in under 3 hours.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "16375425587d2f86b0-3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16375425587d2f86b0-0",
-        "16375425587d2f86b0-1",
-        "16375425587d2f86b0-2",
-        "16375425587d2f86b0-3"
-      ],
-      "settings": {
-        "stack_mobile": false
       }
     },
     "1637543513bbe51b01": {
@@ -495,8 +495,8 @@
     "165970559810c3db58",
     "slideshow",
     "1636241720a09de843",
-    "collection-list",
     "1637542558ac9160e1",
+    "collection-list",
     "1637543513bbe51b01",
     "featured-collection",
     "text-with-icons",
