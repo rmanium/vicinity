@@ -204,11 +204,24 @@
               "content": "general",
               "btn_feedback_text": "feedback"
             }
+          },
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
+            "type": "schedule",
+            "settings": {
+              "show_only_on_index": false,
+              "show_only_for_visitors": true,
+              "show_only_once": false,
+              "title": "Thanksgiving Delivery Schedules",
+              "content": "<p>We have limited delivery schedules for Monday Oct 10th<\/p><p><br\/>Orders placed by 11am will be delivered on Monday<br\/><br\/>and orders placed after 11 am, will be delivered on Tuesday<\/p>",
+              "show_newsletter": false,
+              "apparition_delay": 5
+            }
           }
         },
         "block_order": [
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
-          "b816b770-242e-43c5-b225-104ad791128f"
+          "b816b770-242e-43c5-b225-104ad791128f",
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42"
         ],
         "settings": {
         }
