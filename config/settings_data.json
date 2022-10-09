@@ -190,8 +190,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": true,
-              "title": "Thanksgiving Delivery Schedules",
-              "content": "<p>We have limited delivery schedules for Monday Oct 10th.<br\/>Orders placed by 11am will be delivered on Monday <\/p><p>and orders placed after 11 am, will be delivered on Tuesday<\/p>",
+              "title": "First time here?",
+              "content": "<p>Did you know first time buyers get $10 off<\/p><p>Use discount code: FirstTime<\/p><p>*applies to orders $75 and above<\/p>",
               "show_newsletter": false,
               "apparition_delay": 3
             }
