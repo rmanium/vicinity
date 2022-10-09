@@ -50,7 +50,7 @@
           {%- endunless -%}
         {%- endunless -%}
 
-        {%- when 'schedule' -%}
+      {%- when 'schedule' -%}
         {%- unless block.settings.show_only_on_index and template != 'index' -%}
           {%- unless block.settings.show_only_for_visitors and customer -%}
             {% capture popup_settings %}
@@ -59,7 +59,8 @@
                 "showOnlyOnce": {{ block.settings.show_only_once | json }}
               }
             {% endcapture %}
-
+             
+          
             <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
               <div class="modal__dialog" role="dialog">
                 <div class="popup-newsletter">
@@ -77,25 +78,19 @@
                     </div>
                   {%- endif -%}
 
-                  {%- if block.settings.show_newsletter -%}
-                    {%- form 'customer', id: 'newsletter-popup', class: 'form popup-newsletter__form' -%}
-                      {%- if form.posted_successfully? -%}
-                        <p class="alert alert--success alert--center">{{ 'general.popup.success' | t }}</p>
-                      {%- else -%}
-                        <input type="hidden" name="contact[tags]" value="newsletter">
-
-                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                          <input id="newsletter-popup[email]" type="email" class="form__field form__field--text" name="contact[email]" autofocus required="required">
-                          <label for="newsletter-popup[email]" class="form__floating-label">{{ 'general.popup.email_placeholder' | t }}</label>
-                        </div>
-
-                        <button class="button button--primary button--full" type="submit">{{ 'general.popup.subscribe' | t }}</button>
-                      {%- endif -%}
-                    {%- endform -%}
-                  {%- endif -%}
                 </div>
               </div>
             </aside>
+
+            <style>
+                .modal__dialog {
+                  background-color: {{ block.settings.background }};
+                  color: {{ block.settings.text_color_body }}
+                }
+                .popup-newsletter__title {
+                  color: {{ block.settings.text_color_title }}
+                }
+              </style>
           {%- endunless -%}
         {%- endunless -%}
 
@@ -331,13 +326,6 @@ var myInterval = setInterval(function(){
           "default": "<p>You can use this popup to display some useful information to your customers.</p>"
         },
         {
-          "type": "checkbox",
-          "id": "show_newsletter",
-          "label": "Show newsletter form",
-          "info": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1).",
-          "default": true
-        },
-        {
           "type": "range",
           "id": "apparition_delay",
           "min": 0,
@@ -346,7 +334,25 @@ var myInterval = setInterval(function(){
           "unit": "sec",
           "label": "Delay until the popup appears",
           "default": 5
-        }
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "text_color_title",
+          "label": "title",
+          "default": "#f52626"
+        },
+        {
+          "type": "color",
+          "id": "text_color_body",
+          "label": "body",
+          "default": "#121251"
+        },
       ]
     },
     {
