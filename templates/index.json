@@ -24,7 +24,7 @@
             "text_color": "#121251",
             "title": "Online Persian Grocery Made Easy",
             "content": "",
-            "content_position": "bottom_center",
+            "content_position": "bottom_left",
             "button_background": "#121251",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
@@ -80,6 +80,54 @@
       "settings": {
         "items_per_row": 3,
         "stack_mobile": true
+      }
+    },
+    "1637542558ac9160e1": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16375425587d2f86b0-0": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-gift-box",
+            "title": "Free Delivery",
+            "content": "<p>For selected areas, on orders above $30.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-fast-delivery",
+            "title": "Fast Delivery",
+            "content": "<p>Current average delivery time  is  2:53 hours.<\/p>"
+          }
+        },
+        "16375425587d2f86b0-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-customer-support",
+            "title": "",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "16375425587d2f86b0-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16375425587d2f86b0-0",
+        "16375425587d2f86b0-1",
+        "16375425587d2f86b0-2",
+        "16375425587d2f86b0-3"
+      ],
+      "settings": {
+        "stack_mobile": false
       }
     },
     "collection-list": {
@@ -225,60 +273,12 @@
         "show_collection_title": true
       }
     },
-    "1637542558ac9160e1": {
-      "type": "text-with-icons",
-      "blocks": {
-        "16375425587d2f86b0-0": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-gift-box",
-            "title": "Free Delivery",
-            "content": "<p>For selected areas, on orders above $30.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-fast-delivery",
-            "title": "Fast Delivery",
-            "content": "<p>Receive your order in under 3 hours.<\/p>"
-          }
-        },
-        "16375425587d2f86b0-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "16375425587d2f86b0-3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16375425587d2f86b0-0",
-        "16375425587d2f86b0-1",
-        "16375425587d2f86b0-2",
-        "16375425587d2f86b0-3"
-      ],
-      "settings": {
-        "stack_mobile": false
-      }
-    },
     "1637543513bbe51b01": {
       "type": "rich-text",
       "settings": {
         "text_width": "narrow",
         "title": "",
-        "content": "<p><strong>\"Vicinity mart made our life easy. Don’t have to drive to any Persian food store anymore. Great and high quality products. Fast and on time delivery. It cost less than driving to store to pick it yourself. I recommend them to everyone. Give them a call and visit their stores online and in person.\"<\/strong><\/p><p><em>al Mo<\/em><\/p>",
+        "content": "<p><strong>\"<\/strong>Unbelievably fastest same day delivery service, great customer service, as well as fresh products! At first I thought it’s only one item being super fresh and I started checking out the rest of my purchase which did leave me in shock for how fresh every single product was…you guys, seriously nailed it🙈   Keep up the hard work cause we need top notch businesses like you here in BC, thank you for your services🌸<strong>\"<\/strong><\/p><p>Nina Safai<\/p>",
         "button_text": "Our products",
         "button_link": ""
       }
@@ -495,8 +495,8 @@
     "165970559810c3db58",
     "slideshow",
     "1636241720a09de843",
-    "collection-list",
     "1637542558ac9160e1",
+    "collection-list",
     "1637543513bbe51b01",
     "featured-collection",
     "text-with-icons",
