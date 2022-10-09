@@ -50,6 +50,40 @@
           {%- endunless -%}
         {%- endunless -%}
 
+      {%- when 'schedule' -%}
+        {%- unless block.settings.show_only_on_index and template != 'index' -%}
+          {%- unless block.settings.show_only_for_visitors and customer -%}
+            {% capture popup_settings %}
+              {
+                "apparitionDelay": {{ block.settings.apparition_delay | json }},
+                "showOnlyOnce": {{ block.settings.show_only_once | json }}
+              }
+            {% endcapture %}
+             
+          
+            <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
+              <div class="modal__dialog" role="dialog" style="color:{{ block.settings.text_color_body }},background-color:{{ block.settings.background }}">
+                <div class="popup-newsletter">
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="popup-newsletter__title heading" style="color:{{ block.settings.text_color_title }}">{{ block.settings.title | escape }}</h3>
+                  {%- endif -%}
+
+                  <button class="popup-newsletter__close link" data-action="close-popup" aria-label="{{ 'general.accessibility.close' | t }}">
+                    {%- render 'icon', icon: 'close' -%}
+                  </button>
+
+                  {%- if block.settings.content != blank -%}
+                    <div class="popup-newsletter__content rte">
+                      {{ block.settings.content }}
+                    </div>
+                  {%- endif -%}
+
+                </div>
+              </div>
+            </aside>
+          {%- endunless -%}
+        {%- endunless -%}
+
       {%- when 'exit' -%}
         {%- unless block.settings.show_only_for_visitors and customer -%}
           {% capture popup_settings %}
@@ -233,6 +267,71 @@ var myInterval = setInterval(function(){
           "label": "Show newsletter form",
           "info": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1).",
           "default": true
+        },
+        {
+          "type": "range",
+          "id": "apparition_delay",
+          "min": 0,
+          "max": 15,
+          "step": 1,
+          "unit": "sec",
+          "label": "Delay until the popup appears",
+          "default": 5
+        }
+      ]
+    },
+    {
+      "name": "Schedule popup",
+      "type": "schedule",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "text_color_title",
+          "label": "title",
+          "default": "#121251"
+        },
+        {
+          "type": "color",
+          "id": "text_color_body",
+          "label": "body",
+          "default": "#121251"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_only_on_index",
+          "label": "Show only on home page",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_only_for_visitors",
+          "label": "Disable for account holders",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_only_once",
+          "label": "Show once to visitors",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Popup"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Text",
+          "default": "<p>You can use this popup to display some useful information to your customers.</p>"
         },
         {
           "type": "range",
