@@ -212,7 +212,7 @@
               "show_only_for_visitors": true,
               "show_only_once": false,
               "title": "Thanksgiving Delivery Schedules",
-              "content": "<p><strong>We have limited delivery schedules for Monday Oct 10th<\/strong><\/p><p><strong><br\/>Orders placed by 11am will be delivered on Monday<\/strong><\/p><p><strong><br\/>and orders placed after 11 am, will be delivered on Tuesday<\/strong><\/p>",
+              "content": "<p><strong>We have limited delivery schedules for Monday Oct 10th<br\/>Orders placed by 11am will be delivered on Monday<br\/>and orders placed after 11 am, will be delivered on Tuesday<\/strong><\/p>",
               "show_newsletter": false,
               "apparition_delay": 5
             }
