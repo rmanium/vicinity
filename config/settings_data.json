@@ -208,11 +208,11 @@
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
             "settings": {
-              "show_only_on_index": false,
+              "show_only_on_index": true,
               "show_only_for_visitors": true,
               "show_only_once": false,
               "title": "Thanksgiving Delivery Schedules",
-              "content": "<p>We have limited delivery schedules for Monday Oct 10th<\/p><p><br\/>Orders placed by 11am will be delivered on Monday<br\/><br\/>and orders placed after 11 am, will be delivered on Tuesday<\/p>",
+              "content": "<p><strong>We have limited delivery schedules for Monday Oct 10th<\/strong><\/p><p><strong><br\/>Orders placed by 11am will be delivered on Monday<\/strong><\/p><p><strong><br\/>and orders placed after 11 am, will be delivered on Tuesday<\/strong><\/p>",
               "show_newsletter": false,
               "apparition_delay": 5
             }
