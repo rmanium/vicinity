@@ -62,10 +62,10 @@
              
           
             <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
-              <div class="modal__dialog" role="dialog">
+              <div class="modal__dialog" role="dialog" style="color:{{ block.settings.text_color_body }},background-color:{{ block.settings.background }}">
                 <div class="popup-newsletter">
                   {%- if block.settings.title != blank -%}
-                    <h3 class="popup-newsletter__title heading">{{ block.settings.title | escape }}</h3>
+                    <h3 class="popup-newsletter__title heading" style="color:{{ block.settings.text_color_title }}">{{ block.settings.title | escape }}</h3>
                   {%- endif -%}
 
                   <button class="popup-newsletter__close link" data-action="close-popup" aria-label="{{ 'general.accessibility.close' | t }}">
@@ -81,16 +81,6 @@
                 </div>
               </div>
             </aside>
-
-            <style>
-                .modal__dialog {
-                  background-color: {{ block.settings.background }};
-                  color: {{ block.settings.text_color_body }}
-                }
-                .popup-newsletter__title {
-                  color: {{ block.settings.text_color_title }}
-                }
-              </style>
           {%- endunless -%}
         {%- endunless -%}
 
@@ -296,6 +286,24 @@ var myInterval = setInterval(function(){
       "limit": 1,
       "settings": [
         {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "text_color_title",
+          "label": "title",
+          "default": "#121251"
+        },
+        {
+          "type": "color",
+          "id": "text_color_body",
+          "label": "body",
+          "default": "#121251"
+        },
+        {
           "type": "checkbox",
           "id": "show_only_on_index",
           "label": "Show only on home page",
@@ -334,25 +342,7 @@ var myInterval = setInterval(function(){
           "unit": "sec",
           "label": "Delay until the popup appears",
           "default": 5
-        },
-        {
-          "type": "color",
-          "id": "background",
-          "label": "Background",
-          "default": "#fff"
-        },
-        {
-          "type": "color",
-          "id": "text_color_title",
-          "label": "title",
-          "default": "#f52626"
-        },
-        {
-          "type": "color",
-          "id": "text_color_body",
-          "label": "body",
-          "default": "#121251"
-        },
+        }
       ]
     },
     {
