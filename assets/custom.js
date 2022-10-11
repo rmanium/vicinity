@@ -64,12 +64,40 @@ $("[data-action-type]").click(function (e) {
 });
 
 /**
+ * handle chat button
+ */
+let checkLoadFBChat;
+let media = window.matchMedia("(max-width: 641px)");
+function handleVisibilityChatButton() {
+  // media = window.matchMedia("(max-width: 641px)");
+  const target = document.querySelector("#dummy-chat-button-iframe");
+  console.log("media", media, target);
+  if (target) {
+    clearInterval(checkLoadFBChat);
+  }
+  if (media.matches) {
+    // If media query matches
+    target.style.display = "none";
+  } else {
+    target.style.display = "block";
+  }
+}
+checkLoadFBChat = setInterval(handleVisibilityChatButton, 500);
+
+/**
  * custom modal
  */
-const showModal = () =>
+
+// media.addEventListener(handleVisibilityChatButton);
+
+const showModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "false");
-const hideModal = () =>
+  media.addEventListener(handleVisibilityChatButton);
+};
+const hideModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "true");
+  // media.removeEventListener(handleVisibilityChatButton);
+};
 
 // Open the Modal Window
 document.querySelector("[data-popup-type='survey']").onclick = function () {

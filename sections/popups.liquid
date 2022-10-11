@@ -61,7 +61,7 @@
             {% endcapture %}
              
           
-            <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
+            <aside class="modal modal--newsletter" data-popup-type="schedule" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
               <div class="modal__dialog" role="dialog" style="color:{{ block.settings.text_color_body }},background-color:{{ block.settings.background }}">
                 <div class="popup-newsletter">
                   {%- if block.settings.title != blank -%}
