@@ -207,8 +207,9 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
+            "disabled": true,
             "settings": {
-              "background": "#fff",
+              "background": "#ffffff",
               "text_color_title": "#ed1c24",
               "text_color_body": "#121251",
               "show_only_on_index": true,
