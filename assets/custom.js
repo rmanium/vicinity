@@ -68,18 +68,33 @@ $("[data-action-type]").click(function (e) {
  */
 let checkLoadFBChat;
 let media = window.matchMedia("(max-width: 641px)");
+
 function handleVisibilityChatButton() {
   // media = window.matchMedia("(max-width: 641px)");
-  const target = document.querySelector("#dummy-chat-button-iframe");
-  console.log("media", media, target);
-  if (target) {
+  const targetFAB = document.querySelector("#dummy-chat-button-iframe");
+
+  console.log(
+    "media",
+    media,
+    // targetFAB,
+    document.querySelector("aside.modal").getAttribute("aria-hidden"),
+    !document.querySelector("aside.modal").getAttribute("aria-hidden"),
+    media.matches
+  );
+
+  if (targetFAB) {
     clearInterval(checkLoadFBChat);
   }
-  if (media.matches) {
+  if (
+    media.matches &&
+    !!document.querySelector("aside.modal").getAttribute("aria-hidden")
+  ) {
     // If media query matches
-    target.style.display = "none";
-  } else {
-    target.style.display = "block";
+    targetFAB.style.display = "none";
+  } else if (
+    !document.querySelector("aside.modal").getAttribute("aria-hidden")
+  ) {
+    targetFAB.style.display = "block";
   }
 }
 checkLoadFBChat = setInterval(handleVisibilityChatButton, 500);
@@ -89,14 +104,16 @@ checkLoadFBChat = setInterval(handleVisibilityChatButton, 500);
  */
 
 // media.addEventListener(handleVisibilityChatButton);
+window.addEventListener("resize", handleVisibilityChatButton);
+modal.addEventListener("popup:closed", (es) => {
+  console.log("popup:", es);
+});
 
 const showModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "false");
-  media.addEventListener(handleVisibilityChatButton);
 };
 const hideModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "true");
-  // media.removeEventListener(handleVisibilityChatButton);
 };
 
 // Open the Modal Window
