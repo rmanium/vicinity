@@ -207,7 +207,6 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
-            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#ed1c24",
@@ -215,8 +214,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": true,
               "show_only_once": false,
-              "title": "Thanksgiving Delivery Schedules",
-              "content": "<p><strong>We have limited delivery schedules for Monday Oct 10th<br\/>Orders placed by 11am will be delivered on Monday<br\/>and orders placed after 11 am, will be delivered on Tuesday<\/strong><\/p>",
+              "title": "Saturday October 22 Delivery Schedule",
+              "content": "<p>Due to anticipated traffic delays on Saturday October 22, we will not have any deliveries between 1-5 PM. All orders will be delivered before or after this window.<\/p>",
               "apparition_delay": 5
             }
           }
