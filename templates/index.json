@@ -313,7 +313,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "fruits-vegetables",
-        "title": "Featured collection",
+        "title": "Fresh Fruits & Vegetables",
         "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
