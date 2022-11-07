@@ -54,9 +54,9 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "medium",
-        "carousel_effect": "slide",
-        "autoplay": false,
+        "section_size": "large",
+        "carousel_effect": "fade",
+        "autoplay": true,
         "cycle_speed": 5
       }
     },
