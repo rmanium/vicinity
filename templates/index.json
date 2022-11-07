@@ -35,6 +35,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/09-_copy-2.webp",
+            "mobile_image": "shopify:\/\/shop_images\/04-_copy.webp",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
