@@ -435,7 +435,7 @@
       "settings": {
         "collection": "baking-ingredients",
         "title": "Featured collection",
-        "products_count": 12,
+        "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
@@ -448,7 +448,20 @@
       "settings": {
         "collection": "beans-grains",
         "title": "Featured collection",
-        "products_count": 12,
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "df4f318a-e9e1-43e8-a6af-6f57e2301061": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "fruits-vegetables",
+        "title": "Featured collection",
+        "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
@@ -472,6 +485,7 @@
     "1637542871cef3e060",
     "survey-modal",
     "8d007a98-70a1-4f6d-aa32-6261103a70c0",
-    "5c86eb7a-2949-437e-935c-7ae95860f44e"
+    "5c86eb7a-2949-437e-935c-7ae95860f44e",
+    "df4f318a-e9e1-43e8-a6af-6f57e2301061"
   ]
 }
