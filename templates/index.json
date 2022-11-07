@@ -493,7 +493,7 @@
     "e4924797-b3ce-4636-b12d-f75ebc6adc41": {
       "type": "collection-with-image",
       "settings": {
-        "collection": "",
+        "collection": "fruits-vegetables",
         "products_count": 12,
         "show_quick_buy": false,
         "background": "#0774d7",
