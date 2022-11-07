@@ -53,11 +53,11 @@
         "6298f733-2db1-450f-9d19-b38fe1140504"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "large",
-        "carousel_effect": "fade",
+        "carousel_effect": "slide",
         "autoplay": true,
-        "cycle_speed": 4
+        "cycle_speed": 5
       }
     },
     "1636241720a09de843": {
