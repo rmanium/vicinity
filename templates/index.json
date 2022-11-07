@@ -326,7 +326,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "baking-ingredients",
-        "title": "Featured collection",
+        "title": "Bakery & Naan",
         "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
