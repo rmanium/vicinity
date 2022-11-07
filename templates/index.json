@@ -30,10 +30,27 @@
             "button_text": "Start Shopping",
             "link": "shopify:\/\/collections"
           }
+        },
+        "6298f733-2db1-450f-9d19-b38fe1140504": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/222.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4"
+        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4",
+        "6298f733-2db1-450f-9d19-b38fe1140504"
       ],
       "settings": {
         "edge_to_edge": true,
