@@ -489,6 +489,51 @@
         "source": "home",
         "content": "general"
       }
+    },
+    "e4924797-b3ce-4636-b12d-f75ebc6adc41": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "Featured collection",
+        "content": "Tell more about your product, collection...",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "Learn more",
+        "button_link": ""
+      }
+    },
+    "8d007a98-70a1-4f6d-aa32-6261103a70c0": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "baking-ingredients",
+        "title": "Featured collection",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "8af7ebe7-46c2-4bf6-9400-8f442a2ee73b": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "beans-grains",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "Featured collection",
+        "content": "Tell more about your product, collection...",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "Learn more",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -505,6 +550,9 @@
     "featured-product",
     "blog-posts",
     "1637542871cef3e060",
-    "survey-modal"
+    "survey-modal",
+    "e4924797-b3ce-4636-b12d-f75ebc6adc41",
+    "8d007a98-70a1-4f6d-aa32-6261103a70c0",
+    "8af7ebe7-46c2-4bf6-9400-8f442a2ee73b"
   ]
 }
