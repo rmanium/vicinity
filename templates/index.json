@@ -360,66 +360,6 @@
         "show_quick_buy": false
       }
     },
-    "featured-product": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "product-meta": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": true,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": true
-          }
-        },
-        "featured-description": {
-          "type": "featured_description",
-          "settings": {
-          }
-        },
-        "variant-selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true
-          }
-        },
-        "42f70914-6313-4a68-9807-69a54d6a4a1b": {
-          "type": "store_pickup",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "product-meta",
-        "featured-description",
-        "variant-selector",
-        "buy-buttons",
-        "42f70914-6313-4a68-9807-69a54d6a4a1b"
-      ],
-      "settings": {
-        "product": "",
-        "title": "Featured product",
-        "link_title": "View details",
-        "link_url": "",
-        "image_size": "small",
-        "enable_image_zoom": true,
-        "enable_video_looping": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "disabled": true,
@@ -490,23 +430,6 @@
         "content": "general"
       }
     },
-    "e4924797-b3ce-4636-b12d-f75ebc6adc41": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "fruits-vegetables",
-        "products_count": 48,
-        "show_quick_buy": false,
-        "image": "shopify:\/\/shop_images\/Fruits-and-Vegetables_1.jpg",
-        "background": "#0774d7",
-        "text_color": "#ffffff",
-        "title": "Fresh Fruits & Vegetables",
-        "content": "Daily Fresh",
-        "button_background": "#ffffff",
-        "button_text_color": "#0774d7",
-        "button_text": "Learn more",
-        "button_link": ""
-      }
-    },
     "8d007a98-70a1-4f6d-aa32-6261103a70c0": {
       "type": "featured-collection",
       "settings": {
@@ -520,20 +443,17 @@
         "link_url": ""
       }
     },
-    "8af7ebe7-46c2-4bf6-9400-8f442a2ee73b": {
-      "type": "collection-with-image",
+    "5c86eb7a-2949-437e-935c-7ae95860f44e": {
+      "type": "featured-collection",
       "settings": {
         "collection": "beans-grains",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#0774d7",
-        "text_color": "#ffffff",
         "title": "Featured collection",
-        "content": "Tell more about your product, collection...",
-        "button_background": "#ffffff",
-        "button_text_color": "#0774d7",
-        "button_text": "Learn more",
-        "button_link": ""
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
       }
     }
   },
@@ -548,12 +468,10 @@
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
-    "featured-product",
     "blog-posts",
     "1637542871cef3e060",
     "survey-modal",
-    "e4924797-b3ce-4636-b12d-f75ebc6adc41",
     "8d007a98-70a1-4f6d-aa32-6261103a70c0",
-    "8af7ebe7-46c2-4bf6-9400-8f442a2ee73b"
+    "5c86eb7a-2949-437e-935c-7ae95860f44e"
   ]
 }
