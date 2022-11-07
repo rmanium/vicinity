@@ -300,7 +300,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "dairy-eggs",
-        "title": "Featured collection",
+        "title": "Dairy & Eggs",
         "products_count": 10,
         "layout": "vertical",
         "stack_products": false,
