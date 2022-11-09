@@ -339,7 +339,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "houseware",
-        "title": "Featured collection",
+        "title": "Household",
         "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
