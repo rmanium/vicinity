@@ -335,6 +335,19 @@
         "link_url": ""
       }
     },
+    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "houseware",
+        "title": "Featured collection",
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "disabled": true,
@@ -481,6 +494,7 @@
     "featured-collection",
     "df4f318a-e9e1-43e8-a6af-6f57e2301061",
     "8d007a98-70a1-4f6d-aa32-6261103a70c0",
+    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf",
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
