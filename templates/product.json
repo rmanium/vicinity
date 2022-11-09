@@ -36,26 +36,9 @@
           }
         },
         "4d4ca45c-f661-4447-886d-101fb80edd1c": {
-          "type": "shopify:\/\/apps\/trust-me-free-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "type": "shopify:\/\/apps\/trust-me-trust-badges-icon\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
           "disabled": true,
           "settings": {
-          }
-        },
-        "8185f09b-1922-4eaf-8605-a8e195eadedf": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "3c5991a0-5296-42bd-ab3f-7dc5fa4bee3a": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#008a00",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
           }
         }
       },
@@ -64,9 +47,7 @@
         "variant_selector",
         "description",
         "buy_buttons",
-        "4d4ca45c-f661-4447-886d-101fb80edd1c",
-        "8185f09b-1922-4eaf-8605-a8e195eadedf",
-        "3c5991a0-5296-42bd-ab3f-7dc5fa4bee3a"
+        "4d4ca45c-f661-4447-886d-101fb80edd1c"
       ],
       "settings": {
         "image_size": "small",
@@ -78,6 +59,31 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "blocks": {
+        "c4ef226d-2125-4ad9-b340-cfc35de5f668": {
+          "type": "product",
+          "settings": {
+            "product": "nero-amore-americano-coffee-capsule-10-ct"
+          }
+        },
+        "7ee28413-5c71-417d-9b4a-d7bac1a57ebb": {
+          "type": "product",
+          "settings": {
+            "product": "nero-amore-brasil-coffee-capsule-no-8-10-ct"
+          }
+        },
+        "6cdbbc50-254b-4021-af4c-5f867392b823": {
+          "type": "product",
+          "settings": {
+            "product": "nero-amore-colombia-coffee-capsule-no-10-10-ct"
+          }
+        }
+      },
+      "block_order": [
+        "c4ef226d-2125-4ad9-b340-cfc35de5f668",
+        "7ee28413-5c71-417d-9b4a-d7bac1a57ebb",
+        "6cdbbc50-254b-4021-af4c-5f867392b823"
+      ],
       "settings": {
         "heading": "You may also like",
         "show_quick_buy": false
