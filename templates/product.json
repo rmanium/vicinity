@@ -66,6 +66,18 @@
             "product": "nero-amore-americano-coffee-capsule-10-ct"
           }
         },
+        "d168497f-1cce-4b8e-acea-e4075b2c9ae1": {
+          "type": "product",
+          "settings": {
+            "product": "nero-amore-italiano-coffee-capsule-no-6-10-ct"
+          }
+        },
+        "6c4997ef-e585-420d-a04a-96d871fad4e3": {
+          "type": "product",
+          "settings": {
+            "product": "nero-amore-maria-coffee-capsule-no-7-10-ct"
+          }
+        },
         "7ee28413-5c71-417d-9b4a-d7bac1a57ebb": {
           "type": "product",
           "settings": {
@@ -87,6 +99,8 @@
       },
       "block_order": [
         "c4ef226d-2125-4ad9-b340-cfc35de5f668",
+        "d168497f-1cce-4b8e-acea-e4075b2c9ae1",
+        "6c4997ef-e585-420d-a04a-96d871fad4e3",
         "7ee28413-5c71-417d-9b4a-d7bac1a57ebb",
         "6cdbbc50-254b-4021-af4c-5f867392b823",
         "2e021de6-0d3b-4796-ab48-f2c1fca09b43"
