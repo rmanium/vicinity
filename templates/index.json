@@ -33,6 +33,7 @@
         },
         "dec882c9-04da-475a-a36c-0269dba5f5db": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/baner2-d.jpg",
             "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100.jpg",
