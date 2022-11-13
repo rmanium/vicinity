@@ -67,47 +67,18 @@ $("[data-action-type]").click(function (e) {
  * handle chat button
  */
 let checkLoadFBChat;
-let media = window.matchMedia("(max-width: 641px)");
-
-function handleVisibilityChatButton() {
-  // media = window.matchMedia("(max-width: 641px)");
+function handleStyleChatButton() {
   const targetFAB = document.querySelector("#dummy-chat-button-iframe");
-
-  console.log(
-    "media",
-    media,
-    // targetFAB,
-    document.querySelector("aside.modal").getAttribute("aria-hidden"),
-    !document.querySelector("aside.modal").getAttribute("aria-hidden"),
-    media.matches
-  );
-
   if (targetFAB) {
+    targetFAB.style.zIndex = 999;
     clearInterval(checkLoadFBChat);
   }
-  if (
-    media.matches &&
-    !!document.querySelector("aside.modal").getAttribute("aria-hidden")
-  ) {
-    // If media query matches
-    targetFAB.style.display = "none";
-  } else if (
-    !document.querySelector("aside.modal").getAttribute("aria-hidden")
-  ) {
-    targetFAB.style.display = "block";
-  }
 }
-checkLoadFBChat = setInterval(handleVisibilityChatButton, 500);
+checkLoadFBChat = setInterval(handleStyleChatButton, 500);
 
 /**
  * custom modal
  */
-
-// media.addEventListener(handleVisibilityChatButton);
-window.addEventListener("resize", handleVisibilityChatButton);
-modal.addEventListener("popup:closed", (es) => {
-  console.log("popup:", es);
-});
 
 const showModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "false");
