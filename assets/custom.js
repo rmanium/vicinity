@@ -64,12 +64,28 @@ $("[data-action-type]").click(function (e) {
 });
 
 /**
+ * handle chat button
+ */
+let checkLoadFBChat;
+function handleStyleChatButton() {
+  const targetFAB = document.querySelector("#dummy-chat-button-iframe");
+  if (targetFAB) {
+    targetFAB.style.zIndex = 999;
+    clearInterval(checkLoadFBChat);
+  }
+}
+checkLoadFBChat = setInterval(handleStyleChatButton, 500);
+
+/**
  * custom modal
  */
-const showModal = () =>
+
+const showModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "false");
-const hideModal = () =>
+};
+const hideModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "true");
+};
 
 // Open the Modal Window
 document.querySelector("[data-popup-type='survey']").onclick = function () {
