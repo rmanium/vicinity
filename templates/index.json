@@ -17,18 +17,18 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Order_Recieve_16e7cd4d-6e38-46d1-abc0-e541129f207e.jpg",
+            "image": "shopify:\/\/shop_images\/Order_Recieve_59cf3048-4cb0-4130-9029-f396dd12fb8e.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Order_Recieve_-_mobile.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "content_position": "bottom_center",
+            "button_background": "#f21d2f",
+            "button_text_color": "#ffffff",
+            "button_text": "Start Shopping",
+            "link": "shopify:\/\/collections"
           }
         },
         "6298f733-2db1-450f-9d19-b38fe1140504": {
