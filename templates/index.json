@@ -18,6 +18,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Order_Recieve.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Order_Recieve_-_mobile.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
