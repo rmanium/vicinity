@@ -14,7 +14,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4": {
+        "74d92554-7dd4-4a28-91ea-ff25537a114d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Order_Recieve_68cd3281-9339-477e-b03e-e327bb884df1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Order_Recieve_-_mobile_49ce18b9-da96-43c8-a167-6f031664823a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "bottom_left",
+            "button_background": "#f21d2f",
+            "button_text_color": "#ffffff",
+            "button_text": "Start Shopping",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/landing-2.jpg",
@@ -22,24 +39,44 @@
             "show_overlay": true,
             "overlay_opacity": 35,
             "text_color": "#121251",
-            "title": "Online Persian Grocery Made Easy",
+            "title": "Online Grocery Made Easy",
             "content": "",
             "content_position": "bottom_left",
             "button_background": "#121251",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
+            "link": "shopify:\/\/pages\/all-collections"
+          }
+        },
+        "dec882c9-04da-475a-a36c-0269dba5f5db": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baner2-d.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ed1c24",
+            "button_text_color": "#ffffff",
+            "button_text": "Order Now",
             "link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
-        "c6d0338e-32a6-4ebb-942a-21ebe84ef2e4"
+        "74d92554-7dd4-4a28-91ea-ff25537a114d",
+        "6298f733-2db1-450f-9d19-b38fe1140504",
+        "dec882c9-04da-475a-a36c-0269dba5f5db"
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "medium",
+        "section_size": "large",
         "carousel_effect": "slide",
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 5
       }
     },
@@ -98,7 +135,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p>Current average delivery time  is  2:53 hours.<\/p>"
+            "content": "<p>Current average delivery time  is  2:39 hours.<\/p>"
           }
         },
         "16375425587d2f86b0-2": {
@@ -276,24 +313,76 @@
     "1637543513bbe51b01": {
       "type": "rich-text",
       "settings": {
-        "text_width": "narrow",
+        "text_width": "regular",
         "title": "",
-        "content": "<p><strong>\"<\/strong>Unbelievably fastest same day delivery service, great customer service, as well as fresh products! At first I thought it’s only one item being super fresh and I started checking out the rest of my purchase which did leave me in shock for how fresh every single product was…you guys, seriously nailed it🙈   Keep up the hard work cause we need top notch businesses like you here in BC, thank you for your services🌸<strong>\"<\/strong><\/p><p>Nina Safai<\/p>",
+        "content": "<p>\"Very fast delivery, nice behavior, high quality products. They gave me the products in the cute red basket (zanbil)☺️\"<\/p><p><\/p><p>Behnaz Oodi<\/p>",
         "button_text": "Our products",
         "button_link": ""
+      }
+    },
+    "5c86eb7a-2949-437e-935c-7ae95860f44e": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "beans-grains",
+        "title": "Beans & Grains",
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
       }
     },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
         "collection": "dairy-eggs",
-        "title": "Featured collection",
-        "products_count": 10,
+        "title": "Dairy & Eggs",
+        "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
         "link_url": "shopify:\/\/collections\/all"
+      }
+    },
+    "df4f318a-e9e1-43e8-a6af-6f57e2301061": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "fruits-vegetables",
+        "title": "Fresh Fruits & Vegetables",
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "8d007a98-70a1-4f6d-aa32-6261103a70c0": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "baking-ingredients",
+        "title": "Bakery & Naan",
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "houseware",
+        "title": "Household",
+        "products_count": 50,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
       }
     },
     "text-with-icons": {
@@ -358,66 +447,6 @@
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "product-meta": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": true,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": true
-          }
-        },
-        "featured-description": {
-          "type": "featured_description",
-          "settings": {
-          }
-        },
-        "variant-selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true
-          }
-        },
-        "42f70914-6313-4a68-9807-69a54d6a4a1b": {
-          "type": "store_pickup",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "product-meta",
-        "featured-description",
-        "variant-selector",
-        "buy-buttons",
-        "42f70914-6313-4a68-9807-69a54d6a4a1b"
-      ],
-      "settings": {
-        "product": "",
-        "title": "Featured product",
-        "link_title": "View details",
-        "link_url": "",
-        "image_size": "small",
-        "enable_image_zoom": true,
-        "enable_video_looping": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
       }
     },
     "blog-posts": {
@@ -498,11 +527,14 @@
     "1637542558ac9160e1",
     "collection-list",
     "1637543513bbe51b01",
+    "5c86eb7a-2949-437e-935c-7ae95860f44e",
     "featured-collection",
+    "df4f318a-e9e1-43e8-a6af-6f57e2301061",
+    "8d007a98-70a1-4f6d-aa32-6261103a70c0",
+    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf",
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
-    "featured-product",
     "blog-posts",
     "1637542871cef3e060",
     "survey-modal"
