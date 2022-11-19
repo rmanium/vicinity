@@ -332,9 +332,9 @@ a.slideshow__button.button {
 }
 /* prev/next buttons */
 .flickity-prev-next-button.previous {
-  left: 5px;
+  left: 0px;
 }
 
 .flickity-prev-next-button.next {
-  right: 5px;
+  right: 0px;
 }

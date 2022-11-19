@@ -87,8 +87,15 @@ const hideModal = () => {
   document.querySelector(".cu-modal").setAttribute("aria-hidden", "true");
 };
 
-// Open the Modal Window
-document.querySelector("[data-popup-type='survey']").onclick = function () {
+// Open Feedback Modal
+let delay = 30000;
+let btnTarget = document.querySelector("[data-popup-type='survey']");
+btnTarget.style.display = "none";
+setTimeout(() => {
+  btnTarget.style.display = "block";
+}, delay);
+
+btnTarget.onclick = function () {
   showModal();
   ga("send", {
     hitType: "event",
