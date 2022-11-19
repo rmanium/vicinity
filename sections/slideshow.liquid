@@ -1,8 +1,8 @@
 {%- capture section_settings -%}
 {
   "autoPlay": {{ section.settings.autoplay | json }},
-  "prevNextButtons": false,
-  "pageDots": {% if section.blocks.size > 1 %}true{% else %}false{% endif %},
+  "prevNextButtons": {% if section.blocks.size > 1 %}true{% else %}false{% endif %},
+  "pageDots": false,
   "setGallerySize": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
   "adaptiveHeight": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
   "transitionEffect": {{ section.settings.carousel_effect | json }},

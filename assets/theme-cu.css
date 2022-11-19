@@ -330,3 +330,11 @@ a.slideshow__button.button {
     padding-bottom: 25px !important;
   }
 }
+/* prev/next buttons */
+.flickity-prev-next-button.previous {
+  left: 5px;
+}
+
+.flickity-prev-next-button.next {
+  right: 5px;
+}
