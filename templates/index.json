@@ -34,15 +34,15 @@
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/landing-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mlanding-1.jpg",
+            "image": "shopify:\/\/shop_images\/baner22-1401-08-30.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100_f380cbb9-fe9c-4368-b711-cb8ec9a6d372.jpg",
             "show_overlay": true,
             "overlay_opacity": 35,
             "text_color": "#121251",
-            "title": "Online Grocery Made Easy",
+            "title": "",
             "content": "",
             "content_position": "bottom_center",
-            "button_background": "#121251",
+            "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
             "link": "shopify:\/\/pages\/all-collections"
