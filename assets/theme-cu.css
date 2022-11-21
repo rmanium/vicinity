@@ -160,7 +160,7 @@
   left: 0;
   width: 100%;
   margin: 0 auto;
-  z-index: 10;
+  z-index: 1000;
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
@@ -317,17 +317,24 @@
  * SLIDESHOW
  * --------------------------------------------------------------------
  */
-  a.slideshow__button.button {
-    margin-top: 20px;
-  }
+a.slideshow__button.button {
+  margin-top: 20px;
+}
 @media screen and (max-width: 640px) {
   .slideshow__content-wrapper {
     padding-top: 180px;
   }
-
 }
 @media screen and (min-width: 641px) {
   .slideshow__content-wrapper {
-      padding-bottom: 25px!important;
-    }
+    padding-bottom: 25px !important;
+  }
+}
+/* prev/next buttons */
+.flickity-prev-next-button.previous {
+  left: 0px;
+}
+
+.flickity-prev-next-button.next {
+  right: 0px;
 }

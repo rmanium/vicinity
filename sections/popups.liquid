@@ -11,14 +11,14 @@
               }
             {% endcapture %}
 
-            <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
+            <aside class="modal modal--newsletter" data-popup-type="newsletter"  data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
               <div class="modal__dialog" role="dialog">
                 <div class="popup-newsletter">
                   {%- if block.settings.title != blank -%}
                     <h3 class="popup-newsletter__title heading">{{ block.settings.title | escape }}</h3>
                   {%- endif -%}
 
-                  <button class="popup-newsletter__close link" data-action="close-popup" aria-label="{{ 'general.accessibility.close' | t }}">
+                  <button class="popup-newsletter__close link" data-action="close-popup"  aria-label="{{ 'general.accessibility.close' | t }}">
                     {%- render 'icon', icon: 'close' -%}
                   </button>
 
@@ -61,7 +61,7 @@
             {% endcapture %}
              
           
-            <aside class="modal modal--newsletter" data-popup-type="newsletter" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
+            <aside class="modal modal--newsletter" data-popup-type="schedule" data-popup-settings='{{ popup_settings }}' aria-hidden="true" {{ block.shopify_attributes }}>
               <div class="modal__dialog" role="dialog" style="color:{{ block.settings.text_color_body }},background-color:{{ block.settings.background }}">
                 <div class="popup-newsletter">
                   {%- if block.settings.title != blank -%}
