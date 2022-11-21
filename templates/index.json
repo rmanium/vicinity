@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/baner22-1401-08-30.jpg",
             "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100_f380cbb9-fe9c-4368-b711-cb8ec9a6d372.jpg",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_opacity": 35,
             "text_color": "#121251",
             "title": "",
