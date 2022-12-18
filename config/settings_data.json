@@ -207,7 +207,6 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
-            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#ed1c24",
@@ -215,8 +214,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": true,
               "show_only_once": false,
-              "title": "Saturday October 22 Delivery Schedule",
-              "content": "<p>Due to anticipated traffic delays on Saturday October 22, we will not have any deliveries between 1-5 PM. All orders will be delivered before or after this window.<\/p>",
+              "title": "Current Delivery Schedule!",
+              "content": "<p>Due to weather and traffic condition orders placed now will be delivered by tomorrow afternoon.<\/p>",
               "apparition_delay": 5
             }
           }
