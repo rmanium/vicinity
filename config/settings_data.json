@@ -202,12 +202,12 @@
             "type": "newsletter",
             "settings": {
               "show_only_on_index": true,
-              "show_only_for_visitors": false,
+              "show_only_for_visitors": true,
               "show_only_once": true,
               "title": "First time here?",
               "content": "<p>Did you know first time buyers get $10 off<\/p><p>Use discount code: FirstTime<\/p><p>*applies to orders $75 and above<\/p>",
               "show_newsletter": false,
-              "apparition_delay": 3
+              "apparition_delay": 5
             }
           },
           "b816b770-242e-43c5-b225-104ad791128f": {
