@@ -195,7 +195,7 @@
               "show_only_once": false,
               "title": "Current Delivery Schedule!",
               "content": "<p>Due to weather and traffic condition orders placed now will be delivered by tomorrow afternoon.<\/p>",
-              "apparition_delay": 5
+              "apparition_delay": 1
             }
           },
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21": {
