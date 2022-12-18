@@ -184,6 +184,20 @@
       "popups": {
         "type": "popups",
         "blocks": {
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
+            "type": "schedule",
+            "settings": {
+              "background": "#ffffff",
+              "text_color_title": "#ed1c24",
+              "text_color_body": "#121251",
+              "show_only_on_index": false,
+              "show_only_for_visitors": false,
+              "show_only_once": false,
+              "title": "Current Delivery Schedule!",
+              "content": "<p>Due to weather and traffic condition orders placed now will be delivered by tomorrow afternoon.<\/p>",
+              "apparition_delay": 5
+            }
+          },
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21": {
             "type": "newsletter",
             "settings": {
@@ -204,26 +218,12 @@
               "content": "general",
               "btn_feedback_text": "feedback"
             }
-          },
-          "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
-            "type": "schedule",
-            "settings": {
-              "background": "#ffffff",
-              "text_color_title": "#ed1c24",
-              "text_color_body": "#121251",
-              "show_only_on_index": true,
-              "show_only_for_visitors": true,
-              "show_only_once": false,
-              "title": "Current Delivery Schedule!",
-              "content": "<p>Due to weather and traffic condition orders placed now will be delivered by tomorrow afternoon.<\/p>",
-              "apparition_delay": 5
-            }
           }
         },
         "block_order": [
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42",
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
-          "b816b770-242e-43c5-b225-104ad791128f",
-          "dbf07039-76fd-423e-8b60-8ea94ebd2d42"
+          "b816b770-242e-43c5-b225-104ad791128f"
         ],
         "settings": {
         }
