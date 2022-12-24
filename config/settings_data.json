@@ -208,8 +208,8 @@
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
             "settings": {
-              "background": "#ffffff",
-              "text_color_title": "#ed1c24",
+              "background": "#ed1c24",
+              "text_color_title": "#121251",
               "text_color_body": "#121251",
               "show_only_on_index": false,
               "show_only_for_visitors": false,
