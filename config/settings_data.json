@@ -162,7 +162,7 @@
           "show_announcement": true,
           "background": "#151859",
           "text_color": "#ffffff",
-          "text1": "Fast and free delivery for Greater Vancouver on orders above $30",
+          "text1": "All orders placed from 3 PM Saturday Dec 24th to 3 PM Sunday Dec 25th, will be delivered on Sunday Dec 25th evening.",
           "link1": "",
           "text2": "ارسال سریع و رایگان در  ونکور بزرگ برای سفارش های بالای ۳۰ دلار",
           "link2": "",
@@ -170,7 +170,7 @@
           "link3": "",
           "text4": "ارسال در کمتر از 3 ساعت برای سفارشات دریافتی تا قبل از 7 شب",
           "link4": "",
-          "text5": "",
+          "text5": "Fast and free delivery for Greater Vancouver on orders above $30",
           "link5": "",
           "text6": "",
           "link6": "",
@@ -208,8 +208,8 @@
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
             "settings": {
-              "background": "#ed1c24",
-              "text_color_title": "#121251",
+              "background": "#ffffff",
+              "text_color_title": "#ed1c24",
               "text_color_body": "#121251",
               "show_only_on_index": false,
               "show_only_for_visitors": false,
