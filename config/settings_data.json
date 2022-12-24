@@ -216,8 +216,8 @@
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Current Delivery Schedule!",
-              "content": "<p>Due to weather and traffic conditions today’s orders will be delivered by this evening.<\/p><p>Thanks for your patience.<\/p>",
-              "apparition_delay": 2
+              "content": "<p>Our elves will be off from 3 PM Saturday Dec 24th to 3 PM Sunday Dec 25th.<\/p><p>All orders placed during this period will be delivered on Sunday Dec 25th evening.<\/p><p>Happy Holidays from our family to yours.<\/p>",
+              "apparition_delay": 1
             }
           }
         },
