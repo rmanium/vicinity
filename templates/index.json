@@ -4,9 +4,9 @@
       "type": "image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/landing-1.jpg",
+        "image": "shopify://shop_images/landing-1.jpg",
         "title": "Online Persian Grocery Made Easy",
-        "content": "<p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
+        "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
         "show_image_overlay": true,
         "color": "#ffffff"
       }
@@ -17,43 +17,43 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Order_Recieve_68cd3281-9339-477e-b03e-e327bb884df1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Order_Recieve_-_mobile_49ce18b9-da96-43c8-a167-6f031664823a.jpg",
+            "image": "shopify://shop_images/baner11-1401-08-30_copy.jpg",
+            "mobile_image": "shopify://shop_images/baner2-750-1100_copy2.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "bottom_center",
-            "button_background": "#f21d2f",
+            "content_position": "middle_center",
+            "button_background": "#ff0000",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/landing-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mlanding-1.jpg",
-            "show_overlay": true,
+            "image": "shopify://shop_images/baner22-1401-08-30.jpg",
+            "mobile_image": "shopify://shop_images/baner11-750-1100_f380cbb9-fe9c-4368-b711-cb8ec9a6d372.jpg",
+            "show_overlay": false,
             "overlay_opacity": 35,
             "text_color": "#121251",
-            "title": "Online Grocery Made Easy",
+            "title": "",
             "content": "",
             "content_position": "bottom_center",
-            "button_background": "#121251",
+            "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
-            "link": "shopify:\/\/pages\/all-collections"
+            "link": "shopify://pages/all-collections"
           }
         },
         "dec882c9-04da-475a-a36c-0269dba5f5db": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/baner2-d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100.jpg",
+            "image": "shopify://shop_images/baner2-d.jpg",
+            "mobile_image": "shopify://shop_images/baner11-750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -63,7 +63,7 @@
             "button_background": "#ed1c24",
             "button_text_color": "#ffffff",
             "button_text": "Order Now",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         }
       },
@@ -77,7 +77,7 @@
         "section_size": "large",
         "carousel_effect": "slide",
         "autoplay": true,
-        "cycle_speed": 5
+        "cycle_speed": 3
       }
     },
     "1636241720a09de843": {
@@ -87,25 +87,25 @@
         "1636241720a09de843-0": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-magnifier-6-240_1.png",
+            "image": "shopify://shop_images/iconmonstr-magnifier-6-240_1.png",
             "title": "Browse",
-            "content": "<p>Browse our selection of quality<br\/>products.<\/p>"
+            "content": "<p>Browse our selection of quality<br/>products.</p>"
           }
         },
         "1636241720a09de843-1": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-check-mark-14-240.png",
+            "image": "shopify://shop_images/iconmonstr-check-mark-14-240.png",
             "title": "Order",
-            "content": "<p>Easily place your<br\/>order on our website.<\/p>"
+            "content": "<p>Easily place your<br/>order on our website.</p>"
           }
         },
         "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-delivery-6-240_2.png",
+            "image": "shopify://shop_images/iconmonstr-delivery-6-240_2.png",
             "title": "Receive",
-            "content": "<p>We'll deliver your order in under 3 hours.<\/p>"
+            "content": "<p>We'll deliver your order in under 3 hours.</p>"
           }
         }
       },
@@ -127,7 +127,7 @@
           "settings": {
             "icon": "bi-gift-box",
             "title": "Free Delivery",
-            "content": "<p>For selected areas, on orders above $30.<\/p>"
+            "content": "<p>For selected areas, on orders above $30.</p>"
           }
         },
         "16375425587d2f86b0-1": {
@@ -135,7 +135,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p>Current average delivery time  is  2:39 hours.<\/p>"
+            "content": "<p>Current average delivery time  is  2:45 hours.</p>"
           }
         },
         "16375425587d2f86b0-2": {
@@ -144,7 +144,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "16375425587d2f86b0-3": {
@@ -153,7 +153,7 @@
           "settings": {
             "icon": "bi-secure-payment",
             "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         }
       },
@@ -182,7 +182,7 @@
           "type": "collection",
           "settings": {
             "collection": "fruits-vegetables",
-            "image": "shopify:\/\/shop_images\/engin-akyurt-eb26eV-ys_k-unsplash_1.jpg",
+            "image": "shopify://shop_images/engin-akyurt-eb26eV-ys_k-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -190,7 +190,7 @@
           "type": "collection",
           "settings": {
             "collection": "baking-ingredients",
-            "image": "shopify:\/\/shop_images\/Sourdough-Barbari-4.700px.jpg",
+            "image": "shopify://shop_images/Sourdough-Barbari-4.700px.jpg",
             "link": ""
           }
         },
@@ -198,7 +198,7 @@
           "type": "collection",
           "settings": {
             "collection": "dried-fruits-nuts",
-            "image": "shopify:\/\/shop_images\/engin-akyurt-VkQJDLEPN3w-unsplash_1.jpg",
+            "image": "shopify://shop_images/engin-akyurt-VkQJDLEPN3w-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -206,7 +206,7 @@
           "type": "collection",
           "settings": {
             "collection": "rice-mixes-berenj",
-            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
+            "image": "shopify://shop_images/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -214,7 +214,7 @@
           "type": "collection",
           "settings": {
             "collection": "dairy-eggs",
-            "image": "shopify:\/\/shop_images\/erol-ahmed-leOh1CzRZVQ-unsplash_1.jpg",
+            "image": "shopify://shop_images/erol-ahmed-leOh1CzRZVQ-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -222,7 +222,7 @@
           "type": "collection",
           "settings": {
             "collection": "pickled-torshi",
-            "image": "shopify:\/\/shop_images\/molin-4C25CSqK2PI-unsplash_1.jpg",
+            "image": "shopify://shop_images/molin-4C25CSqK2PI-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -244,7 +244,7 @@
           "type": "collection",
           "settings": {
             "collection": "herb-mixes-sabzi",
-            "image": "shopify:\/\/shop_images\/How-to-Use-Dried-Herbs-in-Cooking-culinary-physics.jpg",
+            "image": "shopify://shop_images/How-to-Use-Dried-Herbs-in-Cooking-culinary-physics.jpg",
             "link": ""
           }
         },
@@ -305,7 +305,7 @@
       "settings": {
         "title": "Our collections",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
       }
@@ -315,7 +315,7 @@
       "settings": {
         "text_width": "regular",
         "title": "",
-        "content": "<p>\"Very fast delivery, nice behavior, high quality products. They gave me the products in the cute red basket (zanbil)☺️\"<\/p><p><\/p><p>Behnaz Oodi<\/p>",
+        "content": "<p>\"The order arrived on time, it was packed in a good way, high quality goods had been sent in a very cute red Zanbil :-)\"</p><p></p><p>Arezoo Azimzadeh</p>",
         "button_text": "Our products",
         "button_link": ""
       }
@@ -343,7 +343,7 @@
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
-        "link_url": "shopify:\/\/collections\/all"
+        "link_url": "shopify://collections/all"
       }
     },
     "df4f318a-e9e1-43e8-a6af-6f57e2301061": {
@@ -394,7 +394,7 @@
           "settings": {
             "icon": "bi-delivery",
             "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-2": {
@@ -402,7 +402,7 @@
           "settings": {
             "icon": "bi-returns",
             "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-3": {
@@ -410,7 +410,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-4": {
@@ -418,16 +418,11 @@
           "settings": {
             "icon": "bi-secure-payment",
             "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         }
       },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
+      "block_order": ["icon-1", "icon-2", "icon-3", "icon-4"],
       "settings": {
         "stack_mobile": false
       }
@@ -437,7 +432,7 @@
       "disabled": true,
       "settings": {
         "title": "Newsletter",
-        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>",
+        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>",
         "background": "#121251",
         "text": "#ffffff"
       }
@@ -499,10 +494,7 @@
           }
         }
       },
-      "block_order": [
-        "163754287132cb0d7a-0",
-        "163754287132cb0d7a-1"
-      ],
+      "block_order": ["163754287132cb0d7a-0", "163754287132cb0d7a-1"],
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
