@@ -32,6 +32,7 @@
     "heading_font": "ubuntu_n7",
     "text_font": "ubuntu_n5",
     "underline_links": true,
+    "currency_code_enabled": true,
     "animation_image_zoom": false,
     "search_mode": "product",
     "show_vendor": false,
