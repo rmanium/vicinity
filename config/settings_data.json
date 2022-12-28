@@ -199,7 +199,6 @@
           },
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
-            "disabled": true,
             "settings": {
               "ifram_url": "https:\/\/marketing.vicinitymart.com",
               "source": "general",
@@ -209,6 +208,7 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
+            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#f21d2f",
