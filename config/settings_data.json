@@ -199,6 +199,7 @@
           },
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
+            "disabled": true,
             "settings": {
               "ifram_url": "https:\/\/marketing.vicinitymart.com",
               "source": "general",
