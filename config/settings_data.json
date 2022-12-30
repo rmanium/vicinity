@@ -197,6 +197,20 @@
               "apparition_delay": 5
             }
           },
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
+            "type": "schedule",
+            "settings": {
+              "background": "#ffffff",
+              "text_color_title": "#f21d2f",
+              "text_color_body": "#ffffff",
+              "show_only_on_index": true,
+              "show_only_for_visitors": false,
+              "show_only_once": true,
+              "title": "New Year's Eve Hours",
+              "content": "<p>All orders placed by 2 PM on Saturday December 31, 2022 will be delivered on Saturday.<\/p><p>Orders placed between 2 PM Saturday and 2 PM Sunday Jan 1, 2023 will be delivered on Sunday.<\/p><p>Please note: There might be a low availability on Sangak and Barbari breads.<\/p><p>Wishing you a healthy, happy and prosperous 2023.<\/p><p>Vicinity Mart<\/p>",
+              "apparition_delay": 1
+            }
+          },
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
             "settings": {
@@ -205,27 +219,12 @@
               "content": "general",
               "btn_feedback_text": "feedback"
             }
-          },
-          "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
-            "type": "schedule",
-            "disabled": true,
-            "settings": {
-              "background": "#ffffff",
-              "text_color_title": "#f21d2f",
-              "text_color_body": "#ffffff",
-              "show_only_on_index": true,
-              "show_only_for_visitors": false,
-              "show_only_once": false,
-              "title": "New Year's Eve Hours",
-              "content": "<p>All orders placed by 2 PM on Saturday December 31, 2022 will be delivered on Saturday.<\/p><p>Orders placed between 2 PM Saturday and 2 PM Sunday Jan 1, 2023 will be delivered on Sunday.<\/p><p>Please note: There might be a low availability on Sangak and Barbari breads.<\/p><p>Wishing you a healthy, happy and prosperous 2023.<\/p><p>Vicinity Mart<\/p>",
-              "apparition_delay": 1
-            }
           }
         },
         "block_order": [
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
-          "b816b770-242e-43c5-b225-104ad791128f",
-          "dbf07039-76fd-423e-8b60-8ea94ebd2d42"
+          "dbf07039-76fd-423e-8b60-8ea94ebd2d42",
+          "b816b770-242e-43c5-b225-104ad791128f"
         ],
         "settings": {
         }
