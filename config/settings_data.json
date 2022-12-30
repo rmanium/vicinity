@@ -213,11 +213,11 @@
               "background": "#ffffff",
               "text_color_title": "#f21d2f",
               "text_color_body": "#ffffff",
-              "show_only_on_index": false,
+              "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": false,
-              "title": "Current Delivery Schedule!",
-              "content": "<p>Our elves will be off from 3 PM Saturday Dec 24th to 10 AM  Monday Dec 26th.<\/p><p>All orders placed during this period will be delivered on Monday Dec 26th..<\/p><p>Happy Holidays from our family to yours.<\/p>",
+              "title": "New Year's Eve Hours",
+              "content": "<p>All orders placed by 2 PM on Saturday December 31, 2022 will be delivered on Saturday.<\/p><p>Orders placed between 2 PM Saturday and 2 PM Sunday Jan 1, 2023 will be delivered on Sunday.<\/p><p>Please note: There might be a low availability on Sangak and Barbari breads.<\/p><p>Wishing you a healthy, happy and prosperous 2023.<\/p><p>Vicinity Mart<\/p>",
               "apparition_delay": 1
             }
           }
