@@ -186,26 +186,10 @@
             "link": ""
           }
         },
-        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
-          "type": "collection",
-          "settings": {
-            "collection": "baking-ingredients",
-            "image": "shopify:\/\/shop_images\/Sourdough-Barbari-4.700px.jpg",
-            "link": ""
-          }
-        },
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1": {
           "type": "collection",
           "settings": {
             "collection": "meat-poultry",
-            "link": ""
-          }
-        },
-        "05b3eebb-b7fc-49e8-a944-b5e1270c9319": {
-          "type": "collection",
-          "settings": {
-            "collection": "rice-mixes-berenj",
-            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
             "link": ""
           }
         },
@@ -217,6 +201,22 @@
             "link": ""
           }
         },
+        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
+          "type": "collection",
+          "settings": {
+            "collection": "baking-ingredients",
+            "image": "shopify:\/\/shop_images\/Sourdough-Barbari-4.700px.jpg",
+            "link": ""
+          }
+        },
+        "05b3eebb-b7fc-49e8-a944-b5e1270c9319": {
+          "type": "collection",
+          "settings": {
+            "collection": "rice-mixes-berenj",
+            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
+            "link": ""
+          }
+        },
         "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
           "type": "collection",
           "settings": {
@@ -225,11 +225,53 @@
             "link": ""
           }
         },
+        "1b3e6572-160c-4bd6-a9e5-c9a4750688a5": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweets",
+            "link": ""
+          }
+        },
+        "2f3c93e5-1f26-4c45-98ce-be1266735be7": {
+          "type": "collection",
+          "settings": {
+            "collection": "canned-vegetables",
+            "link": ""
+          }
+        },
+        "3fc3bf75-5c4c-437a-b165-818f69601bfa": {
+          "type": "collection",
+          "settings": {
+            "collection": "herbs",
+            "link": ""
+          }
+        },
         "collection-6": {
           "type": "collection",
           "settings": {
             "collection": "pickled-torshi",
             "image": "shopify:\/\/shop_images\/molin-4C25CSqK2PI-unsplash_1.jpg",
+            "link": ""
+          }
+        },
+        "39a201cc-0f08-4bd6-8ee6-0bbda07e938b": {
+          "type": "collection",
+          "settings": {
+            "collection": "pastes",
+            "link": ""
+          }
+        },
+        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f": {
+          "type": "collection",
+          "settings": {
+            "collection": "essence-waters",
+            "link": ""
+          }
+        },
+        "942596e4-69e1-4fbc-9954-64c6c2e708fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "jams-syrups",
             "link": ""
           }
         },
@@ -272,6 +314,7 @@
         },
         "c8f58483-ae4a-4115-b43e-92bff10ce1a7": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "semi-ready-foods",
             "link": ""
@@ -279,6 +322,7 @@
         },
         "f734777c-2248-4d88-a6e5-e2ea527e019b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "appetizers",
             "link": ""
@@ -295,12 +339,18 @@
       "block_order": [
         "collection-1",
         "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1",
-        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
-        "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
         "02193e44-62d5-4445-86f9-eb27e8d4bc40",
+        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
+        "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
+        "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
+        "2f3c93e5-1f26-4c45-98ce-be1266735be7",
+        "3fc3bf75-5c4c-437a-b165-818f69601bfa",
         "collection-6",
+        "39a201cc-0f08-4bd6-8ee6-0bbda07e938b",
+        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f",
+        "942596e4-69e1-4fbc-9954-64c6c2e708fc",
         "collection-3",
         "3b61e5da-651f-43de-8341-1fdbb71c30ba",
         "collection-4",
