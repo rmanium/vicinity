@@ -9,18 +9,22 @@
             "collection": "organic-jams"
           }
         },
-        "4d5df024-166e-4cd6-86bf-35f235408d13": {
+        "b56844c6-e094-4833-8adc-1f1812cc8e9e": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "beans-grains"
+            "collection": "herbs"
           }
         },
-        "24f231ec-8693-4a9d-a626-8340e0d9ffdb": {
+        "220435e3-8bf1-4131-a369-ad242a7747b6": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "canned-vegetables"
+            "collection": "spices"
+          }
+        },
+        "8a5c9287-9df0-4b79-9331-b8260e373bdc": {
+          "type": "collection",
+          "settings": {
+            "collection": "seeds"
           }
         },
         "5a36cbb0-4aa0-48c7-ab57-979b67412ab5": {
@@ -65,8 +69,53 @@
             "collection": "dried-fruits-nuts"
           }
         },
+        "e5f8d761-736b-41bf-a060-fe7e097a99e8": {
+          "type": "collection",
+          "settings": {
+            "collection": "semi-ready-foods"
+          }
+        },
+        "1cae7efe-248f-42e0-8b15-260c1847c1f3": {
+          "type": "collection",
+          "settings": {
+            "collection": "stews"
+          }
+        },
+        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a": {
+          "type": "collection",
+          "settings": {
+            "collection": "desserts"
+          }
+        },
+        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6": {
+          "type": "collection",
+          "settings": {
+            "collection": "appetizers"
+          }
+        },
+        "1be39e8f-d8ad-402f-9847-284da40ed2a3": {
+          "type": "collection",
+          "settings": {
+            "collection": "special-offers"
+          }
+        },
+        "4d5df024-166e-4cd6-86bf-35f235408d13": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "beans-grains"
+          }
+        },
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "canned-vegetables"
+          }
+        },
         "8caec889-e5d0-4c6e-9221-c1f2a1807e6e": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sweets"
           }
@@ -98,42 +147,13 @@
           "settings": {
             "collection": "iran-football-accessories"
           }
-        },
-        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6": {
-          "type": "collection",
-          "settings": {
-            "collection": "appetizers"
-          }
-        },
-        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a": {
-          "type": "collection",
-          "settings": {
-            "collection": "desserts"
-          }
-        },
-        "1cae7efe-248f-42e0-8b15-260c1847c1f3": {
-          "type": "collection",
-          "settings": {
-            "collection": "stews"
-          }
-        },
-        "e5f8d761-736b-41bf-a060-fe7e097a99e8": {
-          "type": "collection",
-          "settings": {
-            "collection": "semi-ready-foods"
-          }
-        },
-        "8a5c9287-9df0-4b79-9331-b8260e373bdc": {
-          "type": "collection",
-          "settings": {
-            "collection": "seeds"
-          }
         }
       },
       "block_order": [
         "88638be6-442c-42f5-b5c5-d3a6248c8f0e",
-        "4d5df024-166e-4cd6-86bf-35f235408d13",
-        "24f231ec-8693-4a9d-a626-8340e0d9ffdb",
+        "b56844c6-e094-4833-8adc-1f1812cc8e9e",
+        "220435e3-8bf1-4131-a369-ad242a7747b6",
+        "8a5c9287-9df0-4b79-9331-b8260e373bdc",
         "5a36cbb0-4aa0-48c7-ab57-979b67412ab5",
         "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9",
         "f44494f2-460d-4459-817d-dcb7c603fcf4",
@@ -141,16 +161,18 @@
         "d1ea8523-b883-4650-96da-d27fb43620b8",
         "0cd16091-409a-44ae-8930-66a10887a1c3",
         "de56ec04-dd75-46b2-acb4-b365adfb2398",
+        "e5f8d761-736b-41bf-a060-fe7e097a99e8",
+        "1cae7efe-248f-42e0-8b15-260c1847c1f3",
+        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a",
+        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6",
+        "1be39e8f-d8ad-402f-9847-284da40ed2a3",
+        "4d5df024-166e-4cd6-86bf-35f235408d13",
+        "24f231ec-8693-4a9d-a626-8340e0d9ffdb",
         "8caec889-e5d0-4c6e-9221-c1f2a1807e6e",
         "aa79ee18-5291-452f-994a-2ac4bc81c117",
         "89986735-e6c7-4540-952e-d6f258c3d3c2",
         "9d17096c-77d8-4b2f-8e29-e759e13f5b42",
-        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde",
-        "939feb3d-abe5-44a9-b11a-1a82ce00a5b6",
-        "d3679aa1-670d-4bd0-b0d8-1299a8fc646a",
-        "1cae7efe-248f-42e0-8b15-260c1847c1f3",
-        "e5f8d761-736b-41bf-a060-fe7e097a99e8",
-        "8a5c9287-9df0-4b79-9331-b8260e373bdc"
+        "b2ff4c7b-522a-4f50-b550-73f3c38b3dde"
       ],
       "settings": {
         "collections_to_show": "selected",
