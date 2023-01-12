@@ -14,23 +14,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "74d92554-7dd4-4a28-91ea-ff25537a114d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/baner11-1401-08-30_copy.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/baner2-750-1100_copy2.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ff0000",
-            "button_text_color": "#ffffff",
-            "button_text": "Start Shopping",
-            "link": "shopify:\/\/collections"
-          }
-        },
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
@@ -46,6 +29,23 @@
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
             "link": "shopify:\/\/pages\/all-collections"
+          }
+        },
+        "74d92554-7dd4-4a28-91ea-ff25537a114d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baner11-1401-08-30_copy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/baner2-750-1100_copy2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ff0000",
+            "button_text_color": "#ffffff",
+            "button_text": "Start Shopping",
+            "link": "shopify:\/\/collections"
           }
         },
         "dec882c9-04da-475a-a36c-0269dba5f5db": {
@@ -68,8 +68,8 @@
         }
       },
       "block_order": [
-        "74d92554-7dd4-4a28-91ea-ff25537a114d",
         "6298f733-2db1-450f-9d19-b38fe1140504",
+        "74d92554-7dd4-4a28-91ea-ff25537a114d",
         "dec882c9-04da-475a-a36c-0269dba5f5db"
       ],
       "settings": {
@@ -77,7 +77,7 @@
         "section_size": "large",
         "carousel_effect": "slide",
         "autoplay": true,
-        "cycle_speed": 3
+        "cycle_speed": 4
       }
     },
     "1636241720a09de843": {
