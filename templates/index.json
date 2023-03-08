@@ -126,12 +126,13 @@
           "type": "item",
           "settings": {
             "icon": "bi-gift-box",
-            "title": "Free Delivery",
-            "content": "<p>For selected areas, on orders above $30.<\/p>"
+            "title": "Women's Day  To  Nowruz",
+            "content": "<h4><strong>% 10 OFF All Products<\/strong><\/h4><p>8 March to 24 March<\/p>"
           }
         },
         "16375425587d2f86b0-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
