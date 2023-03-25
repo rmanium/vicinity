@@ -187,13 +187,12 @@
         "blocks": {
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
-              "show_only_on_index": false,
-              "show_only_for_visitors": false,
+              "show_only_on_index": true,
+              "show_only_for_visitors": true,
               "show_only_once": true,
-              "title": "Women's Day  To Nowruz",
-              "content": "<h3><strong>%10<\/strong> OFF All Products<\/h3><p>8 March to 24 March<\/p><p>Applies to orders $75 and above<\/p>",
+              "title": "First Time Buyer",
+              "content": "<h3><strong>$10<\/strong> OFF <\/h3><p>Promo code : FirstTime<\/p><p>Applies to orders $75 and above<\/p>",
               "show_newsletter": false,
               "apparition_delay": 5
             }
