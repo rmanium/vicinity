@@ -187,6 +187,7 @@
         "blocks": {
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "show_only_on_index": false,
               "show_only_for_visitors": false,
@@ -199,6 +200,7 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
+            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#f21d2f",

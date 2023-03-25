@@ -124,6 +124,7 @@
       "blocks": {
         "16375425587d2f86b0-0": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "bi-alert",
             "title": "From Women's Day  To  Nowruz",
@@ -132,7 +133,6 @@
         },
         "16375425587d2f86b0-1": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
@@ -141,11 +141,10 @@
         },
         "16375425587d2f86b0-2": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "bi-customer-support",
-            "title": "",
-            "content": "<p>Short content about your store<\/p>"
+            "title": "Free Delivery",
+            "content": "<p>Orders above $30 in Selected Vancouver area<\/p>"
           }
         },
         "16375425587d2f86b0-3": {
