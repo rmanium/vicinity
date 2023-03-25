@@ -192,7 +192,7 @@
               "show_only_for_visitors": true,
               "show_only_once": true,
               "title": "First Time Buyer",
-              "content": "<h3><strong>$10<\/strong> OFF <\/h3><p>Promo code : FirstTime<\/p><p>Applies to orders $75 and above<\/p>",
+              "content": "<h3><strong>$10<\/strong> OFF <\/h3><p>Promo code : FirstTime<\/p><p>Applies to orders $100 and above<\/p>",
               "show_newsletter": false,
               "apparition_delay": 5
             }
