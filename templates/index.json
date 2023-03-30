@@ -124,15 +124,15 @@
       "blocks": {
         "16375425587d2f86b0-0": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "bi-alert",
-            "title": "From Women's Day  To  Nowruz",
-            "content": "<h3><strong>10% OFF All Products<\/strong><\/h3><ul><li><h5>8 March to 24 March<\/h5><\/li><li>Applied to orders over $75<\/li><\/ul>"
+            "title": "",
+            "content": "<h4><strong>Nowruz Sweets On Sale<\/strong><\/h4><p>Until 13-Bedar (April 2nd)<\/p>"
           }
         },
         "16375425587d2f86b0-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
@@ -141,6 +141,7 @@
         },
         "16375425587d2f86b0-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "bi-customer-support",
             "title": "Free Delivery",
