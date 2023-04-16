@@ -199,7 +199,6 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
-            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#f21d2f",
