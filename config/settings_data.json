@@ -203,7 +203,7 @@
               "background": "#ffffff",
               "text_color_title": "#f21d2f",
               "text_color_body": "#ffffff",
-              "show_only_on_index": true,
+              "show_only_on_index": false,
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Special Promotion till August 31st",
