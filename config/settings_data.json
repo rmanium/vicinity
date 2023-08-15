@@ -207,7 +207,7 @@
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Special Promotion till August 31st",
-              "content": "<p>- Buy <strong>$150<\/strong> and get :<\/p><p>\"<strong>Do-Ghazal Basmati Rice<\/strong>\" for FREE<\/p><p>Promo Code : Augustpromo150 <\/p><p><\/p><p>- Buy <strong>$300<\/strong> and get :<\/p><p>\"<strong>Saharkhiz Hashemi Rice<\/strong>\" for FREE<\/p><p>Promo Code : Augustpromo300 <\/p>",
+              "content": "<p>- Buy <strong>$150<\/strong> and get :<\/p><p>\"<strong>Do-Ghazal Basmati Rice<\/strong>\" for FREE<\/p><p>Promo Code : <em>Augustpromo150<\/em> <\/p><p><\/p><p>- Buy <strong>$300<\/strong> and get :<\/p><p>\"<strong>Saharkhiz Hashemi Rice<\/strong>\" for FREE<\/p><p>Promo Code : <em>Augustpromo300 <\/em><\/p>",
               "apparition_delay": 1
             }
           },
