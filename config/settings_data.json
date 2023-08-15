@@ -199,7 +199,6 @@
           },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
-            "disabled": true,
             "settings": {
               "background": "#ffffff",
               "text_color_title": "#f21d2f",
@@ -207,8 +206,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": true,
-              "title": "Sunday April 16 Alert",
-              "content": "<p>Due to the road closures around Vancouver Sun Run, Downtown deliveries will be after 3 PM.<\/p><p>Thank you for your support.<\/p><p>Vicinity Mart<\/p>",
+              "title": "Special Promotion till August 31st",
+              "content": "<p>- Buy <strong>$150<\/strong> and get :<\/p><p>\"<strong>Do-Ghazal Basmati Rice<\/strong>\" for FREE<\/p><p>Promo Code : Augustpromo150 <\/p><p><\/p><p>- Buy <strong>$300<\/strong> and get :<\/p><p>\"<strong>Saharkhiz Hashemi Rice<\/strong>\" for FREE<\/p><p>Promo Code : Augustpromo300 <\/p>",
               "apparition_delay": 1
             }
           },
