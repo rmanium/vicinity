@@ -82,7 +82,6 @@
     },
     "1636241720a09de843": {
       "type": "offers",
-      "disabled": true,
       "blocks": {
         "1636241720a09de843-0": {
           "type": "offer",
@@ -114,6 +113,7 @@
         "1636241720a09de843-1",
         "5a65015f-b598-45b2-9c8b-ba4fda562d25"
       ],
+      "disabled": true,
       "settings": {
         "items_per_row": 3,
         "stack_mobile": true
@@ -136,7 +136,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p>Current  average  delivery  time  is   :                    2 hr 36 min.<\/p>"
+            "content": "<p>Current  average  delivery  time  is   :                    2 hr 56 min.<\/p>"
           }
         },
         "16375425587d2f86b0-2": {
@@ -144,7 +144,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Free Delivery",
-            "content": "<p>Orders above $30 in Selected Vancouver area<\/p>"
+            "content": "<p>Orders above $55 in Selected Vancouver area<\/p>"
           }
         },
         "16375425587d2f86b0-3": {
@@ -458,7 +458,6 @@
     },
     "text-with-icons": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "icon-1": {
           "type": "item",
@@ -499,6 +498,7 @@
         "icon-3",
         "icon-4"
       ],
+      "disabled": true,
       "settings": {
         "stack_mobile": false
       }
@@ -537,7 +537,6 @@
     },
     "1637542871cef3e060": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "163754287132cb0d7a-0": {
           "type": "image",
@@ -574,6 +573,7 @@
         "163754287132cb0d7a-0",
         "163754287132cb0d7a-1"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
