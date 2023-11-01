@@ -224,8 +224,8 @@
             "type": "exit",
             "disabled": true,
             "settings": {
-              "show_only_for_visitors": true,
-              "show_only_once": true,
+              "show_only_for_visitors": false,
+              "show_only_once": false,
               "title": "Late Deliveries",
               "subheading": "Due to the high volume of today's orders",
               "show_newsletter": false,
