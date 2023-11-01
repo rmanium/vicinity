@@ -219,12 +219,26 @@
               "content": "general",
               "btn_feedback_text": "feedback"
             }
+          },
+          "d313059b-58ff-40fa-9c5b-3d87c2545cf8": {
+            "type": "exit",
+            "settings": {
+              "show_only_for_visitors": true,
+              "show_only_once": true,
+              "title": "Late Deliveries",
+              "subheading": "Due to the high volume of today's orders",
+              "show_newsletter": false,
+              "button_text": "Get my 15% off",
+              "success_message": "You will receive soon an email containing your discount code!",
+              "close_message": "All orders will be delivered after 4:00 PM"
+            }
           }
         },
         "block_order": [
           "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42",
-          "b816b770-242e-43c5-b225-104ad791128f"
+          "b816b770-242e-43c5-b225-104ad791128f",
+          "d313059b-58ff-40fa-9c5b-3d87c2545cf8"
         ],
         "settings": {
         }
