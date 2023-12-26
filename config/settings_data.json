@@ -222,16 +222,15 @@
           },
           "d313059b-58ff-40fa-9c5b-3d87c2545cf8": {
             "type": "exit",
-            "disabled": true,
             "settings": {
               "show_only_for_visitors": false,
               "show_only_once": false,
-              "title": "Late Deliveries",
-              "subheading": "Due to the high volume of today's orders",
+              "title": "Boxing Week",
+              "subheading": "10 % OFF on Entire Order",
               "show_newsletter": false,
-              "button_text": "Get my 15% off",
-              "success_message": "You will receive soon an email containing your discount code!",
-              "close_message": "All orders will be delivered after 4:00 PM"
+              "button_text": "10 % OFF",
+              "success_message": "",
+              "close_message": "Until 31st December"
             }
           }
         },
@@ -302,9 +301,9 @@
         "settings": {
           "button_color": "#121251",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
