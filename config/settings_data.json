@@ -222,6 +222,7 @@
           },
           "d313059b-58ff-40fa-9c5b-3d87c2545cf8": {
             "type": "exit",
+            "disabled": true,
             "settings": {
               "show_only_for_visitors": false,
               "show_only_once": false,
