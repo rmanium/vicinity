@@ -207,7 +207,7 @@
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Super Deals Now On!",
-              "content": "<h3>\"<strong>Sofreh Hashemi Rice <\/strong>\" <\/h3><h3>برنج 100% ایرانی هاشمی سفره<\/h3><h6>- Buy  one   :<\/h6><h6>For $ 29.99<\/h6><p><\/p><h6>-  Buy two and more   :<\/h6><h5>For $ 24.99 (each)<\/h5>",
+              "content": "<h3>Sofreh Hashemi Rice<\/h3><h3>برنج 100% ایرانی هاشمی سفره<\/h3><h6>Buy one : For $ 29.99<\/h6><h6>Buy two and more : For $ 24.99 (each)<\/h6>",
               "apparition_delay": 1
             }
           },
