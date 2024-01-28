@@ -589,6 +589,20 @@
         "source": "home",
         "content": "general"
       }
+    },
+    "featured_collection_8WByHx": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "title": "Best Picks Zone",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
@@ -609,6 +623,7 @@
     "163624158735e5b47b",
     "blog-posts",
     "1637542871cef3e060",
-    "survey-modal"
+    "survey-modal",
+    "featured_collection_8WByHx"
   ]
 }
