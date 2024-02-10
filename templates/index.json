@@ -183,7 +183,7 @@
           "type": "collection",
           "settings": {
             "collection": "fruits-vegetables",
-            "image": "shopify:\/\/shop_images\/engin-akyurt-eb26eV-ys_k-unsplash_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707585790.jpg",
             "link": ""
           }
         },
@@ -191,6 +191,7 @@
           "type": "collection",
           "settings": {
             "collection": "meat-poultry",
+            "image": "shopify:\/\/shop_images\/photo1707585790_2.jpg",
             "link": ""
           }
         },
@@ -198,7 +199,7 @@
           "type": "collection",
           "settings": {
             "collection": "dairy-eggs",
-            "image": "shopify:\/\/shop_images\/erol-ahmed-leOh1CzRZVQ-unsplash_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707585790_3.jpg",
             "link": ""
           }
         },
@@ -206,7 +207,7 @@
           "type": "collection",
           "settings": {
             "collection": "baking-ingredients",
-            "image": "shopify:\/\/shop_images\/Sourdough-Barbari-4.700px.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707585790_4.jpg",
             "link": ""
           }
         },
@@ -214,7 +215,7 @@
           "type": "collection",
           "settings": {
             "collection": "rice-mixes-berenj",
-            "image": "shopify:\/\/shop_images\/pierre-bamin--LdilhDx3sk-unsplash_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707585790_5.jpg",
             "link": ""
           }
         },
@@ -222,7 +223,7 @@
           "type": "collection",
           "settings": {
             "collection": "dried-fruits-nuts",
-            "image": "shopify:\/\/shop_images\/engin-akyurt-VkQJDLEPN3w-unsplash_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707585790_6.jpg",
             "link": ""
           }
         },
