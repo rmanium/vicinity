@@ -409,19 +409,6 @@
         "link_url": ""
       }
     },
-    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "houseware",
-        "title": "Household",
-        "products_count": 50,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
     "1985218e-fd11-4468-9ef3-444935cfe042": {
       "type": "featured-collection",
       "settings": {
@@ -603,7 +590,6 @@
     "5c86eb7a-2949-437e-935c-7ae95860f44e",
     "featured-collection",
     "8d007a98-70a1-4f6d-aa32-6261103a70c0",
-    "e77139e6-ba29-4c9a-995c-a6f70cdf9ecf",
     "1985218e-fd11-4468-9ef3-444935cfe042",
     "1637543513bbe51b01",
     "text-with-icons",
