@@ -231,6 +231,7 @@
           "type": "collection",
           "settings": {
             "collection": "sweets",
+            "image": "shopify:\/\/shop_images\/photo1707757516_1.jpg",
             "link": ""
           }
         },
@@ -238,6 +239,7 @@
           "type": "collection",
           "settings": {
             "collection": "canned-vegetables",
+            "image": "shopify:\/\/shop_images\/photo1707757520.jpg",
             "link": ""
           }
         },
@@ -245,14 +247,7 @@
           "type": "collection",
           "settings": {
             "collection": "herbs",
-            "link": ""
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "pickled-torshi",
-            "image": "shopify:\/\/shop_images\/molin-4C25CSqK2PI-unsplash_1.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707757521.jpg",
             "link": ""
           }
         },
@@ -260,6 +255,7 @@
           "type": "collection",
           "settings": {
             "collection": "pastes",
+            "image": "shopify:\/\/shop_images\/photo1707757524.jpg",
             "link": ""
           }
         },
@@ -267,6 +263,7 @@
           "type": "collection",
           "settings": {
             "collection": "essence-waters",
+            "image": "shopify:\/\/shop_images\/photo1707757525.jpg",
             "link": ""
           }
         },
@@ -274,28 +271,7 @@
           "type": "collection",
           "settings": {
             "collection": "jams-syrups",
-            "link": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "stews-khoresht",
-            "link": ""
-          }
-        },
-        "3b61e5da-651f-43de-8341-1fdbb71c30ba": {
-          "type": "collection",
-          "settings": {
-            "collection": "soup-mixes-aash",
-            "link": ""
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "herb-mixes-sabzi",
-            "image": "shopify:\/\/shop_images\/How-to-Use-Dried-Herbs-in-Cooking-culinary-physics.jpg",
+            "image": "shopify:\/\/shop_images\/photo1707757527.jpg",
             "link": ""
           }
         },
@@ -311,6 +287,7 @@
           "type": "collection",
           "settings": {
             "collection": "stews",
+            "image": "shopify:\/\/shop_images\/photo1707757532.jpg",
             "link": ""
           }
         },
@@ -329,13 +306,6 @@
             "collection": "appetizers",
             "link": ""
           }
-        },
-        "00e69e4c-42bb-4969-b085-333e5e6558ab": {
-          "type": "collection",
-          "settings": {
-            "collection": "desserts",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -349,18 +319,13 @@
         "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
         "2f3c93e5-1f26-4c45-98ce-be1266735be7",
         "3fc3bf75-5c4c-437a-b165-818f69601bfa",
-        "collection-6",
         "39a201cc-0f08-4bd6-8ee6-0bbda07e938b",
         "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f",
         "942596e4-69e1-4fbc-9954-64c6c2e708fc",
-        "collection-3",
-        "3b61e5da-651f-43de-8341-1fdbb71c30ba",
-        "collection-4",
         "1615a069-cecf-4c95-9833-a7732f54eee1",
         "9deeed16-db08-4696-b253-5432c2dfaaeb",
         "c8f58483-ae4a-4115-b43e-92bff10ce1a7",
-        "f734777c-2248-4d88-a6e5-e2ea527e019b",
-        "00e69e4c-42bb-4969-b085-333e5e6558ab"
+        "f734777c-2248-4d88-a6e5-e2ea527e019b"
       ],
       "settings": {
         "title": "Our collections",
