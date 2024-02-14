@@ -179,6 +179,14 @@
             "link": ""
           }
         },
+        "collection_yJWUtd": {
+          "type": "collection",
+          "settings": {
+            "collection": "beans-grains",
+            "image": "shopify:\/\/shop_images\/photo1707585790_5.jpg",
+            "link": ""
+          }
+        },
         "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1": {
           "type": "collection",
           "settings": {
@@ -208,14 +216,6 @@
           "settings": {
             "collection": "baking-ingredients",
             "image": "shopify:\/\/shop_images\/photo1707585790_4.jpg",
-            "link": ""
-          }
-        },
-        "05b3eebb-b7fc-49e8-a944-b5e1270c9319": {
-          "type": "collection",
-          "settings": {
-            "collection": "rice-mixes-berenj",
-            "image": "shopify:\/\/shop_images\/photo1707585790_5.jpg",
             "link": ""
           }
         },
@@ -310,11 +310,11 @@
       },
       "block_order": [
         "collection-1",
+        "collection_yJWUtd",
         "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1",
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
         "02193e44-62d5-4445-86f9-eb27e8d4bc40",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
-        "05b3eebb-b7fc-49e8-a944-b5e1270c9319",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
         "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
         "2f3c93e5-1f26-4c45-98ce-be1266735be7",
