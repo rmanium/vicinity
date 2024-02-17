@@ -283,14 +283,6 @@
             "link": ""
           }
         },
-        "9deeed16-db08-4696-b253-5432c2dfaaeb": {
-          "type": "collection",
-          "settings": {
-            "collection": "stews",
-            "image": "shopify:\/\/shop_images\/photo1707757532.jpg",
-            "link": ""
-          }
-        },
         "c8f58483-ae4a-4115-b43e-92bff10ce1a7": {
           "type": "collection",
           "disabled": true,
@@ -323,7 +315,6 @@
         "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f",
         "942596e4-69e1-4fbc-9954-64c6c2e708fc",
         "1615a069-cecf-4c95-9833-a7732f54eee1",
-        "9deeed16-db08-4696-b253-5432c2dfaaeb",
         "c8f58483-ae4a-4115-b43e-92bff10ce1a7",
         "f734777c-2248-4d88-a6e5-e2ea527e019b"
       ],
