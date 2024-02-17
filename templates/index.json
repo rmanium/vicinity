@@ -338,8 +338,8 @@
     "5c86eb7a-2949-437e-935c-7ae95860f44e": {
       "type": "featured-collection",
       "settings": {
-        "collection": "beans-grains",
-        "title": "Beans & Grains",
+        "collection": "popular-items",
+        "title": "The Top Sellers of the Week",
         "products_count": 50,
         "layout": "vertical",
         "stack_products": false,
