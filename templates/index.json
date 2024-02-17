@@ -340,8 +340,8 @@
       "settings": {
         "collection": "popular-items",
         "title": "The Top Sellers of the Week",
-        "products_count": 50,
-        "layout": "vertical",
+        "products_count": 13,
+        "layout": "horizontal",
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
