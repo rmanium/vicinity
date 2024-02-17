@@ -348,45 +348,6 @@
         "link_url": ""
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "dairy-eggs",
-        "title": "Dairy & Eggs",
-        "products_count": 50,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": "shopify:\/\/collections\/all"
-      }
-    },
-    "8d007a98-70a1-4f6d-aa32-6261103a70c0": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "baking-ingredients",
-        "title": "Bakery & Naan",
-        "products_count": 50,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "1985218e-fd11-4468-9ef3-444935cfe042": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "meat-poultry",
-        "title": "Meat, Fish & Poultry",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
     "1637543513bbe51b01": {
       "type": "rich-text",
       "settings": {
@@ -553,9 +514,6 @@
     "1637542558ac9160e1",
     "collection-list",
     "5c86eb7a-2949-437e-935c-7ae95860f44e",
-    "featured-collection",
-    "8d007a98-70a1-4f6d-aa32-6261103a70c0",
-    "1985218e-fd11-4468-9ef3-444935cfe042",
     "1637543513bbe51b01",
     "text-with-icons",
     "newsletter",
