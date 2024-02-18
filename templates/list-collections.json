@@ -121,8 +121,8 @@
       "settings": {
         "collections_to_show": "selected",
         "collection_linklist": "main-manu",
-        "show_collection_title": true,
-        "show_collection_overlay": true,
+        "show_collection_title": false,
+        "show_collection_overlay": false,
         "collection_overlay_opacity": 30
       }
     },
