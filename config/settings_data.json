@@ -119,32 +119,31 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "title": "Some Text",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-            }
-          },
-          "footer-1": {
+          "links_F4kVHy": {
             "type": "links",
             "settings": {
               "menu": "home-footer"
             }
           },
-          "footer-2": {
+          "newsletter_yTH4mb": {
             "type": "newsletter",
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>"
+              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            }
+          },
+          "text_37cwgr": {
+            "type": "text",
+            "settings": {
+              "title": "Vicinity Mart",
+              "content": "<p>Your Trusted Online Grocery Store in Vancouver. Delivering over 1000 orders monthly to North America. Experience convenience, quality, and swift service with us.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "links_F4kVHy",
+          "newsletter_yTH4mb",
+          "text_37cwgr"
         ],
         "settings": {
           "show_social_media": true,
