@@ -119,10 +119,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "links_F4kVHy": {
-            "type": "links",
+          "text_37cwgr": {
+            "type": "text",
             "settings": {
-              "menu": "home-footer"
+              "title": "Vicinity Mart",
+              "content": "<p>Your Trusted Online Grocery Store in Vancouver. Delivering over 1000 orders monthly to North America. Experience convenience, quality, and swift service with us.<\/p>"
             }
           },
           "newsletter_yTH4mb": {
@@ -132,18 +133,17 @@
               "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
             }
           },
-          "text_37cwgr": {
-            "type": "text",
+          "links_F4kVHy": {
+            "type": "links",
             "settings": {
-              "title": "Vicinity Mart",
-              "content": "<p>Your Trusted Online Grocery Store in Vancouver. Delivering over 1000 orders monthly to North America. Experience convenience, quality, and swift service with us.<\/p>"
+              "menu": "home-footer"
             }
           }
         },
         "block_order": [
-          "links_F4kVHy",
+          "text_37cwgr",
           "newsletter_yTH4mb",
-          "text_37cwgr"
+          "links_F4kVHy"
         ],
         "settings": {
           "show_social_media": true,
