@@ -329,7 +329,7 @@
     "5c86eb7a-2949-437e-935c-7ae95860f44e": {
       "type": "featured-collection",
       "settings": {
-        "collection": "popular-items",
+        "collection": "populars",
         "title": "The Hottest Sellers of the Week!",
         "products_count": 12,
         "layout": "horizontal",
