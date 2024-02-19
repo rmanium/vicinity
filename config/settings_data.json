@@ -142,8 +142,8 @@
           "text_nDgtCD": {
             "type": "text",
             "settings": {
-              "title": "About our store",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              "title": "Contact Us",
+              "content": "<p><strong>LOCATION <\/strong>:<\/p><p>1075 W 1st Street, Unit 107<\/p><p>North Vancouver, BC,  V7P 3T4<\/p><p> <\/p><p><strong>PHONE <\/strong>:<\/p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726<\/a><\/p><p> <\/p><p><strong>EMAIL :<\/strong><\/p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com<\/a><\/p>"
             }
           }
         },
