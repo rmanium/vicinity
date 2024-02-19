@@ -349,6 +349,19 @@
         "button_link": ""
       }
     },
+    "featured_collection_M3hJUB": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "big-savings",
+        "title": "Big Savings",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -506,6 +519,7 @@
     "collection-list",
     "5c86eb7a-2949-437e-935c-7ae95860f44e",
     "1637543513bbe51b01",
+    "featured_collection_M3hJUB",
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
