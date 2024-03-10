@@ -60,24 +60,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "blocks": {
-        "6cdbbc50-254b-4021-af4c-5f867392b823": {
-          "type": "product",
-          "settings": {
-            "product": "nero-amore-colombia-coffee-capsule-no-10-10-ct"
-          }
-        },
-        "2e021de6-0d3b-4796-ab48-f2c1fca09b43": {
-          "type": "product",
-          "settings": {
-            "product": "nero-amore-forte-coffee-capsule-no-8-10-ct"
-          }
-        }
-      },
-      "block_order": [
-        "6cdbbc50-254b-4021-af4c-5f867392b823",
-        "2e021de6-0d3b-4796-ab48-f2c1fca09b43"
-      ],
       "settings": {
         "heading": "You may also like",
         "show_quick_buy": false
