@@ -62,7 +62,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "show_quick_buy": false
+        "show_quick_buy": true
       }
     },
     "recently-viewed-products": {
