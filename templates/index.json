@@ -17,14 +17,14 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vicinity_marketj_1_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/vcm-min.jpg",
+            "image": "shopify:\/\/shop_images\/photo_2024-03-18_23-34-57.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/photo_2024-03-18_23-34-52.jpg",
             "show_overlay": true,
             "overlay_opacity": 40,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "middle_center",
+            "content_position": "bottom_center",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "Go Shopping",
