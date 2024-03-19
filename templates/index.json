@@ -357,7 +357,7 @@
         "products_count": 24,
         "layout": "horizontal",
         "stack_products": false,
-        "show_quick_buy": false,
+        "show_quick_buy": true,
         "link_title": "View all",
         "link_url": ""
       }
