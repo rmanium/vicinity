@@ -20,7 +20,7 @@
             "image": "shopify:\/\/shop_images\/photo_2024-03-18_23-34-57.jpg",
             "mobile_image": "shopify:\/\/shop_images\/photo_2024-03-18_23-34-52.jpg",
             "show_overlay": true,
-            "overlay_opacity": 40,
+            "overlay_opacity": 5,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
