@@ -24,10 +24,10 @@
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "bottom_center",
+            "content_position": "middle_center",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
-            "button_text": "Go Shopping",
+            "button_text": "",
             "link": "shopify:\/\/collections"
           }
         },
