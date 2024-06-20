@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "165970559810c3db58": {
@@ -17,8 +26,8 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_vicinity_market_header_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Copy_of_vicinity_market_header_750_x_1100_px_1.png",
+            "image": "shopify:\/\/shop_images\/website_vicinity.png",
+            "mobile_image": "shopify:\/\/shop_images\/website_mob_vicinity_750_x_1100_px.png",
             "show_overlay": true,
             "overlay_opacity": 5,
             "text_color": "#ffffff",
