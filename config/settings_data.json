@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "heading_color": "#121251",
@@ -143,7 +152,7 @@
             "type": "text",
             "settings": {
               "title": "Contact Us",
-              "content": "<p><strong>LOCATION <\/strong>:<\/p><p>1075 W 1st Street, Unit 107<\/p><p>North Vancouver, BC,  V7P 3T4 <\/p><p><strong>PHONE <\/strong>:<\/p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726<\/a><\/p><p><strong>EMAIL :<\/strong><\/p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com<\/a><\/p>"
+              "content": "<p><strong>LOCATION <\/strong>:<\/p><p>1449 Marine Drive<\/p><p>North Vancouver, BC,  V7P 1T5 <\/p><p><strong>PHONE <\/strong>:<\/p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726<\/a><\/p><p><strong>EMAIL :<\/strong><\/p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com<\/a><\/p>"
             }
           }
         },
