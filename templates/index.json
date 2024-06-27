@@ -195,6 +195,14 @@
           "type": "collection",
           "settings": {
             "collection": "beans-grains",
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "link": ""
+          }
+        },
+        "collection_kpn93t": {
+          "type": "collection",
+          "settings": {
+            "collection": "rice-pastas",
             "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
             "link": ""
           }
@@ -259,6 +267,7 @@
       "block_order": [
         "collection-1",
         "collection_yJWUtd",
+        "collection_kpn93t",
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
