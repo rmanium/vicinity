@@ -203,7 +203,7 @@
           "type": "collection",
           "settings": {
             "collection": "meat-poultry",
-            "image": "shopify:\/\/shop_images\/photo1707585790_2.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_design_3.png",
             "link": ""
           }
         },
@@ -239,19 +239,11 @@
             "link": ""
           }
         },
-        "3fc3bf75-5c4c-437a-b165-818f69601bfa": {
-          "type": "collection",
-          "settings": {
-            "collection": "herbs",
-            "image": "shopify:\/\/shop_images\/photo1707757521.jpg",
-            "link": ""
-          }
-        },
         "39a201cc-0f08-4bd6-8ee6-0bbda07e938b": {
           "type": "collection",
           "settings": {
             "collection": "pastes",
-            "image": "shopify:\/\/shop_images\/photo1707757524.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
             "link": ""
           }
         },
@@ -260,38 +252,6 @@
           "settings": {
             "collection": "essence-waters",
             "image": "shopify:\/\/shop_images\/photo1707757525.jpg",
-            "link": ""
-          }
-        },
-        "942596e4-69e1-4fbc-9954-64c6c2e708fc": {
-          "type": "collection",
-          "settings": {
-            "collection": "jams-syrups",
-            "image": "shopify:\/\/shop_images\/photo1707757527.jpg",
-            "link": ""
-          }
-        },
-        "1615a069-cecf-4c95-9833-a7732f54eee1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "sweets-shirini",
-            "link": ""
-          }
-        },
-        "c8f58483-ae4a-4115-b43e-92bff10ce1a7": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "semi-ready-foods",
-            "link": ""
-          }
-        },
-        "f734777c-2248-4d88-a6e5-e2ea527e019b": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "appetizers",
             "link": ""
           }
         }
@@ -304,13 +264,8 @@
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
         "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
         "2f3c93e5-1f26-4c45-98ce-be1266735be7",
-        "3fc3bf75-5c4c-437a-b165-818f69601bfa",
         "39a201cc-0f08-4bd6-8ee6-0bbda07e938b",
-        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f",
-        "942596e4-69e1-4fbc-9954-64c6c2e708fc",
-        "1615a069-cecf-4c95-9833-a7732f54eee1",
-        "c8f58483-ae4a-4115-b43e-92bff10ce1a7",
-        "f734777c-2248-4d88-a6e5-e2ea527e019b"
+        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f"
       ],
       "settings": {
         "title": "Explore Our Online Aisles!",
