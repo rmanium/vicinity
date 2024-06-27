@@ -199,27 +199,11 @@
             "link": ""
           }
         },
-        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1": {
-          "type": "collection",
-          "settings": {
-            "collection": "fresh-fruits-and-veggies",
-            "image": "shopify:\/\/shop_images\/photo1707589534.jpg",
-            "link": ""
-          }
-        },
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1": {
           "type": "collection",
           "settings": {
             "collection": "meat-poultry",
             "image": "shopify:\/\/shop_images\/photo1707585790_2.jpg",
-            "link": ""
-          }
-        },
-        "02193e44-62d5-4445-86f9-eb27e8d4bc40": {
-          "type": "collection",
-          "settings": {
-            "collection": "dairy-eggs",
-            "image": "shopify:\/\/shop_images\/photo1707585790_3.jpg",
             "link": ""
           }
         },
@@ -315,9 +299,7 @@
       "block_order": [
         "collection-1",
         "collection_yJWUtd",
-        "c07d7cd8-49e6-48e6-b89a-8cd1af82b4a1",
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
-        "02193e44-62d5-4445-86f9-eb27e8d4bc40",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
         "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
