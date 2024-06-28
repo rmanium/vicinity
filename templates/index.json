@@ -215,6 +215,14 @@
             "link": ""
           }
         },
+        "collection_G7eV4a": {
+          "type": "collection",
+          "settings": {
+            "collection": "beef",
+            "image": "shopify:\/\/shop_images\/photo1707585790_2.jpg",
+            "link": ""
+          }
+        },
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
           "type": "collection",
           "settings": {
@@ -224,6 +232,14 @@
           }
         },
         "8df3940a-97fd-46c4-8ba4-448028fc0adf": {
+          "type": "collection",
+          "settings": {
+            "collection": "fruits",
+            "image": "shopify:\/\/shop_images\/Untitled_design_8.png",
+            "link": ""
+          }
+        },
+        "collection_3BV9XR": {
           "type": "collection",
           "settings": {
             "collection": "dried-fruits-nuts",
@@ -269,8 +285,10 @@
         "collection_yJWUtd",
         "collection_kpn93t",
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
+        "collection_G7eV4a",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
         "8df3940a-97fd-46c4-8ba4-448028fc0adf",
+        "collection_3BV9XR",
         "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
         "2f3c93e5-1f26-4c45-98ce-be1266735be7",
         "39a201cc-0f08-4bd6-8ee6-0bbda07e938b",
