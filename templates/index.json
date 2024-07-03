@@ -26,8 +26,8 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/website_vicinity_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/website_mob_vicinity_750_x_1100_px_1.png",
+            "image": "shopify:\/\/shop_images\/website_vicinity_5.png",
+            "mobile_image": "shopify:\/\/shop_images\/website_mob_vicinity_750_x_1100_px_2.png",
             "show_overlay": true,
             "overlay_opacity": 5,
             "text_color": "#ffffff",
