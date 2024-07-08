@@ -26,12 +26,12 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Stylish_Aesthetic_Summer_Photo_Collage_Banner_8_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Stylish_Aesthetic_Summer_Photo_Collage_Banner_8_4.png",
+            "image": "shopify:\/\/shop_images\/Stylish_Aesthetic_Summer_Photo_Collage_Banner_9_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Stylish_Aesthetic_Summer_Photo_Collage_Banner_9_1.png",
             "show_overlay": true,
-            "overlay_opacity": 5,
-            "text_color": "#ffffff",
-            "title": "",
+            "overlay_opacity": 40,
+            "text_color": "#ee0000",
+            "title": "FRESH & FAST, ONLINE AND IN-STORE!",
             "content": "",
             "content_position": "middle_center",
             "button_background": "#ee0000",
