@@ -29,7 +29,7 @@
             "image": "shopify:\/\/shop_images\/Untitled_design_2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Stylish_Aesthetic_Summer_Photo_Collage_Banner_9_1.png",
             "show_overlay": true,
-            "overlay_opacity": 40,
+            "overlay_opacity": 0,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
