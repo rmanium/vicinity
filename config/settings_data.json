@@ -183,7 +183,7 @@
           "link1": "",
           "text2": "ارسال سریع و رایگان در  ونکور بزرگ برای سفارش های بالای 55 دلار",
           "link2": "",
-          "text3": "Due to our store opening, all orders will be delivered by 5 PM.",
+          "text3": "Due to our store opening, all orders will be delivered after 5 PM.",
           "link3": "",
           "text4": "",
           "link4": "",
@@ -195,7 +195,7 @@
           "show_newsletter": false,
           "newsletter_button": "Subscribe & Stay Informed",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p><strong>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/strong><\/p>"
+          "newsletter_content": "<p>Join our newsletter for upcoming specials and promotions!<\/p>"
         }
       },
       "popups": {
