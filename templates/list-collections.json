@@ -21,58 +21,6 @@
     },
     "163519031708415434": {
       "type": "collection-list",
-      "blocks": {
-        "163519031708415434-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "163519031708415434-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "163519031708415434-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "163519031708415434-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "163519031708415434-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "163519031708415434-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163519031708415434-0",
-        "163519031708415434-1",
-        "163519031708415434-2",
-        "163519031708415434-3",
-        "163519031708415434-4",
-        "163519031708415434-5"
-      ],
       "disabled": true,
       "settings": {
         "title": "All collections",
