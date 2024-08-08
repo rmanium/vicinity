@@ -307,6 +307,18 @@
         "button_link": ""
       }
     },
+    "image_with_text_pg8iMy": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_1.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "One-Click Recipe:",
+        "content": "<p> All Ingredients Ready for You!<\/p>",
+        "button_text": "Shop & Cook!",
+        "button_link": "shopify:\/\/collections\/fried-eggplant"
+      }
+    },
     "featured_collection_M3hJUB": {
       "type": "featured-collection",
       "settings": {
@@ -467,18 +479,6 @@
         "link_title": "View all",
         "link_url": ""
       }
-    },
-    "image_with_text_pg8iMy": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_1.png",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "One-Click Recipe:",
-        "content": "<p> All Ingredients Ready for You!<\/p>",
-        "button_text": "Shop & Cook!",
-        "button_link": "shopify:\/\/collections\/fried-eggplant"
-      }
     }
   },
   "order": [
@@ -489,6 +489,7 @@
     "collection-list",
     "5c86eb7a-2949-437e-935c-7ae95860f44e",
     "1637543513bbe51b01",
+    "image_with_text_pg8iMy",
     "featured_collection_M3hJUB",
     "text-with-icons",
     "newsletter",
@@ -496,7 +497,6 @@
     "blog-posts",
     "1637542871cef3e060",
     "survey-modal",
-    "featured_collection_8WByHx",
-    "image_with_text_pg8iMy"
+    "featured_collection_8WByHx"
   ]
 }
