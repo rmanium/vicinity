@@ -282,32 +282,16 @@
         "collection_GBQHjJ": {
           "type": "collection",
           "settings": {
-            "collection": "chicken",
-            "image": "shopify:\/\/shop_images\/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
+            "collection": "fresh-fruits",
+            "image": "shopify:\/\/shop_images\/2_6d38c2e9-773e-47a5-bf93-cabd59b23321.png",
             "link": ""
           }
         },
         "collection_Fa8idA": {
           "type": "collection",
           "settings": {
-            "collection": "seafood",
-            "image": "shopify:\/\/shop_images\/3.png",
-            "link": ""
-          }
-        },
-        "collection_XAmw6n": {
-          "type": "collection",
-          "settings": {
-            "collection": "deli",
-            "image": "shopify:\/\/shop_images\/4.png",
-            "link": ""
-          }
-        },
-        "collection_ecgBVx": {
-          "type": "collection",
-          "settings": {
-            "collection": "beef-or-chicken-marinade",
-            "image": "shopify:\/\/shop_images\/5.png",
+            "collection": "fresh-herbs",
+            "image": "shopify:\/\/shop_images\/4_fa350872-b259-492a-b294-eea0cdaa47d2.png",
             "link": ""
           }
         }
@@ -316,9 +300,7 @@
         "collection_W39Lc4",
         "collection_kPrLYY",
         "collection_GBQHjJ",
-        "collection_Fa8idA",
-        "collection_XAmw6n",
-        "collection_ecgBVx"
+        "collection_Fa8idA"
       ],
       "settings": {
         "title": "Explore Our Online Aisles!",
