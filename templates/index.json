@@ -180,6 +180,18 @@
         "stack_mobile": false
       }
     },
+    "image_with_text_9zBzcH": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/file_4c9d262f-7de2-4b9b-a9b0-b9882e81d522.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Our Journey to Vicinity Mart",
+        "content": "<p>Vicinity Mart, with years of experience in the bakery and food industry in Iran, has opened its first physical location in North Vancouver as of June 2024, after three successful years online. We are now open and focus on delivering fresh groceries within a 3-hour window, setting ourselves apart from other retailers by emphasizing delivery over traditional shipping.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -194,72 +206,40 @@
         "collection_yJWUtd": {
           "type": "collection",
           "settings": {
-            "collection": "beans-grains",
-            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "collection": "beef",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "collection_RQm4DU": {
+          "type": "collection",
+          "settings": {
+            "collection": "chicken",
+            "image": "shopify:\/\/shop_images\/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
             "link": ""
           }
         },
         "collection_kpn93t": {
           "type": "collection",
           "settings": {
-            "collection": "rice-pastas",
-            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "collection": "seafood",
+            "image": "shopify:\/\/shop_images\/3.png",
             "link": ""
           }
         },
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
           "type": "collection",
           "settings": {
-            "collection": "baking-ingredients",
-            "image": "shopify:\/\/shop_images\/photo1707585790_4.jpg",
+            "collection": "deli",
+            "image": "shopify:\/\/shop_images\/4.png",
             "link": ""
           }
         },
         "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1": {
           "type": "collection",
           "settings": {
-            "collection": "meat-poultry",
-            "image": "shopify:\/\/shop_images\/Untitled_design_3.png",
-            "link": ""
-          }
-        },
-        "collection_3BV9XR": {
-          "type": "collection",
-          "settings": {
-            "collection": "dried-fruits-nuts",
-            "image": "shopify:\/\/shop_images\/photo1707585790_6.jpg",
-            "link": ""
-          }
-        },
-        "1b3e6572-160c-4bd6-a9e5-c9a4750688a5": {
-          "type": "collection",
-          "settings": {
-            "collection": "sweets",
-            "image": "shopify:\/\/shop_images\/photo1707757516_1.jpg",
-            "link": ""
-          }
-        },
-        "2f3c93e5-1f26-4c45-98ce-be1266735be7": {
-          "type": "collection",
-          "settings": {
-            "collection": "canned-vegetables",
-            "image": "shopify:\/\/shop_images\/photo1707757520.jpg",
-            "link": ""
-          }
-        },
-        "39a201cc-0f08-4bd6-8ee6-0bbda07e938b": {
-          "type": "collection",
-          "settings": {
-            "collection": "pastes",
-            "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
-            "link": ""
-          }
-        },
-        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f": {
-          "type": "collection",
-          "settings": {
-            "collection": "essence-waters",
-            "image": "shopify:\/\/shop_images\/photo1707757525.jpg",
+            "collection": "beef-or-chicken-marinade",
+            "image": "shopify:\/\/shop_images\/5.png",
             "link": ""
           }
         }
@@ -267,14 +247,10 @@
       "block_order": [
         "collection-1",
         "collection_yJWUtd",
+        "collection_RQm4DU",
         "collection_kpn93t",
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
-        "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1",
-        "collection_3BV9XR",
-        "1b3e6572-160c-4bd6-a9e5-c9a4750688a5",
-        "2f3c93e5-1f26-4c45-98ce-be1266735be7",
-        "39a201cc-0f08-4bd6-8ee6-0bbda07e938b",
-        "27dd5be9-fef0-4cc4-b742-9c2de4e72f4f"
+        "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1"
       ],
       "settings": {
         "title": "Explore Our Online Aisles!",
@@ -284,17 +260,72 @@
         "show_collection_title": true
       }
     },
-    "5c86eb7a-2949-437e-935c-7ae95860f44e": {
-      "type": "featured-collection",
+    "collection_list_yRGmfz": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_W39Lc4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "persian-cooking-essentials",
+            "link": ""
+          }
+        },
+        "collection_kPrLYY": {
+          "type": "collection",
+          "settings": {
+            "collection": "fresh-vegetables",
+            "image": "shopify:\/\/shop_images\/1_902363f7-f02d-4751-b948-f603ef773778.png",
+            "link": ""
+          }
+        },
+        "collection_GBQHjJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "chicken",
+            "image": "shopify:\/\/shop_images\/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
+            "link": ""
+          }
+        },
+        "collection_Fa8idA": {
+          "type": "collection",
+          "settings": {
+            "collection": "seafood",
+            "image": "shopify:\/\/shop_images\/3.png",
+            "link": ""
+          }
+        },
+        "collection_XAmw6n": {
+          "type": "collection",
+          "settings": {
+            "collection": "deli",
+            "image": "shopify:\/\/shop_images\/4.png",
+            "link": ""
+          }
+        },
+        "collection_ecgBVx": {
+          "type": "collection",
+          "settings": {
+            "collection": "beef-or-chicken-marinade",
+            "image": "shopify:\/\/shop_images\/5.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_W39Lc4",
+        "collection_kPrLYY",
+        "collection_GBQHjJ",
+        "collection_Fa8idA",
+        "collection_XAmw6n",
+        "collection_ecgBVx"
+      ],
       "settings": {
-        "collection": "populars",
-        "title": "The Hottest Sellers of the Week!",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": false,
+        "title": "Explore Our Online Aisles!",
         "link_title": "View all",
-        "link_url": ""
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
       }
     },
     "1637543513bbe51b01": {
@@ -486,8 +517,9 @@
     "slideshow",
     "1636241720a09de843",
     "1637542558ac9160e1",
+    "image_with_text_9zBzcH",
     "collection-list",
-    "5c86eb7a-2949-437e-935c-7ae95860f44e",
+    "collection_list_yRGmfz",
     "1637543513bbe51b01",
     "image_with_text_pg8iMy",
     "featured_collection_M3hJUB",
