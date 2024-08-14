@@ -226,31 +226,13 @@
             "image": "shopify:\/\/shop_images\/Untitled_design_17.png",
             "link": ""
           }
-        },
-        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
-          "type": "collection",
-          "settings": {
-            "collection": "deli",
-            "image": "shopify:\/\/shop_images\/4.png",
-            "link": ""
-          }
-        },
-        "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1": {
-          "type": "collection",
-          "settings": {
-            "collection": "beef-or-chicken-marinade",
-            "image": "shopify:\/\/shop_images\/5.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "collection-1",
         "collection_yJWUtd",
         "collection_RQm4DU",
-        "collection_kpn93t",
-        "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49",
-        "5d35b60d-00c8-4df4-94c2-fe4dbfc9e9d1"
+        "collection_kpn93t"
       ],
       "settings": {
         "title": "Shop Fresh Craft Meats!",
