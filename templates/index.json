@@ -260,6 +260,74 @@
         "show_collection_title": true
       }
     },
+    "collection_list_ELAPie": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_c8GGVj": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "persian-cooking-essentials",
+            "link": ""
+          }
+        },
+        "collection_i4zXVL": {
+          "type": "collection",
+          "settings": {
+            "collection": "beef",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "collection_rfKJJB": {
+          "type": "collection",
+          "settings": {
+            "collection": "chicken",
+            "image": "shopify:\/\/shop_images\/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
+            "link": ""
+          }
+        },
+        "collection_DULEWK": {
+          "type": "collection",
+          "settings": {
+            "collection": "seafood",
+            "image": "shopify:\/\/shop_images\/3.png",
+            "link": ""
+          }
+        },
+        "collection_FpHVjN": {
+          "type": "collection",
+          "settings": {
+            "collection": "deli",
+            "image": "shopify:\/\/shop_images\/4.png",
+            "link": ""
+          }
+        },
+        "collection_d8XUYR": {
+          "type": "collection",
+          "settings": {
+            "collection": "beef-or-chicken-marinade",
+            "image": "shopify:\/\/shop_images\/5.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_c8GGVj",
+        "collection_i4zXVL",
+        "collection_rfKJJB",
+        "collection_DULEWK",
+        "collection_FpHVjN",
+        "collection_d8XUYR"
+      ],
+      "settings": {
+        "title": "Shop Fresh Craft Meats!",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
     "collection_list_yRGmfz": {
       "type": "collection-list",
       "blocks": {
@@ -501,6 +569,7 @@
     "1637542558ac9160e1",
     "image_with_text_9zBzcH",
     "collection-list",
+    "collection_list_ELAPie",
     "collection_list_yRGmfz",
     "1637543513bbe51b01",
     "image_with_text_pg8iMy",
