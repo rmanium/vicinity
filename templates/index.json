@@ -235,10 +235,10 @@
         "collection_kpn93t"
       ],
       "settings": {
-        "title": "Shop Our Baked Selections",
+        "title": "",
         "link_title": "View all",
         "link": "shopify:\/\/collections",
-        "round_images": true,
+        "round_images": false,
         "show_collection_title": true
       }
     },
