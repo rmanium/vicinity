@@ -192,6 +192,16 @@
         "button_link": "shopify:\/\/collections\/all"
       }
     },
+    "rich_text_LhfzHt": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "Shop Our Baked Selections!",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -240,6 +250,16 @@
         "link": "shopify:\/\/collections",
         "round_images": false,
         "show_collection_title": true
+      }
+    },
+    "rich_text_AATgic": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "Shop Fresh Craft Meats!",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
       }
     },
     "collection_list_ELAPie": {
@@ -303,11 +323,21 @@
         "collection_d8XUYR"
       ],
       "settings": {
-        "title": "Shop Fresh Craft Meats!",
+        "title": "",
         "link_title": "View all",
         "link": "shopify:\/\/collections",
         "round_images": true,
         "show_collection_title": true
+      }
+    },
+    "rich_text_BC6DkV": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "Shop Fresh, Handpicked Produce!",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
       }
     },
     "collection_list_yRGmfz": {
@@ -353,7 +383,7 @@
         "collection_Fa8idA"
       ],
       "settings": {
-        "title": "Shop Fresh, Handpicked Produce!",
+        "title": "",
         "link_title": "View all",
         "link": "shopify:\/\/collections",
         "round_images": true,
@@ -550,8 +580,11 @@
     "1636241720a09de843",
     "1637542558ac9160e1",
     "image_with_text_9zBzcH",
+    "rich_text_LhfzHt",
     "collection-list",
+    "rich_text_AATgic",
     "collection_list_ELAPie",
+    "rich_text_BC6DkV",
     "collection_list_yRGmfz",
     "1637543513bbe51b01",
     "image_with_text_pg8iMy",
