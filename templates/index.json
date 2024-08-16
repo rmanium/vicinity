@@ -149,7 +149,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p>Current  average  delivery  time  is   :                    2 hr 56 min.<\/p>"
+            "content": "<p><strong>Current average delivery time:<\/strong> 1 hour in North Vancouver and West Vancouver.<\/p>"
           }
         },
         "16375425587d2f86b0-2": {
@@ -157,16 +157,15 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Free Delivery",
-            "content": "<p>Orders above $55 in Selected Vancouver area<\/p>"
+            "content": "<p>Get free delivery on orders over $55 in select Vancouver areas.<\/p>"
           }
         },
         "16375425587d2f86b0-3": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
+            "title": "Same Day Delivery",
+            "content": "<p>Order by 5 pm for same-day delivery to other areas.<\/p>"
           }
         }
       },
