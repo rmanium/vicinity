@@ -139,7 +139,7 @@
           "type": "item",
           "disabled": true,
           "settings": {
-            "icon": "bi-alert",
+            "icon": "bi-add-to-cart",
             "title": "",
             "content": "<h5>Nowruz Sweets On Sale                                          <\/h5><p>Until 13-Bedar (April 2nd)<\/p>"
           }
@@ -155,7 +155,7 @@
         "16375425587d2f86b0-2": {
           "type": "item",
           "settings": {
-            "icon": "bi-customer-support",
+            "icon": "bi-alert",
             "title": "Free Delivery",
             "content": "<p>Get free delivery on orders over $55 in select Vancouver areas.<\/p>"
           }
@@ -163,7 +163,7 @@
         "16375425587d2f86b0-3": {
           "type": "item",
           "settings": {
-            "icon": "bi-secure-payment",
+            "icon": "bi-time",
             "title": "Same Day Delivery",
             "content": "<p>Order by 5 pm for same-day delivery to other areas.<\/p>"
           }
