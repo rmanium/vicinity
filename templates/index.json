@@ -411,6 +411,18 @@
         "button_link": "shopify:\/\/collections\/fried-eggplant"
       }
     },
+    "image_with_text_YJXpVh": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_2.png",
+        "image_position": "left",
+        "image_width": 40,
+        "title": "One-Click Recipe:",
+        "content": "<p> All Ingredients Ready for You!<\/p>",
+        "button_text": "Shop & Cook!",
+        "button_link": "shopify:\/\/collections\/prosciutto-sandwich"
+      }
+    },
     "featured_collection_M3hJUB": {
       "type": "featured-collection",
       "settings": {
@@ -587,6 +599,7 @@
     "collection_list_yRGmfz",
     "1637543513bbe51b01",
     "image_with_text_pg8iMy",
+    "image_with_text_YJXpVh",
     "featured_collection_M3hJUB",
     "text-with-icons",
     "newsletter",
