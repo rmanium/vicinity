@@ -26,7 +26,7 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/012_1.jpg",
+            "image": "shopify://shop_images/01_1.jpg",
             "mobile_image": "shopify://shop_images/02_3.jpg",
             "show_overlay": true,
             "overlay_opacity": 0,
