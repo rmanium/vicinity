@@ -13,9 +13,9 @@
       "type": "image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/landing-1.jpg",
+        "image": "shopify://shop_images/landing-1.jpg",
         "title": "Online Persian Grocery Made Easy",
-        "content": "<p><a href=\"\/collections\" title=\"All collections\">start shoping<\/a><\/p><p><\/p>",
+        "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
         "show_image_overlay": true,
         "color": "#ffffff"
       }
@@ -26,8 +26,8 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/or_Visit_Our_Physical_Location_with_a_Cafe_for_a_Delightful_Experience_7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Order_Online_or_Call_778-370-5583_1.jpg",
+            "image": "shopify://shop_images/012_1.jpg",
+            "mobile_image": "shopify://shop_images/02_2.jpg",
             "show_overlay": true,
             "overlay_opacity": 0,
             "text_color": "#ffffff",
@@ -37,15 +37,15 @@
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/baner22-1401-08-30.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100_f380cbb9-fe9c-4368-b711-cb8ec9a6d372.jpg",
+            "image": "shopify://shop_images/baner22-1401-08-30.jpg",
+            "mobile_image": "shopify://shop_images/baner11-750-1100_f380cbb9-fe9c-4368-b711-cb8ec9a6d372.jpg",
             "show_overlay": false,
             "overlay_opacity": 35,
             "text_color": "#121251",
@@ -55,15 +55,15 @@
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "Start Shopping",
-            "link": "shopify:\/\/pages\/all-collections"
+            "link": "shopify://pages/all-collections"
           }
         },
         "dec882c9-04da-475a-a36c-0269dba5f5db": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/baner2-d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/baner11-750-1100.jpg",
+            "image": "shopify://shop_images/baner2-d.jpg",
+            "mobile_image": "shopify://shop_images/baner11-750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -73,7 +73,7 @@
             "button_background": "#ed1c24",
             "button_text_color": "#ffffff",
             "button_text": "Order Now",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         }
       },
@@ -99,25 +99,25 @@
         "1636241720a09de843-0": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-magnifier-6-240_1.png",
+            "image": "shopify://shop_images/iconmonstr-magnifier-6-240_1.png",
             "title": "Browse",
-            "content": "<p>Browse our selection of quality<br\/>products.<\/p>"
+            "content": "<p>Browse our selection of quality<br/>products.</p>"
           }
         },
         "1636241720a09de843-1": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-check-mark-14-240.png",
+            "image": "shopify://shop_images/iconmonstr-check-mark-14-240.png",
             "title": "Order",
-            "content": "<p>Easily place your<br\/>order on our website.<\/p>"
+            "content": "<p>Easily place your<br/>order on our website.</p>"
           }
         },
         "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iconmonstr-delivery-6-240_2.png",
+            "image": "shopify://shop_images/iconmonstr-delivery-6-240_2.png",
             "title": "Receive",
-            "content": "<p>We'll deliver your order in under 3 hours.<\/p>"
+            "content": "<p>We'll deliver your order in under 3 hours.</p>"
           }
         }
       },
@@ -141,7 +141,7 @@
           "settings": {
             "icon": "bi-add-to-cart",
             "title": "",
-            "content": "<h5>Nowruz Sweets On Sale                                          <\/h5><p>Until 13-Bedar (April 2nd)<\/p>"
+            "content": "<h5>Nowruz Sweets On Sale                                          </h5><p>Until 13-Bedar (April 2nd)</p>"
           }
         },
         "16375425587d2f86b0-1": {
@@ -149,7 +149,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p><strong>Current average delivery time:<\/strong> 1 hour in North Vancouver and West Vancouver.<\/p>"
+            "content": "<p><strong>Current average delivery time:</strong> 1 hour in North Vancouver and West Vancouver.</p>"
           }
         },
         "16375425587d2f86b0-2": {
@@ -157,7 +157,7 @@
           "settings": {
             "icon": "bi-alert",
             "title": "Free Delivery",
-            "content": "<p>Get free delivery on orders over $55 in select Vancouver areas.<\/p>"
+            "content": "<p>Get free delivery on orders over $55 in select Vancouver areas.</p>"
           }
         },
         "16375425587d2f86b0-3": {
@@ -165,7 +165,7 @@
           "settings": {
             "icon": "bi-time",
             "title": "Same Day Delivery",
-            "content": "<p>Order by 5 pm for same-day delivery to other areas.<\/p>"
+            "content": "<p>Order by 5 pm for same-day delivery to other areas.</p>"
           }
         }
       },
@@ -182,13 +182,13 @@
     "image_with_text_9zBzcH": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/file_4c9d262f-7de2-4b9b-a9b0-b9882e81d522.jpg",
+        "image": "shopify://shop_images/file_4c9d262f-7de2-4b9b-a9b0-b9882e81d522.jpg",
         "image_position": "left",
         "image_width": 50,
         "title": "Our Journey to Vicinity Mart",
-        "content": "<p>Vicinity Mart, with years of experience in the bakery and food industry in Iran, has opened its first physical location in North Vancouver as of June 2024, after three successful years online. We are now open and focus on delivering fresh groceries within a 3-hour window, setting ourselves apart from other retailers by emphasizing delivery over traditional shipping.<\/p>",
+        "content": "<p>Vicinity Mart, with years of experience in the bakery and food industry in Iran, has opened its first physical location in North Vancouver as of June 2024, after three successful years online. We are now open and focus on delivering fresh groceries within a 3-hour window, setting ourselves apart from other retailers by emphasizing delivery over traditional shipping.</p>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections"
+        "button_link": "shopify://collections"
       }
     },
     "rich_text_LhfzHt": {
@@ -198,7 +198,7 @@
         "title": "Shop Our Baked Selections!",
         "content": "",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify://collections/all"
       }
     },
     "collection-list": {
@@ -216,7 +216,7 @@
           "type": "collection",
           "settings": {
             "collection": "persian-breads",
-            "image": "shopify:\/\/shop_images\/Untitled_design_13.png",
+            "image": "shopify://shop_images/Untitled_design_13.png",
             "link": ""
           }
         },
@@ -224,7 +224,7 @@
           "type": "collection",
           "settings": {
             "collection": "artisan-breads",
-            "image": "shopify:\/\/shop_images\/Untitled_design_15.png",
+            "image": "shopify://shop_images/Untitled_design_15.png",
             "link": ""
           }
         },
@@ -232,7 +232,7 @@
           "type": "collection",
           "settings": {
             "collection": "sweets-1",
-            "image": "shopify:\/\/shop_images\/Untitled_design_17.png",
+            "image": "shopify://shop_images/Untitled_design_17.png",
             "link": ""
           }
         }
@@ -246,7 +246,7 @@
       "settings": {
         "title": "",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": false,
         "show_collection_title": true
       }
@@ -258,7 +258,7 @@
         "title": "Shop Fresh Craft Meats!",
         "content": "",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify://collections/all"
       }
     },
     "collection_list_ELAPie": {
@@ -276,7 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "beef",
-            "image": "shopify:\/\/shop_images\/2.png",
+            "image": "shopify://shop_images/2.png",
             "link": ""
           }
         },
@@ -284,7 +284,7 @@
           "type": "collection",
           "settings": {
             "collection": "chicken",
-            "image": "shopify:\/\/shop_images\/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
+            "image": "shopify://shop_images/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
             "link": ""
           }
         },
@@ -292,7 +292,7 @@
           "type": "collection",
           "settings": {
             "collection": "seafood",
-            "image": "shopify:\/\/shop_images\/3.png",
+            "image": "shopify://shop_images/3.png",
             "link": ""
           }
         },
@@ -300,7 +300,7 @@
           "type": "collection",
           "settings": {
             "collection": "deli",
-            "image": "shopify:\/\/shop_images\/4.png",
+            "image": "shopify://shop_images/4.png",
             "link": ""
           }
         },
@@ -308,7 +308,7 @@
           "type": "collection",
           "settings": {
             "collection": "beef-or-chicken-marinade",
-            "image": "shopify:\/\/shop_images\/5.png",
+            "image": "shopify://shop_images/5.png",
             "link": ""
           }
         }
@@ -324,7 +324,7 @@
       "settings": {
         "title": "",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
       }
@@ -336,7 +336,7 @@
         "title": "Shop Fresh, Handpicked Produce!",
         "content": "",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify://collections/all"
       }
     },
     "collection_list_yRGmfz": {
@@ -354,7 +354,7 @@
           "type": "collection",
           "settings": {
             "collection": "fresh-vegetables",
-            "image": "shopify:\/\/shop_images\/1_902363f7-f02d-4751-b948-f603ef773778.png",
+            "image": "shopify://shop_images/1_902363f7-f02d-4751-b948-f603ef773778.png",
             "link": ""
           }
         },
@@ -362,7 +362,7 @@
           "type": "collection",
           "settings": {
             "collection": "fresh-fruits",
-            "image": "shopify:\/\/shop_images\/2_6d38c2e9-773e-47a5-bf93-cabd59b23321.png",
+            "image": "shopify://shop_images/2_6d38c2e9-773e-47a5-bf93-cabd59b23321.png",
             "link": ""
           }
         },
@@ -370,7 +370,7 @@
           "type": "collection",
           "settings": {
             "collection": "fresh-herbs",
-            "image": "shopify:\/\/shop_images\/4_fa350872-b259-492a-b294-eea0cdaa47d2.png",
+            "image": "shopify://shop_images/4_fa350872-b259-492a-b294-eea0cdaa47d2.png",
             "link": ""
           }
         }
@@ -384,7 +384,7 @@
       "settings": {
         "title": "",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
       }
@@ -394,7 +394,7 @@
       "settings": {
         "text_width": "narrow",
         "title": "Customer Testimonials",
-        "content": "<p>Great store and I was very impressed. Keep it up and keep the quality consistent. Don’t make quality suffer to attract cheap buyers. Keep it upscale as is.<\/p><p>\"Moe Emami\"<\/p>",
+        "content": "<p>Great store and I was very impressed. Keep it up and keep the quality consistent. Don’t make quality suffer to attract cheap buyers. Keep it upscale as is.</p><p>\"Moe Emami\"</p>",
         "button_text": "Our products",
         "button_link": ""
       }
@@ -402,25 +402,25 @@
     "image_with_text_pg8iMy": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_1.png",
+        "image": "shopify://shop_images/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_1.png",
         "image_position": "right",
         "image_width": 40,
         "title": "One-Click Recipe:",
-        "content": "<p> All Ingredients Ready for You!<\/p>",
+        "content": "<p> All Ingredients Ready for You!</p>",
         "button_text": "Shop & Cook!",
-        "button_link": "shopify:\/\/collections\/fried-eggplant"
+        "button_link": "shopify://collections/fried-eggplant"
       }
     },
     "image_with_text_YJXpVh": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_2.png",
+        "image": "shopify://shop_images/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_2.png",
         "image_position": "left",
         "image_width": 40,
         "title": "One-Click Recipe:",
-        "content": "<p> All Ingredients Ready for You!<\/p>",
+        "content": "<p> All Ingredients Ready for You!</p>",
         "button_text": "Shop & Cook!",
-        "button_link": "shopify:\/\/collections\/prosciutto-sandwich"
+        "button_link": "shopify://collections/prosciutto-sandwich"
       }
     },
     "featured_collection_M3hJUB": {
@@ -444,7 +444,7 @@
           "settings": {
             "icon": "bi-delivery",
             "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-2": {
@@ -452,7 +452,7 @@
           "settings": {
             "icon": "bi-returns",
             "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-3": {
@@ -460,7 +460,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         },
         "icon-4": {
@@ -468,7 +468,7 @@
           "settings": {
             "icon": "bi-secure-payment",
             "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
+            "content": "<p>Short content about your store</p>"
           }
         }
       },
@@ -488,7 +488,7 @@
       "disabled": true,
       "settings": {
         "title": "Newsletter",
-        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.<\/p>",
+        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>",
         "background": "#121251",
         "text": "#ffffff"
       }
