@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "165970559810c3db58": {
@@ -402,25 +402,13 @@
     "image_with_text_pg8iMy": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify://shop_images/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_1.png",
+        "image": "shopify://shop_images/93132345-67f6-4cd1-8f4b-ca9781db354e.jpg",
         "image_position": "right",
-        "image_width": 40,
-        "title": "One-Click Recipe:",
-        "content": "<p> All Ingredients Ready for You!</p>",
-        "button_text": "Shop & Cook!",
-        "button_link": "shopify://collections/fried-eggplant"
-      }
-    },
-    "image_with_text_YJXpVh": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify://shop_images/Green_Elements_Friendly_Vegan_Pancake_Recipe_Instagram_Post_2.png",
-        "image_position": "left",
-        "image_width": 40,
-        "title": "One-Click Recipe:",
-        "content": "<p> All Ingredients Ready for You!</p>",
-        "button_text": "Shop & Cook!",
-        "button_link": "shopify://collections/prosciutto-sandwich"
+        "image_width": 50,
+        "title": "",
+        "content": "<p>Thanksgiving isn’t complete without our one-of-a-kind pumpkin pie!</p>",
+        "button_text": "Order Now!",
+        "button_link": "shopify://collections/sweets-1"
       }
     },
     "featured_collection_M3hJUB": {
@@ -599,7 +587,6 @@
     "collection_list_yRGmfz",
     "1637543513bbe51b01",
     "image_with_text_pg8iMy",
-    "image_with_text_YJXpVh",
     "featured_collection_M3hJUB",
     "text-with-icons",
     "newsletter",
