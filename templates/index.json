@@ -402,13 +402,13 @@
     "image_with_text_pg8iMy": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify://shop_images/93132345-67f6-4cd1-8f4b-ca9781db354e.jpg",
+        "image": "shopify://shop_images/Untitled_design_37.png",
         "image_position": "right",
         "image_width": 50,
-        "title": "",
-        "content": "<p>Fall just isn't the same without pumpkin pie, and ours is truly one-of-a-kind!</p>",
-        "button_text": "Order Now!",
-        "button_link": "shopify://collections/sweets-1"
+        "title": "Get Your Persian Groceries Delivered Free!",
+        "content": "<p>Order all your favorite Persian groceries online and enjoy <strong>free delivery</strong> on orders over <strong>$55</strong> in North Van, West Van, Vancouver, Burnaby, and New Westminster!</p><p>For those in Surrey, Richmond, and beyond, free delivery is available on orders over <strong>$100</strong>!</p><p>Delivery fees start as low as <strong>$5</strong> for smaller orders!</p>",
+        "button_text": "Check Delivery Details!",
+        "button_link": "shopify://policies/shipping-policy"
       }
     },
     "featured_collection_M3hJUB": {
