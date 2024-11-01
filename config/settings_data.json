@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#121251",
@@ -55,23 +55,23 @@
     "show_inventory_quantity": false,
     "low_inventory_threshold": 0,
     "cart_type": "drawer",
-    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "55",
-    "social_facebook": "https:\/\/www.facebook.com\/vicinitymart",
+    "social_facebook": "https://www.facebook.com/vicinitymart",
     "social_twitter": "",
     "social_pinterest": "",
-    "social_instagram": "https:\/\/www.instagram.com\/vicinity.mart\/",
+    "social_instagram": "https://www.instagram.com/vicinity.mart/",
     "social_vimeo": "",
     "social_tumblr": "",
     "social_youtube": "",
-    "social_linkedin": "https:\/\/www.linkedin.com\/company\/vicinitymart\/",
+    "social_linkedin": "https://www.linkedin.com/company/vicinitymart/",
     "social_snapchat": "",
     "social_fancy": "",
-    "favicon": "shopify:\/\/shop_images\/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png",
+    "favicon": "shopify://shop_images/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Vicinity_Mart_Google_2_3c4d3b58-52f8-4d47-a979-ac10aa371ab5.webp",
+    "checkout_logo_image": "shopify://shop_images/Vicinity_Mart_Google_2_3c4d3b58-52f8-4d47-a979-ac10aa371ab5.webp",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -107,7 +107,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/Vicinity_Mart-01.jpg",
+          "logo": "shopify://shop_images/Vicinity_Mart-01.jpg",
           "logo_max_width": 220,
           "mobile_logo_max_width": 115,
           "show_locale_selector": false,
@@ -132,14 +132,14 @@
             "type": "text",
             "settings": {
               "title": "Vicinity Mart",
-              "content": "<p>Your Trusted Online Grocery Store in Vancouver. Delivering over 1000 orders monthly to North America. Experience convenience, quality, and swift service with us.<\/p>"
+              "content": "<p>Your Trusted Online Grocery Store in Vancouver, now with a new location in North Vancouver featuring a café, bakery, and butchery! Serving over 1,000 orders monthly across North America, we continue to offer the same convenience and quality through our online ordering.</p>"
             }
           },
           "newsletter_yTH4mb": {
             "type": "newsletter",
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>Get ready for exclusive savings, recipes, and promotions – your gateway to exciting offers awaits!<\/p>"
+              "subheading": "<p>Get ready for exclusive savings, recipes, and promotions – your gateway to exciting offers awaits!</p>"
             }
           },
           "links_F4kVHy": {
@@ -152,7 +152,7 @@
             "type": "text",
             "settings": {
               "title": "Contact Us",
-              "content": "<p><strong>LOCATION <\/strong>:<\/p><p>1449 Marine Drive<\/p><p>North Vancouver, BC,  V7P 1T5 <\/p><p><strong>PHONE <\/strong>:<\/p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726<\/a><\/p><p><strong>EMAIL :<\/strong><\/p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com<\/a><\/p>"
+              "content": "<p><strong>LOCATION </strong>:</p><p>1449 Marine Drive</p><p>North Vancouver, BC,  V7P 1T5 </p><p><strong>PHONE </strong>:</p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726</a></p><p><strong>EMAIL :</strong></p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com</a></p>"
             }
           }
         },
@@ -195,7 +195,7 @@
           "show_newsletter": false,
           "newsletter_button": "Subscribe & Stay Informed",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>Join our newsletter for upcoming specials and promotions!<\/p>"
+          "newsletter_content": "<p>Join our newsletter for upcoming specials and promotions!</p>"
         }
       },
       "popups": {
@@ -208,7 +208,7 @@
               "show_only_for_visitors": true,
               "show_only_once": true,
               "title": "First Time Buyer",
-              "content": "<h3><strong>$10<\/strong> OFF <\/h3><p>Promo code : FirstTime<\/p><p>Applies to orders $75 and above<\/p>",
+              "content": "<h3><strong>$10</strong> OFF </h3><p>Promo code : FirstTime</p><p>Applies to orders $75 and above</p>",
               "show_newsletter": false,
               "apparition_delay": 5
             }
@@ -224,14 +224,14 @@
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Super Deals Now On!",
-              "content": "<h3>Sofreh Hashemi Rice<\/h3><h3>برنج 100% ایرانی هاشمی سفره<\/h3><h6>Buy one : For $ 29.99<\/h6><h6>Buy two and more : For $ 24.99 (each)<\/h6><h6><\/h6><h6><\/h6><h6><\/h6><h6><\/h6>",
+              "content": "<h3>Sofreh Hashemi Rice</h3><h3>برنج 100% ایرانی هاشمی سفره</h3><h6>Buy one : For $ 29.99</h6><h6>Buy two and more : For $ 24.99 (each)</h6><h6></h6><h6></h6><h6></h6><h6></h6>",
               "apparition_delay": 1
             }
           },
           "b816b770-242e-43c5-b225-104ad791128f": {
             "type": "survey",
             "settings": {
-              "ifram_url": "https:\/\/marketing.vicinitymart.com",
+              "ifram_url": "https://marketing.vicinitymart.com",
               "source": "general",
               "content": "general",
               "btn_feedback_text": "feedback"
@@ -269,7 +269,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-1": {
@@ -277,7 +277,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-2": {
@@ -285,7 +285,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-3": {
@@ -293,7 +293,7 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           }
         },
@@ -314,7 +314,7 @@
     ],
     "blocks": {
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#121251",
@@ -374,7 +374,7 @@
       "low_inventory_threshold": 0,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_empty_button_link": "shopify://collections/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": false,
       "cart_free_shipping_threshold": "50",
@@ -426,7 +426,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -439,7 +439,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
               }
             }
           },
@@ -460,7 +460,7 @@
             "text_color": "#ffffff",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         }
       }
@@ -511,7 +511,7 @@
       "low_inventory_threshold": 1,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_empty_button_link": "shopify://collections/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": true,
       "cart_free_shipping_threshold": "50",
@@ -549,7 +549,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -562,7 +562,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
               }
             }
           },
@@ -583,7 +583,7 @@
             "text_color": "#ffffff",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         }
       }
@@ -634,7 +634,7 @@
       "low_inventory_threshold": 2,
       "show_reviews_badge": true,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_empty_button_link": "shopify://collections/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": true,
       "cart_free_shipping_threshold": "49",
@@ -685,7 +685,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -698,7 +698,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
               }
             }
           },
@@ -719,7 +719,7 @@
             "text_color": "#ffffff",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         }
       }
