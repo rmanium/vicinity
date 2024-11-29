@@ -82,9 +82,7 @@
         "6298f733-2db1-450f-9d19-b38fe1140504",
         "dec882c9-04da-475a-a36c-0269dba5f5db"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
@@ -165,7 +163,7 @@
           "settings": {
             "icon": "bi-time",
             "title": "Same Day Delivery",
-            "content": "<p>Order by 5 pm for same-day delivery to other areas.</p>"
+            "content": "<p>Order by 5 PM for delivery today, or by 2 PM for Sunday delivery.</p>"
           }
         }
       },
