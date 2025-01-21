@@ -258,8 +258,7 @@
           "b816b770-242e-43c5-b225-104ad791128f",
           "d313059b-58ff-40fa-9c5b-3d87c2545cf8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "static-text-with-icons": {
         "type": "static-text-with-icons",
@@ -309,9 +308,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -324,6 +321,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "11349500561483629931": {
+        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
