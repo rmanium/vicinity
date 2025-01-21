@@ -726,5 +726,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".notifyButtonStyle {margin:0;}"
+    ]
   }
 }
