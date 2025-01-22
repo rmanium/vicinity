@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -35,8 +44,16 @@
             "show_payment_button": true
           }
         },
+        "judge_me_reviews_review_widget_kNYtXg": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "reviews_3pV4ct": {
+          "type": "reviews",
+          "settings": {}
+        },
         "4d4ca45c-f661-4447-886d-101fb80edd1c": {
-          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "type": "shopify://apps/seoant-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
           "disabled": true,
           "settings": {
             "badge_id": ""
@@ -48,6 +65,8 @@
         "variant_selector",
         "description",
         "buy_buttons",
+        "judge_me_reviews_review_widget_kNYtXg",
+        "reviews_3pV4ct",
         "4d4ca45c-f661-4447-886d-101fb80edd1c"
       ],
       "settings": {
