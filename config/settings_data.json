@@ -331,6 +331,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "14634609474538694927": {
+        "type": "shopify://apps/ft-frequently-bought-together/blocks/widget-embed/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
