@@ -39,8 +39,8 @@
         "question-3": {
           "type": "question",
           "settings": {
-            "title": "What shipping carriers do you use?",
-            "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.</p>"
+            "title": "Do you ship to the United States?",
+            "answer": "<p>Yes! We ship to the U.S. with discounted rates calculated at checkout. Delivery times vary between 3-9 days. For more information, please check our <a href=\"https://vicinitymart.com/policies/shipping-policy\"><strong>Shipping & Delivery Policy</strong></a> page.</p>"
           }
         },
         "separator-2": {
