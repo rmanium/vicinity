@@ -89,6 +89,13 @@
             "title": "Do you sell offals?",
             "answer": "<p>Yes! We offer <strong>halal</strong> offals, including <strong>Kale Pache, Delo Jigar, and Donbalan</strong>, delivered <strong>weekly on Fridays by noon</strong>. They sell out quickly, so we recommend placing an <strong>online order</strong> to either <strong>pick up in-store</strong> or have them <strong>delivered</strong> to you.</p>"
           }
+        },
+        "question_bPLin4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you sell lamb like back home in Iran? Does it taste the same?",
+            "answer": "<p>Yes! We are well known for offering <strong>halal lamb</strong> that tastes just like the lamb you would find back home in Iran. Our lamb is sourced fresh from Alberta, and it is never frozen, ensuring top-quality flavor and texture.</p>"
+          }
         }
       },
       "block_order": [
@@ -102,7 +109,8 @@
         "question-5",
         "separator_6azDcQ",
         "question_V8XH4r",
-        "question_MdMzBr"
+        "question_MdMzBr",
+        "question_bPLin4"
       ],
       "settings": {
         "show_contact_info": true,
