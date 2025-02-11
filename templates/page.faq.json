@@ -97,6 +97,26 @@
             "answer": "<p>Yes! We are well known for offering <strong>halal lamb</strong> that tastes just like the lamb you would find back home in Iran. Our lamb is sourced fresh from Alberta, and it is never frozen, ensuring top-quality flavor and texture.</p>"
           }
         },
+        "question_ycVkT9": {
+          "type": "question",
+          "settings": {
+            "title": "If we order meat online and need it cut for Khoresh, would you do that?",
+            "answer": "<p>Yes, we can! Just mention in the <strong>note</strong> section or <strong>chat with us on the site</strong> when placing your order, and we’ll cut the meat for Khoreshti as requested.</p>"
+          }
+        },
+        "separator_tV7HxW": {
+          "type": "separator",
+          "settings": {
+            "title": "Careers at Vicinity Mart"
+          }
+        },
+        "question_iibbFY": {
+          "type": "question",
+          "settings": {
+            "title": "Are there job opportunities at Vicinity Mart? How can we apply?",
+            "answer": "<p>Yes, we have job openings from time to time! To apply, email your application to <a><strong>info@vicinitymart.com</strong></a>. Be sure to follow us on <strong>LinkedIn</strong> and <strong>Instagram</strong> to stay updated on any hiring announcements.</p>"
+          }
+        },
         "question_849XGU": {
           "type": "question",
           "settings": {
@@ -118,6 +138,9 @@
         "question_V8XH4r",
         "question_MdMzBr",
         "question_bPLin4",
+        "question_ycVkT9",
+        "separator_tV7HxW",
+        "question_iibbFY",
         "question_849XGU"
       ],
       "settings": {
