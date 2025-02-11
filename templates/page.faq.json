@@ -43,6 +43,13 @@
             "answer": "<p>Yes! We ship to the U.S. with discounted rates calculated at checkout. Delivery times vary between 3-9 days. For more information, please check our <a href=\"https://vicinitymart.com/policies/shipping-policy\"><strong>Shipping & Delivery Policy</strong></a> page.</p>"
           }
         },
+        "question_3Fmq7X": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>We offer <strong>Same-Day Delivery</strong> for local orders!</p><ul><li><strong>Order by 5 PM</strong> for delivery <strong>today</strong>.</li><li><strong>Order by 2 PM on Sunday</strong> for <strong>same-day Sunday delivery</strong>.</li></ul>"
+          }
+        },
         "separator-2": {
           "type": "separator",
           "settings": {
@@ -69,6 +76,7 @@
         "question-1",
         "question-2",
         "question-3",
+        "question_3Fmq7X",
         "separator-2",
         "question-4",
         "question-5"
