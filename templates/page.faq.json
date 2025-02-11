@@ -69,6 +69,26 @@
             "title": "Do you accept cake orders?",
             "answer": "<p>Yes! You can email us a photo of the cake you like at least <strong>2 weeks in advance</strong>, along with the <strong>flavor</strong> and <strong>number of servings</strong>, at <a href=\"mailto:info@vicinitymart.com\"><strong>info@vicinitymart.com</strong></a>, or visit us in person to fill out an order form. We’ll provide pricing and get back to you as soon as possible!</p>"
           }
+        },
+        "separator_6azDcQ": {
+          "type": "separator",
+          "settings": {
+            "title": "Butchery"
+          }
+        },
+        "question_V8XH4r": {
+          "type": "question",
+          "settings": {
+            "title": "Is your meat halal?",
+            "answer": "<p>Yes! We offer a selection of <strong>halal meat</strong> at Vicinity Mart, carefully sourced to meet halal standards.</p>"
+          }
+        },
+        "question_MdMzBr": {
+          "type": "question",
+          "settings": {
+            "title": "Do you sell offals?",
+            "answer": "<p>Yes! We offer <strong>halal</strong> offals, including <strong>Kale Pache, Delo Jigar, and Donbalan</strong>, delivered <strong>weekly on Fridays by noon</strong>. They sell out quickly, so we recommend placing an <strong>online order</strong> to either <strong>pick up in-store</strong> or have them <strong>delivered</strong> to you.</p>"
+          }
         }
       },
       "block_order": [
@@ -79,7 +99,10 @@
         "question_3Fmq7X",
         "separator-2",
         "question-4",
-        "question-5"
+        "question-5",
+        "separator_6azDcQ",
+        "question_V8XH4r",
+        "question_MdMzBr"
       ],
       "settings": {
         "show_contact_info": true,
