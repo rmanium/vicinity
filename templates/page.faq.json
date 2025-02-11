@@ -53,21 +53,21 @@
         "separator-2": {
           "type": "separator",
           "settings": {
-            "title": "Product"
+            "title": "Bakery"
           }
         },
         "question-4": {
           "type": "question",
           "settings": {
-            "title": "Can I return my product?",
-            "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.</p>"
+            "title": "Do you bake bread and pastries daily?",
+            "answer": "<p>Yes! We bake <strong>fresh bread and pastries every day</strong> at Vicinity Mart.</p>"
           }
         },
         "question-5": {
           "type": "question",
           "settings": {
-            "title": "Can I get my product personalized?",
-            "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.</p>"
+            "title": "Do you accept cake orders?",
+            "answer": "<p>Yes! You can email us a photo of the cake you like at least <strong>2 weeks in advance</strong>, along with the <strong>flavor</strong> and <strong>number of servings</strong>, at <a href=\"mailto:info@vicinitymart.com\"><strong>info@vicinitymart.com</strong></a>, or visit us in person to fill out an order form. We’ll provide pricing and get back to you as soon as possible!</p>"
           }
         }
       },
