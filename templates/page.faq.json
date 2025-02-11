@@ -47,7 +47,7 @@
           "type": "question",
           "settings": {
             "title": "How long will it take to get my order?",
-            "answer": "<p>We offer <strong>Same-Day Delivery</strong> for local orders!</p><ul><li><strong>Order by 5 PM</strong> for delivery <strong>today</strong>.</li><li><strong>Order by 2 PM on Sunday</strong> for <strong>same-day Sunday delivery</strong>.</li></ul>"
+            "answer": "<p>We offer <strong>fast and same-day delivery</strong> options!</p><ul><li><strong>North Vancouver & West Vancouver:</strong> Delivery within <strong>1 hour</strong>.</li><li><strong>Same-Day Delivery:</strong> Order by <strong>5 PM</strong> for delivery <strong>today</strong>, or by <strong>2 PM on Sunday</strong> for same-day <strong>Sunday delivery</strong>.</li><li><strong>Standard Shipping (Canada & U.S.):</strong> Delivery takes <strong>3 to 9 days</strong>.</li></ul>"
           }
         },
         "separator-2": {
