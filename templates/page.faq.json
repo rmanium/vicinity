@@ -32,8 +32,8 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Do you ship within British Columbia and across Canada?",
+            "answer": "<p>Yes! We offer shipping throughout BC and Canada. Standard shipping rates apply based on your order total. For more details on rates and estimated delivery times, please refer to our <a href=\"https://vicinitymart.com/policies/shipping-policy\"><strong>Shipping & Delivery Policy</strong></a> page.</p>"
           }
         },
         "question-3": {
