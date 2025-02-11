@@ -66,7 +66,7 @@
         "question-5": {
           "type": "question",
           "settings": {
-            "title": "Do you accept cake orders?",
+            "title": "Do you accept cake orders for special occasions?",
             "answer": "<p>Yes! You can email us a photo of the cake you like at least <strong>2 weeks in advance</strong>, along with the <strong>flavor</strong> and <strong>number of servings</strong>, at <a href=\"mailto:info@vicinitymart.com\"><strong>info@vicinitymart.com</strong></a>, or visit us in person to fill out an order form. We’ll provide pricing and get back to you as soon as possible!</p>"
           }
         },
@@ -96,6 +96,13 @@
             "title": "Do you sell lamb like back home in Iran? Does it taste the same?",
             "answer": "<p>Yes! We are well known for offering <strong>halal lamb</strong> that tastes just like the lamb you would find back home in Iran. Our lamb is sourced fresh from Alberta, and it is never frozen, ensuring top-quality flavor and texture.</p>"
           }
+        },
+        "question_849XGU": {
+          "type": "question",
+          "settings": {
+            "title": "",
+            "answer": ""
+          }
         }
       },
       "block_order": [
@@ -110,7 +117,8 @@
         "separator_6azDcQ",
         "question_V8XH4r",
         "question_MdMzBr",
-        "question_bPLin4"
+        "question_bPLin4",
+        "question_849XGU"
       ],
       "settings": {
         "show_contact_info": true,
