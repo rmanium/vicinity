@@ -289,7 +289,7 @@
         "collection_DULEWK": {
           "type": "collection",
           "settings": {
-            "collection": "seafood",
+            "collection": "meat-poultry",
             "image": "shopify://shop_images/3.png",
             "link": ""
           }
