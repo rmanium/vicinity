@@ -26,14 +26,14 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_acce3303-0855-44e1-8319-7e02362a133a.png",
-            "mobile_image": "shopify://shop_images/1_3dd0bcfe-04c3-470e-a7f1-5a662040ee25.png",
+            "image": "shopify://shop_images/Copy_of_3.png",
+            "mobile_image": "shopify://shop_images/3_5e64b664-313b-4465-9454-f79ef112974f.png",
             "show_overlay": true,
             "overlay_opacity": 0,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "middle_center",
+            "content_position": "middle_right",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "",
