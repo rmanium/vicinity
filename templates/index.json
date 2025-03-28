@@ -569,6 +569,21 @@
         "link_title": "View all",
         "link_url": ""
       }
+    },
+    "174317894963636497": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_GMgnwW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_GMgnwW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -592,6 +607,7 @@
     "blog-posts",
     "1637542871cef3e060",
     "survey-modal",
-    "featured_collection_8WByHx"
+    "featured_collection_8WByHx",
+    "174317894963636497"
   ]
 }
