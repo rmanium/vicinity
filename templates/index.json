@@ -471,6 +471,7 @@
     },
     "163624158735e5b47b": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
