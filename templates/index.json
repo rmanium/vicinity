@@ -26,18 +26,18 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_4.png",
-            "mobile_image": "shopify://shop_images/3_5e64b664-313b-4465-9454-f79ef112974f.png",
+            "image": "shopify://shop_images/Copy_of_5.png",
+            "mobile_image": "shopify://shop_images/6.png",
             "show_overlay": true,
             "overlay_opacity": 0,
-            "text_color": "#ffffff",
+            "text_color": "#121251",
             "title": "",
-            "content": "",
-            "content_position": "middle_right",
+            "content": "Visit Us in North Vancouver or Enjoy Persian Groceries, Bakery & Butchery Delivered Right to Your Door!",
+            "content_position": "middle_left",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
-            "button_text": "",
-            "link": "shopify://collections/nowrooz"
+            "button_text": "Order Now",
+            "link": "shopify://collections"
           }
         },
         "6298f733-2db1-450f-9d19-b38fe1140504": {
@@ -185,7 +185,7 @@
         "image_width": 50,
         "title": "Our Journey to Vicinity Mart",
         "content": "<p>Vicinity Mart, with years of experience in the bakery and food industry in Iran, has opened its first physical location in North Vancouver as of June 2024, after three successful years online. We are now open and focus on delivering fresh groceries within a 3-hour window, setting ourselves apart from other retailers by emphasizing delivery over traditional shipping.</p>",
-        "button_text": "Our products",
+        "button_text": "Our Products",
         "button_link": "shopify://collections"
       }
     },
