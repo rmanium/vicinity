@@ -387,16 +387,6 @@
         "show_collection_title": true
       }
     },
-    "1637543513bbe51b01": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "Customer Testimonials",
-        "content": "<p>Great store and I was very impressed. Keep it up and keep the quality consistent. Don’t make quality suffer to attract cheap buyers. Keep it upscale as is.</p><p>\"Moe Emami\"</p>",
-        "button_text": "Our products",
-        "button_link": ""
-      }
-    },
     "image_with_text_pg8iMy": {
       "type": "image-with-text",
       "settings": {
@@ -570,6 +560,29 @@
         "link_url": ""
       }
     },
+    "1743463835133a460c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_hJXDCG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_hJXDCG"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "174346370527cf2e44": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "174317894963636497": {
       "type": "apps",
       "blocks": {
@@ -598,7 +611,6 @@
     "collection_list_ELAPie",
     "rich_text_BC6DkV",
     "collection_list_yRGmfz",
-    "1637543513bbe51b01",
     "image_with_text_pg8iMy",
     "featured_collection_M3hJUB",
     "text-with-icons",
@@ -608,6 +620,8 @@
     "1637542871cef3e060",
     "survey-modal",
     "featured_collection_8WByHx",
+    "1743463835133a460c",
+    "174346370527cf2e44",
     "174317894963636497"
   ]
 }
