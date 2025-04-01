@@ -336,6 +336,11 @@
         "type": "shopify://apps/ft-frequently-bought-together/blocks/widget-embed/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
         "disabled": false,
         "settings": {}
+      },
+      "pagefly-page-builder": {
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
