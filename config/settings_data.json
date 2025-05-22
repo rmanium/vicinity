@@ -208,7 +208,7 @@
               "show_only_for_visitors": true,
               "show_only_once": true,
               "title": "First-Time? Get $10 Off!",
-              "content": "<p>Subscribe to our weekly newsletter and promotions and enjoy <strong>$10 off</strong> your first purchase.</p>",
+              "content": "<p><br/>Subscribe to our weekly newsletter for updates and exclusive promotions and enjoy $10 off your first purchase!<br/><br/></p>",
               "show_newsletter": true,
               "apparition_delay": 5
             }
