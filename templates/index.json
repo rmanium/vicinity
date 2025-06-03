@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Copy_of_8.png",
-            "mobile_image": "shopify://shop_images/8.png",
+            "mobile_image": "shopify://shop_images/9.png",
             "show_overlay": true,
             "overlay_opacity": 5,
             "text_color": "#121251",
