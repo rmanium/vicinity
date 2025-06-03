@@ -26,8 +26,8 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_7.png",
-            "mobile_image": "shopify://shop_images/7.png",
+            "image": "shopify://shop_images/Copy_of_8.png",
+            "mobile_image": "shopify://shop_images/8.png",
             "show_overlay": true,
             "overlay_opacity": 5,
             "text_color": "#121251",
@@ -418,18 +418,6 @@
         "cycle_speed": 5
       }
     },
-    "image_with_text_pg8iMy": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify://shop_images/Untitled_design_37.png",
-        "image_position": "right",
-        "image_width": 50,
-        "title": "Get Your Persian Groceries Delivered Free!",
-        "content": "<p>Order all your favorite Persian groceries online and enjoy <strong>free delivery</strong> on orders over <strong>$55</strong> in North Van, West Van, Vancouver, Burnaby, and New Westminster!</p><p>For those in Surrey, Richmond, and beyond, free delivery is available on orders over <strong>$200</strong>!</p><p>Delivery fees start as low as <strong>$5</strong> for smaller orders!</p>",
-        "button_text": "Check Delivery Details!",
-        "button_link": "shopify://policies/shipping-policy"
-      }
-    },
     "1743463835133a460c": {
       "type": "apps",
       "blocks": {
@@ -445,6 +433,18 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "image_with_text_pg8iMy": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_37.png",
+        "image_position": "right",
+        "image_width": 50,
+        "title": "Get Your Persian Groceries Delivered Free!",
+        "content": "<p>Order all your favorite Persian groceries online and enjoy <strong>free delivery</strong> on orders over <strong>$55</strong> in North Van, West Van, Vancouver, Burnaby, and New Westminster!</p><p>For those in Surrey, Richmond, and beyond, free delivery is available on orders over <strong>$200</strong>!</p><p>Delivery fees start as low as <strong>$5</strong> for smaller orders!</p>",
+        "button_text": "Check Delivery Details!",
+        "button_link": "shopify://policies/shipping-policy"
       }
     },
     "featured_collection_M3hJUB": {
