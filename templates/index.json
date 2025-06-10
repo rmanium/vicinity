@@ -26,7 +26,7 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_9.png",
+            "image": "shopify://shop_images/Copy_of_10.png",
             "mobile_image": "shopify://shop_images/10_b913b30c-e8ef-4832-977e-fc24a010bbc2.png",
             "show_overlay": true,
             "overlay_opacity": 5,
@@ -147,7 +147,7 @@
           "settings": {
             "icon": "bi-fast-delivery",
             "title": "Fast Delivery",
-            "content": "<p>1-hour delivery in North & West Van for orders before 5 PM</p>"
+            "content": "<p>1-hour delivery in North & West Van for orders before 5 PM.</p>"
           }
         },
         "16375425587d2f86b0-2": {
