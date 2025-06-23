@@ -1,1 +1,50 @@
-{"sections":{"main":{"type":"main-blog-post","blocks":{"newsletter":{"type":"newsletter","settings":{}},"social-media":{"type":"social_media","settings":{}}},"block_order":["newsletter","social-media"],"settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog-post",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join Us",
+            "content": "<p>Subscribe for fresh updates, special offers, and new treats from Vicinity Mart . Straight to your inbox. </p>",
+            "subtext": "Never miss a bite!",
+            "background": "#121251",
+            "text": "#ffffff"
+          }
+        },
+        "social-media": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "show_rss": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "social-media"
+      ],
+      "settings": {
+        "show_category": true,
+        "show_author": true,
+        "show_date": true,
+        "show_share_buttons": true,
+        "show_tags": true,
+        "show_gravatar": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
