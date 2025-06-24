@@ -613,21 +613,6 @@
         "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
       }
     },
-    "blog_posts_cb76qd": {
-      "type": "blog-posts",
-      "name": "Blog posts",
-      "settings": {
-        "blog": "recipe",
-        "blog_posts_count": 3,
-        "title": "Blog posts",
-        "link_title": "View all",
-        "show_category": true,
-        "show_author": false,
-        "show_date": true,
-        "show_excerpt": true,
-        "stack_mobile": false
-      }
-    },
     "174317894963636497": {
       "type": "apps",
       "blocks": {
@@ -668,7 +653,6 @@
     "featured_collection_8WByHx",
     "174346370527cf2e44",
     "rich_text_kqiGzH",
-    "blog_posts_cb76qd",
     "174317894963636497"
   ]
 }
