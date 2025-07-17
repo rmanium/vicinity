@@ -26,14 +26,14 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_12.png",
-            "mobile_image": "shopify://shop_images/12.png",
+            "image": "shopify://shop_images/Green_Modern_Coffee_Shop_Promotion_Banner_1.png",
+            "mobile_image": "shopify://shop_images/13.png",
             "show_overlay": true,
             "overlay_opacity": 5,
             "text_color": "#121251",
             "title": "",
             "content": "",
-            "content_position": "bottom_left",
+            "content_position": "middle_center",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "",
