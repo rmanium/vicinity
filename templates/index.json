@@ -28,8 +28,8 @@
           "settings": {
             "image": "shopify://shop_images/Green_Modern_Coffee_Shop_Promotion_Banner_2_a33b3ec3-f283-47cf-b3b3-6d0ec1869f93.png",
             "mobile_image": "shopify://shop_images/13.png",
-            "show_overlay": true,
-            "overlay_opacity": 5,
+            "show_overlay": false,
+            "overlay_opacity": 0,
             "text_color": "#121251",
             "title": "",
             "content": "",
