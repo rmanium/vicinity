@@ -502,16 +502,15 @@
     },
     "blog-posts": {
       "type": "blog-posts",
-      "disabled": true,
       "settings": {
-        "blog": "",
+        "blog": "recipe",
         "blog_posts_count": 3,
-        "title": "Blog posts",
+        "title": "Persian Cooking Tips",
         "link_title": "View all",
-        "show_category": true,
-        "show_author": true,
+        "show_category": false,
+        "show_author": false,
         "show_date": true,
-        "show_excerpt": false,
+        "show_excerpt": true,
         "stack_mobile": false
       }
     },
