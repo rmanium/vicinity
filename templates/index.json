@@ -500,12 +500,27 @@
         "show_quick_buy": false
       }
     },
+    "174317894963636497": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_GMgnwW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_GMgnwW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
         "blog": "recipe",
         "blog_posts_count": 3,
-        "title": "Persian Cooking Tips",
+        "title": "The Persian Kitchen Guide",
         "link_title": "View all",
         "show_category": false,
         "show_author": false,
@@ -599,21 +614,6 @@
         "button_text": "Get in touch to book!",
         "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
       }
-    },
-    "174317894963636497": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_GMgnwW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_GMgnwW"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -633,12 +633,12 @@
     "text-with-icons",
     "newsletter",
     "163624158735e5b47b",
+    "174317894963636497",
     "blog-posts",
     "1637542871cef3e060",
     "survey-modal",
     "featured_collection_8WByHx",
     "174346370527cf2e44",
-    "rich_text_kqiGzH",
-    "174317894963636497"
+    "rich_text_kqiGzH"
   ]
 }
