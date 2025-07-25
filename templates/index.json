@@ -500,6 +500,20 @@
         "show_quick_buy": false
       }
     },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "recipe",
+        "blog_posts_count": 3,
+        "title": "Vicinity Voice",
+        "link_title": "View all",
+        "show_category": false,
+        "show_author": false,
+        "show_date": true,
+        "show_excerpt": true,
+        "stack_mobile": false
+      }
+    },
     "174317894963636497": {
       "type": "apps",
       "blocks": {
@@ -513,20 +527,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "blog": "recipe",
-        "blog_posts_count": 3,
-        "title": "The Persian Kitchen Guide",
-        "link_title": "View all",
-        "show_category": false,
-        "show_author": false,
-        "show_date": true,
-        "show_excerpt": true,
-        "stack_mobile": false
       }
     },
     "1637542871cef3e060": {
