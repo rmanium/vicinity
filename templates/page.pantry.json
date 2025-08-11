@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -36,7 +45,7 @@
         "8aeec61f-bb45-43bc-a4bb-9686cd2b37c9": {
           "type": "collection",
           "settings": {
-            "collection": "oils"
+            "collection": "oils-vinegars-lemon-juices"
           }
         },
         "f44494f2-460d-4459-817d-dcb7c603fcf4": {
@@ -186,7 +195,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "content": "<p>A short sentence describing what someone will receive by subscribing</p>",
         "background": "#1e2d7d",
         "text": "#ffffff"
       }
