@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "yoast_seo_breadcrumbs_UhhtXV": {
-          "type": "shopify://apps/yoast-seo/blocks/breadcrumbs/7c777011-bc88-4743-a24e-64336e1e5b46",
-          "settings": {}
-        },
         "product_meta": {
           "type": "product_meta",
           "settings": {
@@ -65,7 +61,6 @@
         }
       },
       "block_order": [
-        "yoast_seo_breadcrumbs_UhhtXV",
         "product_meta",
         "variant_selector",
         "description",
