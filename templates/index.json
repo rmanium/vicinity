@@ -381,6 +381,7 @@
         "image_jjbTMb": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/vicinity_mart_sandwiches.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
