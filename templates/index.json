@@ -26,8 +26,8 @@
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_15.png",
-            "mobile_image": "shopify://shop_images/13.png",
+            "image": "shopify://shop_images/Mana_Spaghettis.png",
+            "mobile_image": "shopify://shop_images/mana_macaron.png",
             "show_overlay": false,
             "overlay_opacity": 0,
             "text_color": "#121251",
@@ -381,7 +381,6 @@
         "image_jjbTMb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PLATES.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
