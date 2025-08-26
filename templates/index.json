@@ -162,8 +162,8 @@
           "type": "item",
           "settings": {
             "icon": "bi-time",
-            "title": "Same Day Delivery",
-            "content": "<p>Outside North & West, order by 5 PM (2 PM Sundays) for same-day delivery.</p>"
+            "title": "Outside North & West",
+            "content": "<p>Order by 5 PM (2 PM Sundays) and your order will be delivered between 5–8 PM.</p>"
           }
         }
       },
