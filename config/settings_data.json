@@ -152,7 +152,7 @@
             "type": "text",
             "settings": {
               "title": "Contact Us",
-              "content": "<p><strong>LOCATION </strong>:</p><p>1449 Marine Drive</p><p>North Vancouver, BC,  V7P 1T5 </p><p><strong>PHONE </strong>:</p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726</a></p><p><strong>EMAIL :</strong></p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com</a></p>"
+              "content": "<p><strong>LOCATION </strong>:</p><p>1449 Marine Drive</p><p>North Vancouver, BC,  V7P 1T5 </p><p><strong>PHONE </strong>:</p><p><a href=\"tel:+1%C2%A0(604) 256-6726\" target=\"_blank\" title=\"tel:+1 (604) 256-6726\">+1 (604) 256-6726</a></p><p><a href=\"tel:7783705583\" target=\"_blank\" title=\"tel:7783705583\">+1 (778) 370-5583</a></p><p><strong>EMAIL :</strong></p><p><a href=\"mailto:Info@vicinitymart.com\" target=\"_blank\" title=\"mailto:Info@vicinitymart.com\">Info@vicinitymart.com</a></p>"
             }
           }
         },
@@ -332,28 +332,8 @@
         "disabled": false,
         "settings": {}
       },
-      "15154131639906026026": {
-        "type": "shopify://apps/tinyseo/blocks/broken-link-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
-        "disabled": false,
-        "settings": {}
-      },
-      "11104565113590962351": {
-        "type": "shopify://apps/tinyseo/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
-        "disabled": false,
-        "settings": {}
-      },
-      "2353461558643755616": {
-        "type": "shopify://apps/tinyseo/blocks/breadcrumbs-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
-        "disabled": false,
-        "settings": {}
-      },
       "15891388892413262111": {
         "type": "shopify://apps/essential-loyalty/blocks/theme-extension/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
-        "disabled": false,
-        "settings": {}
-      },
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       }
