@@ -46,11 +46,10 @@
         },
         "judge_me_reviews_review_widget_kNYtXg": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "reviews_3pV4ct": {
-          "type": "reviews",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         },
         "4d4ca45c-f661-4447-886d-101fb80edd1c": {
           "type": "shopify://apps/seoant-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
@@ -66,7 +65,6 @@
         "description",
         "buy_buttons",
         "judge_me_reviews_review_widget_kNYtXg",
-        "reviews_3pV4ct",
         "4d4ca45c-f661-4447-886d-101fb80edd1c"
       ],
       "settings": {
