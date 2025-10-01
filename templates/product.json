@@ -88,11 +88,27 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "1759343840724c8ace": {
+      "type": "apps",
+      "blocks": {
+        "rocket_google_reviews_app_block_tQ9kce": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "rocket_google_reviews_app_block_tQ9kce"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "1759343840724c8ace"
   ]
 }

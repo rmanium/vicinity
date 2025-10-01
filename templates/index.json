@@ -614,6 +614,21 @@
         "button_text": "Get in touch to book!",
         "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
       }
+    },
+    "175934381836ba757f": {
+      "type": "apps",
+      "blocks": {
+        "rocket_google_reviews_app_block_Jgq6Pm": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "rocket_google_reviews_app_block_Jgq6Pm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -639,6 +654,7 @@
     "survey-modal",
     "featured_collection_8WByHx",
     "174346370527cf2e44",
-    "rich_text_kqiGzH"
+    "rich_text_kqiGzH",
+    "175934381836ba757f"
   ]
 }
