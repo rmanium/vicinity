@@ -23,6 +23,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "6298f733-2db1-450f-9d19-b38fe1140504": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of.png",
+            "mobile_image": "shopify://shop_images/86bef5814f3656d321eaccad7803ff86.png",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#121251",
+            "title": "",
+            "content": "",
+            "content_position": "bottom_center",
+            "button_background": "#ee0000",
+            "button_text_color": "#ffffff",
+            "button_text": "",
+            "link": "shopify://pages/all-collections"
+          }
+        },
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
           "settings": {
@@ -38,23 +55,6 @@
             "button_text_color": "#ffffff",
             "button_text": "",
             "link": "shopify://products/vicinity-mountain-spring-water-500ml"
-          }
-        },
-        "6298f733-2db1-450f-9d19-b38fe1140504": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Copy_of.png",
-            "mobile_image": "shopify://shop_images/86bef5814f3656d321eaccad7803ff86.png",
-            "show_overlay": false,
-            "overlay_opacity": 35,
-            "text_color": "#121251",
-            "title": "",
-            "content": "",
-            "content_position": "bottom_center",
-            "button_background": "#ee0000",
-            "button_text_color": "#ffffff",
-            "button_text": "Start Shopping",
-            "link": "shopify://pages/all-collections"
           }
         },
         "dec882c9-04da-475a-a36c-0269dba5f5db": {
@@ -77,8 +77,8 @@
         }
       },
       "block_order": [
-        "74d92554-7dd4-4a28-91ea-ff25537a114d",
         "6298f733-2db1-450f-9d19-b38fe1140504",
+        "74d92554-7dd4-4a28-91ea-ff25537a114d",
         "dec882c9-04da-475a-a36c-0269dba5f5db"
       ],
       "custom_css": [],
