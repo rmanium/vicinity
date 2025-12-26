@@ -596,12 +596,6 @@
         "link_url": ""
       }
     },
-    "174346370527cf2e44": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "rich_text_kqiGzH": {
       "type": "rich-text",
       "name": "Rich text",
@@ -611,12 +605,6 @@
         "content": "<p>We’ve got you covered!</p><p>Vicinity Mart offers delicious, freshly made options delivered right to your event.<br/>Ready to impress your guests?</p>",
         "button_text": "Get in touch to book!",
         "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
-      }
-    },
-    "175934381836ba757f": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     }
   },
@@ -642,8 +630,6 @@
     "1637542871cef3e060",
     "survey-modal",
     "featured_collection_8WByHx",
-    "174346370527cf2e44",
-    "rich_text_kqiGzH",
-    "175934381836ba757f"
+    "rich_text_kqiGzH"
   ]
 }
