@@ -332,12 +332,10 @@
         "disabled": false,
         "settings": {}
       },
-      "18228966181090706294": {
-        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+      "15588394620387169604": {
+        "type": "shopify://apps/subi-subscriptions/blocks/app-embed-block/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
         "disabled": false,
-        "settings": {
-          "storefrontAccessToken": ""
-        }
+        "settings": {}
       }
     }
   },
