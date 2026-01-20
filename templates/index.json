@@ -27,6 +27,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/Copy_of_4.jpg",
             "show_overlay": false,
             "overlay_opacity": 0,
             "text_color": "#121251",
