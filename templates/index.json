@@ -25,7 +25,6 @@
       "blocks": {
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copy_of_4.jpg",
             "mobile_image": "shopify://shop_images/2_e3cd426c-9454-4ef1-8535-6fb9f351a5c7.jpg",
