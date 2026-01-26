@@ -331,11 +331,6 @@
         "type": "shopify://apps/essential-loyalty/blocks/theme-extension/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
         "disabled": false,
         "settings": {}
-      },
-      "15588394620387169604": {
-        "type": "shopify://apps/subi-subscriptions/blocks/app-embed-block/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
