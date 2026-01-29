@@ -54,7 +54,7 @@
           }
         },
         "4d4ca45c-f661-4447-886d-101fb80edd1c": {
-          "type": "shopify://apps/seoant-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
           "disabled": true,
           "settings": {
             "badge_id": ""
@@ -79,30 +79,12 @@
     },
     "17658342852e129561": {
       "type": "apps",
-      "blocks": {
-        "selleasy_lb_upsell_addon_block_cQGFW8": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "selleasy_lb_upsell_addon_block_cQGFW8"
-      ],
       "settings": {
         "include_margins": true
       }
     },
     "17658343414e960064": {
       "type": "apps",
-      "blocks": {
-        "selleasy_lb_upsell_fbt_block_nRkFW6": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "selleasy_lb_upsell_fbt_block_nRkFW6"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -110,7 +92,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "You may also like{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
         "show_quick_buy": true
       }
     },
