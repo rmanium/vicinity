@@ -48,7 +48,7 @@
           "type": "content",
           "settings": {
             "title": "Local Delivery",
-            "content": "<p><strong>1-Hour Delivery (North Vancouver & West Vancouver):</strong></p><p>Orders must be placed before 5 PM.</p><p>All orders placed after 5 PM will be delivered the next day.</p><p><strong>Same-Day Delivery (Outside North & West):</strong></p><p>Order by<strong> 5 PM</strong> (by <strong>2 PM on Sundays</strong>) for delivery between <strong>5–8 PM</strong>.</p><p>Orders placed <strong>after 5 PM will be delivered the next day.</strong></p>",
+            "content": "<p><strong>1-Hour Delivery</strong> (North & West Vancouver)</p><ul><li>Order before <strong>5 PM</strong></li><li>After 5 PM → <strong>Next-day delivery</strong></li></ul><p><strong>Same-Day Delivery</strong> (Outside North & West Vancouver)</p><ul><li>Order by <strong>5 PM</strong> (by <strong>2 PM on Sundays</strong>)</li><li>Delivered <strong>5–8 PM</strong></li><li>After cut-off → <strong>Next-day delivery</strong></li></ul>",
             "page": "",
             "display_mode": "show_all"
           }
