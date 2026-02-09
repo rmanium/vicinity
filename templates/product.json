@@ -44,6 +44,15 @@
             "show_payment_button": true
           }
         },
+        "content_JMWdgD": {
+          "type": "content",
+          "settings": {
+            "title": "Local Delivery",
+            "content": "<p><strong>1-Hour Delivery (North Vancouver & West Vancouver):</strong></p><p>Orders must be placed before 5 PM.</p><p>All orders placed after 5 PM will be delivered the next day.</p><p><strong>Same-Day Delivery (Outside North & West):</strong></p><p>Order by<strong> 5 PM</strong> (by <strong>2 PM on Sundays</strong>) for delivery between <strong>5–8 PM</strong>.</p><p>Orders placed <strong>after 5 PM will be delivered the next day.</strong></p>",
+            "page": "",
+            "display_mode": "show_all"
+          }
+        },
         "judge_me_reviews_review_widget_kNYtXg": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -59,6 +68,13 @@
           "settings": {
             "badge_id": ""
           }
+        },
+        "shipping_estimator_JkQLBk": {
+          "type": "shipping_estimator",
+          "settings": {
+            "shipping_estimator_default_country": "United States",
+            "show_refunds_policy": true
+          }
         }
       },
       "block_order": [
@@ -66,8 +82,10 @@
         "variant_selector",
         "description",
         "buy_buttons",
+        "content_JMWdgD",
         "judge_me_reviews_review_widget_kNYtXg",
-        "4d4ca45c-f661-4447-886d-101fb80edd1c"
+        "4d4ca45c-f661-4447-886d-101fb80edd1c",
+        "shipping_estimator_JkQLBk"
       ],
       "settings": {
         "image_size": "small",
