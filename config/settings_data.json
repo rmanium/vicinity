@@ -175,7 +175,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable_sticky_announcement": true,
+          "enable_sticky_announcement": false,
           "show_announcement": true,
           "background": "#ee0000",
           "text_color": "#ffffff",
