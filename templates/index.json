@@ -42,6 +42,7 @@
         },
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copy_of_3.jpg",
             "mobile_image": "shopify://shop_images/1_af5c191a-cd2c-4084-a623-d4e373052859.jpg",
@@ -90,45 +91,6 @@
         "cycle_speed": 4
       }
     },
-    "1636241720a09de843": {
-      "type": "offers",
-      "blocks": {
-        "1636241720a09de843-0": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify://shop_images/iconmonstr-magnifier-6-240_1.png",
-            "title": "Browse",
-            "content": "<p>Browse our selection of quality<br/>products.</p>"
-          }
-        },
-        "1636241720a09de843-1": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify://shop_images/iconmonstr-check-mark-14-240.png",
-            "title": "Order",
-            "content": "<p>Easily place your<br/>order on our website.</p>"
-          }
-        },
-        "5a65015f-b598-45b2-9c8b-ba4fda562d25": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify://shop_images/iconmonstr-delivery-6-240_2.png",
-            "title": "Receive",
-            "content": "<p>We'll deliver your order in under 3 hours.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636241720a09de843-0",
-        "1636241720a09de843-1",
-        "5a65015f-b598-45b2-9c8b-ba4fda562d25"
-      ],
-      "disabled": true,
-      "settings": {
-        "items_per_row": 3,
-        "stack_mobile": true
-      }
-    },
     "1637542558ac9160e1": {
       "type": "text-with-icons",
       "blocks": {
@@ -172,68 +134,9 @@
         "16375425587d2f86b0-2",
         "16375425587d2f86b0-3"
       ],
+      "disabled": true,
       "settings": {
         "stack_mobile": false
-      }
-    },
-    "rich_text_LhfzHt": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Shop Our Baked Selections!",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/all"
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "persian-cooking-essentials",
-            "link": ""
-          }
-        },
-        "collection_yJWUtd": {
-          "type": "collection",
-          "settings": {
-            "collection": "persian-breads",
-            "image": "shopify://shop_images/Untitled_design_13.png",
-            "link": ""
-          }
-        },
-        "collection_RQm4DU": {
-          "type": "collection",
-          "settings": {
-            "collection": "artisan-breads",
-            "image": "shopify://shop_images/Untitled_design_15.png",
-            "link": ""
-          }
-        },
-        "collection_kpn93t": {
-          "type": "collection",
-          "settings": {
-            "collection": "sweets-1",
-            "image": "shopify://shop_images/Untitled_design_17.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection_yJWUtd",
-        "collection_RQm4DU",
-        "collection_kpn93t"
-      ],
-      "settings": {
-        "title": "",
-        "link_title": "View all",
-        "link": "shopify://collections",
-        "round_images": false,
-        "show_collection_title": true
       }
     },
     "rich_text_AATgic": {
@@ -246,132 +149,100 @@
         "button_link": "shopify://collections/all"
       }
     },
-    "collection_list_ELAPie": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_c8GGVj": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "persian-cooking-essentials",
-            "link": ""
-          }
-        },
-        "collection_i4zXVL": {
-          "type": "collection",
-          "settings": {
-            "collection": "beef",
-            "image": "shopify://shop_images/2.png",
-            "link": ""
-          }
-        },
-        "collection_rfKJJB": {
-          "type": "collection",
-          "settings": {
-            "collection": "chicken",
-            "image": "shopify://shop_images/1_83ad6a82-637c-4316-8d0f-43d101eaf3c8.png",
-            "link": ""
-          }
-        },
-        "collection_DULEWK": {
-          "type": "collection",
-          "settings": {
-            "collection": "meat-poultry",
-            "image": "shopify://shop_images/3.png",
-            "link": ""
-          }
-        },
-        "collection_FpHVjN": {
-          "type": "collection",
-          "settings": {
-            "collection": "deli",
-            "image": "shopify://shop_images/4.png",
-            "link": ""
-          }
-        },
-        "collection_d8XUYR": {
-          "type": "collection",
-          "settings": {
-            "collection": "beef-or-chicken-marinade",
-            "image": "shopify://shop_images/5.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_c8GGVj",
-        "collection_i4zXVL",
-        "collection_rfKJJB",
-        "collection_DULEWK",
-        "collection_FpHVjN",
-        "collection_d8XUYR"
+    "image_with_text_awHRr3": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
       ],
+      "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/1.jpg",
+        "image_position": "left",
+        "image_width": 50,
         "title": "",
-        "link_title": "View all",
-        "link": "shopify://collections",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
-    "rich_text_BC6DkV": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Shop Fresh, Handpicked Produce!",
         "content": "",
         "button_text": "",
-        "button_link": "shopify://collections/all"
+        "button_link": "shopify://collections/fresh-fruits-veggies"
       }
     },
-    "collection_list_yRGmfz": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_W39Lc4": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "persian-cooking-essentials",
-            "link": ""
-          }
-        },
-        "collection_kPrLYY": {
-          "type": "collection",
-          "settings": {
-            "collection": "fresh-vegetables",
-            "image": "shopify://shop_images/1_902363f7-f02d-4751-b948-f603ef773778.png",
-            "link": ""
-          }
-        },
-        "collection_GBQHjJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "fresh-fruits",
-            "image": "shopify://shop_images/2_6d38c2e9-773e-47a5-bf93-cabd59b23321.png",
-            "link": ""
-          }
-        },
-        "collection_Fa8idA": {
-          "type": "collection",
-          "settings": {
-            "collection": "fresh-herbs",
-            "image": "shopify://shop_images/4_fa350872-b259-492a-b294-eea0cdaa47d2.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_W39Lc4",
-        "collection_kPrLYY",
-        "collection_GBQHjJ",
-        "collection_Fa8idA"
+    "image_with_text_XxWBK6": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
       ],
+      "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/2.jpg",
+        "image_position": "left",
+        "image_width": 50,
         "title": "",
-        "link_title": "View all",
-        "link": "shopify://collections",
-        "round_images": true,
-        "show_collection_title": true
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/meat-poultry-1"
+      }
+    },
+    "image_with_text_LVDThc": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/3_69b9371a-078a-4921-b41a-7f5e73d2c1b5.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/sliced-bread"
+      }
+    },
+    "image_with_text_fD6U7k": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/4_788e2b00-78e0-4bbb-a470-a6f51ff5495e.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/dairy-eggs"
+      }
+    },
+    "image_with_text_heyFwR": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/5.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/pantry-staples"
+      }
+    },
+    "image_with_text_rMhPBY": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/6.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/sweets-1"
       }
     },
     "slideshow_6VbREA": {
@@ -405,6 +276,43 @@
         "cycle_speed": 5
       }
     },
+    "rich_text_WMBQiG": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "Delivery made simple",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://policies/shipping-policy"
+      }
+    },
+    "1636241720a09de843": {
+      "type": "offers",
+      "blocks": {
+        "1636241720a09de843-0": {
+          "type": "offer",
+          "settings": {
+            "title": "North & West Van",
+            "content": "<p>Order before 5 PM → 1-hour deliveryOrders after 5 PM → Delivered next day before 12 PM</p>"
+          }
+        },
+        "1636241720a09de843-1": {
+          "type": "offer",
+          "settings": {
+            "title": "Outside North & West Van",
+            "content": "<p>Order before 5 PM → Delivered today 5–8 PMOrder after 5 PM → Delivered next day 5–8 PM</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636241720a09de843-0",
+        "1636241720a09de843-1"
+      ],
+      "settings": {
+        "items_per_row": 3,
+        "stack_mobile": true
+      }
+    },
     "1743463835133a460c": {
       "type": "apps",
       "blocks": {
@@ -420,65 +328,6 @@
       ],
       "settings": {
         "include_margins": false
-      }
-    },
-    "image_with_text_pg8iMy": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify://shop_images/Untitled_design_37.png",
-        "image_position": "right",
-        "image_width": 50,
-        "title": "Get Your Persian Groceries Delivered Free!",
-        "content": "<p>Order all your favorite Persian groceries online and enjoy <strong>free delivery</strong> on orders over <strong>$55</strong> in North Van, West Van, and select areas in Vancouver.</p><p>For Burnaby and New Westminster, <strong>free delivery</strong> is available on orders over <strong>$100</strong>. </p><p>For those in Surrey, Richmond, and beyond, <strong>free delivery</strong> is available on orders over <strong>$200</strong>!</p><p>Delivery fees start as low as <strong>$5</strong> for smaller orders!</p>",
-        "button_text": "Check Delivery Details!",
-        "button_link": "shopify://policies/shipping-policy"
-      }
-    },
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-delivery",
-            "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store</p>"
-          }
-        },
-        "icon-2": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-returns",
-            "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store</p>"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store</p>"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Short content about your store</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "stack_mobile": false
       }
     },
     "newsletter": {
@@ -612,22 +461,22 @@
   "order": [
     "165970559810c3db58",
     "slideshow",
-    "1636241720a09de843",
     "1637542558ac9160e1",
-    "rich_text_LhfzHt",
-    "collection-list",
     "rich_text_AATgic",
-    "collection_list_ELAPie",
-    "rich_text_BC6DkV",
-    "collection_list_yRGmfz",
+    "image_with_text_awHRr3",
+    "image_with_text_XxWBK6",
+    "image_with_text_LVDThc",
+    "image_with_text_fD6U7k",
+    "image_with_text_heyFwR",
+    "image_with_text_rMhPBY",
     "slideshow_6VbREA",
+    "rich_text_WMBQiG",
+    "1636241720a09de843",
     "1743463835133a460c",
-    "image_with_text_pg8iMy",
-    "text-with-icons",
+    "174317894963636497",
     "newsletter",
     "163624158735e5b47b",
     "blog-posts",
-    "174317894963636497",
     "1637542871cef3e060",
     "survey-modal",
     "featured_collection_8WByHx",
