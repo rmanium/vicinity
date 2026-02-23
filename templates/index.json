@@ -91,158 +91,105 @@
         "cycle_speed": 4
       }
     },
-    "1637542558ac9160e1": {
-      "type": "text-with-icons",
+    "mosaic_jgkGAq": {
+      "type": "mosaic",
       "blocks": {
-        "16375425587d2f86b0-0": {
+        "item_pDELB3": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "icon": "bi-add-to-cart",
+            "image": "shopify://shop_images/1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
             "title": "",
-            "content": "<h5>Nowruz Sweets On Sale                                          </h5><p>Until 13-Bedar (April 2nd)</p>"
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/fresh-fruits-veggies"
           }
         },
-        "16375425587d2f86b0-1": {
+        "item_gdQpDi": {
           "type": "item",
           "settings": {
-            "icon": "bi-fast-delivery",
-            "title": "Fast Delivery",
-            "content": "<p>1-hour delivery in North & West Van for orders before 5 PM.</p>"
+            "image": "shopify://shop_images/3_69b9371a-078a-4921-b41a-7f5e73d2c1b5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/sliced-bread"
           }
         },
-        "16375425587d2f86b0-2": {
+        "item_PUQFMU": {
           "type": "item",
           "settings": {
-            "icon": "bi-alert",
-            "title": "Free Delivery",
-            "content": "<p>Get free delivery on orders over $55 in select Vancouver areas.</p>"
+            "image": "shopify://shop_images/2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/meat-poultry-1"
           }
         },
-        "16375425587d2f86b0-3": {
+        "item_aP8BEE": {
           "type": "item",
           "settings": {
-            "icon": "bi-time",
-            "title": "Outside North & West",
-            "content": "<p>Order by 5 PM (2 PM Sundays) and your order will be delivered between 5–8 PM.</p>"
+            "image": "shopify://shop_images/4_788e2b00-78e0-4bbb-a470-a6f51ff5495e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "item_3rxD4h": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/pantry-staples"
           }
         }
       },
       "block_order": [
-        "16375425587d2f86b0-0",
-        "16375425587d2f86b0-1",
-        "16375425587d2f86b0-2",
-        "16375425587d2f86b0-3"
+        "item_pDELB3",
+        "item_gdQpDi",
+        "item_PUQFMU",
+        "item_aP8BEE",
+        "item_3rxD4h"
       ],
-      "disabled": true,
+      "name": "Mosaic",
       "settings": {
-        "stack_mobile": false
-      }
-    },
-    "rich_text_AATgic": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Shop Fresh Craft Meats!",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/all"
-      }
-    },
-    "image_with_text_awHRr3": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/1.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/fresh-fruits-veggies"
-      }
-    },
-    "image_with_text_XxWBK6": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/2.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/meat-poultry-1"
-      }
-    },
-    "image_with_text_LVDThc": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/3_69b9371a-078a-4921-b41a-7f5e73d2c1b5.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/sliced-bread"
-      }
-    },
-    "image_with_text_fD6U7k": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/4_788e2b00-78e0-4bbb-a470-a6f51ff5495e.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/dairy-eggs"
-      }
-    },
-    "image_with_text_heyFwR": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/5.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/pantry-staples"
-      }
-    },
-    "image_with_text_rMhPBY": {
-      "type": "image-with-text",
-      "custom_css": [
-        "/* remove the green gap (padding) */div[class^=\"ActionGroupWrapper_\"],div[class*=\" ActionGroupWrapper_\"] {padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/6.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://collections/sweets-1"
+        "section_size": "medium"
       }
     },
     "slideshow_6VbREA": {
@@ -309,7 +256,7 @@
         "1636241720a09de843-1"
       ],
       "settings": {
-        "items_per_row": 3,
+        "items_per_row": 2,
         "stack_mobile": true
       }
     },
@@ -328,6 +275,21 @@
       ],
       "settings": {
         "include_margins": false
+      }
+    },
+    "174317894963636497": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_GMgnwW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_GMgnwW"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "newsletter": {
@@ -360,21 +322,6 @@
         "show_date": true,
         "show_excerpt": true,
         "stack_mobile": false
-      }
-    },
-    "174317894963636497": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_GMgnwW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_GMgnwW"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "1637542871cef3e060": {
@@ -461,14 +408,7 @@
   "order": [
     "165970559810c3db58",
     "slideshow",
-    "1637542558ac9160e1",
-    "rich_text_AATgic",
-    "image_with_text_awHRr3",
-    "image_with_text_XxWBK6",
-    "image_with_text_LVDThc",
-    "image_with_text_fD6U7k",
-    "image_with_text_heyFwR",
-    "image_with_text_rMhPBY",
+    "mosaic_jgkGAq",
     "slideshow_6VbREA",
     "rich_text_WMBQiG",
     "1636241720a09de843",
