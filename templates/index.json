@@ -240,7 +240,7 @@
           "type": "offer",
           "settings": {
             "title": "North & West Van",
-            "content": "<p>Order before 5 PM → 1-hour deliveryOrders after 5 PM → Delivered next day before 12 PM</p>"
+            "content": "<p>Order before 5 PM → 1-hour delivery</p><p>Orders after 5 PM → Delivered next day before 12 PM</p>"
           }
         },
         "1636241720a09de843-1": {
