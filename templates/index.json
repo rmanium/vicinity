@@ -97,7 +97,7 @@
         "item_pDELB3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1_57c11358-a8e2-4027-86a1-2503cebfcc92.jpg",
+            "image": "shopify://shop_images/persian_grocery_store_in_vancouver.jpg",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "#f3f4f4",
@@ -114,7 +114,7 @@
         "item_gdQpDi": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/3_e7bce3e1-5ac3-4191-b56a-163a98326612.jpg",
+            "image": "shopify://shop_images/best_bakery_in_vancouver.jpg",
             "show_overlay": false,
             "overlay_opacity": 100,
             "background": "#f3f4f4",
@@ -131,7 +131,7 @@
         "item_PUQFMU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2_3b015328-2e09-4083-92b0-1a11f62e3023.jpg",
+            "image": "shopify://shop_images/halal_fresh_meat_and_chicken_in_vancouver.jpg",
             "show_overlay": false,
             "overlay_opacity": 100,
             "background": "#f3f4f4",
@@ -148,7 +148,7 @@
         "item_aP8BEE": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/4_bac60393-7706-4362-ac7f-f330d6d5923a.jpg",
+            "image": "shopify://shop_images/iranian_cheese_and_doogh_in_canada.jpg",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "#f3f4f4",
@@ -165,7 +165,7 @@
         "item_3rxD4h": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/5_71e9ed4c-c8d3-4e5a-8060-528d78b82a55.jpg",
+            "image": "shopify://shop_images/iranian_rice_in_canada.jpg",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "rgba(0,0,0,0)",
@@ -247,7 +247,7 @@
           "type": "offer",
           "settings": {
             "title": "Outside North & West Van",
-            "content": "<p>Order before 5 PM → Delivered today 5–8 PMOrder after 5 PM → Delivered next day 5–8 PM</p>"
+            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p>"
           }
         }
       },
