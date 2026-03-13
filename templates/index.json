@@ -85,7 +85,7 @@
       "custom_css": [],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "preserve_ratio",
+        "section_size": "large",
         "carousel_effect": "slide",
         "autoplay": false,
         "cycle_speed": 4
