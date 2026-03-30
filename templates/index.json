@@ -97,7 +97,7 @@
         "item_pDELB3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/persian_grocery_store_in_vancouver.jpg",
+            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "#f3f4f4",
@@ -114,7 +114,7 @@
         "item_gdQpDi": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/best_bakery_in_vancouver.jpg",
+            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
             "show_overlay": false,
             "overlay_opacity": 100,
             "background": "#f3f4f4",
@@ -131,7 +131,7 @@
         "item_PUQFMU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/halal_fresh_meat_and_chicken_in_vancouver.jpg",
+            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
             "show_overlay": false,
             "overlay_opacity": 100,
             "background": "#f3f4f4",
@@ -148,7 +148,7 @@
         "item_aP8BEE": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/iranian_cheese_and_doogh_in_canada.jpg",
+            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "#f3f4f4",
@@ -165,7 +165,7 @@
         "item_3rxD4h": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/iranian_rice_in_canada.jpg",
+            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
             "show_overlay": false,
             "overlay_opacity": 0,
             "background": "rgba(0,0,0,0)",
