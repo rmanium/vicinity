@@ -26,7 +26,7 @@
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Pink_Friendly_Start-up_Food_Truck_Business_Meeting_Visual_Charts_Presentation_2.jpg",
+            "image": "shopify://shop_images/1.png",
             "mobile_image": "shopify://shop_images/4.jpg",
             "show_overlay": false,
             "overlay_opacity": 0,
@@ -37,7 +37,7 @@
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "",
-            "link": "shopify://collections/nowrooz"
+            "link": "shopify://collections"
           }
         },
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
