@@ -201,18 +201,6 @@
       "popups": {
         "type": "popups",
         "blocks": {
-          "f34e427b-5e37-4e08-9836-4e93a1a1ac21": {
-            "type": "newsletter",
-            "settings": {
-              "show_only_on_index": true,
-              "show_only_for_visitors": true,
-              "show_only_once": true,
-              "title": "First-Time? Get $10 Off!",
-              "content": "<p>Subscribe to our weekly newsletter and get $10 off your first order over $75. Stay in the loop with exclusive promotions, product news, and more!</p>",
-              "show_newsletter": true,
-              "apparition_delay": 5
-            }
-          },
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42": {
             "type": "schedule",
             "disabled": true,
@@ -226,15 +214,6 @@
               "title": "Super Deals Now On!",
               "content": "<h3>Sofreh Hashemi Rice</h3><h3>برنج 100% ایرانی هاشمی سفره</h3><h6>Buy one : For $ 29.99</h6><h6>Buy two and more : For $ 24.99 (each)</h6><h6></h6><h6></h6><h6></h6><h6></h6>",
               "apparition_delay": 1
-            }
-          },
-          "b816b770-242e-43c5-b225-104ad791128f": {
-            "type": "survey",
-            "settings": {
-              "ifram_url": "https://marketing.vicinitymart.com",
-              "source": "general",
-              "content": "general",
-              "btn_feedback_text": "feedback"
             }
           },
           "d313059b-58ff-40fa-9c5b-3d87c2545cf8": {
@@ -253,9 +232,7 @@
           }
         },
         "block_order": [
-          "f34e427b-5e37-4e08-9836-4e93a1a1ac21",
           "dbf07039-76fd-423e-8b60-8ea94ebd2d42",
-          "b816b770-242e-43c5-b225-104ad791128f",
           "d313059b-58ff-40fa-9c5b-3d87c2545cf8"
         ],
         "settings": {}
@@ -334,11 +311,6 @@
       },
       "5890205134905443601": {
         "type": "shopify://apps/seowill-trust-badges/blocks/trust_core/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
-        "disabled": false,
-        "settings": {}
-      },
-      "12108174171315376258": {
-        "type": "shopify://apps/aov-ai-cart-drawer/blocks/avada-embed/938869e1-3feb-48fa-ab79-27fdfe609836",
         "disabled": false,
         "settings": {}
       }
