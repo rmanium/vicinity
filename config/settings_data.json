@@ -311,7 +311,7 @@
           "ternary_color": "#6A6A6A",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
-          "button_horizontal_position": "bottom_left",
+          "button_horizontal_position": "bottom_right",
           "button_vertical_position": "highest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
