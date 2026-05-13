@@ -247,7 +247,7 @@
           "type": "offer",
           "settings": {
             "title": "Outside North & West Van",
-            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p>"
+            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>"
           }
         }
       },
