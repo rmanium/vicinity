@@ -541,5 +541,12 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "shipping_address_title": "Adresse - Veuillez sélectionner votre adresse uniquement à partir de la liste déroulante pour bénéficier de la livraison gratuite dans votre région (Ne modifiez pas votre code postal après la sélection)"
+      }
+    }
   }
 }
