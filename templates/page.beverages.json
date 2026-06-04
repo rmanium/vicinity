@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,7 +15,7 @@
         "0cd16091-409a-44ae-8930-66a10887a1c3": {
           "type": "collection",
           "settings": {
-            "collection": "tea"
+            "collection": "coffee-tea"
           }
         },
         "5a36cbb0-4aa0-48c7-ab57-979b67412ab5": {
@@ -93,7 +102,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "content": "<p>A short sentence describing what someone will receive by subscribing</p>",
         "background": "#1e2d7d",
         "text": "#ffffff"
       }
