@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -118,7 +127,7 @@
         "be370299-81c0-4f7e-a82d-ee70f616c591": {
           "type": "collection",
           "settings": {
-            "collection": "health-beauty"
+            "collection": "personal-home-care"
           }
         },
         "3789b8c9-6b37-44a3-a21f-c83c740e4c9b": {
@@ -167,7 +176,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "content": "<p>A short sentence describing what someone will receive by subscribing</p>",
         "background": "#1e2d7d",
         "text": "#ffffff"
       }
