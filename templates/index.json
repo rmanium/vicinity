@@ -198,7 +198,7 @@
         "378b72a0-af7d-4dd6-a4d5-9ce8cadf0e49": {
           "type": "collection",
           "settings": {
-            "collection": "baking-ingredients",
+            "collection": "baked-goods",
             "image": "shopify://shop_images/Sourdough-Barbari-4.700px.jpg",
             "link": ""
           }
@@ -371,7 +371,7 @@
     "8d007a98-70a1-4f6d-aa32-6261103a70c0": {
       "type": "featured-collection",
       "settings": {
-        "collection": "baking-ingredients",
+        "collection": "baked-goods",
         "title": "Bakery & Naan",
         "products_count": 50,
         "layout": "vertical",
