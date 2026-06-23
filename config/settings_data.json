@@ -320,6 +320,11 @@
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
+      },
+      "14634609474538694927": {
+        "type": "shopify://apps/fether-frequently-bought/blocks/widget-embed/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
