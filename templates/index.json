@@ -48,6 +48,43 @@
         "include_margins": false
       }
     },
+    "rich_text_WMBQiG": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "wide",
+        "title": "Delivery made simple",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://policies/shipping-policy"
+      }
+    },
+    "1636241720a09de843": {
+      "type": "offers",
+      "blocks": {
+        "1636241720a09de843-0": {
+          "type": "offer",
+          "settings": {
+            "title": "North & West Van",
+            "content": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>"
+          }
+        },
+        "1636241720a09de843-1": {
+          "type": "offer",
+          "settings": {
+            "title": "Outside North & West Van",
+            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636241720a09de843-0",
+        "1636241720a09de843-1"
+      ],
+      "settings": {
+        "items_per_row": 2,
+        "stack_mobile": true
+      }
+    },
     "mosaic_jgkGAq": {
       "type": "mosaic",
       "blocks": {
@@ -178,43 +215,6 @@
         "carousel_effect": "fade",
         "autoplay": true,
         "cycle_speed": 5
-      }
-    },
-    "rich_text_WMBQiG": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Delivery made simple",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://policies/shipping-policy"
-      }
-    },
-    "1636241720a09de843": {
-      "type": "offers",
-      "blocks": {
-        "1636241720a09de843-0": {
-          "type": "offer",
-          "settings": {
-            "title": "North & West Van",
-            "content": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>"
-          }
-        },
-        "1636241720a09de843-1": {
-          "type": "offer",
-          "settings": {
-            "title": "Outside North & West Van",
-            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636241720a09de843-0",
-        "1636241720a09de843-1"
-      ],
-      "settings": {
-        "items_per_row": 2,
-        "stack_mobile": true
       }
     },
     "1743463835133a460c": {
@@ -365,10 +365,10 @@
   "order": [
     "165970559810c3db58",
     "178415000383a4835c",
-    "mosaic_jgkGAq",
-    "slideshow_6VbREA",
     "rich_text_WMBQiG",
     "1636241720a09de843",
+    "mosaic_jgkGAq",
+    "slideshow_6VbREA",
     "1743463835133a460c",
     "174317894963636497",
     "newsletter",
