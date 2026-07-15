@@ -9,24 +9,35 @@
  */
 {
   "sections": {
+    "165970559810c3db58": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/landing-1.jpg",
+        "title": "Online Persian Grocery Made Easy",
+        "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
+        "show_image_overlay": true,
+        "color": "#ffffff"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
         "6298f733-2db1-450f-9d19-b38fe1140504": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_a1599fa4-a0fb-4ab4-afef-98c1b2faab8a.png",
-            "mobile_image": "shopify://shop_images/image_40da607d-423a-42dd-bada-efe55a7f51c0.png",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "Fresh. Local. Delivered Today.",
-            "content": "Same-day delivery across Vancouver",
-            "content_position": "top_center",
-            "button_background": "#ff0000",
+            "image": "shopify://shop_images/Untitled_design_-_2026-06-15T095724.694.jpg",
+            "mobile_image": "shopify://shop_images/8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#121251",
+            "title": "",
+            "content": "",
+            "content_position": "bottom_center",
+            "button_background": "#ee0000",
             "button_text_color": "#ffffff",
-            "button_text": "Shop Now",
-            "link": "shopify://collections/fresh-fruits-veggies"
+            "button_text": "",
+            "link": "shopify://collections"
           }
         },
         "74d92554-7dd4-4a28-91ea-ff25537a114d": {
@@ -74,7 +85,7 @@
       "custom_css": [],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "large",
+        "section_size": "small",
         "carousel_effect": "slide",
         "autoplay": false,
         "cycle_speed": 4
@@ -372,8 +383,8 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "collection": "fresh-fruits-veggies",
-        "title": "Shop by Category",
+        "collection": "",
+        "title": "Best Picks Zone",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": true,
@@ -395,6 +406,7 @@
     }
   },
   "order": [
+    "165970559810c3db58",
     "slideshow",
     "mosaic_jgkGAq",
     "slideshow_6VbREA",
