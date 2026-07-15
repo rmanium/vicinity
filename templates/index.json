@@ -20,75 +20,32 @@
         "color": "#ffffff"
       }
     },
-    "slideshow": {
-      "type": "slideshow",
+    "178415000383a4835c": {
+      "type": "apps",
       "blocks": {
-        "6298f733-2db1-450f-9d19-b38fe1140504": {
-          "type": "image",
+        "herolink_banner_b3XYfk": {
+          "type": "shopify://apps/herolink/blocks/banner/4968e122-e5d0-4ea5-86c6-b4d30b2b9762",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_-_2026-06-15T095724.694.jpg",
-            "mobile_image": "shopify://shop_images/8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "text_color": "#121251",
-            "title": "",
-            "content": "",
-            "content_position": "bottom_center",
-            "button_background": "#ee0000",
-            "button_text_color": "#ffffff",
-            "button_text": "",
-            "link": "shopify://collections"
-          }
-        },
-        "74d92554-7dd4-4a28-91ea-ff25537a114d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Copy_of_3.jpg",
-            "mobile_image": "shopify://shop_images/1_af5c191a-cd2c-4084-a623-d4e373052859.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "text_color": "#121251",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ee0000",
-            "button_text_color": "#ffffff",
-            "button_text": "",
-            "link": "shopify://products/lucky-cow-white-cheese-500gr"
-          }
-        },
-        "dec882c9-04da-475a-a36c-0269dba5f5db": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/baner2-d.jpg",
-            "mobile_image": "shopify://shop_images/baner11-750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ed1c24",
-            "button_text_color": "#ffffff",
-            "button_text": "Order Now",
-            "link": "shopify://collections"
+            "desktop_image": "shopify://shop_images/image_b2be17b2-9c02-446d-bba5-c4b5411c3159.png",
+            "desktop_image_alt": "",
+            "desktop_image_aspect_ratio": "16 / 9",
+            "mobile_image": "shopify://shop_images/image_b49065bb-0f14-4f74-989f-d6db9ae9c891.png",
+            "mobile_image_alt": "",
+            "mobile_image_aspect_ratio": "auto",
+            "link": "",
+            "link_target": "_self",
+            "desktop_top_margin": 0,
+            "desktop_bottom_margin": 0,
+            "mobile_top_margin": 0,
+            "mobile_bottom_margin": 0
           }
         }
       },
       "block_order": [
-        "6298f733-2db1-450f-9d19-b38fe1140504",
-        "74d92554-7dd4-4a28-91ea-ff25537a114d",
-        "dec882c9-04da-475a-a36c-0269dba5f5db"
+        "herolink_banner_b3XYfk"
       ],
-      "custom_css": [],
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
-        "carousel_effect": "slide",
-        "autoplay": false,
-        "cycle_speed": 4
+        "include_margins": false
       }
     },
     "mosaic_jgkGAq": {
@@ -407,7 +364,7 @@
   },
   "order": [
     "165970559810c3db58",
-    "slideshow",
+    "178415000383a4835c",
     "mosaic_jgkGAq",
     "slideshow_6VbREA",
     "rich_text_WMBQiG",
