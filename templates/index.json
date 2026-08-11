@@ -17,12 +17,12 @@
           "settings": {
             "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
             "mobile_image": "shopify://shop_images/image_5f366113-86b7-46d8-9612-7bcd60016e52.png",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
-            "content_position": "middle_center",
+            "content_position": "bottom_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
@@ -52,9 +52,9 @@
       ],
       "name": "Slideshow",
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
+        "carousel_effect": "fade",
         "autoplay": true,
         "cycle_speed": 5
       }
