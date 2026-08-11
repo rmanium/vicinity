@@ -54,8 +54,8 @@
       "settings": {
         "edge_to_edge": true,
         "section_size": "preserve_ratio",
-        "carousel_effect": "fade",
-        "autoplay": true,
+        "carousel_effect": "slide",
+        "autoplay": false,
         "cycle_speed": 5
       }
     },
