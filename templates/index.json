@@ -9,11 +9,61 @@
  */
 {
   "sections": {
+    "slideshow_A7qQ6q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4rXWGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
+            "mobile_image": "shopify://shop_images/image_5f366113-86b7-46d8-9612-7bcd60016e52.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/all"
+          }
+        },
+        "image_HUJWbH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4rXWGx",
+        "image_HUJWbH"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
     "165970559810c3db58": {
       "type": "image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/landing-1.jpg",
+        "image": "shopify://shop_images/image_2775bfdf-0a47-457b-a21d-1d74a8c051aa.png",
         "title": "Online Persian Grocery Made Easy",
         "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
         "show_image_overlay": true,
@@ -22,28 +72,6 @@
     },
     "178415000383a4835c": {
       "type": "apps",
-      "blocks": {
-        "herolink_banner_b3XYfk": {
-          "type": "shopify://apps/herolink/blocks/banner/4968e122-e5d0-4ea5-86c6-b4d30b2b9762",
-          "settings": {
-            "desktop_image": "shopify://shop_images/image_b2be17b2-9c02-446d-bba5-c4b5411c3159.png",
-            "desktop_image_alt": "",
-            "desktop_image_aspect_ratio": "16 / 9",
-            "mobile_image": "shopify://shop_images/image_b49065bb-0f14-4f74-989f-d6db9ae9c891.png",
-            "mobile_image_alt": "",
-            "mobile_image_aspect_ratio": "auto",
-            "link": "shopify://collections/all",
-            "link_target": "_self",
-            "desktop_top_margin": 0,
-            "desktop_bottom_margin": 0,
-            "mobile_top_margin": 0,
-            "mobile_bottom_margin": 0
-          }
-        }
-      },
-      "block_order": [
-        "herolink_banner_b3XYfk"
-      ],
       "settings": {
         "include_margins": false
       }
@@ -360,9 +388,16 @@
         "button_text": "Get in touch to book!",
         "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
       }
+    },
+    "1786473634b3f8d3c8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "slideshow_A7qQ6q",
     "165970559810c3db58",
     "178415000383a4835c",
     "rich_text_WMBQiG",
@@ -377,6 +412,7 @@
     "1637542871cef3e060",
     "survey-modal",
     "featured_collection_8WByHx",
-    "rich_text_kqiGzH"
+    "rich_text_kqiGzH",
+    "1786473634b3f8d3c8"
   ]
 }
