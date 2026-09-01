@@ -342,6 +342,8 @@
       tabindex="-1"
       data-template="{{ template.name }}"
     >
+      {%- render 'vicinity-breadcrumbs' -%}
+
       {{ content_for_layout }}
     </main>
 

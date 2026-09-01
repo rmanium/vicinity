@@ -1,0 +1,98 @@
+{% comment %}
+  Vicinity Mart — breadcrumb trail.
+
+  Trade ships no breadcrumbs, so this is a custom addition. Rendered from
+  layout/theme.liquid at the top of <main>. Emits schema.org BreadcrumbList
+  microdata so Google can show the trail in search results.
+
+  Hidden on templates where a trail is meaningless (home, cart, 404, password).
+{% endcomment %}
+
+{%- liquid
+  assign page_type = request.page_type
+  assign hidden_on = 'index,cart,404,password,gift_card'
+  assign hidden_list = hidden_on | split: ','
+  assign is_hidden = false
+  for item in hidden_list
+    if item == page_type
+      assign is_hidden = true
+      break
+    endif
+  endfor
+-%}
+
+{%- unless is_hidden -%}
+  <nav class="vicinity-breadcrumbs page-width" aria-label="Breadcrumb">
+    <ol class="vicinity-breadcrumbs__list" role="list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li class="vicinity-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ routes.root_url }}" itemprop="item"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </li>
+
+      {%- case page_type -%}
+        {%- when 'product' -%}
+          {%- if collection.url -%}
+            <li class="vicinity-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <a href="{{ collection.url }}" itemprop="item"><span itemprop="name">{{ collection.title | escape }}</span></a>
+              <meta itemprop="position" content="2">
+            </li>
+          {%- endif -%}
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ product.title | escape }}</span>
+            <meta itemprop="position" content="{% if collection.url %}3{% else %}2{% endif %}">
+          </li>
+
+        {%- when 'collection' -%}
+          {%- if current_tags -%}
+            <li class="vicinity-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <a href="{{ collection.url }}" itemprop="item"><span itemprop="name">{{ collection.title | escape }}</span></a>
+              <meta itemprop="position" content="2">
+            </li>
+            <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">{{ current_tags | join: ', ' | escape }}</span>
+              <meta itemprop="position" content="3">
+            </li>
+          {%- else -%}
+            <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">{{ collection.title | escape }}</span>
+              <meta itemprop="position" content="2">
+            </li>
+          {%- endif -%}
+
+        {%- when 'list-collections' -%}
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Collections</span>
+            <meta itemprop="position" content="2">
+          </li>
+
+        {%- when 'blog' -%}
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ blog.title | escape }}</span>
+            <meta itemprop="position" content="2">
+          </li>
+
+        {%- when 'article' -%}
+          <li class="vicinity-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="{{ blog.url }}" itemprop="item"><span itemprop="name">{{ blog.title | escape }}</span></a>
+            <meta itemprop="position" content="2">
+          </li>
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ article.title | escape }}</span>
+            <meta itemprop="position" content="3">
+          </li>
+
+        {%- when 'search' -%}
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Search{% if search.terms != blank %}: {{ search.terms | escape }}{% endif %}</span>
+            <meta itemprop="position" content="2">
+          </li>
+
+        {%- else -%}
+          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ page.title | default: page_title | escape }}</span>
+            <meta itemprop="position" content="2">
+          </li>
+      {%- endcase -%}
+    </ol>
+  </nav>
+{%- endunless -%}

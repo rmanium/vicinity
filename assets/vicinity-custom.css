@@ -55,3 +55,92 @@
   }
 }
 
+/* ---------------------------------------------------------------------------
+   Mega menu cover image
+   Trade's mega menu is links only. A `menu_image` block on the header section
+   adds one cover image per top-level item; it renders as a cell in the
+   existing six-column grid.
+   --------------------------------------------------------------------------- */
+.mega-menu__promo {
+  grid-column: span 2;
+}
+
+.mega-menu__promo-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(var(--color-foreground));
+}
+
+.mega-menu__promo-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--media-radius, 0);
+  display: block;
+}
+
+.mega-menu__promo-heading {
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.mega-menu__promo-link:hover .mega-menu__promo-heading {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------------
+   Breadcrumbs
+   Custom addition - Trade ships none. Rendered at the top of <main>.
+   --------------------------------------------------------------------------- */
+.vicinity-breadcrumbs {
+  padding-top: 1.6rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.vicinity-breadcrumbs__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vicinity-breadcrumbs__item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem 0.8rem;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+.vicinity-breadcrumbs__item + .vicinity-breadcrumbs__item::before {
+  content: "/";
+  color: rgba(var(--color-foreground), 0.4);
+}
+
+.vicinity-breadcrumbs__item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vicinity-breadcrumbs__item a:hover {
+  text-decoration: underline;
+}
+
+.vicinity-breadcrumbs__item[aria-current="page"] {
+  color: rgb(var(--color-foreground));
+  font-weight: 500;
+}
+
+@media screen and (max-width: 749px) {
+  .vicinity-breadcrumbs {
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+  }
+}
+

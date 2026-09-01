@@ -25,6 +25,30 @@
                 </span>
                 {{- 'icon-caret.svg' | inline_asset_content -}}
               </summary>
+              {%- liquid
+                # Vicinity: find a menu_image block for this top-level link.
+                # Reset every iteration - Liquid variables persist across the
+                # enclosing for-loop, so a stale image would leak to the next item.
+                assign promo_image = ''
+                assign promo_heading = ''
+                assign promo_link = ''
+                assign promo_attrs = ''
+                assign link_title_key = link.title | downcase | strip
+
+                for block in section.blocks
+                  if block.type != 'menu_image'
+                    continue
+                  endif
+                  assign key = block.settings.menu_item | downcase | strip
+                  if key == link.handle or key == link_title_key
+                    assign promo_image = block.settings.image
+                    assign promo_heading = block.settings.heading
+                    assign promo_link = block.settings.link
+                    assign promo_attrs = block.shopify_attributes
+                    break
+                  endif
+                endfor
+              -%}
               <div
                 id="MegaMenu-Content-{{ forloop.index }}"
                 class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
@@ -66,6 +90,29 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
+
+                  {%- if promo_image != blank -%}
+                    <li class="mega-menu__promo" {{ promo_attrs }}>
+                      <a
+                        href="{{ promo_link | default: link.url }}"
+                        class="mega-menu__promo-link"
+                      >
+                        {{
+                          promo_image
+                          | image_url: width: 600
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '300, 450, 600',
+                            sizes: '(min-width: 990px) 22vw, 50vw',
+                            class: 'mega-menu__promo-image',
+                            alt: promo_heading | default: link.title | escape
+                        }}
+                        {%- if promo_heading != blank -%}
+                          <span class="mega-menu__promo-heading">{{ promo_heading | escape }}</span>
+                        {%- endif -%}
+                      </a>
+                    </li>
+                  {%- endif -%}
                 </ul>
               </div>
             </details>

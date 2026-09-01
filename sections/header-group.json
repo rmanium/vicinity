@@ -50,7 +50,81 @@
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
-      }
+      },
+      "blocks": {
+        "menu_image_meat_seafood": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Meat & Seafood",
+            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
+            "heading": "Halal meat & fresh seafood",
+            "link": ""
+          }
+        },
+        "menu_image_fresh_produce": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Fresh Produce",
+            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
+            "heading": "Fruits & veggies, daily",
+            "link": ""
+          }
+        },
+        "menu_image_bakery": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Bakery",
+            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
+            "heading": "Baked fresh every day",
+            "link": ""
+          }
+        },
+        "menu_image_beverages": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Beverages",
+            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
+            "heading": "Drinks & refreshments",
+            "link": ""
+          }
+        },
+        "menu_image_persian_pantry": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Persian Pantry",
+            "image": "shopify://shop_images/image_2775bfdf-0a47-457b-a21d-1d74a8c051aa.png",
+            "heading": "Persian groceries made easy",
+            "link": ""
+          }
+        },
+        "menu_image_condiments": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Condiments",
+            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
+            "heading": "Pantry staples",
+            "link": ""
+          }
+        },
+        "menu_image_household": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Household",
+            "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
+            "heading": "Everyday essentials",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_image_meat_seafood",
+        "menu_image_fresh_produce",
+        "menu_image_bakery",
+        "menu_image_beverages",
+        "menu_image_persian_pantry",
+        "menu_image_condiments",
+        "menu_image_household"
+      ]
     }
   },
   "order": [

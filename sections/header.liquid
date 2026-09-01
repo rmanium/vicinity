@@ -502,7 +502,7 @@
 {
   "name": "t:sections.header.name",
   "class": "section-header",
-  "max_blocks": 3,
+  "max_blocks": 16,
   "settings": [
     {
       "type": "select",
@@ -681,6 +681,38 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "menu_image",
+      "name": "Mega menu image",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Shows a cover image inside the mega menu for one top-level menu item."
+        },
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Menu item",
+          "info": "Type the top-level menu item exactly as it appears, e.g. Fresh Produce"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Caption"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "info": "Defaults to the menu item's own link"
+        }
+      ]
     }
   ]
 }

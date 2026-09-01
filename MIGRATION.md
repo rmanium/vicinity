@@ -135,6 +135,19 @@ shopify theme dev --store=vicinity-mart.myshopify.com
 The branch is also connected to theme `vicinity/feature/vicinity-2026` (#193517519142)
 via the Shopify GitHub integration, so pushing this branch deploys to that unpublished theme.
 
+## Files patched inside Trade
+
+Everything else lives in `vicinity-*` files, but two features needed changes
+to Trade's own Liquid. **Re-apply these after any Trade version upgrade:**
+
+| File | Change |
+| --- | --- |
+| `sections/header.liquid` | Added a `menu_image` block type; raised `max_blocks` 3 → 16 |
+| `snippets/header-mega-menu.liquid` | Renders the matching `menu_image` block as a cell in the mega-menu grid |
+| `layout/theme.liquid` | 4 lines: stylesheet + 3 `render` calls |
+
+`git diff` against a freshly pulled Trade will show exactly these.
+
 ## Gotchas found the hard way
 
 1. **Colour scheme numbers carry roles.** Trade's stock sections reference schemes
