@@ -31,16 +31,39 @@
 
       {%- case page_type -%}
         {%- when 'product' -%}
-          {%- if collection.url -%}
+          {%- liquid
+            # Prefer the collection the shopper actually came through
+            # (/collections/x/products/y). On a bare /products/y URL there is no
+            # collection object, so fall back to the product's own collections,
+            # skipping the catch-all ones that carry no meaning in a trail.
+            assign crumb_collection = null
+            if collection.url != blank
+              assign crumb_collection = collection
+            else
+              for c in product.collections
+                if c.handle == 'all' or c.handle == 'frontpage'
+                  continue
+                endif
+                assign crumb_collection = c
+                break
+              endfor
+            endif
+          -%}
+          {%- if crumb_collection != null and crumb_collection.url != blank -%}
             <li class="vicinity-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <a href="{{ collection.url }}" itemprop="item"><span itemprop="name">{{ collection.title | escape }}</span></a>
+              <a href="{{ crumb_collection.url }}" itemprop="item"><span itemprop="name">{{ crumb_collection.title | escape }}</span></a>
+              <meta itemprop="position" content="2">
+            </li>
+            <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">{{ product.title | escape }}</span>
+              <meta itemprop="position" content="3">
+            </li>
+          {%- else -%}
+            <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">{{ product.title | escape }}</span>
               <meta itemprop="position" content="2">
             </li>
           {%- endif -%}
-          <li class="vicinity-breadcrumbs__item" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name">{{ product.title | escape }}</span>
-            <meta itemprop="position" content="{% if collection.url %}3{% else %}2{% endif %}">
-          </li>
 
         {%- when 'collection' -%}
           {%- if current_tags -%}
