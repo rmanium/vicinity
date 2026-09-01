@@ -1,0 +1,37 @@
+{% comment %}
+  Vicinity Mart — third-party tags that must render in <head>.
+
+  Ported from the Warehouse theme during the Trade migration.
+  Before keeping these long-term, confirm they are NOT also firing via
+  Shopify Customer Events / the Google & YouTube / Meta sales channels,
+  otherwise pageviews and conversions will be double counted.
+{% endcomment %}
+
+<meta name="google-site-verification" content="EO0chDx0uZuu3psON8Ew4K1vLQHJ-S8SmR8tIc96On0">
+
+{%- comment -%} Google Analytics 4 {%- endcomment -%}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQ5JL5BY3P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-XQ5JL5BY3P');
+</script>
+
+{%- comment -%} Meta (Facebook) Pixel {%- endcomment -%}
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '463483343274071');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" alt=""
+       src="https://www.facebook.com/tr?id=463483343274071&ev=PageView&noscript=1">
+</noscript>

@@ -1,0 +1,36 @@
+/**
+ * Vicinity Mart — custom styles layered on top of the Trade theme.
+ *
+ * Keep this file for store-specific overrides so theme updates stay clean:
+ * Trade's own stylesheets can be replaced wholesale without losing this.
+ */
+
+/* ---------------------------------------------------------------------------
+   Persian typography
+   Samim is used for Persian product names and marketing copy. Apply by adding
+   class="persian-text" to any element containing Persian text.
+   --------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Samim';
+  src:
+    url('Samim.woff2') format('woff2'),
+    url('Samim.woff') format('woff'),
+    url('Samim.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.persian-text,
+[lang='fa'],
+:lang(fa) {
+  font-family: 'Samim', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+@media screen and (max-width: 640px) {
+  .persian-text {
+    font-size: 1.25rem;
+  }
+}
