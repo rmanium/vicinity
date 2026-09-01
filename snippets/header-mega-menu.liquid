@@ -27,7 +27,7 @@
               </summary>
               {%- liquid
                 # Vicinity: find a menu_image block for this top-level link.
-                # Reset every iteration - Liquid variables persist across the
+                # Reset each iteration - Liquid variables persist across the
                 # enclosing for-loop, so a stale image would leak to the next item.
                 assign promo_image = ''
                 assign promo_heading = ''
@@ -54,8 +54,9 @@
                 class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                 tabindex="-1"
               >
+                <div class="mega-menu__inner page-width">
                 <ul
-                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  class="mega-menu__list{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                   role="list"
                 >
                   {%- for childlink in link.links -%}
@@ -90,30 +91,28 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-
-                  {%- if promo_image != blank -%}
-                    <li class="mega-menu__promo" {{ promo_attrs }}>
-                      <a
-                        href="{{ promo_link | default: link.url }}"
-                        class="mega-menu__promo-link"
-                      >
-                        {{
-                          promo_image
-                          | image_url: width: 600
-                          | image_tag:
-                            loading: 'lazy',
-                            widths: '300, 450, 600',
-                            sizes: '(min-width: 990px) 22vw, 50vw',
-                            class: 'mega-menu__promo-image',
-                            alt: promo_heading | default: link.title | escape
-                        }}
-                        {%- if promo_heading != blank -%}
-                          <span class="mega-menu__promo-heading">{{ promo_heading | escape }}</span>
-                        {%- endif -%}
-                      </a>
-                    </li>
-                  {%- endif -%}
                 </ul>
+
+                {%- if promo_image != blank -%}
+                  <div class="mega-menu__promo" {{ promo_attrs }}>
+                    <a href="{{ promo_link | default: link.url }}" class="mega-menu__promo-link">
+                      {{
+                        promo_image
+                        | image_url: width: 520
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '260, 390, 520',
+                          sizes: '26rem',
+                          class: 'mega-menu__promo-image',
+                          alt: promo_heading | default: link.title | escape
+                      }}
+                      {%- if promo_heading != blank -%}
+                        <span class="mega-menu__promo-heading">{{ promo_heading | escape }}</span>
+                      {%- endif -%}
+                    </a>
+                  </div>
+                {%- endif -%}
+                </div>
               </div>
             </details>
           </header-menu>

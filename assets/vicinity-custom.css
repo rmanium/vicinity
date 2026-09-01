@@ -57,12 +57,31 @@
 
 /* ---------------------------------------------------------------------------
    Mega menu cover image
-   Trade's mega menu is links only. A `menu_image` block on the header section
-   adds one cover image per top-level item; it renders as a cell in the
-   existing six-column grid.
+   Trade's mega menu is links only. A `menu_image` block on the header adds one
+   cover image per top-level item.
+
+   The promo sits beside the link list rather than inside it: for single-level
+   menus Trade switches .mega-menu__list to display:block, so anything inside
+   the <ul> stretches to the full row. Sizing is therefore explicit and does
+   not depend on the grid.
    --------------------------------------------------------------------------- */
+.mega-menu__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.mega-menu__inner > .mega-menu__list {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .mega-menu__promo {
-  grid-column: span 2;
+  flex: 0 0 26rem;
+  width: 26rem;
+  max-width: 30%;
 }
 
 .mega-menu__promo-link {
@@ -72,12 +91,13 @@
 }
 
 .mega-menu__promo-image {
+  display: block;
   width: 100%;
   height: auto;
+  max-height: 18rem;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: var(--media-radius, 0);
-  display: block;
 }
 
 .mega-menu__promo-heading {
@@ -89,6 +109,15 @@
 
 .mega-menu__promo-link:hover .mega-menu__promo-heading {
   text-decoration: underline;
+}
+
+/* Narrower desktops: keep the links readable, drop the promo rather than
+   letting it squeeze the menu. */
+@media screen and (max-width: 1200px) {
+  .mega-menu__promo {
+    flex-basis: 20rem;
+    width: 20rem;
+  }
 }
 
 /* ---------------------------------------------------------------------------
