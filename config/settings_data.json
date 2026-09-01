@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
-    "logo_width": 70,
-    "type_header_font": "dm_sans_n5",
-    "heading_scale": 105,
-    "type_body_font": "jost_n4",
-    "body_scale": 100,
+    "logo_width": 200,
+    "type_header_font": "ubuntu_n7",
+    "heading_scale": 100,
+    "type_body_font": "ubuntu_n5",
+    "body_scale": 106,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 12,
@@ -103,13 +94,13 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "scheme-5",
-    "sold_out_badge_color_scheme": "scheme-3",
+    "sale_badge_color_scheme": "scheme-4",
+    "sold_out_badge_color_scheme": "scheme-5",
     "brand_headline": "",
     "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://www.facebook.com/vicinitymart",
+    "social_instagram_link": "https://www.instagram.com/vicinity.mart/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -119,9 +110,9 @@
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
+    "predictive_search_show_price": true,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -140,64 +131,65 @@
         }
       }
     },
-    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#f4f4f4",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#2b2c2d",
-          "button": "#b7aca2",
-          "button_label": "#262626",
-          "secondary_button_label": "#001128",
-          "shadow": "#001128"
+          "text": "#121251",
+          "button": "#ed1c24",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121251",
+          "shadow": "#121251"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#f6f6f8",
           "background_gradient": "",
-          "text": "#262626",
-          "button": "#797068",
+          "text": "#121251",
+          "button": "#ed1c24",
           "button_label": "#ffffff",
-          "secondary_button_label": "#797572",
-          "shadow": "#001128"
+          "secondary_button_label": "#121251",
+          "shadow": "#121251"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#c2b7ac",
+          "background": "#121251",
           "background_gradient": "",
-          "text": "#262626",
-          "button": "#fdfdfd",
-          "button_label": "#262626",
-          "secondary_button_label": "#54483c",
-          "shadow": "#001128"
+          "text": "#ffffff",
+          "button": "#ed1c24",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121251"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#1c2228",
+          "background": "#ed1c24",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#001128",
+          "button_label": "#ed1c24",
           "secondary_button_label": "#ffffff",
-          "shadow": "#001128"
+          "shadow": "#121251"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#323841",
+          "background": "#ebebf1",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#b7aca2",
-          "button_label": "#262626",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#001128"
+          "text": "#121251",
+          "button": "#121251",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121251",
+          "shadow": "#121251"
         }
       }
-    }
+    },
+    "logo": "shopify://shop_images/Vicinity_Mart-01.jpg",
+    "favicon": "shopify://shop_images/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png"
   },
   "presets": {
     "Trade": {
