@@ -94,8 +94,8 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "scheme-4",
-    "sold_out_badge_color_scheme": "scheme-5",
+    "sale_badge_color_scheme": "scheme-5",
+    "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
     "brand_description": "<p></p>",
     "brand_image_width": 100,
@@ -156,6 +156,17 @@
       },
       "scheme-3": {
         "settings": {
+          "background": "#ebebf1",
+          "background_gradient": "",
+          "text": "#121251",
+          "button": "#121251",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121251",
+          "shadow": "#121251"
+        }
+      },
+      "scheme-4": {
+        "settings": {
           "background": "#121251",
           "background_gradient": "",
           "text": "#ffffff",
@@ -165,7 +176,7 @@
           "shadow": "#121251"
         }
       },
-      "scheme-4": {
+      "scheme-5": {
         "settings": {
           "background": "#ed1c24",
           "background_gradient": "",
@@ -173,17 +184,6 @@
           "button": "#ffffff",
           "button_label": "#ed1c24",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121251"
-        }
-      },
-      "scheme-5": {
-        "settings": {
-          "background": "#ebebf1",
-          "background_gradient": "",
-          "text": "#121251",
-          "button": "#121251",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121251",
           "shadow": "#121251"
         }
       }

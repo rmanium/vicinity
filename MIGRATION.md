@@ -134,3 +134,26 @@ shopify theme dev --store=vicinity-mart.myshopify.com
 
 The branch is also connected to theme `vicinity/feature/vicinity-2026` (#193517519142)
 via the Shopify GitHub integration, so pushing this branch deploys to that unpublished theme.
+
+## Gotchas found the hard way
+
+1. **Colour scheme numbers carry roles.** Trade's stock sections reference schemes
+   by number, and Trade orders them light → dark: scheme-1/2/3 are light, scheme-4
+   (`#1c2228`) and scheme-5 (`#323841`) are dark. An early mapping put brand red on
+   scheme-4, which turned the header and footer bright red. The Vicinity palette now
+   mirrors Trade's lightness order, so any stock section still reads correctly.
+
+2. **`shopify theme push` reports success while rejecting individual files.** Two
+   rejections were missed this way. Always grep the output for "pushed with errors",
+   then pull the theme back and compare.
+
+3. **Range settings must land on a step.** `body_scale` is range(100..130, step 5);
+   106 was rejected. Validate min/max/step, not just select options.
+
+4. **App-block settings copied from Warehouse can be string-typed.** Judge.me's
+   `max_width` was stored as `"1200"` and rejected as "must be a valid number".
+   The parked homepage has the same issue on the featured carousel
+   (`maxwidth: "1080"`) - fix when re-porting.
+
+5. **The GitHub integration cannot deliver a theme swap.** It never overwrites
+   `config/settings_data.json` and never deletes removed files. Use CLI push.
