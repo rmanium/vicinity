@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "breads": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "breads"
+          }
+        },
+        "naan": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "naan"
+          }
+        },
+        "baked_goods": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baked-goods"
+          }
+        }
+      },
+      "block_order": [
+        "breads",
+        "naan",
+        "baked_goods"
+      ],
+      "settings": {
+        "title": "Bakery 4",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "collection_list",
+    "newsletter"
+  ]
+}
