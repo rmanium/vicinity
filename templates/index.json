@@ -9,410 +9,403 @@
  */
 {
   "sections": {
-    "slideshow_A7qQ6q": {
-      "type": "slideshow",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "image_4rXWGx": {
-          "type": "image",
+        "text": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
-            "mobile_image": "shopify://shop_images/image_5f366113-86b7-46d8-9612-7bcd60016e52.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/all"
+            "text": "Welcome industry insiders",
+            "text_style": "caption-with-letter-spacing"
           }
         },
-        "image_HUJWbH": {
-          "type": "image",
-          "disabled": true,
+        "heading": {
+          "type": "heading",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
+            "heading": "Grow your business with us",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column4": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column5": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column6": {
+          "type": "column",
+          "settings": {
+            "title": "Insert partner logo",
+            "text": "",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_4rXWGx",
-        "image_HUJWbH"
+        "column1",
+        "column2",
+        "column3",
+        "column4",
+        "column5",
+        "column6"
       ],
-      "name": "Slideshow",
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
-        "autoplay": false,
-        "cycle_speed": 5
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
-    "165970559810c3db58": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/image_2775bfdf-0a47-457b-a21d-1d74a8c051aa.png",
-        "title": "Online Persian Grocery Made Easy",
-        "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
-        "show_image_overlay": true,
-        "color": "#ffffff"
-      }
-    },
-    "178415000383a4835c": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "rich_text_WMBQiG": {
+    "rich_text": {
       "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Delivery made simple",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://policies/shipping-policy"
-      }
-    },
-    "1636241720a09de843": {
-      "type": "offers",
       "blocks": {
-        "1636241720a09de843-0": {
-          "type": "offer",
+        "text": {
+          "type": "text",
           "settings": {
-            "title": "North & West Van",
-            "content": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>"
-          }
-        },
-        "1636241720a09de843-1": {
-          "type": "offer",
-          "settings": {
-            "title": "Outside North & West Van",
-            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>"
+            "text": "<p>Outstanding service | Exclusive pricing | Industry expertise</p>"
           }
         }
       },
       "block_order": [
-        "1636241720a09de843-0",
-        "1636241720a09de843-1"
+        "text"
       ],
       "settings": {
-        "items_per_row": 2,
-        "stack_mobile": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
-    "mosaic_jgkGAq": {
-      "type": "mosaic",
-      "blocks": {
-        "item_pDELB3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/fresh-fruits-veggies"
-          }
-        },
-        "item_gdQpDi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/bread"
-          }
-        },
-        "item_PUQFMU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/meat-poultry"
-          }
-        },
-        "item_aP8BEE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/dairy-eggs"
-          }
-        },
-        "item_3rxD4h": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "rgba(0,0,0,0)",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/pantry-staples"
-          }
-        }
-      },
-      "block_order": [
-        "item_pDELB3",
-        "item_gdQpDi",
-        "item_PUQFMU",
-        "item_aP8BEE",
-        "item_3rxD4h"
-      ],
-      "name": "Mosaic",
-      "settings": {
-        "section_size": "medium"
-      }
-    },
-    "slideshow_6VbREA": {
-      "type": "slideshow",
-      "blocks": {
-        "image_jjbTMb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/vicinity_mart_sandwiches.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/cafe-ready-foods"
-          }
-        }
-      },
-      "block_order": [
-        "image_jjbTMb"
-      ],
-      "settings": {
-        "edge_to_edge": false,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "fade",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
-    "1743463835133a460c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_hJXDCG": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_hJXDCG"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "174317894963636497": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_GMgnwW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_GMgnwW"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "title": "Newsletter",
-        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>",
-        "background": "#121251",
-        "text": "#ffffff"
-      }
-    },
-    "163624158735e5b47b": {
-      "type": "recently-viewed-products",
-      "disabled": true,
-      "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "blog": "recipe",
-        "blog_posts_count": 3,
-        "title": "Vicinity Voice",
-        "link_title": "View all",
-        "show_category": false,
-        "show_author": false,
-        "show_date": true,
-        "show_excerpt": true,
-        "stack_mobile": false
-      }
-    },
-    "1637542871cef3e060": {
-      "type": "slideshow",
-      "blocks": {
-        "163754287132cb0d7a-0": {
-          "type": "image",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "163754287132cb0d7a-1": {
-          "type": "image",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163754287132cb0d7a-0",
-        "163754287132cb0d7a-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
-        "carousel_effect": "fade",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
-    "survey-modal": {
-      "type": "survey-modal",
-      "disabled": true,
-      "settings": {
-        "source": "home",
-        "content": "general"
-      }
-    },
-    "featured_collection_8WByHx": {
+    "featured_collection1": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
+        "title": "Proven bestsellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "",
-        "title": "Best Picks Zone",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": true,
-        "link_title": "View all",
-        "link_url": ""
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 52
       }
     },
-    "rich_text_kqiGzH": {
-      "type": "rich-text",
-      "name": "Rich text",
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection1",
+        "featured_collection2",
+        "featured_collection3",
+        "featured_collection4",
+        "featured_collection5"
+      ],
       "settings": {
-        "text_width": "narrow",
-        "title": "Planning a Meeting, Party, or Special Gathering?",
-        "content": "<p>We’ve got you covered!</p><p>Vicinity Mart offers delicious, freshly made options delivered right to your event.<br/>Ready to impress your guests?</p>",
-        "button_text": "Get in touch to book!",
-        "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
+        "title": "Shop our top categories",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-4",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 60
       }
     },
-    "1786473634b3f8d3c8": {
-      "type": "apps",
+    "multicolumn1": {
+      "type": "multicolumn",
+      "blocks": {
+        "column7": {
+          "type": "column",
+          "settings": {
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "column8": {
+          "type": "column",
+          "settings": {
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "column9": {
+          "type": "column",
+          "settings": {
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "column10": {
+          "type": "column",
+          "settings": {
+            "title": "Add a customer testimonial",
+            "text": "",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column7",
+        "column8",
+        "column9",
+        "column10"
+      ],
       "settings": {
-        "include_margins": true
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "featured_collection2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New arrivals",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 6,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn2": {
+      "type": "multicolumn",
+      "blocks": {
+        "column11": {
+          "type": "column",
+          "settings": {
+            "title": "Add educational content",
+            "text": "<p>Provide content for your customers that sets their business up for success</p>",
+            "link_label": "Read now",
+            "link": ""
+          }
+        },
+        "column12": {
+          "type": "column",
+          "settings": {
+            "title": "Add educational content",
+            "text": "<p>Provide content for your customers that sets their business up for success</p>",
+            "link_label": "Read now",
+            "link": ""
+          }
+        },
+        "column13": {
+          "type": "column",
+          "settings": {
+            "title": "Add educational content",
+            "text": "<p>Provide content for your customers that sets their business up for success</p>",
+            "link_label": "Read now",
+            "link": ""
+          }
+        },
+        "column14": {
+          "type": "column",
+          "settings": {
+            "title": "Add educational content",
+            "text": "<p>Provide content for your customers that sets their business up for success</p>",
+            "link_label": "Read now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column11",
+        "column12",
+        "column13",
+        "column14"
+      ],
+      "settings": {
+        "title": "You're set up for success",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "slideshow_A7qQ6q",
-    "165970559810c3db58",
-    "178415000383a4835c",
-    "rich_text_WMBQiG",
-    "1636241720a09de843",
-    "mosaic_jgkGAq",
-    "slideshow_6VbREA",
-    "1743463835133a460c",
-    "174317894963636497",
-    "newsletter",
-    "163624158735e5b47b",
-    "blog-posts",
-    "1637542871cef3e060",
-    "survey-modal",
-    "featured_collection_8WByHx",
-    "rich_text_kqiGzH",
-    "1786473634b3f8d3c8"
+    "image_banner",
+    "multicolumn",
+    "rich_text",
+    "featured_collection1",
+    "collection_list",
+    "multicolumn1",
+    "featured_collection2",
+    "multicolumn2"
   ]
 }

@@ -1,38 +1,26 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-collections-list",
+      "type": "main-list-collections",
       "settings": {
-        "collections_to_show": "selected",
-        "collection_linklist": "main-menu",
-        "show_collection_title": false,
-        "show_collection_overlay": false,
-        "collection_overlay_opacity": 30
-      }
-    },
-    "163519031708415434": {
-      "type": "collection-list",
-      "disabled": true,
-      "settings": {
-        "title": "All collections",
-        "link_title": "View all",
-        "link": "shopify:\/\/collections",
-        "round_images": true,
-        "show_collection_title": true
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
       }
     }
   },
   "order": [
-    "main",
-    "163519031708415434"
+    "main"
   ]
 }

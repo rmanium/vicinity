@@ -1,344 +1,261 @@
- {%- if section.settings.show_announcement -%}
-  {%- capture section_settings -%}
-  {
-    "showNewsletter": {{ section.settings.show_newsletter | json }}
-  }
-  {%- endcapture -%}
+{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
-  <section data-section-id="{{ section.id }}" data-section-type="announcement-bar" data-section-settings='{{ section_settings }}'>
-    {%- if section.settings.show_newsletter -%}
-      <div id="announcement-bar-newsletter" class="announcement-bar__newsletter hidden-phone" aria-hidden="true">
-        <div class="container">
-          <div class="announcement-bar__close-container">
-            <button class="announcement-bar__close" data-action="toggle-newsletter">
-              <span class="visually-hidden">{{ 'general.accessibility.close' | t }}</span>
-              {%- render 'icon', icon: 'close' -%}
-            </button>
-          </div>
-        </div>
+{%- liquid
+  assign social_icons = true
+  if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
+    assign social_icons = false
+  endif
+  if section.settings.enable_country_selector or section.settings.enable_language_selector
+    assign language_country_selector = true
+  endif
+  if section.blocks.size > 0
+    assign announcement_bar = true
+  endif
+-%}
 
-        <div class="container container--extra-narrow">
-          <div class="announcement-bar__newsletter-inner">
-            {%- if section.settings.newsletter_title != blank -%}
-              <h2 class="heading h1">{{ section.settings.newsletter_title | escape }}</h2>
-            {%- endif -%}
+{% if social_icons %}
+  {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+{% endif %}
 
-            {%- if section.settings.newsletter_content != blank -%}
-              <div class="rte">
-                {{ section.settings.newsletter_content }}
-              </div>
-            {%- endif -%}
-
-            {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
-
-            <div class="newsletter">
-              {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
-                {%- if form.posted_successfully? -%}
-                  <p class="alert alert--success alert--center">{{ 'home_page.newsletter.success' | t }}</p>
-                  {%- if form.context == 'announcement-bar' -%}
-                    {%- assign open_announcement = true -%}
-                  {%- endif -%}
-                {%- else -%}
-                  {%- if form.errors -%}
-                    <p class="alert alert--error">{{ form.errors.messages['email'] }}</p>
-                  {%- endif -%}
-
-                  <input type="hidden" name="contact[tags]" value="newsletter">
-                  <input type="hidden" name="contact[context]" value="announcement-bar">
-
-                  <div class="form__input-row">
-                    <div class="form__input-wrapper form__input-wrapper--labelled">
-                      <input type="email" id="announcement[contact][email]" name="contact[email]" class="form__field form__field--text" autofocus required>
-                      <label for="announcement[contact][email]" class="form__floating-label">{{ 'home_page.newsletter.input' | t }}</label>
-                    </div>
-
-                    <button type="submit" class="form__submit button button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
-                  </div>
-                {%- endif -%}
-              {%- endform -%}
-            </div>
-          </div>
-        </div>
-      </div>
+<div
+  class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% elsif section.settings.show_line_separator and section.settings.show_social and social_icons%} utility-bar--bottom-border-social-only{% endif %}{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header-localization{% endif %}"
+>
+  <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
+    {%- if section.settings.show_social and social_icons -%}
+      {%- render 'social-icons' -%}
     {%- endif -%}
-
-    <div class="announcement-bar">
-      <div class="container">
-        <div class="announcement-bar__inner">
-
-          {% comment %} announcement-bar with slider {% endcomment %}
-          <div class="{% if section.settings.show_newsletter %}mw{% endif %}">
-            <div class='announcement-slider'>
-              <div class='announcement-bar__content'>
-                {%- if section.settings.link1 != blank -%}
-                  <a href="{{ section.settings.link1 }}" class="announcement-bar__content">{{ section.settings.text1 | escape }}</a>
-                {%- else -%}
-                  <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</p>
-                {%- endif -%}
-              </div>
-               {%- if section.settings.text2 != "" -%}
-                <div class='announcement-bar__content'>
-                  {%- if section.settings.link2 != blank -%}
-                    <a href="{{ section.settings.link2 }}" class="announcement-bar__content">{{ section.settings.text2 | escape }}</a>
-                  {%- else -%}
-                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</p>
-                  {%- endif -%}
-                </div>
-               {%- endif -%}
-              {%- if section.settings.text3 != "" -%}
-                <div class='announcement-bar__content'>
-                  {%- if section.settings.link3 != blank -%}
-                    <a href="{{ section.settings.link3 }}" class="announcement-bar__content">{{ section.settings.text3 | escape }}</a>
-                  {%- else -%}
-                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</p>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-
-              {%- if section.settings.text4 != "" -%}
-                <div class='announcement-bar__content'>
-                  {%- if section.settings.link4 != blank -%}
-                    <a href="{{ section.settings.link4 }}" class="announcement-bar__content">{{ section.settings.text4 | escape }}</a>
-                  {%- else -%}
-                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</p>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-
-              {%- if section.settings.text5 != "" -%}
-                <div class='announcement-bar__content'>
-                  {%- if section.settings.link5 != blank -%}
-                    <a href="{{ section.settings.link5 }}" class="announcement-bar__content">{{ section.settings.text5 | escape }}</a>
-                  {%- else -%}
-                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text5 | escape }}</p>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-
-              {%- if section.settings.text6 != "" -%}
-                <div class='announcement-bar__content'>
-                  {%- if section.settings.link6 != blank -%}
-                    <a href="{{ section.settings.link6 }}" class="announcement-bar__content">{{ section.settings.text6 | escape }}</a>
-                  {%- else -%}
-                    <p class="announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text6 | escape }}</p>
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-            </div>
-          </div>   
-          
-          
-            {% comment %} announcement-bar whiout slider {% endcomment %}
-            {% comment %} {%- if section.settings.link != blank -%}
-              <a href="{{ section.settings.link }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</a>
-            {%- else -%}
-              <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text | escape }}</p>
-            {%- endif -%} {% endcomment %}
-            
-        
-
-          {%- if section.settings.show_newsletter -%}
-            <button type="button" class="announcement-bar__button hidden-phone" data-action="toggle-newsletter" aria-expanded="false" aria-controls="announcement-bar-newsletter">
-              {%- render 'icon', icon: 'newsletter' -%}
-              {{- section.settings.newsletter_button | escape -}}
-            </button>
+    {%- if section.blocks.size == 1 -%}
+      <div
+        class="announcement-bar{% if section.settings.show_social %} announcement-bar--one-announcement{% endif %}"
+        role="region"
+        aria-label="{{ 'sections.header.announcement' | t }}"
+        {{ section.blocks.first.shopify_attributes }}
+      >
+        {%- if section.blocks.first.settings.text != blank -%}
+          {%- if section.blocks.first.settings.link != blank -%}
+            <a
+              href="{{ section.blocks.first.settings.link }}"
+              class="announcement-bar__link link link--text focus-inset animate-arrow"
+            >
           {%- endif -%}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <style>
-    .announcement-bar__inner > .mw {
-      max-width:80%;
-    }
-    .announcement-bar {
-      background: {{ section.settings.background }};
-      color: {{ section.settings.text_color }};
-      overflow: hidden;
-       max-height:68px;
-    }
-    @media screen and (min-width: 641px) {
-      #shopify-section-{{ section.id }} {
-        {%- if section.settings.enable_sticky_announcement -%}
-          position: -webkit-sticky;
-          position: sticky;
-          top: 0;
-          z-index: 5;
+          <p class="announcement-bar__message h5">
+            <span>{{ section.blocks.first.settings.text | escape }}</span>
+            {%- if section.blocks.first.settings.link != blank -%}
+              {{- 'icon-arrow.svg' | inline_asset_content -}}
+            {%- endif -%}
+          </p>
+          {%- if section.blocks.first.settings.link != blank -%}
+            </a>
+          {%- endif -%}
         {%- endif -%}
-      }
-      .announcement-bar {
-        max-height:47px;
-      }
-    }
-  </style>
-  {% comment %} <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/> {% endcomment %}
-    {% comment %} {{'//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css' | stylesheet_tag}} {% endcomment %}
-    <link rel="preload" as="style" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
-    <link rel="stylesheet" href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'>
-
-  <script>
-    {%- if section.settings.show_newsletter -%}
-      document.documentElement.style.setProperty('--announcement-bar-button-width', document.querySelector('.announcement-bar__button').clientWidth + 'px');
-    {%- else -%}
-      document.documentElement.style.removeProperty('--announcement-bar-button-width');
+      </div>
+    {%- elsif section.blocks.size > 1 -%}
+      <slideshow-component
+        class="announcement-bar"
+        role="region"
+        aria-roledescription="{{ 'sections.announcements.carousel' | t }}"
+        aria-label="{{ 'sections.announcements.announcement_bar' | t }}"
+      >
+        <div class="announcement-bar-slider slider-buttons">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'sections.announcements.previous_announcement' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            <span class="svg-wrapper">
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </span>
+          </button>
+          <div
+            class="grid grid--1-col slider slider--everywhere"
+            id="Slider-{{ section.id }}"
+            aria-live="polite"
+            aria-atomic="true"
+            data-autoplay="{{ section.settings.auto_rotate }}"
+            data-speed="{{ section.settings.change_slides_speed }}"
+          >
+            {%- for block in section.blocks -%}
+              <div
+                class="slideshow__slide slider__slide grid__item grid--1-col"
+                id="Slide-{{ section.id }}-{{ forloop.index }}"
+                {{ block.shopify_attributes }}
+                role="group"
+                aria-roledescription="{{ 'sections.announcements.announcement' | t }}"
+                aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                tabindex="-1"
+              >
+                <div
+                  class="announcement-bar__announcement"
+                  role="region"
+                  aria-label="{{ 'sections.header.announcement' | t }}"
+                >
+                  {%- if block.settings.text != blank -%}
+                    {%- if block.settings.link != blank -%}
+                      <a
+                        href="{{ block.settings.link }}"
+                        class="announcement-bar__link link link--text focus-inset animate-arrow"
+                      >
+                    {%- endif -%}
+                    <p class="announcement-bar__message h5">
+                      <span>{{ block.settings.text | escape }}</span>
+                      {%- if block.settings.link != blank -%}
+                        {{- 'icon-arrow.svg' | inline_asset_content -}}
+                      {%- endif -%}
+                    </p>
+                    {%- if block.settings.link != blank -%}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'sections.announcements.next_announcement' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            <span class="svg-wrapper">
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </span>
+          </button>
+        </div>
+      </slideshow-component>
+      {%- if request.design_mode -%}
+        <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+        <style>
+          /* theme editor power preview fix */
+          .announcement-bar-slider .slider__slide[aria-hidden='true'] {
+            visibility: hidden;
+          }
+        </style>
+      {%- endif -%}
     {%- endif -%}
+    <div class="localization-wrapper">
+      {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+        <localization-form class="small-hide medium-hide">
+          {%- form 'localization', id: 'AnnouncementCountryForm', class: 'localization-form' -%}
+            <div>
+              <h2 class="visually-hidden" id="AnnouncementCountryLabel">{{ 'localization.country_label' | t }}</h2>
+              {%- render 'country-localization', localPosition: 'AnnouncementCountry' -%}
+            </div>
+          {%- endform -%}
+        </localization-form>
+      {% endif %}
 
-    document.documentElement.style.setProperty('--announcement-bar-height', document.getElementById('shopify-section-{{ section.id }}').clientHeight + 'px');
-  </script>
-{%- endif -%}
+      {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
+        <localization-form class="small-hide medium-hide">
+          {%- form 'localization', id: 'AnnouncementLanguageForm', class: 'localization-form' -%}
+            <div>
+              <h2 class="visually-hidden" id="AnnouncementLanguageLabel">{{ 'localization.language_label' | t }}</h2>
+              {%- render 'language-localization', localPosition: 'AnnouncementLanguage' -%}
+            </div>
+          {%- endform -%}
+        </localization-form>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
-  "name": "Announcement bar",
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "enabled_on": {
+    "groups": ["header"]
+  },
   "settings": [
     {
       "type": "checkbox",
-      "id": "enable_sticky_announcement",
-      "label": "Enable sticky announcement",
-      "default": true
+      "id": "auto_rotate",
+      "label": "t:sections.announcement-bar.settings.auto_rotate.label",
+      "default": false
     },
+    {
+      "type": "range",
+      "id": "change_slides_speed",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "t:sections.announcement-bar.settings.change_slides_speed.label",
+      "default": 5
+    },    
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-4"
+    },  
     {
       "type": "checkbox",
-      "id": "show_announcement",
-      "label": "Show announcement",
-      "default": true
-    },
-    {
-      "type": "color",
-      "id": "background",
-      "label": "Background",
-      "default": "#1e2d7d"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Text",
-      "default": "#ffffff"
-    },
-
-    {
-      "type": "text",
-      "id": "text1",
-      "label": "Text1",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link1",
-      "label": "Link1"
-    },
-    {
-      "type": "text",
-      "id": "text2",
-      "label": "Text2",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link2",
-      "label": "Link2"
-    },
-    {
-      "type": "text",
-      "id": "text3",
-      "label": "Text3",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link3",
-      "label": "Link3"
-    },
-
-    {
-      "type": "text",
-      "id": "text4",
-      "label": "Text4",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link4",
-      "label": "Link4"
-    },
-
-    {
-      "type": "text",
-      "id": "text5",
-      "label": "Text5",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link5",
-      "label": "Link5"
-    },
-
-    {
-      "type": "text",
-      "id": "text6",
-      "label": "Text6",
-      "default": "Announce something here"
-    },
-    {
-      "type": "url",
-      "id": "link6",
-      "label": "Link6"
-    },
-
-    {
-      "type": "select",
-      "id": "text_position",
-      "label": "Text position",
-      "options": [
-        {
-          "value": "left",
-          "label": "Left"
-        },
-        {
-          "value": "center",
-          "label": "Center"
-        }
-      ],
-      "default": "left",
-      "info": "Text is always centered on mobile."
+      "id": "show_line_separator",
+      "default": true,
+      "label": "t:sections.header.settings.show_line_separator.label"
     },
     {
       "type": "header",
-      "content": "Newsletter"
+      "content": "t:sections.announcement-bar.settings.heading_utilities.content"
     },
     {
       "type": "paragraph",
-      "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
-    },
+         "content": "t:sections.announcement-bar.settings.paragraph.content"
+    },             
     {
-      "type": "paragraph",
-      "content": "Only visible on desktop."
+      "type": "checkbox",
+      "id": "show_social",
+      "default": false,
+      "label": "t:sections.announcement-bar.settings.show_social.label",
+      "info": "t:sections.announcement-bar.settings.show_social.info"
     },
     {
       "type": "checkbox",
-      "id": "show_newsletter",
-      "label": "Show sign up form",
-      "default": true
+      "id": "enable_country_selector",
+      "default": false,
+      "label": "t:sections.announcement-bar.settings.enable_country_selector.label",
+      "info": "t:sections.announcement-bar.settings.enable_country_selector.info"
     },
     {
-      "type": "text",
-      "id": "newsletter_button",
-      "label": "Open button",
-      "default": "Subscribe & Save"
-    },
+      "type": "checkbox",
+      "id": "enable_language_selector",
+      "default": false,
+      "label": "t:sections.announcement-bar.settings.enable_language_selector.label",
+      "info": "t:sections.announcement-bar.settings.enable_language_selector.info"
+    }
+  ],
+  "blocks": [
     {
-      "type": "text",
-      "id": "newsletter_title",
-      "label": "Heading",
-      "default": "Newsletter"
-    },
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "t:sections.announcement-bar.blocks.announcement.settings.text.default",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
     {
-      "type": "richtext",
-      "id": "newsletter_content",
-      "label": "Text",
-      "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+      "name": "t:sections.announcement-bar.presets.name",
+      "blocks": [
+        {
+          "type": "announcement"
+        }
+      ]
     }
   ]
 }

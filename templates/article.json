@@ -10,37 +10,40 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog-post",
+      "type": "main-article",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
+        "featured_image": {
+          "type": "featured_image",
           "settings": {
-            "title": "Join Us",
-            "content": "<p>Subscribe for fresh updates, special offers, and new treats from Vicinity Mart . Straight to your inbox. </p>",
-            "subtext": "Never miss a bite!",
-            "background": "#121251",
-            "text": "#ffffff"
+            "image_height": "medium"
           }
         },
-        "social-media": {
-          "type": "social_media",
+        "title": {
+          "type": "title",
           "settings": {
-            "title": "Follow us",
-            "show_rss": true
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "social-media"
+        "featured_image",
+        "title",
+        "share",
+        "content"
       ],
       "settings": {
-        "show_category": true,
-        "show_author": true,
-        "show_date": true,
-        "show_share_buttons": true,
-        "show_tags": true,
-        "show_gravatar": true
       }
     }
   },

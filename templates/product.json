@@ -12,149 +12,118 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "product_meta": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": false,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": false
-          }
+        "title": {
+          "type": "title",
+          "settings": {}
         },
-        "variant_selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "description": {
           "type": "description",
+          "settings": {}
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
           "settings": {
-            "display_mode": "show_all"
+            "heading": "Product features",
+            "icon": "star",
+            "content": "",
+            "page": "product-features"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
           "settings": {
-            "show_payment_button": true
+            "heading": "Materials and care",
+            "icon": "leaf",
+            "content": "",
+            "page": "materials-and-care"
           }
         },
-        "seowill_trust_badges_star_rating_KttwCK": {
-          "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
           "settings": {
-            "badge_id": ""
+            "heading": "Merchandising tips",
+            "icon": "check_mark",
+            "content": "",
+            "page": "merchandising-tips"
           }
         },
-        "judge_me_reviews_review_widget_kNYtXg": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "share": {
+          "type": "share",
           "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        },
-        "4d4ca45c-f661-4447-886d-101fb80edd1c": {
-          "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
-          "disabled": true,
-          "settings": {
-            "badge_id": ""
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "product_meta",
-        "variant_selector",
+        "title",
+        "price",
         "description",
-        "buy_buttons",
-        "seowill_trust_badges_star_rating_KttwCK",
-        "judge_me_reviews_review_widget_kNYtXg",
-        "4d4ca45c-f661-4447-886d-101fb80edd1c"
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "collapsible-row-2",
+        "share"
       ],
       "settings": {
-        "image_size": "small",
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
         "enable_video_looping": false,
-        "enable_image_zoom": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "17658342852e129561": {
-      "type": "apps",
+    "quick-order-list": {
+      "type": "quick-order-list",
       "settings": {
-        "include_margins": true
+        "variants_per_page": 50,
+        "show_image": true,
+        "show_sku": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 16
       }
     },
-    "17658343414e960064": {
-      "type": "apps",
+    "related-products": {
+      "type": "related-products",
       "settings": {
-        "include_margins": true
+        "heading": "Other industry favorites",
+        "heading_size": "h2",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 44
       }
     },
-    "178225721710f48453": {
-      "type": "apps",
-      "blocks": {
-        "fether_frequently_bought_widget_block_rLNjkW": {
-          "type": "shopify://apps/fether-frequently-bought/blocks/widget-block/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "fether_frequently_bought_widget_block_rLNjkW"
-      ],
+    "disclosures": {
+      "type": "disclosures",
       "settings": {
-        "include_margins": true
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
-        "show_quick_buy": true
-      }
-    },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
-    "1759343840724c8ace": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "178225800611dcd8c9": {
-      "type": "apps",
-      "blocks": {
-        "fether_frequently_bought_related_products_widget_KNCxa9": {
-          "type": "shopify://apps/fether-frequently-bought/blocks/related-products-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "fether_frequently_bought_related_products_widget_KNCxa9"
-      ],
-      "settings": {
-        "include_margins": true
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "17658342852e129561",
-    "17658343414e960064",
-    "178225721710f48453",
-    "product-recommendations",
-    "recently-viewed-products",
-    "1759343840724c8ace",
-    "178225800611dcd8c9"
+    "disclosures",
+    "quick-order-list",
+    "related-products"
   ]
 }
