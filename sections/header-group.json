@@ -37,7 +37,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "top-left",
         "mobile_logo_position": "center",
         "menu": "main-menu-1",
         "menu_type_desktop": "mega",
