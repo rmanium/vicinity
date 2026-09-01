@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -5,26 +14,21 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "delivery_promise": {
+        "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Order BEFORE 5 PM → Delivered Today 5–8 PM",
-            "link": "shopify://policies/shipping-policy"
-          }
-        },
-        "phone": {
-          "type": "announcement",
-          "settings": {
-            "text": "Questions? Call us (604) 256-6726",
-            "link": "tel:+16042566726"
+            "text": "Welcome to our store",
+            "link": ""
           }
         }
       },
-      "block_order": ["delivery_promise", "phone"],
+      "block_order": [
+        "announcement-bar-0"
+      ],
       "settings": {
-        "auto_rotate": true,
-        "change_slides_speed": 7,
-        "color_scheme": "scheme-4",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-5",
         "show_line_separator": false,
         "show_social": false,
         "enable_country_selector": false,
@@ -36,19 +40,22 @@
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
-        "menu": "main-menu-1",
+        "menu": "main-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "always",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }

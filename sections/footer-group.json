@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -5,41 +14,34 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "about": {
-          "type": "text",
-          "settings": {
-            "heading": "Vicinity Mart",
-            "subtext": "<p>Your Trusted Online Grocery Store in Vancouver, now with a new location in North Vancouver featuring a café, bakery, and butchery! Serving over 1,000 orders monthly across North America, we continue to offer the same convenience and quality through our online ordering.</p>"
-          }
-        },
-        "quick_links": {
+        "link_list": {
           "type": "link_list",
-          "settings": { "heading": "Quick links", "menu": "home-footer" }
-        },
-        "contact": {
-          "type": "text",
           "settings": {
-            "heading": "Contact Us",
-            "subtext": "<p><strong>LOCATION</strong></p><p><a href=\"https://maps.google.com/?q=1449+Marine+Dr,+North+Vancouver,+BC+V7P+1T7\" title=\"1449 Marine Drive, North Vancouver\">1449 Marine Drive<br/>North Vancouver, BC, V7P 1T5</a></p><p><strong>PHONE</strong></p><p>Online: <a href=\"tel:+16042566726\" title=\"Call +1 (604) 256-6726\">+1 (604) 256-6726</a></p><p>Store: <a href=\"tel:+17783705583\" title=\"Call +1 (778) 370-5583\">+1 (778) 370-5583</a></p><p><strong>EMAIL</strong></p><p><a href=\"mailto:Info@vicinitymart.com\" title=\"Email Info@vicinitymart.com\">Info@vicinitymart.com</a></p>"
+            "heading": "Quick links",
+            "menu": "footer"
           }
         }
       },
-      "block_order": ["about", "quick_links", "contact"],
+      "block_order": [
+        "link_list"
+      ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "newsletter_enable": true,
-        "newsletter_heading": "Get exclusive savings, recipes and promotions",
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 40,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
-  "order": ["footer"]
+  "order": [
+    "footer"
+  ]
 }
