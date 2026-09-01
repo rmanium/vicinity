@@ -34,3 +34,24 @@
     font-size: 1.25rem;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Desktop navigation
+   Trade pads every top-level link with 1.2rem on each side. Across nine
+   items that is ~216px of padding, which pushed "Shop All" onto a second
+   row. Tightening the horizontal padding keeps the menu on one line while
+   leaving the vertical hit area intact.
+   --------------------------------------------------------------------------- */
+@media screen and (min-width: 990px) {
+  .header__inline-menu .list-menu--inline > li > details > .header__menu-item,
+  .header__inline-menu .list-menu--inline > li > .header__menu-item {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  /* the caret sits in its own margin as well - pull it in a little */
+  .header__inline-menu .header__menu-item .icon-caret {
+    margin-left: 0.2rem;
+  }
+}
+
