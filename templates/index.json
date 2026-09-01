@@ -1,35 +1,12 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "image_banner": {
+    "hero_banner": {
       "type": "image-banner",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome industry insiders",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Grow your business with us",
-            "heading_size": "h1"
-          }
-        },
-        "button": {
+        "buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop all groceries",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -39,373 +16,357 @@
         }
       },
       "block_order": [
-        "text",
-        "heading",
-        "button"
+        "buttons"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-5",
+        "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
         "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column4": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column5": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column6": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3",
-        "column4",
-        "column5",
-        "column6"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "rich_text": {
+    "delivery_heading": {
       "type": "rich-text",
       "blocks": {
-        "text": {
-          "type": "text",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Outstanding service | Exclusive pricing | Industry expertise</p>"
+            "heading": "Delivery made simple",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
+        "padding_top": 40,
+        "padding_bottom": 12
       }
     },
-    "featured_collection1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Proven bestsellers",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 10,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "bulk",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 52
-      }
-    },
-    "collection_list": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection1",
-        "featured_collection2",
-        "featured_collection3",
-        "featured_collection4",
-        "featured_collection5"
-      ],
-      "settings": {
-        "title": "Shop our top categories",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "scheme-4",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 60
-      }
-    },
-    "multicolumn1": {
+    "delivery_windows": {
       "type": "multicolumn",
       "blocks": {
-        "column7": {
+        "north_west_van": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
+            "title": "North & West Van",
+            "text": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>",
+            "link_label": "",
             "link": ""
           }
         },
-        "column8": {
+        "outside_van": {
           "type": "column",
           "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column9": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column10": {
-          "type": "column",
-          "settings": {
-            "title": "Add a customer testimonial",
-            "text": "",
-            "link_label": "Shop now",
+            "title": "Outside North & West Van",
+            "text": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column7",
-        "column8",
-        "column9",
-        "column10"
+        "north_west_van",
+        "outside_van"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "shopify://policies/shipping-policy",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    },
+    "category_tiles": {
+      "type": "multicolumn",
+      "blocks": {
+        "produce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
+            "title": "Fresh Fruits & Veggies",
+            "text": "",
+            "link_label": "Shop produce",
+            "link": "shopify://collections/fresh-fruits-veggies"
+          }
+        },
+        "bread": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
+            "title": "Bread & Bakery",
+            "text": "",
+            "link_label": "Shop bakery",
+            "link": "shopify://collections/bread"
+          }
+        },
+        "meat": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
+            "title": "Meat & Poultry",
+            "text": "",
+            "link_label": "Shop meat",
+            "link": "shopify://collections/meat-poultry"
+          }
+        },
+        "dairy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
+            "title": "Dairy & Eggs",
+            "text": "",
+            "link_label": "Shop dairy",
+            "link": "shopify://collections/dairy-eggs"
+          }
+        },
+        "pantry": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
+            "title": "Pantry Staples",
+            "text": "",
+            "link_label": "Shop pantry",
+            "link": "shopify://collections/pantry-staples"
+          }
+        }
+      },
+      "block_order": [
+        "produce",
+        "bread",
+        "meat",
+        "dairy",
+        "pantry"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 68,
-        "padding_bottom": 68
-      }
-    },
-    "featured_collection2": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New arrivals",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 6,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "bulk",
+        "color_scheme": "scheme-1",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 52
+        "padding_bottom": 36
       }
     },
-    "multicolumn2": {
-      "type": "multicolumn",
+    "cafe_banner": {
+      "type": "image-banner",
       "blocks": {
-        "column11": {
-          "type": "column",
+        "buttons": {
+          "type": "buttons",
           "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column12": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column13": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
-          }
-        },
-        "column14": {
-          "type": "column",
-          "settings": {
-            "title": "Add educational content",
-            "text": "<p>Provide content for your customers that sets their business up for success</p>",
-            "link_label": "Read now",
-            "link": ""
+            "button_label_1": "Order café & ready meals",
+            "button_link_1": "shopify://collections/cafe-ready-foods",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "column11",
-        "column12",
-        "column13",
-        "column14"
+        "buttons"
       ],
       "settings": {
-        "title": "You're set up for success",
+        "image": "shopify://shop_images/vicinity_mart_sandwiches.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "judgeme_carousel": {
+      "type": "apps",
+      "blocks": {
+        "featured_carousel": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "featured_carousel"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "judgeme_medals": {
+      "type": "apps",
+      "blocks": {
+        "medals": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "medals"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "vicinity_voice": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Vicinity Voice",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "blog": "recipe",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "catering": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planning a Meeting, Party, or Special Gathering?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve got you covered!</p><p>Vicinity Mart offers delicious, freshly made options delivered right to your event.<br/>Ready to impress your guests?</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch to book!",
+            "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
         "padding_top": 44,
-        "padding_bottom": 48
+        "padding_bottom": 44
+      }
+    },
+    "best_picks": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Best Picks Zone",
+        "heading_size": "h2",
+        "collection": "all",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "multicolumn",
-    "rich_text",
-    "featured_collection1",
-    "collection_list",
-    "multicolumn1",
-    "featured_collection2",
-    "multicolumn2"
+    "hero_banner",
+    "delivery_heading",
+    "delivery_windows",
+    "category_tiles",
+    "cafe_banner",
+    "judgeme_carousel",
+    "judgeme_medals",
+    "vicinity_voice",
+    "catering",
+    "newsletter",
+    "best_picks"
   ]
 }

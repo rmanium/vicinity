@@ -157,3 +157,10 @@ via the Shopify GitHub integration, so pushing this branch deploys to that unpub
 
 5. **The GitHub integration cannot deliver a theme swap.** It never overwrites
    `config/settings_data.json` and never deletes removed files. Use CLI push.
+
+6. **Sections have `max_blocks` limits.** `collection-list` caps at 15. The pantry
+   (23 collections) and list-collections (19) pages were silently rejected on push
+   until they were split across two sections each. Validate block counts against
+   `max_blocks`, and always round-trip (pull back and compare) after a push - the
+   summary line does not report per-file rejections.
+

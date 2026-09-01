@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "organic_jams": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "organic-jams"
+          }
+        },
+        "herbs": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbs"
+          }
+        },
+        "spices": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spices"
+          }
+        },
+        "seeds": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "seeds"
+          }
+        },
+        "essence_waters_syrups": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "essence-waters-syrups"
+          }
+        },
+        "oils_vinegars_lemon_juices": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oils-vinegars-lemon-juices"
+          }
+        },
+        "sauces_pastes": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sauces-pastes"
+          }
+        },
+        "pickles_olives": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pickles-olives"
+          }
+        },
+        "salt_sugar_flour": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "salt-sugar-flour"
+          }
+        },
+        "jams_syrups": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jams-syrups"
+          }
+        },
+        "dried_fruits_nuts_seeds": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dried-fruits-nuts-seeds"
+          }
+        },
+        "semi_ready_foods": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "semi-ready-foods"
+          }
+        }
+      },
+      "block_order": [
+        "organic_jams",
+        "herbs",
+        "spices",
+        "seeds",
+        "essence_waters_syrups",
+        "oils_vinegars_lemon_juices",
+        "sauces_pastes",
+        "pickles_olives",
+        "salt_sugar_flour",
+        "jams_syrups",
+        "dried_fruits_nuts_seeds",
+        "semi_ready_foods"
+      ],
+      "settings": {
+        "title": "Pantry",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "collection_list_2": {
+      "type": "collection-list",
+      "blocks": {
+        "stews": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stews"
+          }
+        },
+        "desserts": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "desserts"
+          }
+        },
+        "spreads_honey_jams": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spreads-honey-jams"
+          }
+        },
+        "big_savings": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "big-savings"
+          }
+        },
+        "grains_beans_legumes": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grains-beans-legumes"
+          }
+        },
+        "canned_semi_ready_foods": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "canned-semi-ready-foods"
+          }
+        },
+        "snacks_sweets": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "snacks-sweets"
+          }
+        },
+        "personal_home_care": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personal-home-care"
+          }
+        },
+        "houseware": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houseware"
+          }
+        },
+        "video_dvd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "video-dvd"
+          }
+        },
+        "iran_football_accessories": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iran-football-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "stews",
+        "desserts",
+        "spreads_honey_jams",
+        "big_savings",
+        "grains_beans_legumes",
+        "canned_semi_ready_foods",
+        "snacks_sweets",
+        "personal_home_care",
+        "houseware",
+        "video_dvd",
+        "iran_football_accessories"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "collection_list",
+    "collection_list_2",
+    "newsletter"
+  ]
+}
