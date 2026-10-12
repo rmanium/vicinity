@@ -9,246 +9,243 @@
  */
 {
   "sections": {
-    "slideshow_A7qQ6q": {
-      "type": "slideshow",
+    "hero_banner": {
+      "type": "image-banner",
       "blocks": {
-        "image_4rXWGx": {
-          "type": "image",
+        "heading_kajden": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
-            "mobile_image": "shopify://shop_images/image_5f366113-86b7-46d8-9612-7bcd60016e52.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/all"
+            "heading": "<strong>Persian Supermarket in North Vancouver</strong>",
+            "heading_size": "h1"
           }
         },
-        "image_HUJWbH": {
-          "type": "image",
-          "disabled": true,
+        "buttons": {
+          "type": "buttons",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
+            "button_label_1": "Shop all groceries",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kajden",
+        "buttons"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_1_2026_10_35_41_AM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "delivery_heading": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Delivery made simple",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "delivery_windows": {
+      "type": "multicolumn",
+      "blocks": {
+        "north_west_van": {
+          "type": "column",
+          "settings": {
+            "title": "North & West Van",
+            "text": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "outside_van": {
+          "type": "column",
+          "settings": {
+            "title": "Outside North & West Van",
+            "text": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_4rXWGx",
-        "image_HUJWbH"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
-        "autoplay": false,
-        "cycle_speed": 5
-      }
-    },
-    "165970559810c3db58": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/image_2775bfdf-0a47-457b-a21d-1d74a8c051aa.png",
-        "title": "Online Persian Grocery Made Easy",
-        "content": "<p><a href=\"/collections\" title=\"All collections\">start shoping</a></p><p></p>",
-        "show_image_overlay": true,
-        "color": "#ffffff"
-      }
-    },
-    "178415000383a4835c": {
-      "type": "apps",
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "rich_text_WMBQiG": {
-      "type": "rich-text",
-      "settings": {
-        "text_width": "wide",
-        "title": "Delivery made simple",
-        "content": "",
-        "button_text": "",
-        "button_link": "shopify://policies/shipping-policy"
-      }
-    },
-    "1636241720a09de843": {
-      "type": "offers",
-      "blocks": {
-        "1636241720a09de843-0": {
-          "type": "offer",
-          "settings": {
-            "title": "North & West Van",
-            "content": "<p>Order before 5 PM → Delivery today 12-5 PM</p><p>Orders after 5 PM → Delivered next day 12-5 PM</p><p>Sundays → Order before 2 PM for same-day delivery<br/></p>"
-          }
-        },
-        "1636241720a09de843-1": {
-          "type": "offer",
-          "settings": {
-            "title": "Outside North & West Van",
-            "content": "<p>Order before 5 PM → Delivered today 5–8 PM</p><p>Order after 5 PM → Delivered next day 5–8 PM</p><p>Sundays → Order before 2 PM for same-day delivery</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636241720a09de843-0",
-        "1636241720a09de843-1"
+        "north_west_van",
+        "outside_van"
       ],
       "settings": {
-        "items_per_row": 2,
-        "stack_mobile": true
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "shopify://policies/shipping-policy",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 40
       }
     },
-    "mosaic_jgkGAq": {
-      "type": "mosaic",
+    "category_tiles": {
+      "type": "multicolumn",
       "blocks": {
-        "item_pDELB3": {
-          "type": "item",
+        "produce": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
+            "image": "shopify://shop_images/Abundant_Harvest_Vegetable_Arch.png",
+            "title": "Fresh Fruits & Veggies",
+            "text": "",
+            "link_label": "Shop produce",
             "link": "shopify://collections/fresh-fruits-veggies"
           }
         },
-        "item_gdQpDi": {
-          "type": "item",
+        "bread": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
+            "image": "shopify://shop_images/Rustic_Artisan_Bakery_Feast_1.png",
+            "title": "Bread & Bakery",
+            "text": "",
+            "link_label": "Shop bakery",
             "link": "shopify://collections/bread"
           }
         },
-        "item_PUQFMU": {
-          "type": "item",
+        "meat": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
+            "image": "shopify://shop_images/Terracotta_Arch_Meat_Market_Collage.png",
+            "title": "Meat & Poultry",
+            "text": "",
+            "link_label": "Shop meat",
             "link": "shopify://collections/meat-poultry"
           }
         },
-        "item_aP8BEE": {
-          "type": "item",
+        "dairy": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
+            "image": "shopify://shop_images/Rustic_Dairy_and_Egg_Market_Spread.png",
+            "title": "Dairy & Eggs",
+            "text": "",
+            "link_label": "Shop dairy",
             "link": "shopify://collections/dairy-eggs"
           }
         },
-        "item_3rxD4h": {
-          "type": "item",
+        "pantry": {
+          "type": "column",
           "settings": {
-            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "rgba(0,0,0,0)",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
+            "image": "shopify://shop_images/Terracotta_Pantry_Harvest_Still_Life.png",
+            "title": "Pantry Staples",
+            "text": "",
+            "link_label": "Shop pantry",
             "link": "shopify://collections/pantry-staples"
           }
         }
       },
       "block_order": [
-        "item_pDELB3",
-        "item_gdQpDi",
-        "item_PUQFMU",
-        "item_aP8BEE",
-        "item_3rxD4h"
+        "produce",
+        "bread",
+        "meat",
+        "dairy",
+        "pantry"
       ],
-      "name": "Mosaic",
       "settings": {
-        "section_size": "medium"
+        "title": "Shop by category",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "slideshow_6VbREA": {
-      "type": "slideshow",
+    "image_banner_3xiG8f": {
+      "type": "image-banner",
       "blocks": {
-        "image_jjbTMb": {
-          "type": "image",
+        "heading_cfYxhj": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/vicinity_mart_sandwiches.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/cafe-ready-foods"
+            "heading": "Freshly Made, Ready For You!",
+            "heading_size": "h1"
+          }
+        },
+        "text_8eNhBp": {
+          "type": "text",
+          "settings": {
+            "text": "&nbsp;From our café sandwiches to homemade Persian favourites, everything is prepared fresh with quality ingredients and plenty of flavour. Perfect for lunch, dinner, or those days when you want something homemade without the cooking.&nbsp;",
+            "text_style": "body"
+          }
+        },
+        "buttons_9dmxMX": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Café & Ready Foods",
+            "button_link_1": "shopify://collections/cafe-ready-foods",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "image_jjbTMb"
+        "heading_cfYxhj",
+        "text_8eNhBp",
+        "buttons_9dmxMX"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "edge_to_edge": false,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "fade",
-        "autoplay": true,
-        "cycle_speed": 5
+        "image": "shopify://shop_images/Mediterranean_Deli_Feast_Table.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-2",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
-    "1743463835133a460c": {
+    "judgeme_carousel": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_featured_carousel_hJXDCG": {
+        "featured_carousel": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
@@ -256,163 +253,161 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_hJXDCG"
+        "featured_carousel"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     },
-    "174317894963636497": {
+    "judgeme_medals": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_medals_GMgnwW": {
+        "medals": {
           "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
-        "judge_me_reviews_medals_GMgnwW"
+        "medals"
       ],
       "settings": {
         "include_margins": true
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "title": "Newsletter",
-        "content": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>",
-        "background": "#121251",
-        "text": "#ffffff"
-      }
-    },
-    "163624158735e5b47b": {
-      "type": "recently-viewed-products",
-      "disabled": true,
-      "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
+    "vicinity_voice": {
+      "type": "featured-blog",
       "settings": {
         "blog": "recipe",
-        "blog_posts_count": 3,
-        "title": "Vicinity Voice",
-        "link_title": "View all",
-        "show_category": false,
-        "show_author": false,
+        "post_limit": 3,
+        "heading": "Vicinity Voice",
+        "heading_size": "h2",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
         "show_date": true,
-        "show_excerpt": true,
-        "stack_mobile": false
+        "show_author": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "1637542871cef3e060": {
-      "type": "slideshow",
+    "catering": {
+      "type": "rich-text",
       "blocks": {
-        "163754287132cb0d7a-0": {
-          "type": "image",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "heading": "Planning a Meeting, Party, or Special Gathering?",
+            "heading_size": "h2"
           }
         },
-        "163754287132cb0d7a-1": {
-          "type": "image",
+        "text": {
+          "type": "text",
           "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "text": "<p>We’ve got you covered!</p><p>Vicinity Mart offers delicious, freshly made options delivered right to your event.<br/>Ready to impress your guests?</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch to book!",
+            "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "163754287132cb0d7a-0",
-        "163754287132cb0d7a-1"
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign-up for our Newsletter to hear about our upcoming specials and campaigns.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
       ],
       "disabled": true,
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
-        "carousel_effect": "fade",
-        "autoplay": true,
-        "cycle_speed": 5
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     },
-    "survey-modal": {
-      "type": "survey-modal",
-      "disabled": true,
-      "settings": {
-        "source": "home",
-        "content": "general"
-      }
-    },
-    "featured_collection_8WByHx": {
+    "best_picks": {
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "collection": "",
+        "collection": "all",
+        "products_to_show": 12,
         "title": "Best Picks Zone",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": true,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "rich_text_kqiGzH": {
-      "type": "rich-text",
-      "name": "Rich text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "Planning a Meeting, Party, or Special Gathering?",
-        "content": "<p>We’ve got you covered!</p><p>Vicinity Mart offers delicious, freshly made options delivered right to your event.<br/>Ready to impress your guests?</p>",
-        "button_text": "Get in touch to book!",
-        "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event"
-      }
-    },
-    "1786473634b3f8d3c8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "slideshow_A7qQ6q",
-    "165970559810c3db58",
-    "178415000383a4835c",
-    "rich_text_WMBQiG",
-    "1636241720a09de843",
-    "mosaic_jgkGAq",
-    "slideshow_6VbREA",
-    "1743463835133a460c",
-    "174317894963636497",
+    "hero_banner",
+    "delivery_heading",
+    "delivery_windows",
+    "category_tiles",
+    "image_banner_3xiG8f",
+    "judgeme_carousel",
+    "judgeme_medals",
+    "vicinity_voice",
+    "catering",
     "newsletter",
-    "163624158735e5b47b",
-    "blog-posts",
-    "1637542871cef3e060",
-    "survey-modal",
-    "featured_collection_8WByHx",
-    "rich_text_kqiGzH",
-    "1786473634b3f8d3c8"
+    "best_picks"
   ]
 }

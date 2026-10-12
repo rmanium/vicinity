@@ -12,45 +12,43 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "product_meta": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": false,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": false
-          }
+        "title": {
+          "type": "title",
+          "settings": {}
         },
-        "variant_selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
+        "price": {
+          "type": "price",
+          "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "display_mode": "show_all"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true
-          }
-        },
-        "seowill_trust_badges_star_rating_KttwCK": {
+        "trust_star_rating": {
           "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
           "settings": {
             "badge_id": ""
           }
         },
-        "judge_me_reviews_review_widget_kNYtXg": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "judgeme_reviews": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
@@ -59,88 +57,81 @@
             "empty_state": "empty_widget"
           }
         },
-        "4d4ca45c-f661-4447-886d-101fb80edd1c": {
-          "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
-          "disabled": true,
-          "settings": {
-            "badge_id": ""
-          }
+        "fether_frequently_bought_addons_widget_nXfCfh": {
+          "type": "shopify://apps/fether-frequently-bought/blocks/addons-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+          "settings": {}
         }
       },
       "block_order": [
-        "product_meta",
-        "variant_selector",
-        "description",
+        "title",
+        "price",
+        "trust_star_rating",
+        "variant_picker",
+        "quantity_selector",
         "buy_buttons",
-        "seowill_trust_badges_star_rating_KttwCK",
-        "judge_me_reviews_review_widget_kNYtXg",
-        "4d4ca45c-f661-4447-886d-101fb80edd1c"
+        "description",
+        "judgeme_reviews",
+        "fether_frequently_bought_addons_widget_nXfCfh"
       ],
       "settings": {
-        "image_size": "small",
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
         "enable_video_looping": false,
-        "enable_image_zoom": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
-    "17658342852e129561": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17658343414e960064": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "178225721710f48453": {
+    "frequently_bought": {
       "type": "apps",
       "blocks": {
-        "fether_frequently_bought_widget_block_rLNjkW": {
+        "widget": {
           "type": "shopify://apps/fether-frequently-bought/blocks/widget-block/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
           "settings": {}
         }
       },
       "block_order": [
-        "fether_frequently_bought_widget_block_rLNjkW"
+        "widget"
       ],
       "settings": {
         "include_margins": true
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "related_products": {
+      "type": "related-products",
       "settings": {
-        "heading": "You may also like{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products_display.value }}",
-        "show_quick_buy": true
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 28
       }
     },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
-    "1759343840724c8ace": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "178225800611dcd8c9": {
+    "fether_related": {
       "type": "apps",
       "blocks": {
-        "fether_frequently_bought_related_products_widget_KNCxa9": {
+        "related_widget": {
           "type": "shopify://apps/fether-frequently-bought/blocks/related-products-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
           "settings": {}
         }
       },
       "block_order": [
-        "fether_frequently_bought_related_products_widget_KNCxa9"
+        "related_widget"
       ],
       "settings": {
         "include_margins": true
@@ -149,12 +140,8 @@
   },
   "order": [
     "main",
-    "17658342852e129561",
-    "17658343414e960064",
-    "178225721710f48453",
-    "product-recommendations",
-    "recently-viewed-products",
-    "1759343840724c8ace",
-    "178225800611dcd8c9"
+    "frequently_bought",
+    "related_products",
+    "fether_related"
   ]
 }

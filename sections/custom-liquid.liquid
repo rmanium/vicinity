@@ -1,44 +1,68 @@
-<section class="section" data-section-id="{{ section.id }}" data-section-type="liquid">
-  <div class="{% if section.settings.include_margins %}container{% endif %}">
-    {%- if section.settings.title != blank -%}
-      <header class="section__header">
-        <h2 class="section__title heading h3">{{ section.settings.title | escape }}</h2>
-      </header>
-    {%- endif -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
 
-    <div class="liquid">
-      {{ section.settings.liquid }}
-    </div>
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    {{ section.settings.custom_liquid }}
   </div>
-</section>
+</div>
 
 {% schema %}
 {
-  "name": "Custom Liquid",
+  "name": "t:sections.custom-liquid.name",
+  "tag": "section",
+  "class": "section",
   "settings": [
     {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Your title"
-    },
-    {
-      "type": "checkbox",
-      "id": "include_margins",
-      "label": "Include margins",
-      "default": true
-    },
-    {
       "type": "liquid",
-      "id": "liquid",
-      "label": "Liquid",
-      "default": "<p>Write or copy/paste Liquid code</p>"
+      "id": "custom_liquid",
+      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
     }
   ],
   "presets": [
     {
-      "category": "Advanced",
-      "name": "Custom Liquid"
+      "name": "t:sections.custom-liquid.presets.name"
     }
   ]
 }

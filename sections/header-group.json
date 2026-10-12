@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "delivery_promise": {
+          "type": "announcement",
+          "settings": {
+            "text": "Order BEFORE 5 PM → Delivered Today 5–8 PM",
+            "link": "shopify://policies/shipping-policy"
+          }
+        },
+        "phone": {
+          "type": "announcement",
+          "settings": {
+            "text": "Questions? Call us (604) 256-6726",
+            "link": "tel:+16042566726"
+          }
+        }
+      },
+      "block_order": [
+        "delivery_promise",
+        "phone"
+      ],
+      "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "color_scheme": "scheme-5",
+        "show_line_separator": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_image_meat_seafood": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Meat & Seafood",
+            "heading": "Halal meat & fresh seafood",
+            "link": ""
+          }
+        },
+        "menu_image_fresh_produce": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Fresh Produce",
+            "heading": "Fruits & veggies, daily",
+            "link": ""
+          }
+        },
+        "menu_image_bakery": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Bakery",
+            "heading": "Baked fresh every day",
+            "link": ""
+          }
+        },
+        "menu_image_beverages": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Beverages",
+            "heading": "Drinks & refreshments",
+            "link": ""
+          }
+        },
+        "menu_image_persian_pantry": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Persian Pantry",
+            "heading": "Persian groceries made easy",
+            "link": ""
+          }
+        },
+        "menu_image_condiments": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Condiments",
+            "heading": "Pantry staples",
+            "link": ""
+          }
+        },
+        "menu_image_household": {
+          "type": "menu_image",
+          "settings": {
+            "menu_item": "Household",
+            "heading": "Everyday essentials",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_image_meat_seafood",
+        "menu_image_fresh_produce",
+        "menu_image_bakery",
+        "menu_image_beverages",
+        "menu_image_persian_pantry",
+        "menu_image_condiments",
+        "menu_image_household"
+      ],
+      "settings": {
+        "logo_position": "top-left",
+        "mobile_logo_position": "center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

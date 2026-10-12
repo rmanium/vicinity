@@ -1,0 +1,181 @@
+{% comment %}
+  Renders a megamenu for the header.
+
+  Usage:
+  {% render 'header-mega-menu' %}
+{% endcomment %}
+
+<script src="{{ 'vicinity-header-menu.js' | asset_url }}" defer="defer"></script>
+
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      {%- liquid
+        # Vicinity: a top-level item with children is a link to its own page
+        # plus a caret that toggles the mega menu (which also opens on hover,
+        # see vicinity-header-menu.js). Trade made the whole title a <details>
+        # toggle, so it could never reach the collection page. Items whose
+        # URL is "#" have no page, so they keep Trade's toggle-only title.
+        assign title_links = false
+        if link.links != blank and link.url != blank and link.url != '#'
+          assign title_links = true
+        endif
+      -%}
+      <li{% if title_links %} class="header__menu-parent"{% endif %}>
+        {%- if link.links != blank -%}
+          {%- if title_links -%}
+            <a
+              id="HeaderMenu-{{ link.handle }}"
+              href="{{ link.url }}"
+              class="header__menu-item header__menu-item--parent list-menu__item link link--text focus-inset"
+              {% if link.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <span
+                {%- if link.active or link.child_active %}
+                  class="header__active-menu-item"
+                {% endif %}
+              >
+                {{- link.title | escape -}}
+              </span>
+            </a>
+          {%- endif -%}
+          <header-menu>
+            <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+              {%- if title_links -%}
+                <summary
+                  id="HeaderMenu-{{ link.handle }}-toggle"
+                  class="header__menu-item header__menu-toggle list-menu__item link focus-inset"
+                  aria-label="{{ link.title | escape }} menu"
+                >
+                  {{- 'icon-caret.svg' | inline_asset_content -}}
+                </summary>
+              {%- else -%}
+                <summary
+                  id="HeaderMenu-{{ link.handle }}"
+                  class="header__menu-item list-menu__item link focus-inset"
+                >
+                  <span
+                    {%- if link.child_active %}
+                      class="header__active-menu-item"
+                    {% endif %}
+                  >
+                    {{- link.title | escape -}}
+                  </span>
+                  {{- 'icon-caret.svg' | inline_asset_content -}}
+                </summary>
+              {%- endif -%}
+              {%- liquid
+                # Vicinity: find a menu_image block for this top-level link.
+                # Reset each iteration - Liquid variables persist across the
+                # enclosing for-loop, so a stale image would leak to the next item.
+                assign promo_image = ''
+                assign promo_heading = ''
+                assign promo_link = ''
+                assign promo_attrs = ''
+                assign link_title_key = link.title | downcase | strip
+
+                for block in section.blocks
+                  if block.type != 'menu_image'
+                    continue
+                  endif
+                  assign key = block.settings.menu_item | downcase | strip
+                  if key == link.handle or key == link_title_key
+                    assign promo_image = block.settings.image
+                    assign promo_heading = block.settings.heading
+                    assign promo_link = block.settings.link
+                    assign promo_attrs = block.shopify_attributes
+                    break
+                  endif
+                endfor
+              -%}
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <div class="mega-menu__inner page-width">
+                <ul
+                  class="mega-menu__list{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+
+                {%- if promo_image != blank -%}
+                  <div class="mega-menu__promo" {{ promo_attrs }}>
+                    <a href="{{ promo_link | default: link.url }}" class="mega-menu__promo-link">
+                      {{
+                        promo_image
+                        | image_url: width: 520
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '260, 390, 520',
+                          sizes: '26rem',
+                          class: 'mega-menu__promo-image',
+                          alt: promo_heading | default: link.title | escape
+                      }}
+                      {%- if promo_heading != blank -%}
+                        <span class="mega-menu__promo-heading">{{ promo_heading | escape }}</span>
+                      {%- endif -%}
+                    </a>
+                  </div>
+                {%- endif -%}
+                </div>
+              </div>
+            </details>
+          </header-menu>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
