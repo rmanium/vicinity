@@ -1,0 +1,90 @@
+{% doc %}
+  @prompt
+    Create a new reusable 'Featured products from metaobject' section for page templates, styled like the theme's existing collection list section but displaying product cards instead of collection cards. Let the merchant select an existing metaobject entry that has a List of Product references, and render those products in the exact order stored in that list. Provide a configurable heading and sensible responsive grid settings. Reuse the theme's existing product card styling, spacing, typography, and mobile behavior; keep product images uncropped where possible. Handle missing entries, empty lists, and unavailable products gracefully. Make the section available in the theme editor on page templates, without hard-coding a particular metaobject entry or changing existing page content.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-meta-products-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+  .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__inner-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: var(--page-width, 1400px);
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+  .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__heading-{{ ai_gen_id }} {
+    margin: 0 0 2rem;
+    color: rgb(var(--color-foreground));
+    font-size: calc(var(--font-heading-scale, 1) * 2.4rem);
+    line-height: 1.25;
+  }
+  .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, minmax(0, 1fr));
+    gap: {{ block.settings.grid_gap }}px;
+  }
+  .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__item-{{ ai_gen_id }} { min-width: 0; }
+  .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__empty-{{ ai_gen_id }} {
+    margin: 0;
+    color: rgb(var(--color-foreground));
+    opacity: .75;
+  }
+  @media screen and (max-width: 749px) {
+    .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, minmax(0, 1fr));
+      gap: {{ block.settings.grid_gap | divided_by: 2 }}px;
+    }
+    .ai-meta-products-{{ ai_gen_id }} .ai-meta-products__heading-{{ ai_gen_id }} { margin-bottom: 1.5rem; font-size: 2rem; }
+  }
+{% endstyle %}
+
+<div class="ai-meta-products-{{ ai_gen_id }} color-{{ block.settings.color_scheme }} gradient" style="width: {{ block.settings.desktop_width_percent }}%;" {{ block.shopify_attributes }}>
+  <div class="ai-meta-products__inner-{{ ai_gen_id }}">
+    {% if block.settings.heading != blank %}
+      <h2 class="ai-meta-products__heading-{{ ai_gen_id }}">{{ block.settings.heading | escape }}</h2>
+    {% endif %}
+    {% assign entry = block.settings.product_group %}
+    {% if entry != blank %}
+      {% assign product_list = entry.products.value %}
+      {% if product_list != blank and product_list.size > 0 %}
+        <ul class="ai-meta-products__grid-{{ ai_gen_id }} list-unstyled" role="list">
+          {% for product in product_list %}
+            {% if product != blank %}
+              <li class="ai-meta-products__item-{{ ai_gen_id }}">
+                {% render 'card-product', card_product: product, media_aspect_ratio: 'adapt', image_shape: 'default', show_secondary_image: false, show_vendor: false, show_rating: false, section_id: ai_gen_id %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="ai-meta-products__empty-{{ ai_gen_id }}">{{ block.settings.empty_message | escape }}</p>
+      {% endif %}
+    {% elsif request.design_mode %}
+      <p class="ai-meta-products__empty-{{ ai_gen_id }}">Select a metaobject entry containing a product list to display products here.</p>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Metaobject products",
+  "settings": [
+    { "type": "metaobject", "id": "product_group", "label": "Product list entry", "metaobject_type": "product_group" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Featured products" },
+    { "type": "text", "id": "empty_message", "label": "Empty list message", "default": "Products will appear here once added to this list." },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 },
+    { "type": "range", "id": "columns_desktop", "label": "Columns on desktop", "min": 2, "max": 5, "step": 1, "default": 4 },
+    { "type": "select", "id": "columns_mobile", "label": "Columns on mobile", "options": [{ "value": "1", "label": "1" }, { "value": "2", "label": "2" }], "default": "2" },
+    { "type": "range", "id": "grid_gap", "label": "Grid spacing", "min": 4, "max": 40, "step": 4, "unit": "px", "default": 12 },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" }
+  ],
+  "presets": [{ "name": "Metaobject products" }],
+  "tag": null,
+  "class": "featured-metaobject-products"
+}
+{% endschema %}

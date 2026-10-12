@@ -1,6 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
+    "logo": "shopify://shop_images/Vicinity_Mart-01.jpg",
     "logo_width": 200,
+    "favicon": "shopify://shop_images/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png",
     "type_header_font": "ubuntu_n7",
     "heading_scale": 100,
     "type_body_font": "ubuntu_n5",
@@ -131,6 +142,51 @@
         }
       }
     },
+    "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "greeting_message": "",
+          "show_featured_products": true,
+          "featured_products": [],
+          "background_color": "#FFFFFF",
+          "font_color": "#000000",
+          "agent_invert_activator_colors": false,
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "agent_inherit_fonts": true,
+          "agent_font": "system_ui_n4",
+          "agent_font_size": 14,
+          "agent_activator_font_size": 13,
+          "agent_border_radius": 16
+        }
+      },
+      "15891388892413262111": {
+        "type": "shopify://apps/essential-loyalty/blocks/theme-extension/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
+        "disabled": false,
+        "settings": {}
+      },
+      "5890205134905443601": {
+        "type": "shopify://apps/seowill-trust-badges/blocks/trust_core/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+        "disabled": false,
+        "settings": {}
+      },
+      "11349500561483629931": {
+        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -187,9 +243,7 @@
           "shadow": "#121251"
         }
       }
-    },
-    "logo": "shopify://shop_images/Vicinity_Mart-01.jpg",
-    "favicon": "shopify://shop_images/Vicinity_Mart_-_favicon_-_Small_2085731c-fcd5-48cd-918c-f59779e7c5c1.png"
+    }
   },
   "presets": {
     "Trade": {

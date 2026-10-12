@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -42,7 +51,7 @@
           "settings": {
             "heading": "How long will it take to get my order?",
             "icon": "none",
-            "row_content": "<p>We offer <strong>fast and same-day delivery</strong> options!</p><ul><li><strong>North Vancouver & West Vancouver:</strong> Delivery within <strong>1 hour</strong>.</li><li><strong>Same-Day Delivery:</strong> Order by <strong>5 PM</strong> for delivery <strong>today</strong>, or by <strong>2 PM on Sunday</strong> for same-day <strong>Sunday delivery</strong>.</li><li><strong>Standard Shipping (Canada & U.S.):</strong> Delivery takes <strong>3 to 9 days</strong>.</li></ul>",
+            "row_content": "<p>We offer <strong>same-day delivery</strong> options!</p><ul><li><strong>North & West Vancouver:</strong> Order by <strong>5 PM</strong> for delivery <strong>12–5 PM</strong>. Orders after 5 PM arrive the <strong>next day</strong>.</li><li><strong>Outside North & West Vancouver:</strong> Order by <strong>5 PM</strong> for delivery <strong>5–8 PM</strong>. Orders after 5 PM arrive the <strong>next day</strong>.</li><li><strong>Sundays:</strong> Order by <strong>2 PM</strong> for same-day delivery.</li><li><strong>Canada & U.S. Shipping:</strong> <strong>3–9 days</strong>.</li></ul>",
             "page": ""
           }
         }
@@ -222,7 +231,10 @@
           "settings": {
             "button_label": "Contact us",
             "button_link": "shopify://pages/contact",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },

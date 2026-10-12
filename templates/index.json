@@ -1,8 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading_kajden": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Persian Supermarket in North Vancouver</strong>",
+            "heading_size": "h1"
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -16,14 +32,15 @@
         }
       },
       "block_order": [
+        "heading_kajden",
         "buttons"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_c0a81aa3-4933-4d15-b168-79e228afaea8.png",
-        "image_overlay_opacity": 30,
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_1_2026_10_35_41_AM.png",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-4",
@@ -83,13 +100,14 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "shopify://policies/shipping-policy",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "shopify://policies/shipping-policy",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -103,7 +121,7 @@
         "produce": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1_a1345212-319e-45b7-bbf8-3152f53664e6.png",
+            "image": "shopify://shop_images/Abundant_Harvest_Vegetable_Arch.png",
             "title": "Fresh Fruits & Veggies",
             "text": "",
             "link_label": "Shop produce",
@@ -113,7 +131,7 @@
         "bread": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3_7608db74-ffa3-4129-9c22-c01339bb1765.png",
+            "image": "shopify://shop_images/Rustic_Artisan_Bakery_Feast_1.png",
             "title": "Bread & Bakery",
             "text": "",
             "link_label": "Shop bakery",
@@ -123,7 +141,7 @@
         "meat": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2_79f16a22-b4cf-4386-9477-8db786d6201b.png",
+            "image": "shopify://shop_images/Terracotta_Arch_Meat_Market_Collage.png",
             "title": "Meat & Poultry",
             "text": "",
             "link_label": "Shop meat",
@@ -133,7 +151,7 @@
         "dairy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/4_9af9859f-9f7c-480f-b5fd-ba79938b301e.png",
+            "image": "shopify://shop_images/Rustic_Dairy_and_Egg_Market_Spread.png",
             "title": "Dairy & Eggs",
             "text": "",
             "link_label": "Shop dairy",
@@ -143,7 +161,7 @@
         "pantry": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/5_07486082-5855-4f50-9f55-dec577fe1ee6.png",
+            "image": "shopify://shop_images/Terracotta_Pantry_Harvest_Still_Life.png",
             "title": "Pantry Staples",
             "text": "",
             "link_label": "Shop pantry",
@@ -162,12 +180,12 @@
         "title": "Shop by category",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
@@ -175,13 +193,27 @@
         "padding_bottom": 36
       }
     },
-    "cafe_banner": {
+    "image_banner_3xiG8f": {
       "type": "image-banner",
       "blocks": {
-        "buttons": {
+        "heading_cfYxhj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Freshly Made, Ready For You!",
+            "heading_size": "h1"
+          }
+        },
+        "text_8eNhBp": {
+          "type": "text",
+          "settings": {
+            "text": "&nbsp;From our café sandwiches to homemade Persian favourites, everything is prepared fresh with quality ingredients and plenty of flavour. Perfect for lunch, dinner, or those days when you want something homemade without the cooking.&nbsp;",
+            "text_style": "body"
+          }
+        },
+        "buttons_9dmxMX": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Order café & ready meals",
+            "button_label_1": "Shop Café & Ready Foods",
             "button_link_1": "shopify://collections/cafe-ready-foods",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -191,20 +223,23 @@
         }
       },
       "block_order": [
-        "buttons"
+        "heading_cfYxhj",
+        "text_8eNhBp",
+        "buttons_9dmxMX"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/vicinity_mart_sandwiches.png",
-        "image_overlay_opacity": 30,
+        "image": "shopify://shop_images/Mediterranean_Deli_Feast_Table.png",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": false,
+        "show_text_box": true,
+        "color_scheme": "scheme-2",
+        "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "judgeme_carousel": {
@@ -242,10 +277,10 @@
     "vicinity_voice": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Vicinity Voice",
-        "heading_size": "h2",
         "blog": "recipe",
         "post_limit": 3,
+        "heading": "Vicinity Voice",
+        "heading_size": "h2",
         "columns_desktop": 3,
         "show_view_all": true,
         "show_image": true,
@@ -277,7 +312,10 @@
           "settings": {
             "button_label": "Get in touch to book!",
             "button_link": "shopify://pages/let-vicinity-mart-cater-your-next-event",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -297,7 +335,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -322,6 +359,7 @@
         "paragraph",
         "email_form"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-4",
         "full_width": true,
@@ -333,17 +371,19 @@
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "Best Picks Zone",
-        "heading_size": "h2",
         "collection": "all",
         "products_to_show": 12,
+        "title": "Best Picks Zone",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -351,6 +391,7 @@
         "show_rating": true,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -361,7 +402,7 @@
     "delivery_heading",
     "delivery_windows",
     "category_tiles",
-    "cafe_banner",
+    "image_banner_3xiG8f",
     "judgeme_carousel",
     "judgeme_medals",
     "vicinity_voice",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,7 +22,9 @@
         },
         "trust_star_rating": {
           "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
-          "settings": {}
+          "settings": {
+            "badge_id": ""
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -42,8 +53,13 @@
           "settings": {
             "review_data": "sample_data",
             "max_width": 1200,
+            "show_shop_reviews": false,
             "empty_state": "empty_widget"
           }
+        },
+        "fether_frequently_bought_addons_widget_nXfCfh": {
+          "type": "shopify://apps/fether-frequently-bought/blocks/addons-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+          "settings": {}
         }
       },
       "block_order": [
@@ -54,7 +70,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "judgeme_reviews"
+        "judgeme_reviews",
+        "fether_frequently_bought_addons_widget_nXfCfh"
       ],
       "settings": {
         "enable_sticky_info": true,
