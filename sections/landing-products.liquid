@@ -1,0 +1,282 @@
+{{ 'landing-page.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+
+{%- unless section.settings.quick_add == 'none' -%}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+{%- endunless -%}
+<script src="{{ 'landing-page.js' | asset_url }}" defer="defer"></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign landing = page.metafields.landing
+  assign product_list = landing.products.value
+  assign source_collection = landing.collection.value
+  assign heading = landing.products_heading.value | default: section.settings.heading
+  assign limit = section.settings.products_to_show
+
+  assign products = blank
+  assign from_collection = false
+  if product_list.size > 0
+    assign products = product_list
+  elsif source_collection.products_count > 0
+    assign products = source_collection.products
+    assign from_collection = true
+  endif
+
+  assign add_all_ids = ''
+  assign add_all_count = 0
+  assign add_all_total = 0
+  if landing.add_all_button.value == true and products != blank
+    for product in products limit: limit
+      assign variant = product.selected_or_first_available_variant
+      if variant.available
+        assign add_all_ids = add_all_ids | append: variant.id | append: ','
+        assign add_all_count = add_all_count | plus: 1
+        assign add_all_total = add_all_total | plus: variant.price
+      endif
+    endfor
+  endif
+-%}
+
+{%- if products != blank -%}
+  <div class="color-{{ section.settings.color_scheme }} gradient" id="products">
+    <div class="page-width section-{{ section.id }}-padding">
+      <div class="landing-products__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <h2 class="title {{ section.settings.heading_size }}">{{ heading | escape }}</h2>
+        <div class="landing-products__actions">
+          {%- if from_collection and section.settings.view_all_label != blank -%}
+            <a href="{{ source_collection.url }}" class="link underlined-link">
+              {{- section.settings.view_all_label | escape -}}
+            </a>
+          {%- endif -%}
+          {%- if add_all_count > 1 -%}
+            {%- liquid
+              assign add_all_total_money = add_all_total | money | strip_html
+              assign add_all_label = section.settings.add_all_label
+              assign add_all_label = add_all_label | replace: '[count]', add_all_count
+              assign add_all_label = add_all_label | replace: '[total]', add_all_total_money
+            -%}
+            <landing-add-all
+              class="landing-add-all"
+              data-variant-ids="{{ add_all_ids }}"
+              data-error-message="{{ section.settings.add_all_error | escape }}"
+            >
+              <button type="button" class="button button--primary">
+                <span>{{ add_all_label | escape }}</span>
+                {%- render 'loading-spinner' -%}
+              </button>
+              <p class="landing-add-all__error" role="alert" hidden></p>
+            </landing-add-all>
+          {%- endif -%}
+        </div>
+      </div>
+
+      <ul
+        class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+        role="list"
+      >
+        {%- assign skip_card_product_styles = false -%}
+        {%- for product in products limit: limit -%}
+          <li
+            class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: section.settings.image_ratio,
+              image_shape: 'default',
+              lazy_load: true,
+              show_secondary_image: false,
+              show_vendor: section.settings.show_vendor,
+              show_rating: section.settings.show_rating,
+              skip_styles: skip_card_product_styles,
+              section_id: section.id,
+              quick_add: section.settings.quick_add,
+              product_view_context: 'collection'
+            %}
+          </li>
+          {%- assign skip_card_product_styles = true -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+{%- elsif request.design_mode -%}
+  <div class="page-width section-{{ section.id }}-padding">
+    <p class="landing-placeholder">
+      Products: pick "Landing: Products" or "Landing: Products collection" on this page.
+    </p>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Landing: Products",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Shows the page's \"Landing: Products\", or its \"Landing: Products collection\" when none are picked. Turn on \"Landing: Add all to cart button\" on the page to show the button."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading when the page doesn't set one",
+      "default": "Shop the essentials"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 24,
+      "step": 1,
+      "label": "Maximum products to show",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "text",
+      "id": "add_all_label",
+      "label": "Add all button label",
+      "default": "Add all [count] to cart · [total]",
+      "info": "[count] and [total] are replaced with the number of in-stock products and their combined price."
+    },
+    {
+      "type": "text",
+      "id": "add_all_error",
+      "label": "Add all error message",
+      "default": "Some items couldn't be added. Please add them one by one."
+    },
+    {
+      "type": "text",
+      "id": "view_all_label",
+      "label": "\"View all\" link label (collection only)",
+      "default": "View all"
+    },
+    {
+      "type": "header",
+      "content": "Product card"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image ratio",
+      "options": [
+        { "value": "adapt", "label": "Adapt to image" },
+        { "value": "portrait", "label": "Portrait" },
+        { "value": "square", "label": "Square" }
+      ],
+      "default": "square"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": "Show vendor",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "label": "Show product rating",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "quick_add",
+      "label": "Quick add",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "standard", "label": "Standard" }
+      ],
+      "default": "standard"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 56
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landing: Products"
+    }
+  ]
+}
+{% endschema %}

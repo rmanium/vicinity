@@ -1,0 +1,51 @@
+{%- comment -%}
+  Outputs a landing page link field's URL, ready for an href.
+
+  Shopify's link fields only accept absolute URLs, so links to this store
+  are made relative (they keep working on preview and myshopify domains), and
+  a link to the home page with a #fragment, e.g. https://vicinitymart.com/#products,
+  becomes just "#products" so it jumps to that section of the current page.
+
+  Accepts:
+  - url: {String} The link field's url
+
+  Usage:
+  <a href="{% render 'landing-url', url: link.url %}">
+{%- endcomment -%}
+
+{%- liquid
+  assign result = url | strip
+  assign hosts = request.host | append: ',' | append: shop.domain | append: ',' | append: shop.permanent_domain | split: ','
+
+  for host in hosts
+    assign bare_host = host | remove_first: 'www.'
+    assign origins = 'https://www.,http://www.,https://,http://' | split: ','
+    for scheme in origins
+      assign origin = scheme | append: bare_host
+      assign prefix = result | slice: 0, origin.size
+      assign next_char = result | slice: origin.size, 1
+      if prefix == origin
+        if next_char == blank or next_char == '/' or next_char == '#' or next_char == '?'
+          assign result = result | remove_first: origin
+          break
+        endif
+      endif
+    endfor
+  endfor
+
+  if result == blank
+    assign result = '/'
+  endif
+
+  assign first_two = result | slice: 0, 2
+  if first_two == '/#'
+    assign result = result | remove_first: '/'
+  endif
+
+  assign current_path_hash = request.path | append: '#'
+  assign current_prefix = result | slice: 0, current_path_hash.size
+  if current_prefix == current_path_hash
+    assign result = result | remove_first: request.path
+  endif
+-%}
+{{- result | escape -}}

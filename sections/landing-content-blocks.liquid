@@ -1,0 +1,145 @@
+{{ 'landing-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign landing = page.metafields.landing
+  assign rows = landing.content_blocks.value
+-%}
+
+{%- if rows.size > 0 -%}
+  <div class="color-{{ section.settings.color_scheme }} gradient">
+    <div class="page-width section-{{ section.id }}-padding">
+      <div class="landing-rows landing-rows--start-{{ section.settings.first_image_position }}">
+        {%- for row in rows -%}
+          {%- assign row_image = row.image.value -%}
+          {%- assign row_button = row.button.value -%}
+          <div class="landing-row{% if row_image == blank %} landing-row--text-only{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {%- if row_image != blank -%}
+              <div class="landing-row__media">
+                {{
+                  row_image
+                  | image_url: width: 1500
+                  | image_tag:
+                    class: 'landing-row__image',
+                    sizes: '(min-width: 990px) 50vw, 100vw',
+                    widths: '375, 550, 750, 1000, 1500',
+                    alt: row_image.alt | default: row.heading.value
+                }}
+              </div>
+            {%- endif -%}
+            <div class="landing-row__content">
+              {%- if row.heading.value != blank -%}
+                <h2 class="landing-row__heading {{ section.settings.heading_size }}">{{ row.heading.value | escape }}</h2>
+              {%- endif -%}
+              {%- if row.body.value != blank -%}
+                <div class="rte">{{ row.body | metafield_tag }}</div>
+              {%- endif -%}
+              {%- if row_button.url != blank -%}
+                <a href="{% render 'landing-url', url: row_button.url %}" class="button button--secondary">
+                  {{- row_button.text | default: section.settings.button_fallback_label | escape -}}
+                </a>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+{%- elsif request.design_mode -%}
+  <div class="page-width section-{{ section.id }}-padding">
+    <p class="landing-placeholder">
+      Content rows: add entries to "Landing: Content blocks" on this page.
+    </p>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Landing: Content rows",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Shows the page's \"Landing: Content blocks\" as alternating image and text rows: recipe steps, catering packages, campaign details."
+    },
+    {
+      "type": "select",
+      "id": "first_image_position",
+      "label": "First image position on desktop",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "text",
+      "id": "button_fallback_label",
+      "label": "Button label when none is set",
+      "default": "Learn more"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 56
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landing: Content rows"
+    }
+  ]
+}
+{% endschema %}

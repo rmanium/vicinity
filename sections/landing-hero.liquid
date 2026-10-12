@@ -1,0 +1,225 @@
+{{ 'landing-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign landing = page.metafields.landing
+  assign headline = landing.headline.value | default: page.title
+  assign image = landing.hero_image.value
+  assign mobile_image = landing.hero_image_mobile.value
+  assign primary_button = landing.primary_button.value
+  assign secondary_button = landing.secondary_button.value
+
+  assign layout = section.settings.layout
+  if image == blank
+    assign layout = 'text'
+  endif
+
+  assign image_sizes = '100vw'
+  if layout == 'split'
+    assign image_sizes = '(min-width: 990px) 50vw, 100vw'
+  endif
+  assign image_alt = image.alt | default: headline
+-%}
+
+{%- capture hero_box -%}
+  <div class="landing-hero__box">
+    {%- if landing.eyebrow.value != blank -%}
+      <p class="landing-hero__eyebrow caption-with-letter-spacing">{{ landing.eyebrow.value | escape }}</p>
+    {%- endif -%}
+    <h1 class="landing-hero__heading {{ section.settings.heading_size }}">{{ headline | escape }}</h1>
+    {%- if landing.subheadline.value != blank -%}
+      <p class="landing-hero__text">{{ landing.subheadline.value | escape | newline_to_br }}</p>
+    {%- endif -%}
+    {%- if primary_button.url != blank or secondary_button.url != blank -%}
+      <div class="landing-hero__buttons">
+        {%- if primary_button.url != blank -%}
+          <a href="{% render 'landing-url', url: primary_button.url %}" class="button button--primary">
+            {{- primary_button.text | default: section.settings.button_fallback_label | escape -}}
+          </a>
+        {%- endif -%}
+        {%- if secondary_button.url != blank -%}
+          <a href="{% render 'landing-url', url: secondary_button.url %}" class="button button--secondary">
+            {{- secondary_button.text | default: section.settings.button_fallback_label | escape -}}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+{%- endcapture -%}
+
+{%- capture hero_picture -%}
+  <picture>
+    {%- if mobile_image != blank -%}
+      <source
+        media="(max-width: 749px)"
+        srcset="
+          {{ mobile_image | image_url: width: 375 }} 375w,
+          {{ mobile_image | image_url: width: 750 }} 750w,
+          {{ mobile_image | image_url: width: 1100 }} 1100w,
+          {{ mobile_image | image_url: width: 1500 }} 1500w
+        "
+        sizes="100vw"
+      >
+    {%- endif -%}
+    {{
+      image
+      | image_url: width: 3000
+      | image_tag:
+        loading: 'eager',
+        fetchpriority: 'high',
+        sizes: image_sizes,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 2500, 3000',
+        class: 'landing-hero__image',
+        alt: image_alt
+    }}
+  </picture>
+{%- endcapture -%}
+
+<div
+  class="landing-hero landing-hero--{{ layout }} landing-hero--{{ section.settings.height }} landing-hero--align-{{ section.settings.text_alignment }}{% if section.settings.stack_on_mobile %} landing-hero--stack-mobile{% endif %} color-{{ section.settings.color_scheme }} gradient"
+  style="--landing-overlay-opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};"
+>
+  {%- case layout -%}
+    {%- when 'overlay' -%}
+      <div class="landing-hero__media">{{ hero_picture }}</div>
+      <div class="landing-hero__content page-width section-{{ section.id }}-padding">{{ hero_box }}</div>
+    {%- when 'split' -%}
+      <div class="landing-hero__inner page-width section-{{ section.id }}-padding">
+        {{ hero_box }}
+        <div class="landing-hero__media">{{ hero_picture }}</div>
+      </div>
+    {%- else -%}
+      <div class="landing-hero__content page-width section-{{ section.id }}-padding">{{ hero_box }}</div>
+  {%- endcase -%}
+</div>
+
+{% schema %}
+{
+  "name": "Landing: Hero",
+  "tag": "section",
+  "class": "section",
+  "enabled_on": {
+    "templates": ["page"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Content comes from the page's \"Landing: Hero\" fields: eyebrow, headline, subheadline, images and buttons. The headline is the page's H1 and falls back to the page title."
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        { "value": "overlay", "label": "Text over image" },
+        { "value": "split", "label": "Text beside image" }
+      ],
+      "default": "overlay",
+      "info": "Without a hero image the section shows the text on the colour scheme background."
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Height",
+      "options": [
+        { "value": "small", "label": "Small" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Image overlay opacity",
+      "min": 0,
+      "max": 90,
+      "step": 10,
+      "unit": "%",
+      "default": 40,
+      "info": "Tints the image with the colour scheme background so the text stays readable."
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Show image above text on mobile",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Headline size",
+      "options": [
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" },
+        { "value": "hxl", "label": "Extra large" }
+      ],
+      "default": "h0"
+    },
+    {
+      "type": "text",
+      "id": "button_fallback_label",
+      "label": "Button label when none is set",
+      "default": "Shop now"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Colour scheme",
+      "default": "scheme-4"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 64
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landing: Hero"
+    }
+  ]
+}
+{% endschema %}
