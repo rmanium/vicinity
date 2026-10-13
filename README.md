@@ -13,6 +13,11 @@ cd vicinity
 shopify theme dev
 ```
 
+## Deploying
+
+Merging to `main` deploys automatically as a new theme, and the previous theme
+stays one click away for rollback. See [.github/DEPLOYING.md](.github/DEPLOYING.md).
+
 ## Table of Configs
 
 - Tools for

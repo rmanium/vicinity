@@ -1,0 +1,50 @@
+name: Pull request checks
+
+on:
+  pull_request:
+
+jobs:
+  theme-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Shopify CLI
+        run: npm install --global @shopify/cli@4.1.0
+
+      - name: Theme Check
+        run: shopify theme check --fail-level error
+
+  deploy-plan:
+    # Shows what merging would ship, and fails early if the same files were
+    # also changed in the theme editor in a way that can't be merged.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SHOPIFY_FLAG_STORE: vicinity-mart.myshopify.com
+      SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
+      BOOTSTRAP_BASE_SHA: 79bb3db2232d203aedbbef6fbad944edb1c96ad1
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Shopify CLI
+        run: npm install --global @shopify/cli@4.1.0
+
+      - name: Plan the deploy
+        run: |
+          if [ -z "$SHOPIFY_CLI_THEME_TOKEN" ]; then
+            echo "No SHOPIFY_CLI_THEME_TOKEN secret available, skipping the plan."
+            exit 0
+          fi
+          python3 .github/scripts/deploy.py deploy --dry-run

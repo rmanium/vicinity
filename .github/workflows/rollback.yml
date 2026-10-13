@@ -1,0 +1,40 @@
+name: Roll back theme
+
+# Publishes the theme that was live before the current release (or a theme id
+# you give). Publishing in Shopify admin (Online Store > Themes) does the same.
+on:
+  workflow_dispatch:
+    inputs:
+      theme_id:
+        description: Theme id to publish. Leave empty for the theme that was live before the current release.
+        required: false
+
+concurrency:
+  group: shopify-live-theme
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SHOPIFY_FLAG_STORE: vicinity-mart.myshopify.com
+      SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
+      THEME_ID: ${{ inputs.theme_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # release tags record which theme each release replaced
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Shopify CLI
+        run: npm install --global @shopify/cli@4.1.0
+
+      - name: Roll back
+        run: python3 .github/scripts/deploy.py rollback ${THEME_ID:+--theme-id "$THEME_ID"}
