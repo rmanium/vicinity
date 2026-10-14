@@ -11,16 +11,25 @@
           "type": "column",
           "settings": {
             "title": "Location",
-            "text": "<p><a href=\"https://maps.google.com/?q=1449+Marine+Dr,+North+Vancouver,+BC+V7P+1T7\">1449 Marine Drive<br/>North Vancouver, BC</a></p>",
+            "text": "<p><a href=\"https://www.google.com/maps?cid=4482575900508077478\">1449 Marine Drive<br/>North Vancouver, BC V7P 1T6</a></p>",
             "link_label": "Get directions",
-            "link": "https://maps.google.com/?q=1449+Marine+Dr,+North+Vancouver,+BC+V7P+1T7"
+            "link": "https://www.google.com/maps?cid=4482575900508077478"
+          }
+        },
+        "hours": {
+          "type": "column",
+          "settings": {
+            "title": "Store hours",
+            "text": "<p>Sunday–Wednesday: 9 a.m.–8:30 p.m.</p><p>Thursday–Saturday: 9 a.m.–9:30 p.m.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "phone": {
           "type": "column",
           "settings": {
             "title": "Phone",
-            "text": "<p>Online: <a href=\"tel:+16042566726\">+1 (604) 256-6726</a></p><p>Store: <a href=\"tel:+17783705583\">+1 (778) 370-5583</a></p>",
+            "text": "<p>Store: <a href=\"tel:+17783705583\">+1 (778) 370-5583</a></p><p>Online orders: <a href=\"tel:+16042566726\">+1 (604) 256-6726</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -35,13 +44,13 @@
           }
         }
       },
-      "block_order": ["location", "phone", "email"],
+      "block_order": ["location", "hours", "phone", "email"],
       "settings": {
         "title": "Visit or reach us",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
