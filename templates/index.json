@@ -16,7 +16,8 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Persian Supermarket in North Vancouver</strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag": "h1"
           }
         },
         "buttons": {

@@ -1,0 +1,61 @@
+{% comment %}
+  GroceryStore (LocalBusiness) structured data for the North Vancouver store.
+  Rendered on the homepage and the Contact page from sections/header.liquid.
+
+  Name, address, phone and hours must match the Google Business Profile
+  (https://www.google.com/maps?cid=4482575900508077478). When they change,
+  also update the footer (sections/footer-group.json), the Contact page
+  (templates/page.contact.json) and the Business Hours page in admin.
+
+  Accepts:
+  - same_as: {Array} social profile URLs, blanks already removed
+{% endcomment %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "GroceryStore",
+    "@id": {{ shop.url | append: '/#store' | json }},
+    "name": {{ shop.name | json }},
+    "url": {{ shop.url | json }},
+    {% if settings.logo %}
+      "image": {{ settings.logo | image_url: width: 1200 | prepend: "https:" | json }},
+    {% endif %}
+    "telephone": "+1-778-370-5583",
+    "email": "info@vicinitymart.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1449 Marine Drive",
+      "addressLocality": "North Vancouver",
+      "addressRegion": "BC",
+      "postalCode": "V7P 1T6",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.3233763,
+      "longitude": -123.114213
+    },
+    "hasMap": "https://www.google.com/maps?cid=4482575900508077478",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+        "opens": "09:00",
+        "closes": "20:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "21:30"
+      }
+    ],
+    "department": [
+      { "@type": "Bakery", "name": "Vicinity Mart Bakery" },
+      { "@type": "CafeOrCoffeeShop", "name": "Vicinity Mart Café" },
+      { "@type": "Store", "name": "Vicinity Mart Halal Butcher" }
+    ],
+    "sameAs": {{ same_as | json }}
+  }
+</script>
