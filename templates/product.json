@@ -22,6 +22,7 @@
         },
         "trust_star_rating": {
           "type": "shopify://apps/seowill-trust-badges/blocks/star_rating/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "disabled": true,
           "settings": {
             "badge_id": ""
           }
