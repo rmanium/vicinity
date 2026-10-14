@@ -178,7 +178,7 @@
       },
       "5890205134905443601": {
         "type": "shopify://apps/seowill-trust-badges/blocks/trust_core/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       },
       "11349500561483629931": {
