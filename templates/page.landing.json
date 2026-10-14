@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "hero": {
+      "type": "landing-hero",
+      "settings": {
+        "layout": "overlay",
+        "height": "medium",
+        "text_alignment": "left",
+        "overlay_opacity": 40,
+        "stack_on_mobile": true,
+        "heading_size": "h0",
+        "button_fallback_label": "Shop now",
+        "color_scheme": "scheme-4",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "highlights": {
+      "type": "landing-highlights",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "story": {
+      "type": "landing-story",
+      "settings": {
+        "image_position": "right",
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "products": {
+      "type": "landing-products",
+      "settings": {
+        "heading": "Shop the essentials",
+        "heading_size": "h1",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "add_all_label": "Add all [count] to cart \u00b7 [total]",
+        "add_all_error": "Some items couldn't be added. Please add them one by one.",
+        "view_all_label": "View all",
+        "image_ratio": "square",
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "spotlight": {
+      "type": "landing-spotlight",
+      "settings": {
+        "label": "Our pick",
+        "heading_size": "h1",
+        "view_label": "View product details",
+        "image_position": "left",
+        "color_scheme": "scheme-2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "content": {
+      "type": "landing-content-blocks",
+      "settings": {
+        "first_image_position": "left",
+        "heading_size": "h1",
+        "button_fallback_label": "Learn more",
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "enquiry": {
+      "type": "landing-enquiry",
+      "settings": {
+        "heading": "Send us an enquiry",
+        "heading_size": "h1",
+        "event_date_label": "Event date",
+        "guests_label": "Number of guests",
+        "button_label": "Send enquiry",
+        "success_message": "Thanks! We've received your enquiry and will be in touch soon.",
+        "color_scheme": "scheme-2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "faq": {
+      "type": "landing-faq",
+      "settings": {
+        "heading": "Frequently asked questions",
+        "heading_size": "h1",
+        "open_first": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "collections": {
+      "type": "landing-collections",
+      "settings": {
+        "heading": "Explore more",
+        "heading_size": "h1",
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "cta": {
+      "type": "landing-cta",
+      "settings": {
+        "heading_size": "h0",
+        "overlay_opacity": 70,
+        "button_fallback_label": "Shop now",
+        "color_scheme": "scheme-4",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "highlights",
+    "story",
+    "products",
+    "spotlight",
+    "content",
+    "enquiry",
+    "faq",
+    "collections",
+    "cta"
+  ]
+}
