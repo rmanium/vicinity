@@ -56,10 +56,6 @@
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
           }
-        },
-        "fether_frequently_bought_addons_widget_nXfCfh": {
-          "type": "shopify://apps/fether-frequently-bought/blocks/addons-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
-          "settings": {}
         }
       },
       "block_order": [
@@ -70,8 +66,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "judgeme_reviews",
-        "fether_frequently_bought_addons_widget_nXfCfh"
+        "judgeme_reviews"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -91,15 +86,6 @@
     },
     "frequently_bought": {
       "type": "apps",
-      "blocks": {
-        "widget": {
-          "type": "shopify://apps/fether-frequently-bought/blocks/widget-block/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "widget"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -124,15 +110,6 @@
     },
     "fether_related": {
       "type": "apps",
-      "blocks": {
-        "related_widget": {
-          "type": "shopify://apps/fether-frequently-bought/blocks/related-products-widget/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "related_widget"
-      ],
       "settings": {
         "include_margins": true
       }
